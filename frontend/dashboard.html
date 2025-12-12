@@ -1,0 +1,177 @@
+<html>
+
+<head>
+    <title>Haya Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dashBody">
+    <nav>
+        <a href="#home">
+            <img src="IMG/logo.png" class="dashLogo">
+        </a>
+
+        <a href="#home" class="Navigation ">
+            Home
+        </a>
+
+        <a href="#courses" class="Navigation">
+            Courses
+        </a>
+
+        <a href="#chatbot" class="Navigation ">
+            AI Chatbot
+        </a>
+
+        
+        <div class="profilePhotoContainer">
+            <img src="IMG/Icons/profpic.png" class="profilePhoto" onclick="toggleDropdown()">
+            <div class="dropdownMenu">
+                <a href="#">Log Out</a>
+                
+            </div>
+        </div>
+        
+        <div class="nameContainer">
+            <h4 class="profName">Karapet Hovhannisyan</h4>
+        </div>
+    </nav>
+
+
+
+    <section id="home" class="active">
+        <h1>Home</h1>
+        <div class="homeSectionContainer">
+            <div class="infoDiv">
+                <img src="IMG/Icons/profpic.png" class="profPic">
+                <div class="homeInfoSec">
+                    <h2>Karapet Hovhannisyan</h2>
+                    <h3>Third Year Student</h3>
+                    <h4>Faculty of Informatics and Applied Mathematics</h4>
+                    <div class="lastAttendedCources">
+                        <div class="courseHeader">
+                            <h5>Last attended Cources</h5>
+                        </div>
+                        
+                        <div class="courseSub">
+                            <ul>
+                                <li><a href="#">Probability Theory</a></li>
+                                <li><a href="#">Discrete Mathematics</a></li>
+                                <li><a href="#">Information Theory</a></li>
+                                
+                                
+                            </ul>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="assignmentsDiv">
+                <div class="assignmentsHead">
+                    <h4>Assignments</h4>
+                    
+                </div>
+                
+                <div class="assignmentsBody">
+                    <h3>No Assignments for today</h3>
+                    <h3>Enjoy your day</h3>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        
+    </section>
+    
+    
+    <section id="courses">
+        <h1>Courses</h1>
+        <div class="homeSectionContainer">
+            
+        </div>
+    </section>
+    
+    <section id="chatbot">
+        <h1>AI Chatbot</h1>
+        <div class="homeSectionContainer">
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="dashFooter">
+        <div class="footer_info">
+            <p>© 2025 HAYA. All rights reserved.</p>
+            <p>+374 41059088</p>
+            <p>info@haya.com</p>   
+        </div>
+
+        <div class="footer_socials">
+            <a href="#"><img src="IMG/Icons/facebook.png" class="footer_social_icon"></a>
+            <a href="#"><img src="IMG/Icons/instagram.png" class="footer_social_icon"></a>
+            <a href="#"><img src="IMG/Icons/linkedin.png" class="footer_social_icon"></a>
+
+    </div>
+
+
+
+
+
+
+    <script>
+        // Function to load content based on the URL hash
+        function loadContent() {
+            // Get the current hash (URL fragment)
+            const hash = window.location.hash;
+
+            // Hide all sections
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => section.classList.remove('active'));
+
+            // Show the section corresponding to the hash
+            if (hash) {
+                const activeSection = document.querySelector(hash);
+                if (activeSection) {
+                    activeSection.classList.add('active');
+                }
+            } else {
+                // If no hash, show the default page (Contents)
+                document.getElementById("home").classList.add('active');
+            }
+        }
+
+        // Listen for changes to the URL hash
+        window.addEventListener('hashchange', loadContent);
+
+        // Call the function initially to set up the correct page
+        loadContent();
+        
+        
+        function toggleDropdown() {
+            const dropdown = document.querySelector('.profilePhotoContainer');
+            dropdown.classList.toggle('show');
+        }
+        
+    </script>
+
+</body>
+
+</html>
