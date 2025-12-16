@@ -1,0 +1,1166 @@
+TYPE OF DATA
+Type of Analysis
+Numerical
+Categorical
+Describing a group
+or several groups
+Ordered array, stem-and-leaf display, frequency
+distribution, relative frequency distribution,
+percentage distribution, cumulative percentage
+distribution, histogram, polygon, cumulative
+percentage polygon (Sections 2.3, 2.5)
+Mean, median, mode, quartiles, geometric mean,
+range, interquartile range, standard deviation,
+variance, coefficient of variation, boxplot
+(Sections 3.1, 3.2, 3.3)
+Index numbers (Online Topic 16.8)
+Summary table, bar chart, pie
+chart, Pareto chart (Sections 2.2, 2.4)
+Inference about one group
+Confidence interval estimate of the mean
+(Sections 8.1 and 8.2)
+t test for the mean (Section 9.2)
+Chi-square test for a variance (Section 12.5)
+Confidence interval estimate of the
+proportion (Section 8.3)
+Z test for the proportion
+(Section 9.4)
+Comparing two groups
+Tests for the difference in the means of two
+independent populations (Section 10.1)
+Paired t test (Section 10.2)
+F test for the difference between two variances
+(Section 10.4)
+Wilcoxon rank sum test (Section 12.6)
+Wilcoxon signed ranks test (Online Topic 12.8)
+Z test for the difference between
+two proportions (Section 10.3)
+Chi-square test for the difference
+between two proportions
+(Section 12.1)
+McNemar test for the difference
+between two proportions in related
+samples (Section 12.4)
+Comparing more
+than two groups
+One-way analysis of variance (Section 11.1)
+Randomized block design (Section 11.2)
+Two-way analysis of variance (Section 11.3)
+Kruskal-Wallis test (Section 12.7)
+Friedman rank test (Online Topic 12.9)
+Chi-square test for differences
+among more than two proportions
+(Section 12.2)
+Analyzing the
+relationship between
+two variables
+Scatter plot, time series plot (Section 2.6)
+Covariance, coefficient of correlation (Section 3.5)
+Simple linear regression (Chapter 13)
+t test of correlation (Section 13.7)
+Time series forecasting (Chapter 16)
+Contingency table, side-by-side
+bar chart, (Sections 2.2, 2.4)
+Chi-square test of independence
+(Section 12.3)
+Analyzing the
+relationship between
+two or more variables
+Multiple regression (Chapters 14 and 15)
+Multidimensional contingency
+tables (Section 2.7)
+Logistic regression (Section 14.7)
+A ROADMAP FOR SELECTING
+A STATISTICAL METHOD
+
+This page intentionally left blank 
+
+Basic Business 
+Statistics: Concepts and
+Applications
+TWELFTH EDITION
+
+This page intentionally left blank 
+
+Mark L. Berenson
+Department of Management and Information Systems
+School of Business, Montclair State University
+David M. Levine
+Department of Statistics and Computer Information Systems
+Zicklin School of Business, Baruch College, City University of New York
+Timothy C. Krehbiel
+Department of Management
+Richard T. Farmer School of Business, Miami University
+Basic Business 
+Statistics: Concepts and
+Applications
+TWELFTH EDITION
+Prentice Hall
+Boston
+Columbus
+Indianapolis
+New York
+San Francisco
+Upper Saddle River 
+Amsterdam
+Cape Town
+Dubai
+London
+Madrid
+Milan
+Munich
+Paris
+Montreal
+Toronto
+Delhi
+Mexico City
+Sao Paulo
+Sydney
+Hong Kong
+Seoul
+Singapore
+Taipei
+Tokyo
+
+Editorial Director: Sally Yagan
+Editor in Chief: Eric Svendsen
+Senior Acquisitions Editor: Chuck Synovec
+Editorial Project Manager: Mary Kate Murray
+Editorial Assistant: Jason Calcano
+Director of Marketing: Patrice Lumumba Jones
+Senior Marketing Manager: Anne Fahlgren
+Marketing Assistant: Melinda Jensen
+Senior Managing Editor: Judy Leale
+Project Manager: Kerri Tomasso
+Senior Operations Supervisor: Arnold Vila
+Senior Art Director: Kenny Beck
+Text Designers: Dina Curro/Suzanne Behnke
+Cover Designer and Art: LCI Design
+Media Editor: Allison Longley
+Media Project Manager: John Cassar
+Full-Service Project Manager: Jen Carley
+Composition: PreMediaGlobal
+Printer/Binder: Courier/Kendallville
+Cover Printer: Lehigh-Phoenix Color/Hagerstown
+Text Font: TimesNewRomanPS
+Technical Editor: David Stephan
+Photo Credits: front, page viii, courtesy of Rudy Krehbiel; pp. 2–3: Photos.com; pp. 3, 7: Maga, Shutterstock;
+pp. 14–15: Don Farrall, PhotoDisc/Getty Images; pp. 15, 59:Steve Coleccs, iStockphoto; pp. 84–85: Don Farrall,
+PhotoDisc/Getty Images; pp. 85, 121: Steve Coleccs, iStockphoto; pp. 132–133: Ljupco Smokovski, Shutterstock;
+pp. 133, 154: © Alan Levenson/Corbis, all rights reserved; pp. 160–161: Sebastian Kaulitzki, Shutterstock;
+pp. 161, 183: Monkey Business Images, Shutterstock; pp. 192–193: Alexander Kalina, Shutterstock; pp. 193, 215:
+Lee Morris, Shutterstock; pp. 222–223: R. Mackay Photography, Shutterstock; pp. 223, 243: © Corbis, all rights
+reserved; pp. 250–251: Kristy Pargeter, Shutterstock; pp. 251, 283: Marcin Balcerzak, Shutterstock; pp. 296–297:
+Peter Close, Shutterstock; pp. 297, 326: Maja Schon, Shutterstock; pp. 334–335: Travis Manley, Shutterstock; 
+pp. 335, 366: Michael Bradley, Getty Images; p. 381: Joggie Botma, Shutterstock; pp. 381, 408: Alexey U,
+Shutterstock; p. 423: KzlKurt, Shutterstock; pp. 423, 458: Zastolískiyí victor Leonidovich, Shutterstock; p. 471:
+crystalfoto, Shutterstock; pp. 471, 511: Dmitriy Shironosov, Shutterstock; p. 527: Courtesy of Sharon Rosenberg;
+pp. 527, 558: George Bailey, Shutterstock; pp. 570–571: Giedrius Dagys, iStockphoto.com; pp. 571, 596:
+Rob Crandall, Stock Boston; p. 604: Rudyanto Wijaya, iStockphoto.com; pp. 604, 643: Cathy Melloan/PhotoEdit Inc.;
+pp. 654–655: Ian Logan/Taxi/Getty Images; pp. 655, 684: Kim Steele/Image Bank/Getty; pp. 701, 706: Stepan Popov,
+iStockphoto.com; Ch. 19 Photos: Thinkstock.
+Credits and acknowledgments borrowed from other sources and reproduced, with permission, in this textbook
+appear on appropriate page within text.
+Microsoft® and Windows® are registered trademarks of the Microsoft Corporation in the U.S.A. and other
+countries. Screen shots and icons reprinted with permission from the Microsoft Corporation. This book is not
+sponsored or endorsed by or affiliated with the Microsoft Corporation.
+Copyright © 2012, 2009, 2006, 2004, 2002 by Pearson Education, Inc., publishing as Prentice Hall, One
+Lake Street, Upper Saddle River, New Jersey 07458. All rights reserved. Manufactured in the United States of
+America. This publication is protected by copyright, and permission should be obtained from the publisher prior
+to any prohibited reproduction, storage in a retrieval system, or transmission in any form or by any means, elec-
+tronic, mechanical, photocopying, recording, or likewise. To obtain permission(s) to use material from this work,
+please submit a written request to Pearson Education, Inc., Permissions Department, One Lake Street, Upper
+Saddle River, New Jersey 07458.
+Many of the designations by manufacturers and sellers to distinguish their products are claimed as trademarks.
+Where those designations appear in this book, and the publisher was aware of a trademark claim, the designations
+have been printed in initial caps or all caps.
+CIP data for this title is available on file at the Library of Congress
+10 9 8 7 6 5 4 3 2 1
+ISBN 10: 0-13-216838-3
+ISBN 13: 978-0-13-216838-0
+
+To our wives,
+Rhoda B., Marilyn L., and, Patti K.,
+and to our children,
+Kathy, Lori, Sharyn, Ed, Rudy, and Rhonda
+
+About the Authors
+viii
+The textbook authors meet to discuss statistics at a Mets
+baseball game. Shown left to right: David Levine, Mark
+Berenson, and Tim Krehbiel.
+Mark L. Berenson is Professor of Management and Information Systems at
+Montclair State University (Montclair, New Jersey) and also Professor Emeritus of
+Statistics and Computer Information Systems at Bernard M. Baruch College (City
+University of New York). He currently teaches graduate and undergraduate courses in sta-
+tistics and in operations management in the School of Business and an undergraduate
+course in international justice and human rights that he co-developed in the College of
+Humanities and Social Sciences.
+Berenson received a B.A. in economic statistics and an M.B.A. in business statistics from
+City College of New York and a Ph.D. in business from the City University of New York.
+Berenson’s research has been published in Decision Sciences Journal of Innovative
+Education, Review of Business Research, The American Statistician, Communications in
+Statistics, Psychometrika, Educational and Psychological Measurement, Journal of
+Management Sciences and Applied Cybernetics, Research Quarterly, Stats Magazine, The
+New York Statistician, Journal of Health Administration Education, Journal of Behavioral
+Medicine, and Journal of Surgical Oncology. His invited articles have appeared in The
+Encyclopedia of Measurement & Statistics and Encyclopedia of Statistical Sciences. He is
+co-author of 11 statistics texts published by Prentice Hall, including Statistics for
+Managers Using Microsoft Excel, Basic Business Statistics: Concepts and Applications,
+and Business Statistics: A First Course.
+Over the years, Berenson has received several awards for teaching and for innovative con-
+tributions to statistics education. In 2005, he was the first recipient of The Catherine A.
+Becker Service for Educational Excellence Award at Montclair State University.
+David M. Levine is Professor Emeritus of Statistics and Computer Infor-
+mation Systems at Baruch College (City University of New York). He received B.B.A. and
+M.B.A. degrees in Statistics from City College of New York and a Ph.D. from New York
+
+ABOUT THE AUTHORS
+ix
+University in Industrial Engineering and Operations Research. He is nationally recognized
+as a leading innovator in statistics education and is the co-author of 14 books, including
+such best-selling statistics textbooks as Statistics for Managers Using Microsoft Excel,
+Basic Business Statistics: Concepts and Applications, Business Statistics: A First Course,
+and Applied Statistics for Engineers and Scientists Using Microsoft Excel and Minitab.
+He also is the co-author of EvenYou Can Learn Statistics: A Guide for Everyone Who Has
+Ever Been Afraid of Statistics, currently in its 2nd edition, Six Sigma for Green Belts and
+Champions and Design for Six Sigma for Green Belts and Champions, and the author of
+Statistics for Six Sigma Green Belts, all published by FT Press, a Pearson imprint, and
+Quality Management, 3rd edition, McGraw-Hill/Irwin. He is also the author of Video
+Review of Statistics and Video Review of Probability, both published by Video Aided
+Instruction, and the statistics module of the MBA primer published by Cengage Learning.
+He has published articles in various journals, including Psychometrika, The American
+Statistician, Communications in Statistics, Decision Sciences Journal of Innovative
+Education, Multivariate Behavioral Research, Journal of Systems Management, Quality
+Progress, and The American Anthropologist, and given numerous talks at the Decision
+Sciences Institute (DSI), American Statistical Association (ASA), and Making Statistics
+More Effective in Schools and Business (MSMESB) conferences. Levine has also received
+several awards for outstanding teaching and curriculum development from Baruch College.
+Timothy C. Krehbiel is Professor of Management and Senior Associate
+Dean of the Farmer School of Business at Miami University in Oxford, Ohio. He teaches
+undergraduate and graduate courses in business statistics. In 1996, he received the presti-
+gious Instructional Innovation Award from the Decision Sciences Institute. He has also
+received the Farmer School of Business Effective Educator Award and has twice been
+named MBA professor of the year.
+Krehbiel’s research interests span many areas of business and applied statistics. His work
+has appeared in numerous journals, including Quality Management Journal, Ecological
+Economics, International Journal of Production Research, Journal of Purchasing and
+Supply Management, Journal of Applied Business Research, Journal of Marketing
+Management, Communications in Statistics, Decision Sciences Journal of Innovative
+Education, Journal of Education for Business, Marketing Education Review, Journal of
+Accounting Education, and Teaching Statistics. He is a co-author of three statistics text-
+books published by Prentice Hall: Business Statistics: A First Course, Basic Business
+Statistics, and Statistics for Managers Using Microsoft Excel. Krehbiel is also a co-author
+of the book Sustainability Perspectives in Business and Resources.
+Krehbiel graduated summa cum laude with a B.A. in history from McPherson College and
+earned an M.S. and a Ph.D. in statistics from the University of Wyoming.
+
+This page intentionally left blank 
+
+Brief Contents
+Preface
+xxiii
+1
+Introduction 2
+2
+Organizing and Visualizing Data 26
+3
+Numerical Descriptive Measures 94
+4
+Basic Probability 144
+5
+Discrete Probability Distributions 180
+6
+The Normal Distribution and Other Continuous Distributions 216
+7
+Sampling and Sampling Distributions 248
+8
+Confidence Interval Estimation 278
+9
+Fundamentals of Hypothesis Testing: One-Sample Tests 324
+10
+Two-Sample Tests 364
+11
+Analysis of Variance 414
+12
+Chi-Square Tests and Nonparametric Tests 466
+13
+Simple Linear Regression 520
+14
+Introduction to Multiple Regression 576
+15
+Multiple Regression Model Building 628
+16
+Time-Series Forecasting 664
+17
+Statistical Applications in Quality Management 716
+18
+A Road Map for Analyzing Data 762
+Online Chapter: 19 Decision Making
+Appendices A–G 773
+Self-Test Solutions and Answers to Selected Even-Numbered Problems 820
+Index 850
+xi
+
+This page intentionally left blank 
+
+Contents
+xiii
+Preface xxiii
+1 Introduction
+2
+USING STATISTICS @ Good Tunes & More 3
+1.1
+Why Learn Statistics 4
+1.2
+Statistics in Business 4
+1.3
+Basic Vocabulary of Statistics 5
+1.4
+Identifying Type of Variables 7
+Measurement Scales 7
+1.5
+Statistical Applications for Desktop 
+Computing 10
+1.6
+How to Use This Book 11
+Checklist for Getting Started 11
+USING STATISTICS @ Good Tunes & More Revisited 13
+SUMMARY 13
+KEY TERMS 13
+CHAPTER REVIEW PROBLEMS 13
+END-OF-CHAPTER CASES 15
+LEARNING WITH THE DIGITAL CASES 15
+REFERENCES 16
+CHAPTER 1 EXCEL GUIDE 17
+EG1.1 Getting Started with Excel 17
+EG1.2 Entering Data and Variable Type 18
+EG1.3 Opening and Saving Workbooks 18
+EG1.4 Creating and Copying Worksheets 19
+EG1.5 Printing Worksheets 19
+EG1.6 Worksheet Entries and References 20
+EG1.7 Absolute and Relative Cell References 21
+EG1.8 Entering Formulas into Worksheets 21
+EG1.9 Using Appendices D and F 21
+CHAPTER 1 MINITAB GUIDE 22
+MG1.1 Getting Started With Minitab 22
+MG1.2 Entering Data and Variable Type 22
+MG1.3 Opening and Saving Worksheets and 
+Projects 23
+MG1.4 Creating and Copying Worksheets 24
+MG1.5 Printing Parts of a Project 24
+MG1.6 Worksheet Entries and References 24
+MG1.7 Using Appendices D and F 25
+2 Organizing and Visualizing
+Data
+26
+USING STATISTICS @ Choice Is Yours, Part I 27
+2.1
+Data Collection 28
+ORGANIZING DATA 29
+2.2
+Organizing Categorical Data 30
+The Summary Table 30
+The Contingency Table 30
+2.3
+Organizing Numerical Data 33
+Stacked and Unstacked Data 33
+The Ordered Array 34
+The Frequency Distribution 35
+The Relative Frequency Distribution and the Percentage
+Distribution 37
+The Cumulative Distribution 38
+VISUALIZING DATA 41
+2.4
+Visualizing Categorical Data 41
+The Bar Chart 42
+The Pie Chart 43
+The Pareto Chart 44
+The Side-by-Side Bar Chart 46
+2.5
+Visualizing Numerical Data 49
+The Stem-and-Leaf Display 49
+The Histogram 50
+The Percentage Polygon 51
+The Cumulative Percentage Polygon (Ogive) 53
+2.6
+Visualizing Two Numerical Variables 56
+The Scatter Plot 56
+The Time-Series Plot 58
+2.7
+Organizing Multidimensional Data 60
+Multidimensional Contingency Tables 60
+Adding Numerical Variables 61
+2.8
+Misuses and Common Errors in Visualizing Data 63
+USING STATISTICS @ Choice Is Yours, Part I Revisited 66
+SUMMARY 67
+KEY EQUATIONS 67
+KEY TERMS 68
+CHAPTER REVIEW PROBLEMS 68
+MANAGING ASHLAND MULTICOMM SERVICES 74
+DIGITAL CASE 75
+REFERENCES 75
+CHAPTER 2 EXCEL GUIDE 76
+EG2.2 Organizing Categorical Data 76
+EG2.3 Organizing Numerical Data 78
+EG2.4 Visualizing Categorical Data 80
+EG2.5 Visualizing Numerical Data 82
+EG2.6 Visualizing Two Numerical Variables 84
+EG2.7 Organizing Multidimensional Data 85
+CHAPTER 2 MINITAB GUIDE 87
+MG2.2 Organizing Categorical Data 87
+MG2.3 Organizing Numerical Data 87
+MG2.4 Visualizing Categorical Data 88
+MG2.5 Visualizing Numerical Data 89
+MG2.6 Visualizing Two Numerical Variables 92
+MG2.7 Organizing Multidimensional Data 93
+
+3 Numerical Descriptive
+Measures
+94
+USING STATISTICS @ Choice Is Yours, Part II 95
+3.1
+Central Tendency 96
+The Mean 96
+The Median 98
+The Mode 99
+The Geometric Mean 100
+3.2
+Variation and Shape 101
+The Range 102
+The Variance and the Standard Deviation 102
+The Coefficient of Variation 106
+Z Scores 107
+Shape 108
+VISUAL EXPLORATIONS: Exploring Descriptive
+Statistics 110
+3.3
+Exploring Numerical Data 113
+Quartiles 113
+The Interquartile Range 115
+The Five-Number Summary 115
+The Boxplot 117
+3.4
+Numerical Descriptive Measures for a Population 120
+The Population Mean 121
+The Population Variance and Standard Deviation 121
+The Empirical Rule 122
+The Chebyshev Rule 123
+3.5
+The Covariance and the Coefficient of 
+Correlation 125
+The Covariance 125
+The Coefficient of Correlation 127
+3.6
+Descriptive Statistics: Pitfalls and Ethical Issues 131
+USING STATISTICS @ Choice Is Yours, Part II Revisited 131
+SUMMARY 132
+KEY EQUATIONS 132
+KEY TERMS 133
+CHAPTER REVIEW PROBLEMS 133
+MANAGING ASHLAND MULTICOMM SERVICES 138
+DIGITAL CASE 138
+REFERENCES 138
+CHAPTER 3 EXCEL GUIDE 139
+EG3.1 Central Tendency 139
+EG3.2 Variation and Shape 139
+EG3.3 Exploring Numerical Data 140
+EG3.4 Numerical Descriptive Measures for a
+Population 140
+EG3.5 The Covariance and the Coefficient of
+Correlation 141
+CHAPTER 3 MINITAB GUIDE 141
+MG3.1 Central Tendency 141
+MG3.2 Variation and Shape 142
+MG3.3 Exploring Numerical Data 142
+MG3.4 Numerical Descriptive Measures for a
+Population 143
+MG3.5 The Covariance and the Coefficient of
+Correlation 143
+4 Basic Probability
+144
+USING STATISTICS @ M&R Electronics World 145
+4.1
+Basic Probability Concepts 146
+Events and Sample Spaces 147
+Contingency Tables and Venn Diagrams 148
+Simple Probability 149
+Joint Probability 150
+Marginal Probability 150
+General Addition Rule 151
+4.2
+Conditional Probability 155
+Computing Conditional Probabilities 155
+Decision Trees 156
+Independence 158
+Multiplication Rules 159
+Marginal Probability Using the General Multiplication
+Rule 160
+4.3
+Bayes’Theorem 163
+THINK ABOUT THIS: Divine Providence and Spam 166
+4.4
+Counting Rules 167
+Counting Rule 1 167
+Counting Rule 2 168
+Counting Rule 3 168
+Counting Rule 4 169
+Counting Rule 5 169
+4.5
+Ethical Issues and Probability 171
+USING STATISTICS @ M&R Electronics World Revisited 172
+SUMMARY 172
+KEY EQUATIONS 172
+KEY TERMS 173
+CHAPTER REVIEW PROBLEMS 173
+DIGITAL CASE 175
+REFERENCES 176
+CHAPTER 4 EXCEL GUIDE 177
+EG4.1 Basic Probability Concepts 177
+EG4.2 Conditional Probability 177
+EG4.3 Bayes’Theorem 177
+EG4.4 Counting Rules 178
+CHAPTER 4 MINITAB GUIDE 178
+MG4.1 Basic Probability Concepts 178
+MG4.2 Conditional Probability 178
+MG4.3 Bayes’Theorem 178
+MG4.4 Counting Rules 178
+5 Discrete Probability
+Distributions
+180
+USING STATISTICS @ Saxon Home Improvement 181
+5.1
+The Probability Distribution for a Discrete Random
+Variable 182
+Expected Value of a Discrete Random Variable 182
+Variance and Standard Deviation of a Discrete Random
+Variable 183
+xiv
+CONTENTS
+
+5.2
+Covariance and Its Application in Finance 185
+Covariance 185
+Expected Value, Variance, and Standard Deviation of the
+Sum of Two Random Variables 187
+Portfolio Expected Return and Portfolio Risk 187
+5.3
+Binomial Distribution 190
+5.4
+Poisson Distribution 197
+5.5
+Hypergeometric Distribution 201
+5.6
+Online Topic Using the Poisson Distribution 
+to Approximate the Binomial Distribution 204
+USING STATISTICS @ Saxon Home Improvement
+Revisited 205
+SUMMARY 205
+KEY EQUATIONS 205
+KEY TERMS 206
+CHAPTER REVIEW PROBLEMS 206
+MANAGING ASHLAND MULTICOMM SERVICES 209
+DIGITAL CASE 210
+REFERENCES 210
+CHAPTER 5 EXCEL GUIDE 211
+EG5.1 The Probability Distribution for a Discrete Random
+Variable 211
+EG5.2 Covariance and Its Application in Finance 211
+EG5.3 Binomial Distribution 212
+EG5.4 Poisson Distribution 212
+EG5.5 Hypergeometric Distribution 213
+CHAPTER 5 MINITAB GUIDE 214
+MG5.1 The Probability Distribution for a Discrete Random
+Variable 214
+MG5.2 Covariance and Its Application in Finance 214
+MG5.3 Binomial Distribution 214
+MG5.4 Poisson Distribution 214
+MG5.5 Hypergeometric Distribution 215
+6 The Normal Distribution
+and Other Continuous
+Distributions
+216
+USING STATISTICS @ OurCampus! 217
+6.1
+Continuous Probability Distributions 218
+6.2
+The Normal Distribution 218
+Computing Normal Probabilities 220
+THINK ABOUT THIS: What Is Normal? 228
+VISUAL EXPLORATIONS: Exploring the Normal
+Distribution 229
+6.3
+Evaluating Normality 230
+Comparing Data Characteristics to Theoretical
+Properties 231
+Constructing the Normal Probability Plot 232
+6.4
+The Uniform Distribution 235
+6.5
+The Exponential Distribution 237
+6.6
+Online Topic: The Normal Approximation to the
+Binomial Distribution 240
+USING STATISTICS @ OurCampus! Revisited 240
+SUMMARY 240
+KEY EQUATIONS 241
+KEY TERMS 241
+CHAPTER REVIEW PROBLEMS 241
+MANAGING ASHLAND MULTICOMM SERVICES 244
+DIGITAL CASE 244
+REFERENCES 244
+CHAPTER 6 EXCEL GUIDE 245
+EG6.1 Continuous Probability Distributions 245
+EG6.2 The Normal Distribution 245
+EG6.3 Evaluating Normality 245
+EG6.4 The Uniform Distribution 246
+EG6.5 The Exponential Distribution 246
+CHAPTER 6 MINITAB GUIDE 246
+MG6.1 Continuous Probability Distributions 246
+MG6.2 The Normal Distribution 246
+MG6.3 Evaluating Normality 247
+MG6.4 The Uniform Distribution 247
+MG6.5 The Exponential Distribution 247
+7 Sampling and Sampling
+Distributions
+248
+USING STATISTICS @ Oxford Cereals 249
+7.1
+Types of Sampling Methods 250
+Simple Random Samples 251
+Systematic Samples 253
+Stratified Samples 253
+Cluster Samples 254
+7.2
+Evaluating Survey Worthiness 255
+Survey Error 255
+Ethical Issues 256
+THINK ABOUT THIS: New Media Surveys/Old Sampling
+Problem 256
+7.3
+Sampling Distributions 258
+7.4
+Sampling Distribution of the Mean 258
+The Unbiased Property of the Sample Mean 258
+Standard Error of the Mean 260
+Sampling from Normally Distributed Populations 261
+Sampling from Non-Normally Distributed Populations—
+The Central Limit Theorem 264
+VISUAL EXPLORATIONS: Exploring Sampling Distributions 265
+7.5
+Sampling Distribution of the Proportion 266
+7.6
+Online Topic: Sampling from Finite
+Populations 269
+USING STATISTICS @ Oxford Cereals Revisited 270
+SUMMARY 270
+KEY EQUATIONS 270
+KEY TERMS 271
+CHAPTER REVIEW PROBLEMS 271
+MANAGING ASHLAND MULTICOMM SERVICES 273
+DIGITAL CASE 273
+REFERENCES 274
+CONTENTS
+xv
+
+CHAPTER 8 MINITAB GUIDE 322
+MG8.1 Confidence Interval Estimate for the
+Mean (
+Known) 322
+MG8.2 Confidence Interval Estimate for the 
+Mean (
+Unknown) 323
+MG8.3 Confidence Interval Estimate for the Proportion 323
+MG8.4 Determining Sample Size 323
+MG8.5 Applications of Confidence Interval Estimation
+in Auditing 323
+9 Fundamentals of Hypothesis
+Testing: One-Sample Tests 324
+USING STATISTICS @ Oxford Cereals, Part II 325
+9.1
+Fundamentals of Hypothesis-Testing Methodology 326
+The Null and Alternative Hypotheses 326
+The Critical Value of the Test Statistic 327
+Regions of Rejection and Nonrejection 328
+Risks in Decision Making Using Hypothesis Testing 328
+Hypothesis Testing Using the Critical Value Approach 331
+Hypothesis Testing Using the p-Value Approach 333
+A Connection Between Confidence Interval Estimation and
+Hypothesis Testing 336
+CanYou Ever Know the Population Standard Deviation? 336
+9.2
+t Test of Hypothesis for the Mean (
+Unknown) 338
+The Critical Value Approach 338
+The p-Value Approach 340
+Checking the Normality Assumption 340
+9.3
+One-Tail Tests 344
+The Critical Value Approach 345
+The p-Value Approach 346
+9.4
+Z Test of Hypothesis for the Proportion 349
+The Critical Value Approach 350
+The p-Value Approach 351
+9.5
+Potential Hypothesis-Testing Pitfalls and Ethical Issues 353
+Statistical Significance Versus Practical Significance 353
+Reporting of Findings 353
+Ethical Issues 354
+9.6
+Online Topic: The Power of a Test 354
+USING STATISTICS @ Oxford Cereals, Part II Revisited 354
+SUMMARY 355
+KEY EQUATIONS 355
+KEY TERMS 355
+CHAPTER REVIEW PROBLEMS 355
+MANAGING ASHLAND MULTICOMM SERVICES 358
+DIGITAL CASE 358
+REFERENCES 358
+CHAPTER 9 EXCEL GUIDE 359
+EG9.1 Fundamentals of Hypothesis-Testing Methodology 359
+EG9.2 t Test of Hypothesis for the Mean (
+Unknown) 359
+EG9.3 One-Tail Tests 360
+EG9.4 Z Test of Hypothesis for the Proportion 361
+CHAPTER 9 MINITAB GUIDE 362
+MG9.1 Fundamentals of Hypothesis-Testing Methodology 362
+MG9.2 t Test of Hypothesis for the Mean (
+Unknown) 362
+MG9.3 One-Tail Tests 362
+MG9.4 Z Test of Hypothesis for the Proportion 363
+s
+s
+s
+s
+s
+xvi
+CONTENTS
+CHAPTER 7 EXCEL GUIDE 275
+EG7.1 Types of Sampling Methods 275
+EG7.2 Evaluating Survey Worthiness 275
+EG7.3 Sampling Distributions 275
+EG7.4 Sampling Distribution of the Mean 275
+EG7.5 Sampling Distribution of the Proportion 276
+CHAPTER 7 MINITAB GUIDE 276
+MG7.1 Types of Sampling Methods 276
+MG7.2 Evaluating Survey Worthiness 277
+MG7.3 Sampling Distributions 277
+MG7.4 Sampling Distribution of the Mean 277
+8 Confidence Interval
+Estimation
+278
+USING STATISTICS @ Saxon Home Improvement 279
+8.1
+Confidence Interval Estimate for the Mean
+(
+Known) 280
+Can You Ever Know the Population Standard
+Deviation? 285
+8.2
+Confidence Interval Estimate for the 
+Mean (
+Unknown) 286
+Student’s t Distribution 286
+Properties of the t Distribution 287
+The Concept of Degrees of Freedom 288
+The Confidence Interval Statement 288
+8.3
+Confidence Interval Estimate for the Proportion 294
+8.4
+Determining Sample Size 297
+Sample Size Determination for the Mean 297
+Sample Size Determination for the Proportion 299
+8.5
+Applications of Confidence Interval Estimation in
+Auditing 303
+Estimating the Population Total Amount 304
+Difference Estimation 305
+One-Sided Confidence Interval Estimation of the Rate of
+Noncompliance with Internal Controls 308
+8.6
+Confidence Interval Estimation and Ethical Issues 310
+8.7
+Online Topic: Estimation and Sample Size
+Determination for Finite Populations 311
+USING STATISTICS @ Saxon Home Improvement
+Revisited 311
+SUMMARY 311
+KEY EQUATIONS 312
+KEY TERMS 313
+CHAPTER REVIEW PROBLEMS 313
+MANAGING ASHLAND MULTICOMM SERVICES 317
+DIGITAL CASE 318
+REFERENCES 318
+CHAPTER 8 EXCEL GUIDE 319
+EG8.1 Confidence Interval Estimate for the
+Mean (
+Known) 319
+EG8.2 Confidence Interval Estimate for the 
+Mean (
+Unknown) 319
+EG8.3 Confidence Interval Estimate for the Proportion 320
+EG8.4 Determining Sample Size 320
+EG8.5 Applications of Confidence Interval Estimation in
+Auditing 321
+s
+s
+s
+s
+
+CONTENTS
+xvii
+11.2 The Randomized Block Design 430
+Testing for Factor and Block Effects 430
+Multiple Comparisons: The Tukey Procedure 436
+11.3 The Factorial Design: Two-Way Analysis of Variance 438
+Testing for Factor and Interaction Effects 439
+Multiple Comparisons: The Tukey Procedure 444
+Visualizing Interaction Effects: The Cell Means Plot 445
+Interpreting Interaction Effects 446
+USING STATISTICS @ Perfect Parachutes Revisited 451
+SUMMARY 451
+KEY EQUATIONS 451
+KEY TERMS 453
+CHAPTER REVIEW PROBLEMS 453
+MANAGING ASHLAND MULTICOMM SERVICES 457
+DIGITAL CASE 458
+REFERENCES 458
+CHAPTER 11 EXCEL GUIDE 459
+EG11.1 The Completely Randomized Design: One-Way
+Analysis of Variance 459
+EG11.2 The Randomized Block Design 461
+EG11.3 The Factorial Design: Two-Way Analysis of
+Variance 462
+CHAPTER 11 MINITAB GUIDE 464
+MG11.1 The Completely Randomized Design: One-Way
+Analysis of Variance 464
+MG11.2 The Randomized Block Design 465
+MG11.3 The Factorial Design: Two-Way Analysis of
+Variance 465
+12 Chi-Square Tests and
+Nonparametric Tests
+466
+USING STATISTICS @ T.C. Resort Properties 467
+12.1 Chi-Square Test for the Difference Between Two
+Proportions 468
+12.2 Chi-Square Test for Differences Among More Than Two
+Proportions 475
+The Marascuilo Procedure 478
+Online Topic: The Analysis of Proportions (ANOP) 480
+12.3 Chi-Square Test of Independence 481
+12.4 McNemar Test for the Difference Between Two Proportions
+(Related Samples) 487
+12.5 Chi-Square Test for the Variance or Standard
+Deviation 490
+12.6 Wilcoxon Rank Sum Test: Nonparametric Analysis
+for Two Independent Populations 494
+12.7 Kruskal-Wallis Rank Test: Nonparametric Analysis
+for the One-Way ANOVA 500
+12.8
+Online Topic: Wilcoxon Signed Ranks test:
+Nonparametric Analysis for Two Related Populations 505
+12.9
+Online Topic: Friedman Rank Test: Nonparametric
+Analysis for the Randomized Block Design 506
+10 Two-Sample Tests
+364
+USING STATISTICS @ BLK Beverages 365
+10.1 Comparing the Means of Two Independent
+Populations 366
+Pooled-Variance t Test for the Difference Between Two
+Means 366
+Confidence Interval Estimate for the Difference Between
+Two Means 371
+t Test for the Difference Between Two Means Assuming
+Unequal Variances 372
+THINK ABOUT THIS: “This Call May Be Monitored ... ” 374
+10.2 Comparing the Means of Two Related Populations 377
+Paired t Test 378
+Confidence Interval Estimate for the Mean 
+Difference 383
+10.3 Comparing the Proportions of Two Independent
+Populations 385
+Z Test for the Difference Between Two Proportions 386
+Confidence Interval Estimate for the Difference Between
+Two Proportions 390
+10.4 F Test for the Ratio of Two Variances 392
+USING STATISTICS @ BLK Beverages Revisited 397
+SUMMARY 398
+KEY EQUATIONS 399
+KEY TERMS 400
+CHAPTER REVIEW PROBLEMS 400
+MANAGING ASHLAND MULTICOMM SERVICES 404
+DIGITAL CASE 405
+REFERENCES 405
+CHAPTER 10 EXCEL GUIDE 406
+EG10.1 Comparing the Means of Two Independent
+Populations 406
+EG10.2 Comparing the Means of Two Related
+Populations 408
+EG10.3 Comparing the Proportions of Two Independent
+Populations 409
+EG10.4 F Test for the Ratio of Two Variances 410
+CHAPTER 10 MINITAB GUIDE 411
+MG10.1 Comparing the Means of Two Independent
+Populations 411
+MG10.2 Comparing the Means of Two Related
+Populations 411
+MG10.3 Comparing the Proportions of Two Independent
+Populations 412
+MG10.4 F Test for the Ratio of Two Variances 412
+11 Analysis of Variance
+414
+USING STATISTICS @ Perfect Parachutes 415
+11.1 The Completely Randomized Design: One-Way Analysis
+of Variance 416
+One-Way ANOVA F Test for Differences Among More Than
+Two Means 416
+Multiple Comparisons: The Tukey-Kramer Procedure 422
+Online Topic: The Analysis of Means (ANOM) 424
+ANOVA Assumptions 424
+Levene Test for Homogeneity of Variance 425
+USING STATISTICS @ T.C. Resort Properties Revisited 506
+SUMMARY 506
+KEY EQUATIONS 507
+KEY TERMS 508
+
+xviii
+CONTENTS
+Confidence Interval Estimate for the Slope 550
+t Test for the Correlation Coefficient 551
+13.8 Estimation of Mean Values and Prediction of Individual
+Values 554
+The Confidence Interval Estimate 554
+The Prediction Interval 556
+13.9 Pitfalls in Regression 558
+THINK ABOUT THIS: By Any Other Name 561
+USING STATISTICS @ Sunflowers Apparel 
+Revisited 561
+SUMMARY 562
+KEY EQUATIONS 563
+KEY TERMS 564
+CHAPTER REVIEW PROBLEMS 564
+MANAGING ASHLAND MULTICOMM SERVICES 569
+DIGITAL CASE 569
+REFERENCES 570
+CHAPTER 13 EXCEL GUIDE 571
+EG13.1 Types of Regression Models 571
+EG13.2 Determining the Simple Linear Regression
+Equation 571
+EG13.3 Measures of Variation 572
+EG13.4 Assumptions 572
+EG13.5 Residual Analysis 572
+EG13.6 Measuring Autocorrelation: The Durbin-Watson
+Statistic 572
+EG13.7 Inferences About the Slope and Correlation
+Coefficient 573
+EG13.8 Estimation of Mean Values and Prediction
+of Individual Values 573
+CHAPTER 13 MINITAB GUIDE 574
+MG13.1 Types of Regression Models 574
+MG13.2 Determining the Simple Linear Regression
+Equation 574
+MG13.3 Measures of Variation 574
+MG13.4 Assumptions 574
+MG13.5 Residual Analysis 574
+MG13.6 Measuring Autocorrelation: The Durbin-Watson
+Statistic 575
+MG13.7 Inferences About the Slope and Correlation
+Coefficient 575
+MG13.8 Estimation of Mean Values and Prediction 
+of Individual Values 575
+14 Introduction to Multiple
+Regression
+576
+USING STATISTICS @ OmniFoods 577
+14.1 Developing a Multiple Regression Model 578
+Visualizing Multiple Regression Data 578
+Interpreting the Regression Coefficients 578
+Predicting the Dependent Variable Y 581
+14.2
+r2, Adjusted r2, and the Overall F Test 584
+Coefficient of Multiple Determination 584
+Adjusted r2 585
+Test for the Significance of the Overall Multiple 
+Regression Model 585
+14.3 Residual Analysis for the Multiple Regression
+Model 588
+CHAPTER REVIEW PROBLEMS 508
+MANAGING ASHLAND MULTICOMM SERVICES 511
+DIGITAL CASE 512
+REFERENCES 513
+CHAPTER 12 EXCEL GUIDE 514
+EG12.1 Chi-Square Test for the Difference Between
+Two Proportions 514
+EG12.2 Chi-Square Test for Differences Among More Than
+Two Proportions 514
+EG12.3 Chi-Square Test of Independence 515
+EG12.4 McNemar Test for the Difference Between Two
+Proportions (Related Samples) 515
+EG12.5 Chi-Square Test for the Variance or Standard
+Deviation 516
+EG12.6 Wilcoxon Rank Sum Test: Nonparametric Analysis
+for Two Independent Populations 516
+EG12.7 Kruskal-Wallis Rank Test: Nonparametric Analysis
+for the One-Way ANOVA 517
+CHAPTER 12 MINITAB GUIDE 518
+MG12.1 Chi-Square Test for the Difference Between Two
+Proportions 518
+MG12.2 Chi-Square Test for Differences Among More
+Than Two Proportions 518
+MG12.3 Chi-Square Test of Independence 518
+MG12.4 McNemar Test for the Difference Between Two
+Proportions (Related Samples) 518
+MG12.5 Chi-Square Test for the Variance or Standard
+Deviation 518
+MG12.6 Wilcoxon Rank Sum Test: Nonparametric
+Analysis for Two Independent Populations 519
+EG12.7 Kruskal-Wallis Rank Test: Nonparametric Analysis
+for the One-Way ANOVA 519
+13 Simple Linear
+Regression
+520
+USING STATISTICS @ Sunflowers Apparel 521
+13.1 Types of Regression Models 522
+13.2 Determining the Simple Linear Regression Equation 524
+The Least-Squares Method 525
+Predictions in Regression Analysis: Interpolation Versus
+Extrapolation 527
+Computing the Y Intercept,
+and the Slope, 
+528
+VISUAL EXPLORATIONS: Exploring Simple Linear Regression
+Coefficients 530
+13.3 Measures of Variation 533
+Computing the Sum of Squares 533
+The Coefficient of Determination 534
+Standard Error of the Estimate 536
+13.4 Assumptions 538
+13.5 Residual Analysis 539
+Evaluating the Assumptions 539
+13.6 Measuring Autocorrelation: The Durbin-Watson
+Statistic 543
+Residual Plots to Detect Autocorrelation 543
+The Durbin-Watson Statistic 544
+13.7 InferencesAbout the Slope and Correlation Coefficient 547
+t Test for the Slope 548
+F Test for the Slope 549
+b1
+b0
+
+CONTENTS
+xix
+15.3 Collinearity 642
+15.4 Model Building 644
+The Stepwise Regression Approach to Model Building 646
+The Best-Subsets Approach to Model Building 647
+Model Validation 652
+15.5 Pitfalls in Multiple Regression and Ethical Issues 653
+Pitfalls in Multiple Regression 653
+Ethical Issues 654
+15.6 (
+Online Topic) Influence Analysis 654
+15.7 (
+Online Topic) Analytics and Data Mining 654
+USING STATISTICS @ WHIT-DT Revisited 654
+SUMMARY 655
+KEY EQUATIONS 656
+KEY TERMS 656
+CHAPTER REVIEW PROBLEMS 656
+THE MOUNTAIN STATES POTATO COMPANY 658
+DIGITAL CASE 659
+REFERENCES 659
+CHAPTER 15 EXCEL GUIDE 660
+EG15.1 The Quadratic Regression Model 660
+EG15.2 Using Transformations in Regression Models 660
+EG15.3 Collinearity 660
+EG15.4 Model Building 660
+CHAPTER 15 MINITAB GUIDE 661
+MG15.1 The Quadratic Regression Model 661
+MG15.2 Using Transformations in Regression Models 662
+MG15.3 Collinearity 662
+MG15.4 Model Building 662
+16 Time-Series Forecasting 664
+USING STATISTICS @ The Principled 665
+16.1 The Importance of Business Forecasting 666
+16.2 Component Factors of Time-Series Models 666
+16.3 Smoothing an Annual Time Series 667
+Moving Averages 668
+Exponential Smoothing 670
+16.4 Least-Squares Trend Fitting and Forecasting 673
+The Linear Trend Model 673
+The Quadratic Trend Model 675
+The Exponential Trend Model 676
+Model Selection Using First, Second, and Percentage
+Differences 678
+16.5 Autoregressive Modeling for Trend Fitting and
+Forecasting 684
+16.6 Choosing an Appropriate Forecasting Model 692
+Performing a Residual Analysis 693
+Measuring the Magnitude of the Residuals Through Squared
+or Absolute Differences 693
+Using the Principle of Parsimony 694
+A Comparison of Four Forecasting Methods 694
+16.7 Time-Series Forecasting of Seasonal Data 696
+Least-Squares Forecasting with Monthly or Quarterly Data 697
+16.8
+Online Topic: Index Numbers 703
+THINK ABOUT THIS: Let the Model User Beware 703
+14.4 Inferences Concerning the Population Regression
+Coefficients 590
+Tests of Hypothesis 590
+Confidence Interval Estimation 591
+14.5 Testing Portions of the Multiple Regression
+Model 593
+Coefficients of Partial Determination 597
+14.6 Using Dummy Variables and Interaction Terms in
+Regression Models 599
+Dummy variables 599
+Interactions 602
+14.7 Logistic Regression 609
+USING STATISTICS @ OmniFoods Revisited 614
+SUMMARY 614
+KEY EQUATIONS 616
+KEY TERMS 617
+CHAPTER REVIEW PROBLEMS 617
+MANAGING ASHLAND MULTICOMM SERVICES 620
+DIGITAL CASE 620
+REFERENCES 621
+CHAPTER 14 EXCEL GUIDE 622
+EG14.1 Developing a Multiple Regression Model 622
+EG14.2 r2, Adjusted r2, and the Overall F Test 623
+EG14.3 ResidualAnalysis for the Multiple Regression
+Model 623
+EG14.4 Inferences Concerning the Population Regression
+Coefficients 624
+EG14.5 Testing Portions of the Multiple Regression
+Model 624
+EG14.6 Using Dummy Variables and Interaction Terms
+in Regression Models 624
+EG14.7 Logistic Regression 624
+CHAPTER 14 MINITAB GUIDE 625
+MG14.1 Developing a Multiple Regression Model 625
+MG14.2 r2, Adjusted r2, and the Overall F Test 626
+MG14.3 Residual Analysis for the Multiple Regression
+Model 626
+MG14.4 Inferences Concerning the Population Regression
+Coefficients 626
+MG14.5 Testing Portions of the Multiple Regression
+Model 626
+MG14.6 Using Dummy Variables and Interaction Terms
+in Regression Models 626
+MG14.7 Logistic Regression 627
+15 Multiple Regression Model
+Building
+628
+USING STATISTICS @ WHIT-DT 629
+15.1 The Quadratic Regression Model 630
+Finding the Regression Coefficients and Predicting Y 630
+Testing for the Significance of the Quadratic Model 633
+Testing the Quadratic Effect 633
+The Coefficient of Multiple Determination 635
+15.2 Using Transformations in Regression Models 638
+The Square-Root Transformation 638
+The Log Transformation 639
