@@ -1,0 +1,13 @@
+/* 
+Q01_Create_Database
+*/
+
+IF DB_ID('UniversityDB') IS NOT NULL
+BEGIN
+    ALTER DATABASE UniversityDB SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE UniversityDB;
+END;
+GO
+
+CREATE DATABASE UniversityDB;
+GO
