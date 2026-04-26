@@ -1,0 +1,577 @@
+    :root {
+        /* Brand Colors */
+        --blue: #2563EB;
+        --green: #22C55E;
+        --purple: #7C3AED;
+
+        /* Neutrals */
+        --bg: #F8FAFC;
+        --card: #FFFFFF;
+        --text-primary: #0F172A;
+        --text-secondary: #475569;
+        --border: #E2E8F0;
+
+        /* UI States */
+        --info: #38BDF8;
+        --success: #16A34A;
+        --warning: #F59E0B;
+        --error: #EF4444;
+
+        /* Gradient */
+        --brand-gradient: linear-gradient(135deg,
+                #22C55E,
+                #2563EB,
+                #7C3AED);
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+body {
+    background: var(--bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    flex:1;
+}
+    /* Navbar */
+    nav {
+        background: var(--blue);
+        color: white;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav h1 {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+    nav a {
+        color: white;
+        margin-left: 1.5rem;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    /* Hero */
+    .hero {
+        background: var(--brand-gradient);
+        color: white;
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 0 auto 2rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 600;
+
+        transition:
+            background-color 0.3s ease,
+            transform 0.1s ease,
+            box-shadow 0.1s ease;
+
+
+    }
+
+
+    .btn-hero {
+        background: white;
+        color: var(--blue);
+        border: 2px solid white;
+
+
+    }
+
+    .btn-hero:hover{
+        background: transparent;
+        color: white;
+        
+    }
+
+    .btn:active{
+        transform: scale(0.96);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .btn-primary {
+    background: var(--blue);
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: var(--green);
+}
+
+    
+
+
+
+    /* Main */
+    .main {
+        padding: 3rem 2rem;
+        max-width: 1100px;
+        margin: auto;
+        min-height: 200px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+    }
+
+    .card h3 {
+        margin-bottom: 0.5rem;
+        color: var(--blue);
+    }
+
+    .card p {
+        color: var(--text-secondary);
+    }
+
+
+
+    /* Footer */
+    footer {
+        padding: 1.5rem;
+        text-align: center;
+        color: var(--text-secondary);
+        border-top: 1px solid var(--border);
+    }
+
+
+    /*Sections*/
+/* Login Section */
+.loginSection {
+    display: none;
+}
+
+/* Center the card */
+.loginSection .hero {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: calc(100vh - 160px); /* navbar + footer */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Login Card */
+.loginContainer {
+    background: var(--card);
+    color: var(--text-primary);
+    border-radius: 12px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.loginContainer h2 {
+    margin-bottom: 1.5rem;
+    color: var(--blue);
+}
+
+/* Form */
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.inputGroup label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.3rem;
+}
+
+.inputGroup input {
+    padding: 0.6rem 0.7rem;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    font-size: 1rem;
+}
+
+.inputGroup input:focus {
+    outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+/* Show password */
+.showPassword {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.showPassword input {
+    accent-color: var(--blue);
+    cursor: pointer;
+}
+
+.showPassword label {
+    cursor: pointer;
+}
+
+
+
+
+.profilePage {
+    display: none;
+}
+
+
+/* Profile dropdown animation */
+.profileMenu {
+    position: absolute;
+    top: 110%; /* directly below the name */
+    right: 0;
+
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+}
+
+/* visible state */
+.profileMenu.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.profileMenu::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: 12px;
+    width: 12px;
+    height: 12px;
+    background: var(--card);
+    border-left: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    transform: rotate(45deg);
+}
+
+.profileMenu button {
+    background: none;
+    border: none;
+    color: var(--error);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* Profile page content */
+.profileCard {
+    background: var(--card);
+    color: var(--text-primary);
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 500px;
+    margin-top: 2rem;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profileCard img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--blue);
+}
+
+.profileInfo p {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+}
+
+.profileInfo strong {
+    color: var(--blue);
+}
+
+/* Navbar profile */
+.navProfile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative; 
+    cursor: pointer;
+}
+
+.navProfile img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+#navRight {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero.fullHeight {
+    min-height: calc(100vh - 80px); /* navbar height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileCard {
+    text-align: left;
+}
+
+.profileCards {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    max-width: 700px;
+}
+
+.profileMiniCard {
+    background: var(--card);
+    color: var(--text-primary);
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.profileMiniCard h3 {
+    font-size: 1rem;
+    color: var(--blue);
+    margin-bottom: 0.3rem;
+}
+
+.profileMiniCard p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.navProfile {
+    position: relative;
+}
+
+.aiAssistantPage {
+    display: none;
+}
+
+
+.assistantContainer {
+    background: var(--card);
+    width: 100%;
+    max-width: 700px;
+    height: 520px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Chat window */
+.chatWindow {
+    flex: 1;
+    padding: 1.2rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+/* Messages */
+.message {
+    max-width: 75%;
+    padding: 0.7rem 1rem;
+    border-radius: 14px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.message.user {
+    align-self: flex-end;
+    background: var(--blue);
+    color: white;
+    border-bottom-right-radius: 4px;
+}
+
+.message.ai {
+    align-self: flex-start;
+    background: var(--bg);
+    color: var(--text-primary);
+    border-bottom-left-radius: 4px;
+}
+
+/* Prompt form */
+.promptForm {
+    display: flex;
+    gap: 0.6rem;
+    padding: 0.8rem;
+    border-top: 1px solid var(--border);
+}
+
+.promptForm input {
+    flex: 1;
+    padding: 0.7rem 0.9rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    font-size: 1rem;
+}
+
+.promptForm input:focus {
+    outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 0 2px rgba(37,99,235,0.15);
+}
+
+.coursesPage {
+    display: none;
+}
+
+.coursesHero {
+    min-height: calc(100vh - 80px); /* full screen under navbar */
+    padding: 3rem 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    text-align: center;
+}
+
+
+
+.courseItem {
+    width: 100%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.courseHeader {
+    padding: 1rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.courseHeader:hover {
+    background: var(--bg);
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.courseContent {
+    background: white;
+    padding: 0 1.2rem;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+
+    text-align: left;
+}
+
+.courseContent ul {
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.courseContent li {
+    padding: 0.5rem 0;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.courseContent li:hover {
+    text-decoration: underline;
+}
+
+.courseItem.open .courseContent {
+    max-height: 300px;
+}
+
+.courseItem.open .arrow {
+    transform: rotate(180deg);
+}
+

@@ -1,117 +1,217 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>HAYA X UFAR</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HAYA – Educational AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Logo.png">
+
 </head>
 
-<body class="mainBody">
+<body>
 
-
-    <div class="header"> <!-- Header Section -->
-
-        <div class="logoTitleContainer"> <!-- Logo and Title Section -->
-            <div class="logoDiv"> <!-- Logo Section -->
-                <a href="index.html">
-                    <img src="IMG/logo.png" class="logoIMG">
-                </a>
-            </div>
-
-            <div class="titleDiv"> <!-- Title Section -->
-                <h1 class="titleH1">HAYA X UFAR</h1>
-            </div>
+    <nav>
+        <h1>HAYA</h1>
+        <div id="navRight">
+            <a href="#" id="homeLink">Home</a>
+            <a href="#" id="loginLink">Log in</a>
         </div>
-        <div>
-
-            <div class="loginContactsContainer">
-
-                <div class="contactsDiv">
-
-                    <div class="phoneDropdown"> <!-- Phone Dropdown Section -->
-                        <img src="IMG/Icons/phone.png" class="phoneIcon">
-
-                        <div class="phoneDropdownContent">
-                            <p> +37441059088</p>
-                        </div>
-                    </div>
+    </nav>
 
 
-                    <div class="mailDropdown"> <!-- Phone Dropdown Section -->
-                        <img src="IMG/Icons/mail.png" class="mailIcon">
+    <section class="beforeLogin">
+        <div class="hero">
+            <img src="img/Logo.png" alt="Logo">
+            <h3>Helpful AI for Your Advancement</h3>
+            <h2>Guided Learning with AI</h2>
+            <p>
+                HAYA helps students think, explore, and discover answers
+                through intelligent guidance — not shortcuts.
+            </p>
+            <button class="btn btn-hero">Get Started</button>
+            <button class="btn btn-hero">Learn More</button>
+        </div>
 
-                        <div class="mailDropdownContent">
-                            <p> info@haya.com</p>
-                        </div>
-                    </div>
-
+        <div class="main">
+            <div class="cards">
+                <div class="card">
+                    <h3>Step-by-Step Guidance</h3>
+                    <p>HAYA leads students through the reasoning process instead of giving direct answers.</p>
                 </div>
 
-
-
-                <div class="loginDiv"> <!-- Login Section -->
-
-                    <a class="loginA" href="login.html">
-                        <button class="loginButton">
-                            <p>Log in</p>
-                        </button>
-                    </a>
-
+                <div class="card">
+                    <h3>Adaptive Learning</h3>
+                    <p>The AI adjusts hints and explanations based on student progress.</p>
                 </div>
 
-
-
-
-
-
+                <div class="card">
+                    <h3>Concept Mastery</h3>
+                    <p>Focus on understanding concepts deeply rather than memorization.</p>
+                </div>
             </div>
 
-
-
-
-
-
-
         </div>
 
-    </div>
+    </section>
 
 
-    <div class="subheader"></div>
+    <section class="loginSection" id="loginSection">
+        <div class="hero">
+            <h2> Explore the World of Knowledge With HAYA</h2>
+            <div class="loginContainer">
+                <h2>Log In</h2>
 
-    <div class="mainPageContainer">
-        <video autoplay muted src="IMG/haya.mp4", class="mainPageVideo"></video>
+                <form class="loginForm">
+                    <div class="inputGroup">
+                        <label for="usernameInput">Username</label>
+                        <input type="text" id="usernameInput" placeholder="Enter your username" />
+                    </div>
 
+                    <div class="inputGroup">
+                        <label for="passwordInput">Password</label>
+                        <input type="password" id="passwordInput" placeholder="Enter your password" />
+                    </div>
+                    <div class="showPassword">
+                        <input type="checkbox" id="showPasswordToggle">
+                        <label for="showPasswordToggle">Show password</label>
+                    </div>
 
-
-        <div class="mainPageDescription">
-        <h2>WELCOME TO HAYA</h2>
-        <p>
-            HAYA is a modern, AI-powered learning platform designed to function as a comprehensive environment for the French University in Armenia (UFAR).
-            It centralizes courses, assignments, learning materials, and interactive academic tools in one secure space. Built to support both students and
-             instructors, Haya enhances digital learning by enabling smooth communication, structured course management, and a personalized, 
-             efficient university learning experience.
-             
-        </p>
-
-
-    </div>
-    </div>
-
-
-    <div class="footer">
-        <div class="footer_info">
-            <p>© 2025 HAYA. All rights reserved.</p>
-            <p>+374 41059088</p>
-            <p>info@haya.com</p>   
+                    <button type="submit" class="btn btn-primary" id="loginBtn">Log In</button>
+                </form>
+            </div>
         </div>
+    </section>
 
-        <div class="footer_socials">
-            <a href="#"><img src="IMG/Icons/facebook.png" class="footer_social_icon"></a>
-            <a href="#"><img src="IMG/Icons/instagram.png" class="footer_social_icon"></a>
-            <a href="#"><img src="IMG/Icons/linkedin.png" class="footer_social_icon"></a>
 
+    <section class="profilePage" id="profilePage">
+        <div class="hero fullHeight">
+            <h2>Welcome, <span id="studentName"></span></h2>
+            <div class="profileCard">
+                <img src="" alt="Profile picture" id="profileAvatar">
+
+                <div class="profileInfo">
+                    <p><strong>Email:</strong> <span id="profileEmail"></span></p>
+                    <p><strong>Phone:</strong> <span id="profilePhone"></span></p>
+                    <p><strong>Grade Mean:</strong> <span id="profileGrade"></span> / 20</p>
+                    <p><strong>Year:</strong> <span id="profileYear"></span></p>
+                </div>
+            </div>
+            <div class="profileCards">
+    <div class="profileMiniCard">
+        <h3>📘 Active Courses</h3>
+        <p>3 enrolled courses</p>
     </div>
+
+    <div class="profileMiniCard">
+        <h3>🤖 AI Sessions</h3>
+        <p>12 learning sessions</p>
+    </div>
+
+    <div class="profileMiniCard">
+        <h3>⭐ Performance</h3>
+        <p>Above average</p>
+    </div>
+</div>
+        </div>
+    </section>
+
+
+
+
+    <section class="aiAssistantPage" id="aiAssistantPage">
+    <div class="hero fullHeight">
+        <h2>What Can I Help With?</h2>
+
+        <div class="assistantContainer">
+            <div class="chatWindow" id="chatWindow">
+                <div class="message ai">
+                    👋 Hi! I’m HAYA. Ask me anything about your studies.
+                </div>
+            </div>
+
+            <form class="promptForm" id="promptForm">
+                <input
+                    type="text"
+                    id="promptInput"
+                    placeholder="Ask anything..."
+                    autocomplete="off"
+                />
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<section class="coursesPage" id="coursesPage">
+    <!-- Hero -->
+    <div class="hero coursesHero">
+        <h2>Your Courses</h2>
     
+
+    <!-- Content -->
+
+        <!-- Course -->
+        <div class="courseItem">
+            <div class="courseHeader">
+                <span>Probability Theory</span>
+                <span class="arrow">▾</span>
+            </div>
+
+            <div class="courseContent">
+                <ul>
+                    <li class="docItem" data-pdf = "pdf/test.pdf">Lecture 1 – Random Variables.pdf</li>
+                    <li class="docItem" data-pdf = "pdf/test.pdf">Lecture 2 – Distributions.pdf</li>
+                    <li class="docItem" data-pdf = "pdf/test.pdf">Practice Problems.pdf</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="courseItem">
+            <div class="courseHeader">
+                <span>Discrete Mathematics</span>
+                <span class="arrow">▾</span>
+            </div>
+
+            <div class="courseContent">
+                <ul>
+                    <li class="docItem" data-pdf = "pdf/test.pdf">Graph Theory.pdf</li>
+                    <li class="docItem" data-pdf = "pdf/test.pdf">Combinatorics.pdf</li>
+                    <li class="docItem" data-pdf = "pdf/test.pdf">Homework 1.pdf</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="courseItem">
+            <div class="courseHeader">
+                <span>Logic</span>
+                <span class="arrow">▾</span>
+            </div>
+
+            <div class="courseContent">
+                <ul>
+                    <li class="docItem" data-pdf = "pdf/test.pdf">Propositional Logic.pdf</li>
+                    <li class="docItem" data-pdf = "pdf/test.pdf">Predicate Logic.pdf</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+    <footer>
+        © 2026 HAYA – Educational AI Assistant
+    </footer>
+
 </body>
+
+
+<script src="script.js"></script>
 
 </html>
