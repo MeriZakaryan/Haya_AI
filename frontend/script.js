@@ -14,6 +14,16 @@ const usernameInput = document.getElementById("usernameInput");
 const profilePage = document.getElementById("profilePage");
 const navRight = document.getElementById("navRight");
 
+const professorDashboard = document.getElementById("professorDashboard");
+const professorCoursesPage = document.getElementById("professorCoursesPage");
+
+const studentsListPage = document.getElementById("studentsListPage");
+const enterGradesPage = document.getElementById("enterGradesPage");
+
+const professorMaterialsPage =
+document.getElementById("professorMaterialsPage");
+
+
 const VALID_USER = {
     username: "student",
     password: "1234",
@@ -25,6 +35,45 @@ const VALID_USER = {
     avatar: "img/profile_pic.png"
 };
 
+const VALID_PROFESSOR = {
+    username: "professor",
+    password: "1234",
+    fullName: "Dr. Pascal Sainrat",
+    email: "pascal.sainrat@university.am",
+    department: "Computer Science",
+    avatar: "img/professor_pic.jpg"
+};
+
+let professorMaterials = [
+    {
+        course:"Probability Theory",
+        title:"Lecture 1 - Random Variables",
+        file:"lecture1.pdf"
+    },
+    {
+        course:"Logic",
+        title:"Predicate Logic Notes",
+        file:"logic.pdf"
+    }
+];
+
+let professorGrades = {
+    "Probability Theory": [
+        { name: "John Doe", grade: "17.5" },
+        { name: "Emily Smith", grade: "" },
+        { name: "Karapet Hovhannisyan", grade: "18" }
+    ],
+    "Discrete Mathematics": [
+        { name: "John Doe", grade: "16" },
+        { name: "Emily Smith", grade: "18.5" },
+        { name: "Karapet Hovhannisyan", grade: "" }
+    ],
+    "Logic": [
+        { name: "John Doe", grade: "" },
+        { name: "Emily Smith", grade: "19" },
+        { name: "Karapet Hovhannisyan", grade: "" }
+    ]
+};
 // Show Login
 loginLink.addEventListener("click", function (event) {
     event.preventDefault();
@@ -67,7 +116,23 @@ loginBtn.addEventListener("click", function (event) {
         profilePage.style.display = "block";
 
         updateNavbarAfterLogin();
-    } else {
+    } 
+    else if (
+    username === VALID_PROFESSOR.username &&
+    password === VALID_PROFESSOR.password
+) {
+    localStorage.setItem("isLoggedIn", "true");
+    localStorage.setItem("role", "professor");
+    localStorage.setItem("currentPage", "professorDashboard");
+
+    beforeLoginSection.style.display = "none";
+    loginSection.style.display = "none";
+
+    updateProfessorNavbar();
+    showProfessorDashboard();
+}
+    
+    else {
         alert("Invalid username or password");
     }
 });
@@ -167,6 +232,113 @@ function updateNavbarAfterLogin() {
 }
 
 
+function updateProfessorNavbar() {
+    navRight.innerHTML = `
+        <a href="#" id="professorHome">Home</a>
+        <a href="#" id="professorCoursesLink">My Courses</a>
+        <a href="#" id="studentsListLink">Students List</a>
+        <a href="#" id="enterGradesLink">Enter Grades</a>
+        <a href="#" id="courseMaterialsLink">Course Materials</a>
+
+        <a href="#" id="professorName" class="navProfile">
+            <img src="${VALID_PROFESSOR.avatar}" alt="Professor" />
+            <span>${VALID_PROFESSOR.fullName}</span>
+
+            <div class="profileMenu" id="professorMenu">
+                <button id="professorLogoutBtn">Log out</button>
+            </div>
+        </a>
+    `;
+
+    const professorHome = document.getElementById("professorHome");
+
+professorHome.addEventListener("click", (e) => {
+    e.preventDefault();
+    showProfessorDashboard();
+});
+
+    const professorName = document.getElementById("professorName");
+    const professorMenu = document.getElementById("professorMenu");
+    const professorLogoutBtn = document.getElementById("professorLogoutBtn");
+
+    professorName.addEventListener("click", (e) => {
+        e.preventDefault();
+        professorMenu.classList.toggle("show");
+    });
+
+    professorLogoutBtn.addEventListener("click", () => {
+        localStorage.clear();
+        location.reload();
+    });
+
+    const professorCoursesLink = document.getElementById("professorCoursesLink");
+
+professorCoursesLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    showProfessorCourses();
+});
+const studentsListLink = document.getElementById("studentsListLink");
+
+studentsListLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    showStudentsList();
+});
+const enterGradesLink = document.getElementById("enterGradesLink");
+
+enterGradesLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    showEnterGrades();
+});
+
+const materialsLink =
+document.getElementById("courseMaterialsLink");
+
+materialsLink.addEventListener("click",(e)=>{
+    e.preventDefault();
+    showProfessorMaterials();
+});
+
+}
+
+
+
+function showProfessorDashboard() {
+    hideAllSections();
+
+    professorDashboard.style.display = "block";
+
+    document.getElementById("professorNameTitle").textContent = VALID_PROFESSOR.fullName;
+    document.getElementById("professorAvatar").src = VALID_PROFESSOR.avatar;
+    document.getElementById("professorEmail").textContent = VALID_PROFESSOR.email;
+    document.getElementById("professorDepartment").textContent = VALID_PROFESSOR.department;
+    
+
+    localStorage.setItem("currentPage", "professorDashboard");
+}
+
+function showProfessorCourses() {
+    hideAllSections();
+
+    professorCoursesPage.style.display = "block";
+    localStorage.setItem("currentPage", "professorCourses");
+
+    document.querySelectorAll("#professorCoursesPage .courseHeader").forEach(header => {
+        header.onclick = () => {
+            header.parentElement.classList.toggle("open");
+        };
+    });
+}
+
+function showStudentsList() {
+    hideAllSections();
+
+    studentsListPage.style.display = "block";
+    localStorage.setItem("currentPage", "studentsList");
+}
+
+
+
+
 const promptForm = document.getElementById("promptForm");
 const promptInput = document.getElementById("promptInput");
 const chatWindow = document.getElementById("chatWindow");
@@ -214,6 +386,132 @@ function hideAllSections() {
     profilePage.style.display = "none";
     aiAssistantPage.style.display = "none";
     coursesPage.style.display = "none";
+    professorDashboard.style.display = "none";
+    professorCoursesPage.style.display = "none";
+    studentsListPage.style.display = "none";
+    enterGradesPage.style.display = "none";
+    professorMaterialsPage.style.display = "none";
+}
+
+function showProfessorMaterials(){
+    hideAllSections();
+
+    professorMaterialsPage.style.display = "block";
+    localStorage.setItem("currentPage","materials");
+
+    renderMaterialsTable();
+
+    const uploadBtn =
+    document.getElementById("uploadMaterialBtn");
+
+    uploadBtn.onclick = () => {
+
+        const course =
+        document.getElementById("materialCourse").value;
+
+        const title =
+        document.getElementById("materialTitle").value.trim();
+
+        const fileInput =
+        document.getElementById("materialFile");
+
+        if(title === "" || fileInput.files.length === 0){
+            alert("Fill all fields");
+            return;
+        }
+
+        professorMaterials.push({
+            course: course,
+            title: title,
+            file: fileInput.files[0].name
+        });
+
+        document.getElementById("materialTitle").value = "";
+        fileInput.value = "";
+
+        renderMaterialsTable();
+    };
+}
+
+function renderMaterialsTable(){
+
+    const body =
+    document.getElementById("materialsTableBody");
+
+    body.innerHTML = "";
+
+    professorMaterials.forEach(item => {
+
+        body.innerHTML += `
+            <tr>
+                <td>${item.course}</td>
+                <td>${item.title}</td>
+                <td>${item.file}</td>
+            </tr>
+        `;
+    });
+}
+
+function showEnterGrades() {
+    hideAllSections();
+
+    enterGradesPage.style.display = "block";
+    localStorage.setItem("currentPage", "enterGrades");
+
+    document.getElementById("gradesCourseList").style.display = "block";
+    document.getElementById("gradeEntryPanel").style.display = "none";
+
+document.querySelectorAll(".gradeCourse").forEach(course => {
+            course.onclick = () => {
+            const courseName = course.dataset.course;
+            openGradeEntry(courseName);
+        };
+    });
+}
+function openGradeEntry(courseName) {
+    document.getElementById("gradesCourseList").style.display = "none";
+    document.getElementById("gradeEntryPanel").style.display = "block";
+    document.getElementById("gradeCourseTitle").textContent = courseName;
+
+    const tbody = document.getElementById("gradeStudentsBody");
+    tbody.innerHTML = "";
+
+    professorGrades[courseName].forEach((student, index) => {
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+            <td>${student.name}</td>
+            <td>
+                <input 
+                    type="number" 
+                    min="0" 
+                    max="20" 
+                    step="0.5"
+                    class="gradeInput"
+                    data-index="${index}"
+                    value="${student.grade}"
+                    placeholder="Empty"
+                >
+            </td>
+        `;
+
+        tbody.appendChild(row);
+    });
+
+    const submitBtn = document.getElementById("submitGradesBtn");
+
+    submitBtn.onclick = () => {
+        const inputs = document.querySelectorAll(".gradeInput");
+
+        inputs.forEach(input => {
+            const index = input.dataset.index;
+            professorGrades[courseName][index].grade = input.value;
+        });
+
+        alert("Grades updated successfully!");
+
+        showEnterGrades();
+    };
 }
 
 
@@ -221,8 +519,14 @@ window.addEventListener("load", () => {
     const isLoggedIn = localStorage.getItem("isLoggedIn");
     const currentPage = localStorage.getItem("currentPage");
 
-    if (isLoggedIn === "true") {
+if (isLoggedIn === "true") {
+    const role = localStorage.getItem("role");
+
+    if (role === "professor") {
+        updateProfessorNavbar();
+    } else {
         updateNavbarAfterLogin();
+    }
         hideAllSections();
 
         switch (currentPage) {
@@ -234,6 +538,26 @@ window.addEventListener("load", () => {
                 coursesPage.style.display = "block";
                 initCoursesPage();
                 break;
+
+            case "professorDashboard":
+                showProfessorDashboard();
+                break;
+
+            case "materials":
+    showProfessorMaterials();
+    break;
+
+                case "enterGrades":
+    showEnterGrades();
+    break;
+
+            case "studentsList":
+    showStudentsList();
+    break;
+
+            case "professorCourses":
+    showProfessorCourses();
+    break;
 
             default:
                 profilePage.style.display = "block";
@@ -365,6 +689,67 @@ function initCourseDocuments() {
         box-shadow: 0 1px 4px rgba(0,0,0,0.18);
     }
 
+    .downloadBtn {
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.2rem 0.7rem;
+    border-radius: 6px;
+    border: 1px solid white;
+    background: white;
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.downloadBtn:hover {
+    background: transparent;
+    color: white;
+}
+
+    .zoomControls {
+    position: absolute;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.zoomControls button {
+    width: 26px;
+    height: 24px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    color: var(--blue);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.zoomControls span {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    min-width: 42px;
+    text-align: center;
+}
+    .zoomControls input {
+    width: 48px;
+    height: 24px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.8rem;
+    outline: none;
+}
+
+#pageCount {
+    min-width: 42px;
+}
+
     .mainArea {
         flex: 1;
         display: flex;
@@ -374,17 +759,26 @@ function initCourseDocuments() {
         overflow: hidden;
     }
 
-    .pdfViewer {
-        width: 100%;
-        height: 100%;
-        background: #525659;
-        transition: width 0.3s ease;
-        flex-shrink: 0;
-    }
+    #pdfPagesContainer {
+    width: max-content;
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-    .pdfViewer.shrink {
-        width: 75%;
-    }
+    .pdfViewer {
+    width: 100%;
+    height: 100%;
+    background: #525659;
+    overflow: auto;
+    display: block;
+    transition: width 0.3s ease;
+    flex-shrink: 0;
+}
+
+.pdfViewer.shrink {
+    width: 75%;
+}
 
     .pdfViewer {
     width: 100%;
@@ -398,8 +792,43 @@ function initCourseDocuments() {
 
 #pdfCanvas {
     background: white;
+}
+
+.pdfPageWrapper {
+    position: relative;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+#pdfCanvas {
+    display: block;
+    background: white;
+}
+
+.textLayer {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    line-height: 1;
+    transform-origin: 0 0;
+    text-align: initial;
+    text-size-adjust: none;
+}
+
+.textLayer span,
+.textLayer br {
+    color: transparent;
+    position: absolute;
+    white-space: pre;
+    cursor: text;
+    transform-origin: 0% 0%;
+}
+
+.textLayer ::selection {
+    background: rgba(37, 99, 235, 0.35);
 }
 
     .chatPanel {
@@ -533,20 +962,31 @@ function initCourseDocuments() {
     <div class="header">
         <div class="header-left">
             <button class="btnHero" onclick="window.close()">← Close</button>
-            <h1>${title}</h1>
+            <a id="downloadPdfBtn" class="downloadBtn" href="${pdfSrc}" download>Download</a>
+
+<div class="zoomControls">
+    <button id="zoomOutBtn">−</button>
+    <span id="zoomValue">100%</span>
+    <button id="zoomInBtn">+</button>
+
+    <input type="number" id="pageInput" min="1" value="1">
+    <span id="pageCount">/ 1</span>
+</div>
+
+<h1>${title}</h1>
         </div>
     </div>
 
     <div class="mainArea">
         <div class="pdfViewer" id="pdfViewer">
-    <canvas id="pdfCanvas"></canvas>
-</div>
+            <div id="pdfPagesContainer"></div>
+        </div>
 
         <div class="chatPanel" id="chatPanel">
             <div class="chatHeader">
-    <span>HAYA AI Assistant</span>
-    <button class="chatCloseBtn" id="chatCloseBtn">✕</button>
-</div>
+                <span>HAYA AI Assistant</span>
+                <button class="chatCloseBtn" id="chatCloseBtn">✕</button>
+            </div>
 
             <div class="chatMessages" id="chatMessages">
                 <div class="chatMessage ai">
@@ -571,49 +1011,175 @@ const chatForm = document.getElementById("chatForm");
 const chatInput = document.getElementById("chatInput");
 const chatMessages = document.getElementById("chatMessages");
 const chatCloseBtn = document.getElementById("chatCloseBtn");
+const zoomInBtn = document.getElementById("zoomInBtn");
+const zoomOutBtn = document.getElementById("zoomOutBtn");
+const zoomValue = document.getElementById("zoomValue");
+const pageInput = document.getElementById("pageInput");
+const pageCount = document.getElementById("pageCount");
 
 pdfjsLib.GlobalWorkerOptions.workerSrc =
 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
 const url = "${pdfSrc}";
-const canvas = document.getElementById("pdfCanvas");
-const ctx = canvas.getContext("2d");
+const pdfPagesContainer = document.getElementById("pdfPagesContainer");
 
-let currentPage = null;
 
-function renderPage() {
-    if (!currentPage) return;
+let pdfDoc = null;
+let currentPageNumber = 1;
+let zoom = 100;
 
-    const container = document.getElementById("pdfViewer");
 
-    const unscaledViewport = currentPage.getViewport({ scale: 1 });
+function renderAllPages() {
+    if (!pdfDoc) return;
 
-    const availableWidth = container.clientWidth - 40;
-    const availableHeight = container.clientHeight - 40;
+    pdfPagesContainer.innerHTML = "";
 
-    const scaleX = availableWidth / unscaledViewport.width;
-    const scaleY = availableHeight / unscaledViewport.height;
+    const viewer = document.getElementById("pdfViewer");
 
-    const scale = Math.min(scaleX, scaleY);
+    pdfDoc.getPage(1).then(firstPage => {
+        const baseViewport = firstPage.getViewport({ scale: 1 });
 
-    const viewport = currentPage.getViewport({ scale: scale });
+        const availableWidth = viewer.clientWidth - 40;
+        const baseScale = availableWidth / baseViewport.width;
+        const finalScale = baseScale * (zoom / 100);
 
-    canvas.width = viewport.width;
-    canvas.height = viewport.height;
+        for (let pageNumber = 1; pageNumber <= pdfDoc.numPages; pageNumber++) {
+            pdfDoc.getPage(pageNumber).then(page => {
+                const viewport = page.getViewport({ scale: finalScale });
 
-    currentPage.render({
-        canvasContext: ctx,
-        viewport: viewport
+                const pageWrapper = document.createElement("div");
+                pageWrapper.className = "pdfPageWrapper";
+                pageWrapper.id = "pdf-page-" + pageNumber;
+                pageWrapper.style.width = viewport.width + "px";
+                pageWrapper.style.height = viewport.height + "px";
+
+                const canvas = document.createElement("canvas");
+                const ctx = canvas.getContext("2d");
+
+                canvas.width = viewport.width;
+                canvas.height = viewport.height;
+                canvas.style.width = viewport.width + "px";
+                canvas.style.height = viewport.height + "px";
+
+                const textLayer = document.createElement("div");
+                textLayer.className = "textLayer";
+                textLayer.style.width = viewport.width + "px";
+                textLayer.style.height = viewport.height + "px";
+                textLayer.style.setProperty("--scale-factor", finalScale);
+
+                pageWrapper.appendChild(canvas);
+                pageWrapper.appendChild(textLayer);
+                pdfPagesContainer.appendChild(pageWrapper);
+
+                page.render({
+                    canvasContext: ctx,
+                    viewport: viewport
+                }).promise
+                    .then(() => page.getTextContent())
+                    .then(textContent => {
+                        return pdfjsLib.renderTextLayer({
+                            textContentSource: textContent,
+                            container: textLayer,
+                            viewport: viewport,
+                            textDivs: []
+                        }).promise;
+                    });
+            });
+        }
     });
+
+
+    setTimeout(updatePageNumberOnScroll, 500);
+
 }
 
-pdfjsLib.getDocument(url).promise
-    .then(pdf => pdf.getPage(1))
-    .then(page => {
-        currentPage = page;
-        renderPage();
 
-        window.addEventListener("resize", renderPage);
+function updatePageNumberOnScroll() {
+    const pages = document.querySelectorAll(".pdfPageWrapper");
+    const viewer = document.getElementById("pdfViewer");
+
+    let closestPage = 1;
+    let closestDistance = Infinity;
+
+    pages.forEach(page => {
+        const pageRect = page.getBoundingClientRect();
+        const viewerRect = viewer.getBoundingClientRect();
+
+        const distance = Math.abs(pageRect.top - viewerRect.top);
+
+        if (distance < closestDistance) {
+            closestDistance = distance;
+            closestPage = Number(page.id.replace("pdf-page-", ""));
+        }
+    });
+
+    currentPageNumber = closestPage;
+    pageInput.value = currentPageNumber;
+}
+
+
+function putSelectedTextIntoChat() {
+    const selectedText = window.getSelection().toString().trim();
+
+    if (selectedText.length > 0) {
+        chatInput.value = selectedText;
+        chatInput.focus();
+    }
+}
+
+
+pdfViewer.addEventListener("mouseup", () => {
+    setTimeout(putSelectedTextIntoChat, 100);
+});
+
+
+function updateZoomValue() {
+    zoomValue.textContent = zoom + "%";
+}
+
+zoomInBtn.addEventListener("click", () => {
+    zoom += 10;
+    updateZoomValue();
+    renderAllPages();
+});
+
+zoomOutBtn.addEventListener("click", () => {
+    if (zoom > 20) {
+        zoom -= 10;
+        updateZoomValue();
+        renderAllPages();
+    }
+});
+
+
+pageInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        let requested = parseInt(pageInput.value);
+
+        if (!requested || requested < 1) requested = 1;
+        if (requested > pdfDoc.numPages) requested = pdfDoc.numPages;
+
+        currentPageNumber = requested;
+        pageInput.value = currentPageNumber;
+
+        const targetPage = document.getElementById("pdf-page-" + currentPageNumber);
+
+        if (targetPage) {
+            targetPage.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
+    }
+});
+
+pdfjsLib.getDocument(url).promise
+    .then(pdf => {
+        pdfDoc = pdf;
+        pageCount.textContent = "/ " + pdf.numPages;
+        renderAllPages();
+
+        window.addEventListener("resize", renderAllPages);
     })
     .catch(err => {
     document.body.innerHTML = \`
@@ -625,16 +1191,27 @@ pdfjsLib.getDocument(url).promise
     console.error(err);
 });
 
+pdfViewer.addEventListener("scroll", () => {
+    updatePageNumberOnScroll();
+});
+
+
+
+
 chatToggle.addEventListener("click", () => {
     chatPanel.classList.add("open");
     pdfViewer.classList.add("shrink");
     chatToggle.classList.add("hidden");
+
+    setTimeout(renderAllPages, 350);
 });
 
 chatCloseBtn.addEventListener("click", () => {
     chatPanel.classList.remove("open");
     pdfViewer.classList.remove("shrink");
     chatToggle.classList.remove("hidden");
+
+    setTimeout(renderAllPages, 350);
 });
 
         chatForm.addEventListener("submit", (e) => {

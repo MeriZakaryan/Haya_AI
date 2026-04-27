@@ -114,6 +114,33 @@
         <p>Above average</p>
     </div>
 </div>
+<div class="gradesSection">
+    <h2>My Courses and Grades</h2>
+
+    <table class="gradesTable">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Grade / 20</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Probability Theory</td>
+                <td>17.5</td>
+            </tr>
+            <tr>
+                <td>Discrete Mathematics</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Logic</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
         </div>
     </section>
 
@@ -203,6 +230,216 @@
 
 
 
+<section class="professorDashboard" id="professorDashboard">
+    <div class="hero fullHeight">
+        <h2>Welcome, <span id="professorNameTitle"></span></h2>
+
+        <div class="profileCard">
+            <img src="" alt="Professor picture" id="professorAvatar">
+
+            <div class="profileInfo">
+                <p><strong>Email:</strong> <span id="professorEmail"></span></p>
+                <p><strong>Department:</strong> <span id="professorDepartment"></span></p>
+                <p><strong>Role:</strong> Professor</p>
+            </div>
+        </div>
+
+        <div class="profileCards">
+            <div class="profileMiniCard">
+                <h3>📘 My Courses</h3>
+                <p>3 active courses</p>
+            </div>
+
+            <div class="profileMiniCard">
+                <h3>👥 Students</h3>
+                <p>86 students</p>
+            </div>
+
+            <div class="profileMiniCard">
+                <h3>📝 Pending Grades</h3>
+                <p>12 grades missing</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="professorCoursesPage" id="professorCoursesPage">
+    <div class="hero coursesHero">
+        <h2>My Courses</h2>
+
+        <div class="courseItem">
+            <div class="courseHeader">
+                <span>Probability Theory</span>
+                <span class="arrow">▾</span>
+            </div>
+
+            <div class="courseContent">
+                <ul>
+                    <li>IMA – Year 3</li>
+                    <li>28 Students</li>
+                    <li>Semester 2</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="courseItem">
+            <div class="courseHeader">
+                <span>Discrete Mathematics</span>
+                <span class="arrow">▾</span>
+            </div>
+
+            <div class="courseContent">
+                <ul>
+                    <li>IMA – Year 2</li>
+                    <li>31 Students</li>
+                    <li>Semester 1</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="courseItem">
+            <div class="courseHeader">
+                <span>Logic</span>
+                <span class="arrow">▾</span>
+            </div>
+
+            <div class="courseContent">
+                <ul>
+                    <li>IMA – Year 1</li>
+                    <li>27 Students</li>
+                    <li>Semester 1</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="studentsListPage" id="studentsListPage">
+    <div class="hero fullHeight">
+        <h2>Students List</h2>
+
+        <div class="gradesSection">
+            <h2>Probability Theory — IMA Year 3</h2>
+
+            <table class="gradesTable">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Email</th>
+                        <th>Group</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>john.doe@student.am</td>
+                        <td>IMA Year 3</td>
+                    </tr>
+                    <tr>
+                        <td>Emily Smith</td>
+                        <td>emily.smith@student.am</td>
+                        <td>IMA Year 3</td>
+                    </tr>
+                    <tr>
+                        <td>Karapet Hovhannisyan</td>
+                        <td>karapet@student.am</td>
+                        <td>IMA Year 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section class="enterGradesPage" id="enterGradesPage">
+    <div class="hero coursesHero">
+        <h2>Enter Grades</h2>
+
+        <div id="gradesCourseList">
+            <div class="courseItem gradeCourse" data-course="Probability Theory">
+                <div class="courseHeader">
+                    <span>Probability Theory</span>
+                    <span class="arrow">▸</span>
+                </div>
+            </div>
+
+            <div class="courseItem gradeCourse" data-course="Discrete Mathematics">
+                <div class="courseHeader">
+                    <span>Discrete Mathematics</span>
+                    <span class="arrow">▸</span>
+                </div>
+            </div>
+
+            <div class="courseItem gradeCourse" data-course="Logic">
+                <div class="courseHeader">
+                    <span>Logic</span>
+                    <span class="arrow">▸</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="gradesSection" id="gradeEntryPanel">
+            <h2 id="gradeCourseTitle">Course</h2>
+
+            <table class="gradesTable">
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Grade / 20</th>
+                    </tr>
+                </thead>
+
+                <tbody id="gradeStudentsBody"></tbody>
+            </table>
+
+            <button class="btn btn-primary" id="submitGradesBtn">Submit Grades</button>
+        </div>
+    </div>
+</section>
+
+<section class="professorMaterialsPage" id="professorMaterialsPage">
+    <div class="hero coursesHero">
+        <h2>Course Materials</h2>
+
+        <div class="gradesSection">
+
+            <h2>Upload New Material</h2>
+
+            <div class="materialForm">
+                <select id="materialCourse">
+                    <option>Probability Theory</option>
+                    <option>Discrete Mathematics</option>
+                    <option>Logic</option>
+                </select>
+
+                <input type="text" id="materialTitle" placeholder="Material title">
+
+                <input type="file" id="materialFile">
+
+                <button class="btn btn-primary" id="uploadMaterialBtn">
+                    Upload
+                </button>
+            </div>
+
+            <h2 style="margin-top:2rem;">Uploaded Materials</h2>
+
+            <table class="gradesTable">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Title</th>
+                        <th>File</th>
+                    </tr>
+                </thead>
+
+                <tbody id="materialsTableBody"></tbody>
+            </table>
+
+        </div>
+    </div>
+</section>
 
 
     <footer>

@@ -381,11 +381,12 @@ section{
 }
 
 .hero.fullHeight {
-    min-height: calc(100vh - 80px); /* navbar height */
+    min-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 4rem;
 }
 
 .profileCard {
@@ -427,6 +428,86 @@ section{
     display: none;
 }
 
+.professorDashboard {
+    display: none;
+}
+
+.professorCoursesPage {
+    display: none;
+}
+
+.studentsListPage {
+    display: none;
+}
+
+.enterGradesPage {
+    display: none;
+}
+
+#gradeEntryPanel {
+    display: none;
+}
+
+#submitGradesBtn {
+    margin-top: 1.5rem;
+}
+
+.gradeInput {
+    width: 90px;
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.gradeInput:focus {
+    outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 0 2px rgba(37,99,235,0.15);
+}
+.gradeCourse {
+    width: 100%;
+    max-width: 900px;
+}
+
+#gradesCourseList {
+    width: 100%;
+    max-width: 900px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#gradesCourseList .gradeCourse {
+    margin-bottom: 1rem;
+}
+
+#gradesCourseList .gradeCourse:last-child {
+    margin-bottom: 0;
+}
+.professorMaterialsPage{
+    display:none;
+}
+
+.materialForm{
+    display:grid;
+    gap:1rem;
+    margin-top:1rem;
+}
+
+.materialForm select,
+.materialForm input{
+    padding:0.75rem;
+    border-radius:8px;
+    border:1px solid var(--border);
+    font-size:1rem;
+}
+
+#gradesCourseList .gradeCourse {
+    width: 100%;
+    max-width: 900px;
+}
 
 .assistantContainer {
     background: var(--card);
@@ -575,3 +656,40 @@ section{
     transform: rotate(180deg);
 }
 
+.gradesSection {
+    margin-top: 3rem;
+    background: var(--card);
+    color: var(--text-primary);
+    padding: 2rem;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.gradesSection h2 {
+    color: var(--blue);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.gradesTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.gradesTable th,
+.gradesTable td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+}
+
+.gradesTable th {
+    color: var(--blue);
+    background: var(--bg);
+}
+
+.gradesTable td {
+    color: var(--text-secondary);
+}
