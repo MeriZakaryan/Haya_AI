@@ -1,0 +1,566 @@
+{
+  "source": "data/uploaded/Probability Theory Problems book.pdf",
+  "chunks": [
+    {
+      "text": "Ն. Գ. ԱՀԱՐՈՆՅԱՆ |  Ե. Ռ. ԻՍՐԱԵԼՅԱՆ\nՀԱՎԱՆԱԿԱՆՈՒԹՅՈՒՆՆԵՐԻ \nՏԵՍՈՒԹՅԱՆ ԽՆԴՐԱԳԻՐՔ\n\nԵՐԵՎԱՆԻ ՊԵՏԱԿԱՆ ՀԱՄԱԼՍԱՐԱՆ \n \n \n \n \n \nՆ. Գ. ԱՀԱՐՈՆՅԱՆ \nԵ. Ռ. ԻՍՐԱԵԼՅԱՆ \n \n \nՀԱՎԱՆԱԿԱՆՈՒԹՅՈՒՆՆԵՐԻ  \nՏԵՍՈՒԹՅԱՆ ԽՆԴՐԱԳԻՐՔ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nԵՐԵՎԱՆ \nԵՊՀ ՀՐԱՏԱՐԱԿՉՈՒԹՅՈՒՆ \n2016",
+      "chunk_id": 0,
+      "chunk_count": 112
+    },
+    {
+      "text": "2\nՀՏԴ 519.2(076.1) \nԳՄԴ 22.171ց7 \nԱ 420 \nՀրատարակության է երաշխավորել \nԵՊՀ  մաթեմատիկայի և մեխանիկայի \nֆակուլտետի գիտական խորհուրդը \n \n \nԽմբագիր` \nֆիզ-մաթ. գիտ. դոկտոր, պրոֆեսոր  \n \nՎ. Կ. ՕՀԱՆՅԱՆ \nԳրախոսներ`  \nֆիզ-մաթ. գիտ. թեկն., դոցենտ  \n \nՍ. Մ. ՆԱՐԻՄԱՆՅԱՆ \n \nֆիզ-մաթ. գիտ. թեկն., դոցենտ  \n \nԿ. Վ. ԳԱՍՊԱՐՅԱՆ \n \n \nԱհարոնյան Ն. Գ.,  Իսրաելյան Ե. Ռ. \nԱ 420 Հավանականությունների տեսության խնդրագիրք/ Ն. Գ. Ահա-\nրոնյան, Ե. Ռ. Իսրաելյան: -Եր., ԵՊՀ հրատ., 2016, 154 էջ: \n \n \nԽնդրագիրքը կազմվել է Երևանի պետական համալսարանի \nմաթեմատիկայի և մեխանիկայի, ինֆորմատիկայի, ֆիզիկայի, ռադիո-\nֆիզիկայի, տնտեսագիտության ֆակուլտետներում դասավանդվող \n«Հավանականությունների տեսություն» առարկայի ծրագրին համա-\nպատասխան: Նախատեսվում է առկա և հեռակա  ուսուցման ուսա-\nնողների համար: \n \nՀՏԴ 519.2(076.1) \nԳՄԴ 22.171ց7",
+      "chunk_id": 1,
+      "chunk_count": 112
+    },
+    {
+      "text": "պատասխան: Նախատեսվում է առկա և հեռակա  ուսուցման ուսա-\nնողների համար: \n \nՀՏԴ 519.2(076.1) \nԳՄԴ 22.171ց7 \n \nISBN 978-5-8084-2119-6 \n \n ԵՊՀ հրատ., 2016                          \n Ն. Գ. Ահարոնյան, 2016 \n Ե. Ռ. Իսրաելյան, 2016",
+      "chunk_id": 2,
+      "chunk_count": 112
+    },
+    {
+      "text": "3\nX M B A G R I\nK O \u0004 M I C\nXndragirq\u0017 kazmva\u001d \u0016 ma\u0018ematikayi  mexanikayi, infor{\nmatikayi  kira\u001cakan ma\u0018ematikayi, fizikayi, \u001cadiofizi{\nkayi, tntesagitow\u0018yan fakowltetnerowm dasavandvo\u0014 <Hava{\nnakanow\u0018yownneri tesow\u0018yown> a\u001carkayi \u001dragrin hamapatas{\nxan: Ays xndragirq\u0017 parownakowm \u0016 tesakan nyow\u0018i hakir\u0015 \u001aa{\nradranq  645 xndir: He\u0014inakner\u0017 \u001fgtagor\u001delov irenc dasa{\nxosakan \u001eor\u0013\u0017, xndirner\u0017 ba\u0019anel en A  B xmberi` ha\u001avi a\u001c{\nnelov tarber fakowltetneri pahanjner\u0017: Ayd isk pat\u0015a\u001cov\nxndragirq\u0017 karo\u0014 \u0016 \u001fgtakar linel in\u001bpes EPH-i, aynpes \u0016l ayl\nBOWH-eri ayn owsano\u0014neri hamar, oronq owsowmnasirowm en <Ha{\nvanakanow\u0018yownneri tesow\u0018yown> a\u001carkan: Xndragirq\u0017 parow{\nnakowm \u0016 xndirner havanakanow\u0018yownneri tesow\u0018yan \u0017ndhanowr\ndas\u0017n\u0018aci bolor ba\u0019inneric: Ays hraparakman mej i tarbe{",
+      "chunk_id": 3,
+      "chunk_count": 112
+    },
+    {
+      "text": "nakowm \u0016 xndirner havanakanow\u0018yownneri tesow\u0018yan \u0017ndhanowr\ndas\u0017n\u0018aci bolor ba\u0019inneric: Ays hraparakman mej i tarbe{\nrow\u0018yown a\u001cajini (1986)  erkrordi (1997), avelacvel \u0016 xndirneri\n\u0017ndhanowr qanak\u0017: Xndirneri low\u001dman hamar \u001fgtagor\u001dvo\u0014 ma\u0018e{\nmatikakan aparat\u0017 dowrs \u001bi galis ma\u0018ematikakan analizi,\nhanraha\u001avi  analitik erkra\u001ba\u001eow\u0018yan standart das\u0017n\u0018ac{\nneri sahmanneric: Xndragrqi \u0013 avorman \u0017n\u0018acqowm \u001fgtagor\u001d{\nvel en mi \u001aarq xndragrqer  dasagrqer, masnavorapes Mesro{\npyan N. X., \u0004azan\u001byan T. P., <Havanakanow\u0018yownneri tesow\u0018yan\nxndragirq>, mas a\u001cajin  erkrord:\nV. K. \u000fhanyan",
+      "chunk_id": 4,
+      "chunk_count": 112
+    },
+    {
+      "text": "4\nGor\u001do\u0014ow\u0018yownner patahowy\u0018neri het\nHavanakanow\u0018yownneri tesow\u0018yan mej \u0017ndownva\u001d \u0016 het yal mo{\ntecowm\u0017` yowraqan\u001byowr \u001eor\u0013in hamapatasxanow\u0018yan mej \u0016 drvowm\ntarrakan patahowy\u0018neri Ωbazmow\u0018yown` \u001eor\u0013i bolor irar ba{\nca\u001co\u0014 elqeri hamaxmbow\u0018yown\u0017: Ω-i en\u0018abazmow\u0018yownneri o\u001b da{\ntark F das\u0017 anvanowm en σ-hanraha\u001aiv, e\u0018e bavararva\u001d en\nhet yal paymanner\u0017`\n1) e\u0018e A ∈F, apa ¯A ∈F, orte\u0014 A = Ω\\ A,\n2) e\u0018e A1, A2, . . . An, . . . ∈F, apa\n∞\n∩\nn=1\nAn ∈F :\nTvyal \u001eor\u0013i het kapva\u001d patahowy\u0018ner\u0017 Ωtarrakan pata{\nhowy\u0018neri bazmow\u0018yan en\u0018abazmow\u0018yownner en, oronq patkanowm\nen F-in: Aysowhet patahowy\u0018ner kanvanenq miayn F-i tarrer\u0017:\nPatahowy\u0018ner\u0017 n\u001aanakowm en A, B, C, ... ta\u001cerov: Aknhayt \u0016, or\n∅, Ω∈F: Ωpatahowy\u0018\u0017 anvanowm en havasti patahowy\u0018, ∅\npatahowy\u0018\u0017 anvanowm en anhnar patahowy\u0018: A patahowy\u0018\u0017 ko\u001b{",
+      "chunk_id": 5,
+      "chunk_count": 112
+    },
+    {
+      "text": "∅, Ω∈F: Ωpatahowy\u0018\u0017 anvanowm en havasti patahowy\u0018, ∅\npatahowy\u0018\u0017 anvanowm en anhnar patahowy\u0018: A patahowy\u0018\u0017 ko\u001b{\nvowm \u0016 B patahowy\u0018i masnavor depq (A ⊂B), e\u0018e A patahowy\u0018i\nhandes galowc het owm \u0016 B patahowy\u0018i handes gal\u0017: Masnavo{\nrapes, A ⊂A  ∅⊂A cankaca\u001d A-i hamar: A  B patahowy\u0018{\nner\u0017 ham\u0017nknowm en, e\u0018e A ⊂B  B ⊂A: A  B patahowy\u0018neri\nA ∪B miavorowm\u0017 aynpisi patahowy\u0018 \u0016, or\u0017 te\u0014i \u0016 ownenowm, erb\nhandes \u0016 galis A  B patahowy\u0018neric gone mek\u0017: A  B pa{\ntahowy\u0018neri A ∩B hatowm\u0017 patahowy\u0018 \u0016, or\u0017 te\u0014i \u0016 ownenowm,\nerb A-n  B-n handes en galis hamate\u0014: A  B patahowy\u0018neri\nA∖B tarberow\u0018yown\u0017 patahowy\u0018 \u0016, or\u0017 te\u0014i \u0016 ownenowm, erb te\u0014i\n\u0016 ownenowm A-n, bayc te\u0014i \u001bi ownenowm B-n: A  B patahowy\u0018neri\nA △B simetrik tarberow\u0018yown\u0017 sahmanvowm \u0016 orpes (A ∖B) ∪",
+      "chunk_id": 6,
+      "chunk_count": 112
+    },
+    {
+      "text": "\u0016 ownenowm A-n, bayc te\u0014i \u001bi ownenowm B-n: A  B patahowy\u0018neri\nA △B simetrik tarberow\u0018yown\u0017 sahmanvowm \u0016 orpes (A ∖B) ∪\n(B ∖A): A  B patahowy\u0018ner\u0017 ko\u001bvowm en anhamate\u0014eli, e\u0018e\nA ∩B = ∅: A1, A2, . . . , An patahowy\u0018ner\u0017 kazmowm en lriv xowmb,\ne\u0018e Ai ∩Aj = ∅, i ̸= j  \nn∪\ni=1\nAi = Ω: A  ¯A ko\u001bvowm en hakadir\npatahowy\u0018ner, e\u0018e A ∪¯A = Ω, A ∩¯A = ∅:\nA patahowy\u0018i P(A) havanakanow\u0018yown\u0017 \u0018vayin fownkcia \u0016, or\u0017\noro\u001ava\u001d \u0016 F σ-hanraha\u001avi vra  bavararowm \u0016 het yal aqsiom{",
+      "chunk_id": 7,
+      "chunk_count": 112
+    },
+    {
+      "text": "5\nnerin`\n1) P(A) ≥0\n∀A ∈F,\n2) P(Ω) = 1,\n3) e\u0018e A1, A2, . . . , An, . . . patahowy\u0018ner\u0017 zowyg a\u001c zowyg anha{\nmate\u0014eli en` Ai\n∩Aj = ∅, i ̸= j, apa P(\n∞\n∪\ni=1\nAi) =\n∞\n∑\ni=1\nP(Ai):\n(Ω, F, P) e\u001cyakn anvanowm en havanakanayin tara\u001dow\u0018yown:\nA\n1. Meta\u0014adram\u0017 netvowm \u0016 erkow angam: Nkaragrel tarrakan\npatahowy\u0018neri bazmow\u0018yown\u0017: Nkaragrel het yal patahowy\u0018ne{\nr\u0017` A - gone mek angam ker a gerb\u0017,\nB - gerb\u0017 ker a erkrord netman \u0019amanak:\n2. Za\u001c\u0017 netowm en erkow angam: Nkaragrel tarrakan pata{\nhowy\u0018neri bazmow\u0018yown\u0017: Nkaragrel het yal patahowy\u0018ner\u0017`\nA - er aco\u0014 miavorneri gowmar\u0017 havasar \u0016 <8>-i,\nB - gone mek angam ker a <6>-\u0017:\n3. Meta\u0014adram\u0017 netvowm \u0016 aynqan angam, min\u001b er a gerb\u0017:\nNkaragrel het yal patahowy\u0018ner\u0017`\nA - gone mek angam ker a gir\u0017,\nB - gerb\u0017 ker a errord netman depqowm:",
+      "chunk_id": 8,
+      "chunk_count": 112
+    },
+    {
+      "text": "Nkaragrel het yal patahowy\u0018ner\u0017`\nA - gone mek angam ker a gir\u0017,\nB - gerb\u0017 ker a errord netman depqowm:\n4. Meta\u0014adram\u0017 netvowm \u0016 aynqan angam, min\u001b nowyn ko\u0014m\u0017\nirar et ic er a erkow angam: Nkaragrel het yal patahowy\u0018{\nner\u0017`\nA - katarel en \u0015i\u001at 5 netowm,\nB - gir\u0017 ker a o\u001b avel, qan 4 angam:\n5. Xanow\u0018\u0017 a\u001axatowm \u0016 \u0019am\u0017 9-ic min\u001b 18-\u0017: Patahakan\ngnord\u0017 mtnowm \u0016 xanow\u0018 \u0019amanaki x pahin  he\u001canowm \u0016 xanow\u0018ic\n\u0019amanaki y pahin: Nkaragrel (x, y) tarrakan patahowy\u0018neri\nbazmow\u0018yown\u0017: x-i  y-i terminnerov nkaragrel het yal pata{\nhowy\u0018ner\u0017`",
+      "chunk_id": 9,
+      "chunk_count": 112
+    },
+    {
+      "text": "6\na) gnord\u0017 gtnvowm \u0016 xanow\u0018owm mek \u0019amic o\u001b aveli,\nb) \u0019amanaki z pahin gnord\u0017 gtnvowm \u0016 xanow\u0018owm:\n6. 1, 2, . . . n \u0018veric patahakanoren vercra\u001d \u0016 mek \u0018iv: Dicowq\nA patahowy\u0018\u0017` \u0017ntra\u001d \u0018iv\u0017 ba\u0019anvowm \u0016 ereqi, B patahowy\u0018\u0017`\n\u0017ntra\u001d \u0018iv\u0017 zowyg \u0016: I?n\u001b en n\u001aanakowm A ∩B, A ∪B, A ∖B\npatahowy\u0018ner\u0017:\n7. 1, 2, . . . n \u0018veric patahakanoren \u0017ntra\u001d \u0016 mek \u0018iv: Dicowq\nA patahowy\u0018\u0017` \u0017ntra\u001d \u0018iv\u0017 ba\u0019anvowm \u0016 hingi, B patahowy\u0018\u0017`\n\u0017ntra\u001d \u0018iv\u0017 avartvowm \u0016 zroyov: I?n\u001b en n\u001aanakowm A∖B  A∩¯B\npatahowy\u0018ner\u0017:\n8. Netowm en erkow za\u001c: Dicowq A patahowy\u0018\u0017` er aco\u0014 mia{\nvorneri gowmar\u0017 kent \u0016, B -n` a\u001cnvazn mek za\u001ci vra ker a <1>-\u0017:\nNkaragrel A ∩B, A ∪B patahowy\u0018ner\u0017:\n9. Apacowcel, or A ⊃B depqowm te\u0014i kownenan`\na) ¯A ⊂¯B ,\nb) A ∩B = B ,\ng) A ∪B = A:\n10. Apacowcel havasarow\u0018yownner\u0017`\na) ∪\ni∈I\nAi = ∩\ni∈I\nAi\nb) ∩\ni∈I",
+      "chunk_id": 10,
+      "chunk_count": 112
+    },
+    {
+      "text": "9. Apacowcel, or A ⊃B depqowm te\u0014i kownenan`\na) ¯A ⊂¯B ,\nb) A ∩B = B ,\ng) A ∪B = A:\n10. Apacowcel havasarow\u0018yownner\u0017`\na) ∪\ni∈I\nAi = ∩\ni∈I\nAi\nb) ∩\ni∈I\nAi = ∪\ni∈I\nAi\norte\u0014 I-n indeqsneri kamayakan bazmow\u0018yown \u0016:\n11. Gtnel x patahowy\u0018\u0017 (x ∪A)∪(x ∪¯A) = B havasarowmic:\n12. Apacowcel, or\nA, ¯A ∩B, A ∪B patahowy\u0018ner\u0017 kazmowm\nen lriv xowmb:\n13. Berel \u001frinakner`\n1) ereq patahowy\u0018neri, oronq, linelov havasarahnaravor  \nanhamate\u0014eli, \u001ben kazmowm patahowy\u0018neri lriv xowmb,\n2) \u001bors patahowy\u0018neri, oronq, \u001blinelov havasarahnaravor,\nkazmowm en lriv xowmb:",
+      "chunk_id": 11,
+      "chunk_count": 112
+    },
+    {
+      "text": "7\n14. Erkow patahowy\u0018neri\nA ∪B\nmiavorowm\u0017 artahaytel\nanhamate\u0014eli patahowy\u0018neri miavorman mijocov:\nEreq patahowy\u0018neri A ∪B ∪C\nmiavorowm\u0017 artahaytel an{\nhamate\u0014eli patahowy\u0018neri miavorman mijocov:\n15. N\u001ael het yal patahowy\u0018neri hakadirner\u0017`\na) A { meta\u0014adrami erkow netowmneri depqowm ker a gerb\u0017,\nb) B { ereq krakocneri depqowm n\u001aanin kdip\u001ben ereq angam,\ng) C { ereq krakocneri depqowm n\u001aanin kdip\u001ben gone mek an{\ngam:\n16. \biraxin krakowm en ereq angam: Dicowq Ai-n (i = 1, 2, 3)\npatahowy\u0018n \u0016, erb i-rd krakoc\u0017 dipowk \u0016: Nkaragrel Ai pata{\nhowy\u0018nerov het yal patahowy\u0018ner\u0017`\na) A { \u0018iraxin kdip\u001ben ereq angam,\nb) B { \u0018iraxin o\u001b mi angam \u001ben dip\u001bi,\ng) C { \u0018iraxin kdip\u001ben miayn mek angam,\nd) D { \u0018iraxin kdip\u001ben a\u001cnvazn erkow angam:\n17. Sarq\u0017 ba\u0014kaca\u001d \u0016 a\u001cajin tipi erkow  erkrord tipi",
+      "chunk_id": 12,
+      "chunk_count": 112
+    },
+    {
+      "text": "g) C { \u0018iraxin kdip\u001ben miayn mek angam,\nd) D { \u0018iraxin kdip\u001ben a\u001cnvazn erkow angam:\n17. Sarq\u0017 ba\u0014kaca\u001d \u0016 a\u001cajin tipi erkow  erkrord tipi\nereq maseric: Ditarkenq het yal patahowy\u0018ner\u0017` Ak (k = 1, 2)\n- a\u001cajin tipi\nk-rd mas\u0017  Bj (j = 1, 2, 3) - erkrord tipi\nj-rd mas\u0017 a\u001axatownak \u0016: Sarq\u0017 anxa\u001ean \u0016, e\u0018e a\u001axatownak\nen a\u001cajin tipi maseric gone mek\u0017  erkrord tipi maseric gone\nerkows\u0017: Nkaragrel Ak  Bj patahowy\u0018neri mijocov sarqi an{\nxa\u001ean linelow\nC patahowy\u0018\u0017:\n18. Dicowq\nΩ= R2, F = B2,\nA = {(x, y) : x + y ≤1}, B =\n{(x, y) : y ≤2x + 2}: Nkaragrel A ∩B, A ∪B, A ∖B, ¯A, ¯B, ¯A ∩¯B\npatahowy\u0018ner\u0017:\n19. Dicowq Ω= R1, F = B1, An = ( 1\n2n, 1\nn) : Nkaragrel A =\n∞\n∩\nn=1\nAn, B =\n∞\n∪\nn=1\nAn patahowy\u0018ner\u0017:",
+      "chunk_id": 13,
+      "chunk_count": 112
+    },
+    {
+      "text": "8\nB\n20. Dicowq An ∈F, n = 1, 2, . . .: Apacowcel, or\n∞\n∪\nn=1\nAn =\n∞\n∪\nn=1\nBn, orte\u0014 B1 = A1, Bn = An ∖\nn−1\n∪\ni=1\nAi  Bj patahowy\u0018ner\u0017\nanhamate\u0014eli en:\n21. Apacowcel, or\na) A △B = (A ∪B) ∖(A ∩B),\nb) A △(B △C) = (A △B) △C,\ng) A △∅= A, A △Ω= ¯A,\nd) A △A = ∅, A △¯A = Ω:\n22. Dicowq An ∈F, n = 1, 2, . . . ,\nA∗-\u0017 ayn  miayn ayn ω\ntarreri bazmow\u0018yownn \u0016, oronq patkanowm en anverj \u0018vov An\npatahowy\u0018nerin: A∗-\u0017 ayn  miayn ayn ω tarreri bazmow\u0018yownn\n\u0016, oronq patkanowm en bolor patahowy\u0018nerin, baca\u001cow\u0018yamb ver{\njavor \u0018vov patahowy\u0018neri: Apacowcel, or\na) An ⊂A∗, n = 1, 2, ...,\nb) A∗=\n∞\n∪\nn=1\n∞\n∩\nm=n\nAm,\ng) A∗=\n∞\n∩\nn=1\n∞\n∪\nm=n\nAm :\nDito\u0014ow\u0018yown. A∗= lim\nn→∞An = lim\nn→∞sup An {An} hajordakanow\u0018{\nyan verin sahmann \u0016,\nA∗= lim\nn→∞\nAn = lim\nn→∞inf An hajordaka{",
+      "chunk_id": 14,
+      "chunk_count": 112
+    },
+    {
+      "text": "∞\n∩\nn=1\n∞\n∪\nm=n\nAm :\nDito\u0014ow\u0018yown. A∗= lim\nn→∞An = lim\nn→∞sup An {An} hajordakanow\u0018{\nyan verin sahmann \u0016,\nA∗= lim\nn→∞\nAn = lim\nn→∞inf An hajordaka{\nnow\u0018yan storin sahmann \u0016: Kasenq, or {An} hajordakanow\u0018yown\u0017\nowni sahman, e\u0018e A∗= A∗:\n23. Dicowq\nIA(ω) =\n{ 0,\ne\u0018e\nω /∈A\n1,\ne\u0018e\nω ∈A :\nIA(ω)-n ko\u001bvowm \u0016 A bazmow\u0018yan indikator fownkcia: Apacowcel,\nor\na)\nIA∩B(ω) = IA(ω) · IB(ω),",
+      "chunk_id": 15,
+      "chunk_count": 112
+    },
+    {
+      "text": "9\nb)\nIA∪B(ω) = IA(ω) + IB(ω) −IA(ω) · IB(ω),\ng)\nI ¯\nA(ω) = 1 −IA(ω),\nd)\nIA∖B(ω) = IA(ω)[1 −IB(ω)],\ne)\nIA△B(ω) = |IA(ω) −IB(ω)|\nz)\nIA△B(ω) = [IA(ω) + IB(ω)](mod 2),\norte\u0014 a(mod 2) =\n{\n0,\ne\u0018e a-n zowyg \u0016,\n1,\ne\u0018e a-n kent \u0016 :\n24. Dicowq\nAn =\n{ A,\ne\u0018e n −\u0017 zowyg \u0016\nB,\ne\u0018e n −\u0017 kent \u0016 :\nApacowcel, or lim\nn→∞An = A ∪B,\nlim\nn→∞\nAn = A ∩B:\n25. Dicowq An ∈F, n = 1, 2, . . .  bolor n-eri hamar An ⊂\nAn+1: Apacowcel, or lim\nn→∞An = lim\nn→∞\nAn =\n∞\n∪\nn=1\nAn:\n26. Dicowq An ∈F, n = 1, 2, . . .  bolor n-eri hamar An ⊃\nAn+1: Apacowcel, or lim\nn→∞An = lim\nn→∞\nAn =\n∞\n∩\nn=1\nAn:\nHamakcow\u0018yown (Kombinatorika)\n1. Hamakcow\u0018yan himnakan skzbownq (bazmapatkman sk\u0017z-\nbownq): Dicowq anhra\u0019e\u001at \u0016 hajordabar katarel k gor\u001do\u0014ow\u0018yown:\nE\u0018e a\u001cajin gor\u001do\u0014ow\u0018yown\u0017 kareli \u0016 katarel n1 tarber \u0013 erov,",
+      "chunk_id": 16,
+      "chunk_count": 112
+    },
+    {
+      "text": "bownq): Dicowq anhra\u0019e\u001at \u0016 hajordabar katarel k gor\u001do\u0014ow\u0018yown:\nE\u0018e a\u001cajin gor\u001do\u0014ow\u0018yown\u0017 kareli \u0016 katarel n1 tarber \u0013 erov,\naynowhet erkrord\u0017` n2, isk errord\u0017` n3 \u0013 erov  ayln, min\u001b k-rd\ngor\u001do\u0014ow\u0018yown\u0017, or\u0017 kareli \u0016 katarel nk tarber \u0013 erov, apa\nbolor k gor\u001do\u0014ow\u0018yownner\u0017 kareli \u0016 katarel n1 · n2 · · · nk tarber\n\u0013 erov:\nDicowq ownenq n tarreric ba\u0014kaca\u001d hamaxmbow\u0018yown:\n2. Kargavorow\u0018yown n-ic k-akan` aynpisi miacow\u0018yownner en,\noroncic yowraqan\u001byowr\u0017 parownakowm \u0016 n tarreric vercra\u001d k tarr",
+      "chunk_id": 17,
+      "chunk_count": 112
+    },
+    {
+      "text": "10\n oronq tarbervowm en mimyancic kam gone mek tarrov, kam dranc\ndasavorow\u0018yamb, \u0017nd orowm a\u001can\u0013in miacow\u0018yownnerowm yowraqan\u001b{\nyowr tarr masnakcowm \u0016 o\u001b aveli, qan mek angam: n-ic k-akan\nkargavorow\u0018yownneri \u0018iv\u0017 n\u001aanakvowm \u0016 Ak\nn-ov  havasar \u0016\nAk\nn = n(n −1) · · · (n −(k −1)) =\nn!\n(n −k)!\n(kargavorva\u001d  anveradar\u0013 \u0017ntrow\u0018yown):\n3. n tarreric te\u0014a\u001eoxow\u0018yownner\u0017 aynpisi miacow\u0018yownner\nen, oroncic yowraqan\u001byowr\u0017 parownakowm \u0016 n tarr, oronq mimyancic\ntarbervowm en miayn tarreri dasavorow\u0018yamb: n tarreric te{\n\u0014a\u001eoxow\u0018yownneri \u0018iv\u0017 n\u001aanakvowm \u0016 Pn -ov  havasar \u0016\nPn = An\nn = n!\n4. Zowgordow\u0018yownner n-ic k-akan aynpisi miacow\u0018yownner en,\noroncic yowraqan\u001byowr\u0017 parownakowm \u0016 tvyal n tarreric vercra\u001d\nk tarr  oronq tarbervowm en mimyancic gone mek tarrov, \u0017nd",
+      "chunk_id": 18,
+      "chunk_count": 112
+    },
+    {
+      "text": "oroncic yowraqan\u001byowr\u0017 parownakowm \u0016 tvyal n tarreric vercra\u001d\nk tarr  oronq tarbervowm en mimyancic gone mek tarrov, \u0017nd\norowm a\u001can\u0013in miacow\u0018yownnerowm yowraqan\u001byowr tarr masnakcowm\n\u0016 o\u001b aveli, qan mek angam: n-ic k-akan zowgordow\u0018yownneri \u0018iv\u0017\nn\u001aanakvowm \u0016 Ck\nn-ov  havasar \u0016\nCk\nn =\nn!\nk!(n −k)!\n(o\u001b kargavorva\u001d  anveradar\u0013 \u0017ntrow\u0018yown):\n5. Kargavorva\u001d  veradar\u0013owmov \u0017ntrow\u0018yown`\nn · n · · · n\n|\n{z\n}\nk\n= nk :\n6. O\u001b kargavorva\u001d  veradar\u0013owmov \u0017ntrow\u0018yown`\nCn−1\nn+k−1 = Ck\nn+k−1 :",
+      "chunk_id": 19,
+      "chunk_count": 112
+    },
+    {
+      "text": "11\nA\n27. Sari gaga\u0018 kareli \u0016 hasnel 7 ow\u0014inerov: Qani? tarber\n\u0013 erov le\u001cnagnac\u0017 karo\u0014 \u0016 bar\u0013ranal  ijnel saric: Low\u001del xndi{\nr\u0017, e\u0018e verelq\u0017  vayr\u0016jq\u0017 katarvowm en tarber ow\u0014inerov:\n28. Dasaranowm ancnowm en 10 a\u001carka: Erkow\u001aab\u0018i \u001fr\u0017 6 das\n\u0016, \u0017nd orowm bolor daser\u0017 tarber en: Qani? tarber \u0013 erov kareli\n\u0016 kazmel dasacowcak\u0017 erkow\u001aab\u0018i \u001frva hamar:\n29. Owsano\u0014\u0017 petq \u0016 8 \u001frva \u0017n\u0018acqowm han\u0013ni 4 qnnow\u0018yown:\nQani? tarber \u0013 erov kareli \u0016 da irakanacnel, e\u0018e mek \u001frowm\nkareli \u0016 han\u0013nel miayn mek qnnow\u0018yown:\n30. Qani? ankyownagi\u001d owni ow\u001cowcik n ankyownin:\n31. Qani? \u0013 ov kareli \u0016 dasavorel \u001aaxmati taxtaki vra 8\nnavak, orpeszi nranq \u001bkaro\u0014anan harva\u001del mimyanc:\n32. Gtnel n tarreric aynpisi te\u0014a\u001eoxow\u0018yownneri \u0018iv\u0017, or{\nte\u0014 tvyal 2 tarr\u0017 \u001ben gtnvowm irar mot:",
+      "chunk_id": 20,
+      "chunk_count": 112
+    },
+    {
+      "text": "navak, orpeszi nranq \u001bkaro\u0014anan harva\u001del mimyanc:\n32. Gtnel n tarreric aynpisi te\u0014a\u001eoxow\u0018yownneri \u0018iv\u0017, or{\nte\u0014 tvyal 2 tarr\u0017 \u001ben gtnvowm irar mot:\n33. Paron Jons\u0017 owni 10 girq, oronq na patrastvowm \u0016 te\u0014a{\ndrel ir gradarakowm: Drancic 4-\u0017 ma\u0018ematikakan grqer en,\n3-\u0017 verabervowm en qimiayin, 2-\u0017` patmow\u0018yan\u0017, isk 1-\u0017` angleren\nlezvin: Jons\u0017 cankanowm \u0016 dasavorel ir grqer\u0017 aynpes, or nowyn\na\u001carkayin verabervo\u0014 grqer\u0017 drva\u001d linen miasin: Qani tarber\ndasavorow\u0018yownner en hnaravor:\n34. In\u001b-or qa\u0014aqi ostikanow\u0018yan ba\u0019nowm a\u001axatowm \u0016 10 spa:\nE\u0018e ostikanakan var\u001bow\u0018yown\u0017 5 spaneri petq \u0016 ow\u0014arki \u001eo\u0014oc{\nner\u0017 hskelow, 2-\u0017 petq \u0016 a\u001axaten lriv drowyqov kayanowm, isk 3-\u0017`\npahowstayin kayanowm, qani? tarber hnaravorow\u0018yownner kan 10\nspanerin 3 xmberi ba\u0019anelow hamar:",
+      "chunk_id": 21,
+      "chunk_count": 112
+    },
+    {
+      "text": "12\nB\n35. Oro\u001ael ow\u001cowcik n-ankyan ankyownag\u001deri hatman keteri\nqanak\u0017, e\u0018e drancic yowraqan\u001byowr ereq\u0017 \u001ben hatvowm nowyn ketowm:\n36. Han\u0013na\u0019o\u0014ov\u0017 ba\u0014kaca\u001d \u0016 11 hogowc: \u000easta\u0018\u0014\u0018er\u0017, oron{\ncov petq \u0016 zba\u0014vi han\u0013na\u0019o\u0014ov\u0017, gtnvowm en paharanowm: Qani?\n\u001eakan petq \u0016 ownena paharan\u0017  qani banali petq \u0016 ownena\nhan\u0013na\u0019o\u0014ovi yowraqan\u001byowr andam, orpeszi hnaravor lini bacel\npaharan\u0017 ayn  miayn ayn depqowm, erb nerka klini han\u0013na\u0019o\u0014ovi\nandamneri me\u001damasnow\u0018yown\u0017:\n37. n mianman gndikner\u0017 te\u0014avorowm en N sa\u001eorneri mej:\nApacowcel, or\na) tarber te\u0014avorowmneri \u0018iv\u0017 havasar \u0016 Cn\nN+n−1 = CN−1\nN+n−1,\nb) te\u0014avorowmneri \u0018iv\u0017, erb yowraqan\u001byowr sa\u001eor\u0017 kparownaki\na\u001cnvazn mek gndik, havasar \u0016 CN−1\nn−1 :\n38. Qani? tarber \u0013 erov kareli \u0016 ba\u001axel N erexaneri mij",
+      "chunk_id": 22,
+      "chunk_count": 112
+    },
+    {
+      "text": "a\u001cnvazn mek gndik, havasar \u0016 CN−1\nn−1 :\n38. Qani? tarber \u0013 erov kareli \u0016 ba\u001axel N erexaneri mij \nn mianman nver: Gtnel ayn e\u0014anakneri \u0018iv\u0017, erb yowraqan\u001byowr\nerexa kstana a\u001cnvazn mek nver:\n39. Qani? tarber \u0013 erov hnaravor \u0016 \u0017ntrel 6 karkandak, e\u0018e\nhrow\u001aakaranowm kan 11 tarber tesaki karkandakner:\n40. a) Qani? ambo\u0014j o\u001b bacasakan low\u001dowm owni\nx1 + x2 + . . . + xN = n\nhavasarowm\u0017:\nb) Qani? ambo\u0014j drakan low\u001dowm owni\nx1 + x2 + . . . + xN = n\nhavasarowm\u0017:",
+      "chunk_id": 23,
+      "chunk_count": 112
+    },
+    {
+      "text": "13\n41. Dicowq ownenq N \u001eo\u001eoxakanneric f(x1, x2, . . . , xN) fownk{\ncia: Qani? tarber n-rd kargi masnaki a\u001dancyalner owni ayd\nfownkcian:\n42. 10 mardkancic ba\u0014kaca\u001d akowmbic, oronc \u0018vowm en A, B,\nC, D, E-n  F-\u0017, harkavor \u0016 \u0017ntrel naxagah, gan\u0013apah  \nqartow\u0014ar: O\u001b mek\u0017 \u001bi karo\u0014 ownenal mekic aveli pa\u001aton: Pe{\ntakan pa\u001atonyaneri qani? tarber \u0017ntrow\u0018yownner en hnaravor,\ne\u0018e\na) o\u001b mi sahmana\u001eakowm \u001bka,\nb) A-n  B-n \u001ben \u0017ntrvi miasin,\ng) C-n  D-n kam miasin k\u0017ntrven, kam \u001ben \u0017ntrvi,\nd) E-n klini pa\u001atonya,\ne) F-\u0017 hama\u0013ayn \u0016 a\u001axatel miayn naxagahi pa\u001atonowm:\nHavanakanow\u0018yan dasakan sahmanowm\u0017\nDicowq Ωtara\u001dow\u0018yown\u0017 ba\u0014kaca\u001d \u0016 n havasarahnaravor\ntarrakan patahowy\u0018neric` Ω= {ω1, ω2, . . . , ωn}: Cankaca\u001d A ⊂\nΩ, A = {ωi1, ωi2, . . . , ωik}, k ≤n patahowy\u0018i havanakanow\u0018yown\u0017\nhavasar \u0016\nP(A) = k\nn :\nA",
+      "chunk_id": 24,
+      "chunk_count": 112
+    },
+    {
+      "text": "Ω, A = {ωi1, ωi2, . . . , ωik}, k ≤n patahowy\u0018i havanakanow\u0018yown\u0017\nhavasar \u0016\nP(A) = k\nn :\nA\n43. Meta\u0014adram\u0017 netvowm \u0016 erkow angam: In\u001bpisi?n \u0016 gerbi\ngone mek angam er alow havanakanow\u0018yown\u0017:\n44. Netowm en erkow za\u001c: Gtnel het yal patahowy\u0018neri ha{\nvanakanow\u0018yownner\u0017`\na) za\u001ceri vra ker an mi nowyn qanaki miavorner,\nb) za\u001ceri vra ker an tarber qanaki miavorner:\n45. He\u001caxosahamar\u0017 ba\u0014kaca\u001d \u0016 6 \u0018van\u001aanic: Gtnel bolor\n\u0018van\u001aanneri tarber linelow havanakanow\u0018yown\u0017:",
+      "chunk_id": 25,
+      "chunk_count": 112
+    },
+    {
+      "text": "14\n46. Ow\u0018 harkani \u001aenqi verelakn en mtnowm a\u001cajin harkowm 5\nhogi: En\u0018adrenq, or nrancic yowraqan\u001byowr\u0017 havasar havana{\nkanow\u0018yamb karo\u0014 \u0016 dowrs gal cankaca\u001d harkowm, sksa\u001d erkrord\nharkic: Gtnel het yal patahowy\u0018neri havanakanow\u0018yownner\u0017`\na) bolor\u0017 dowrs kgan mi nowyn harkowm,\nb) bolor\u0017 dowrs kgan tarber harkerowm:\n47. k hrano\u0018ic ba\u0014kaca\u001d martkoc\u0017 krak \u0016 bacel l inqna\u0018i\u001c{\nneric ba\u0014kaca\u001d xmbi vra (k ≤l): Hrano\u0018neric yowraqan\u001byowrn ir\nnpatakaketi \u0017ntrow\u0018yown\u0017 katarowm \u0016 patahakanoren, an{\nkax myowsneric: Gtnel het yal patahowy\u0018neri havanakanow{\n\u0018yown\u0017`\na) bolor k hrano\u0018ner\u0017 \u0017ntrel en mi nowyn npatakaket\u0017,\nb) hrano\u0018nern \u0017ntrel en tarber npatakaketer:\n48. 1, 2, 3, 4, 5 \u0018ver\u0017 grva\u001d en 5 qarteri vra: Patahakanoren\nhajordabar hanowm en ereq qart  hanva\u001d \u0018ver\u0017 dasavorowm",
+      "chunk_id": 26,
+      "chunk_count": 112
+    },
+    {
+      "text": "48. 1, 2, 3, 4, 5 \u0018ver\u0017 grva\u001d en 5 qarteri vra: Patahakanoren\nhajordabar hanowm en ereq qart  hanva\u001d \u0018ver\u0017 dasavorowm\nen \u0013axic aj: In\u001bpisi?n \u0016 stacva\u001d \u0018vi a) zowyg, b) kent linelow\nhavanakanow\u0018yown\u0017:\n49. A\u001can\u0013in qarteri vra grva\u001d en 1, 2, 3, ..., 9 \u0018ver\u0017: Bolor\nqarter\u0017 xa\u001cnelowc heto patahakanoren hajordabar hanowm\nen nrancic \u001bors\u0017  dasavorowm mek\u0017 myowsi het ic: In\u001bpisi?n \u0016\nstacva\u001d \u0018vi a) zowyg, b) 1 2 3 4 linelow havanakanow\u0018yown\u0017:\n50. Ark\u0014\u0017 parownakowm \u0016 15 detal, oroncic 10-\u0017 nerkva\u001d en:\nBanvor\u0017 patahakan vercnowm \u0016 nrancic 3-\u0017: Gtnel bolor verc{\nra\u001d detalneri nerkva\u001d linelow havanakanow\u0018yown\u0017:\n51. Sa\u001eor\u0017 parownakowm \u0016 a spitak  b s gndikner: Sa\u001eoric\nmiangamic hanowm en erkow gndik: Oro\u001ael ayd erkow gndikneri\nspitak linelow havanakanow\u0018yown\u0017:",
+      "chunk_id": 27,
+      "chunk_count": 112
+    },
+    {
+      "text": "miangamic hanowm en erkow gndik: Oro\u001ael ayd erkow gndikneri\nspitak linelow havanakanow\u0018yown\u0017:\n52. N detalneric ba\u0014kaca\u001d xmbaqanak\u0017 gtnvowm \u0016 hski\u001bi\nmot, or\u0017 patahakanoren \u0017ntrowm \u0016 n detal  oro\u001aowm dranc",
+      "chunk_id": 28,
+      "chunk_count": 112
+    },
+    {
+      "text": "15\norak\u0017: E\u0018e \u0017ntra\u001d detalneric o\u001b mek\u0017 xotanva\u001d \u001b\u0016, apa ambo\u0014j\nxmbaqanak\u0017 \u0017ndownvowm \u0016: In\u001bpisi?\nhavanakanow\u0018yamb hski\u001b\u0017\nk\u0017ndowni k xotanva\u001d detal parownako\u0014 xmbaqanak\u0017:\n53. 20 owsano\u0014neric ba\u0014kaca\u001d xmbowm ka 6 gerazancik: Gtnel\npatahakanoren \u0017ntra\u001d 9 owsano\u0014neric 4 - i gerazancik linelow\nhavanakanow\u0018yown\u0017:\n54. \naxmati mrcman\u0017 masnakcowm \u0016 20 hogi, oronq vi\u0015aka{\nhanow\u0018yamb ba\u0019anvowm en 10 hogowc ba\u0014kaca\u001d erkow xmbi: Gtnel\nhet yal patahowy\u0018neri havanakanow\u0018yownner\u0017`\na) erkow amenaow\u0019e\u0014 xa\u0014aco\u0014ner\u0017 kba\u001axven tarber xmberi\nmej,\nb) \u001bors amenaow\u0019e\u0014 xa\u0014aco\u0014ner\u0017 kba\u001axven erkowakan tarber\nxmberi mej:\n55. Xa\u0014a\u0018\u0014\u0018eri kapowk\u0017 patahakanoren ba\u0019anvowm \u0016 erkow\nhavasar maseri: Oro\u001ael yowraqan\u001byowr masowm erkowakan mekanoc\nlinelow havanakanow\u0018yown\u0017:\n56. N artadranqneric ba\u0014kaca\u001d xmbaqanak\u0017 parownakowm",
+      "chunk_id": 29,
+      "chunk_count": 112
+    },
+    {
+      "text": "havasar maseri: Oro\u001ael yowraqan\u001byowr masowm erkowakan mekanoc\nlinelow havanakanow\u0018yown\u0017:\n56. N artadranqneric ba\u0014kaca\u001d xmbaqanak\u0017 parownakowm\n\u0016 M xotanva\u001d artadranq: Ayd xmbaqanakic patahakanoren\nvercnowm en n (n ≤N) artadranq: In\u001bi? \u0016 havasar dranc mej\nm (m ≤M) xotanva\u001d artadranqner linelow havanakanow\u0018yow{\nn\u0017:\n57. 1 - 49 \u0018veric patahakan n\u001avowm en 6 tarber \u0018ver: In\u001bpi{\nsi? havanakanow\u0018yamb vi\u0015akaxa\u0014i \u0019amanak hanva\u001d 6 \u0018veri\nmej kgtnven n\u001ava\u001d \u0018veric gone 3-\u0017:\n58. Xa\u0014arkvowm \u0016 vi\u0015akaxa\u0014i n toms, oroncic m-\u0017 \u001aaho\u0014\n\u0016: In\u001bpisi?n \u0016 \u001aahelow havanakanow\u0018yown\u0017 r (r < m) toms \u0013e\u001cq\nbero\u0014i hamar:\n59. Meqenaneri 12 kanga\u001cner\u0017 dasavorva\u001d en mek \u001aarqov:\nNkatvec, or kanga\u001cneric ow\u0018\u0017 zba\u0014ecva\u001d \u0016, isk \u001bors azat te\u0014er\u0017",
+      "chunk_id": 30,
+      "chunk_count": 112
+    },
+    {
+      "text": "16\nhet owm en mek\u0017 myowsin (kazmowm en seria): Gtnel aydpisi dasavo{\nrow\u0018yan havanakanow\u0018yown\u0017:\n60. Kanga\u001cin moteco\u0014 meqenan zba\u0014ecnowm \u0016 \u001aarqi N te\u0014eric\nmek\u0017 (o\u001b \u001dayramasayin): Verada\u001cnalis meqenayi ter\u0017 nkatowm \u0016,\nor N te\u0014eric r - \u0017 de\u001c zba\u0014ecva\u001d \u0016: Gtnel erkow har an te\u0014eri\nazat linelow havanakanow\u0018yown\u0017:\n61. Netva\u001d \u0016 10 za\u001c: Gtnel het yal patahowy\u0018neri havana{\nkanow\u0018yownner\u0017` a) o\u001b mi za\u001ci vra \u001bi bacvel <6>, b) <6> bacvel \u0016\n\u0015i\u001at 3 za\u001ci vra:\n62. 1, 2, 3, . . . , 29, 30 \u0018veric patahakan n\u001avowm en 10 tarber\n\u0018ver: Gtnel het yal patahowy\u0018neri havanakanow\u0018yownner\u0017`\na) bolor \u0017ntrva\u001d \u0018ver\u0017 kent en,\nb) \u0017ntrva\u001d \u0018veric ow\u0014i\u0014 5-\u0017 ba\u0019anvowm en 3-i,\ng) \u0017ntrva\u001d \u0018veric 5-\u0017 zowyg en, 5-\u0017` kent, \u0017nd orowm drancic\n\u0015i\u001at mek\u0017 ba\u0019anvowm \u0016 10-i:\n63. In\u001bpisi? havanakanow\u0018yamb patahakanoren vercra\u001d av{",
+      "chunk_id": 31,
+      "chunk_count": 112
+    },
+    {
+      "text": "g) \u0017ntrva\u001d \u0018veric 5-\u0017 zowyg en, 5-\u0017` kent, \u0017nd orowm drancic\n\u0015i\u001at mek\u0017 ba\u0019anvowm \u0016 10-i:\n63. In\u001bpisi? havanakanow\u0018yamb patahakanoren vercra\u001d av{\ntomeqenayi qa\u001cani\u001a hamari`\na) bolor \u0018ver\u0017 klinen tarber,\nb) \u0018veric miayn erkows\u0017 kham\u0017nknen,\ng) \u0018ver\u0017 kkazmen ham\u0017nkno\u0014 \u0018veric ba\u0014kaca\u001d erkow zowyg,\nd) \u0018veric ereq\u0017 kham\u0017nknen,\ne) bolor \u0018ver\u0017 kham\u0017nknen:\n64. 0, 1, 2 \u0018veric ba\u0014kaca\u001d n erkarow\u0018yown owneco\u0014 bolor ha{\njordakanow\u0018yownneri bazmow\u0018yownic patahakanoren \u0017ntrvowm \u0016\nmek\u0017: Gtnel het yal patahowy\u0018neri havanakanow\u0018yownner\u0017`\na) hajordakanow\u0018yown\u0017 sksvowm \u0016 zroyov,\nb) hajordakanow\u0018yown\u0017 parownakowm \u0016 ow\u0014i\u0014 m + 2 zroner, \u0017nd\norowm drancic erkows\u0017 gtnvowm en hajordakanow\u0018yan \u001dayrerowm,\ng) hajordakanow\u0018yown\u0017 parownakowm \u0016 ow\u0014i\u0014 m miavor,\nd) hajordakanow\u0018yown\u0017 parownakowm \u0016 ow\u0014i\u0014 m0 hat <0>, m1",
+      "chunk_id": 32,
+      "chunk_count": 112
+    },
+    {
+      "text": "g) hajordakanow\u0018yown\u0017 parownakowm \u0016 ow\u0014i\u0014 m miavor,\nd) hajordakanow\u0018yown\u0017 parownakowm \u0016 ow\u0014i\u0014 m0 hat <0>, m1\nhat <1>, m2 hat <2>:",
+      "chunk_id": 33,
+      "chunk_count": 112
+    },
+    {
+      "text": "17\n65. Dahli\u0015owm ka n + k nstaran, mardik patahakanoren\nzba\u0014ecnowm en n te\u0014: Gtnel havanakanow\u0018yown\u0017, or kzba\u0014ecvi\noro\u001aaki \u0015i\u001at m\n(m ≤n) te\u0014:\n66. Ownenq dasavorva\u001d 52 xa\u0014a\u0018\u0014\u0018eri kapowk: Gtnel hava{\nnakanow\u0018yown\u0017, or\na) a\u001cajin \u001bors xa\u0014a\u0018\u0014\u0018er\u0017 klinen mekanoc,\nb) a\u001cajin  verjin xa\u0014a\u0018\u0014\u0018er\u0017 mekanoc en,\ng) mekanocneri mij ka \u0015i\u001at l xa\u0014a\u0018ow\u0014\u0018:\n67. 52 xa\u0014a\u0018\u0014\u0018eric kazmva\u001d kapowk\u0017 havasar ba\u0019anvowm \u0016\n4 xa\u0014aco\u0014neri mij : Gtnel havanakanow\u0018yown\u0017, or\na) yowraqan\u001byowr xa\u0014aco\u0014i mot klini mekanoc,\nb) xa\u0014aco\u0014neric meki mot bolor 13 xa\u0014a\u0018\u0014\u0018er\u0017 klinen nowyn\ntesaki,\ng) yowraqan\u001byowr xa\u0014aco\u0014i mot klinen bolor xa\u0014a\u0018\u0014\u0018eric`\nerkowsic min\u001b mekanoc:\n68. 15 dasagirq patahakan kargov dasavorva\u001d en daraki\nvra, \u0017nd orowm drancic 5-\u0017 kazmov en: A\u001aakert\u0017 patahakanoren",
+      "chunk_id": 34,
+      "chunk_count": 112
+    },
+    {
+      "text": "erkowsic min\u001b mekanoc:\n68. 15 dasagirq patahakan kargov dasavorva\u001d en daraki\nvra, \u0017nd orowm drancic 5-\u0017 kazmov en: A\u001aakert\u0017 patahakanoren\nvercnowm \u0016 drancic 3-\u0017: In\u001bpisi? havanakanow\u0018yamb vercra\u001d grqe{\nric gone mek\u0017 kazmov \u0016:\n69. Netowm en 3 za\u001c: Gtnel <6>-i gone mek angam er alow\nhavanakanow\u0018yown\u0017:\n70. Ark\u0014\u0017 parownakowm \u0016 8 karmir, 10 kana\u001b, 12 kapowyt gndik{\nner: Patahakanoren hanowm en nrancic ereq\u0017: Gtnel hanva\u001d\ngndikneric gone erkowsi nowyn gowyni linelow havanakanow\u0018yown\u0017:\n71. 9 ow\u0014 or nstowm \u0016 3 vagonic ba\u0014kaca\u001d gnacq: Yowraqan{\n\u001byowr ow\u0014 or patahakan \u0017ntrowm \u0016 vagonneric mek\u0017: Gtnel he{\nt yal patahowy\u0018neri havanakanow\u0018yownner\u0017`\na) bolor\u0017 k\u0017ntren a\u001cajin vagon\u0017,\nb) bolor\u0017 k\u0017ntren mi nowyn vagon\u0017,",
+      "chunk_id": 35,
+      "chunk_count": 112
+    },
+    {
+      "text": "18\ng) ow\u0014 orneric gone mek\u0017 k\u0017ntri a\u001cajin vagon\u0017,\nd) yowraqan\u001byowr vagon kbar\u0013rana 3 ow\u0014 or:\n72. Gtnel 12 an\u0013eri \u001dnndyan \u001freri tarva tarber amisnerowm\nlinelow havanakanow\u0018yown\u0017:\n73. Qa\u001cakowsin horizonakan g\u001derov ba\u0019anva\u001d \u0016 n mianman\n\u001aerteri: Drancic yowraqan\u001byowri vra patahakanoren n\u001avowm \u0016\nmi ket, ori dirq\u0017 havasarahnaravor \u0016 \u001aerti cankaca\u001d te\u0014owm:\nAynowhet ayd qa\u001cakowsin ba\u0019anvowm \u0016 n −1 ow\u0014\u0014a\u0013ig g\u001derov:\nGtnel yowraqan\u001byowr ow\u0014\u0014a\u0013ig \u001aertowm mekakan ket gtnvelow ha{\nvanakanow\u0018yown\u0017:\n74. Sa\u001eoric, or\u0017 parownakowm \u0016 2 spitak  4 s gndikner\nirar het ic hanowm en bolor gndikner\u0017: Gtnel het yal pata{\nhowy\u0018neri havanakanow\u0018yownner\u0017`\na) a\u001cajin hanva\u001d gndik\u0017 spitak \u0016,\nb) erkrord hanva\u001d gndik\u0017 spitak \u0016,\ng) verjin hanva\u001d gndik\u0017 spitak \u0016:\n75. Vi\u0015akaxa\u0014i 7 tomseric erkows\u0017 \u001aaho\u0014 en: 7 hogi hajor{",
+      "chunk_id": 36,
+      "chunk_count": 112
+    },
+    {
+      "text": "b) erkrord hanva\u001d gndik\u0017 spitak \u0016,\ng) verjin hanva\u001d gndik\u0017 spitak \u0016:\n75. Vi\u0015akaxa\u0014i 7 tomseric erkows\u0017 \u001aaho\u0014 en: 7 hogi hajor{\ndabar vercnowm en mekakan toms: Kaxva\u001d klini? ardyoq \u001aahelow\nhavanakanow\u0018yown\u0017 her\u0018i hamaric:\n76. n \u0017nkerner patahakanoren nstowm en klor se\u0014ani \u001aowrj\u0017:\nGtnel het yal patahowy\u0018neri havanakanow\u0018yownner\u0017`\na) oro\u001aaki erkows\u0017` A-n  B-n, nsta\u001d en ko\u0014q-ko\u0014qi,\nb) A-n nsta\u001d \u0016 B-ic \u0013ax,\ng) oro\u001aaki ereq\u0017` A-n, B-n  C-n nsta\u001d en ko\u0014q-ko\u0014qi,\nd) A-n nsta\u001d \u0016 B-ic aj, isk C-n` B-ic \u0013ax:\n77. Gtnel naxord xndri patahowy\u0018neri havanakanow\u0018yown{\nner\u0017, e\u0018e \u0017nkerner\u0017 nsta\u001d en \u001aarqov mek nstaranin:\n78. Darakowm patahakan her\u0018akanow\u0018yamb dasavorva\u001d \u0016 40\ngirq, oronc \u0018vowm na S. Zoryani ereq hatorner\u0017: Gtnel het yal\npatahowy\u0018neri havanakanow\u0018yownner\u0017`",
+      "chunk_id": 37,
+      "chunk_count": 112
+    },
+    {
+      "text": "19\na) S. Zoryani hatorner\u0017 dasavorva\u001d en irar mot,\nb) S. Zoryani hatorner\u0017 dasavorva\u001d en irar mot hamarneri\na\u0015man kargov,\ng) S. Zoryani hatorner\u0017 dasavorva\u001d en hamarneri a\u0015man\nkargov (partadir \u001b\u0016 irar mot),\nd) hatorneri zba\u0014ecra\u001d te\u0014er\u0017 kazmowm en \u0018vabanakan pro{\ngresia, ori tarberow\u0018yown\u0017 havasar \u0016 7-i:\n79. En\u0018adrenq dowq mo\u001cacel eq \u0003ez harkavor he\u001caxosi hama{\nri mek \u0018van\u001aan\u0017  havaqowm eq ayn patahakanoren: In\u001bpisi?\nhavanakanow\u0018yamb dowq stipva\u001d klineq anel o\u001b aveli qan erkow\nkan\u001b:\n80. 20 erexa (10 t\u0014a  10 a\u0014jik) patahakanoren xmbavor{\nvowm en zowygerov: Gtnel 10 zowygeric yowraqan\u001byowri tarber se\u001ci\nerexaneric ba\u0014kaca\u001d linelow havanakanow\u0018yown\u0017:\n81. 5 t\u0014amard  10 kin hamaxmbvowm en ereqakan: In\u001bpisi?\nhavanakanow\u0018yamb stacva\u001d 5 xmberic yowraqan\u001byowrowm klini mek\nt\u0014amard:",
+      "chunk_id": 38,
+      "chunk_count": 112
+    },
+    {
+      "text": "81. 5 t\u0014amard  10 kin hamaxmbvowm en ereqakan: In\u001bpisi?\nhavanakanow\u0018yamb stacva\u001d 5 xmberic yowraqan\u001byowrowm klini mek\nt\u0014amard:\n82. Dicowq netowm en erkow za\u001c: Gtnel havanakanow\u0018yown\u0017,\nor za\u001ceri vra bacva\u001d miavorneri gowmar\u0017 havasar \u0016 i-i, i =\n2, 3, . . . , 11, 12:\n83. Anta\u001cowm aprowm \u0016 20 hyowsisayin e\u0014jerow, oroncic hingin\norsacel, pitakavorel, apa azat en ar\u0013akel: Oro\u001a \u0019amanak\nanc ayd 20 e\u0014jerowneric 4-in orsowm en: In\u001bpisi? havanakanow{\n\u0018yamb drancic 2-\u0017 pitakavorva\u001d en e\u0014el:\n84. A\u001cka \u0016 n banali, oroncic mekn \u0016 hamapatasxanowm ko\u0014{\npeqin: In\u001bpisi havanakanow\u0018yamb kareli \u0016 bacel dow\u001c\u0017 k-rd \u001eor{\n\u0013owm, e\u0018e\na) patahakanoren vercva\u001d banalin \u001bi masnakcowm hajord\n\u001eor\u0013erin,",
+      "chunk_id": 39,
+      "chunk_count": 112
+    },
+    {
+      "text": "20\nb) arden \u001eor\u0013va\u001d banalin karo\u0014 \u0016 noric masnakcel hajord\n\u001eor\u0013erin:\nB\n85. k masnikner\u0017 patahakanoren ba\u001axvowm en n bjijneri mej\n(k ≤n): Gtnel het yal patahowy\u0018neri havanakanow\u0018yownner\u0017`\na) oro\u001aaki k bjijnerowm khaytnabervi mekakan masnik,\nb) k bjijnerowm khaytnabervi mekakan masnik:\nXndir\u0017 low\u001del het yal paymanneri depqowm`\n1) masnikner\u0017 tarbervowm en, mek bjjowm \u0017nka\u001d masnikneri\n\u0018iv\u0017 \u001bi sahmana\u001eakvowm,\n2) masnikner\u0017 \u001ben tarbervowm, mek bjji mej \u0017nka\u001d masnikneri\n\u0018iv\u0017 \u001bi sahmana\u001eakvowm,\n3) masnikner\u0017 tarbervowm en, yowraqan\u001byowr bjji mej karo\u0014 \u0016\n\u0017nknel mekic o\u001b aveli masnik,\n4) masnikner\u0017 \u001ben tarbervowm, yowraqan\u001byowr bjji mej karo\u0014 \u0016\n\u0017nknel mekic o\u001b aveli masnik:\n86. n owsano\u0014, oronc \u0018vowm en A-n  B-n, patahakanoren \u001aarq\nen kangnowm: In\u001bpisi? havanakanow\u0018yamb A-i  B-i mij klini",
+      "chunk_id": 40,
+      "chunk_count": 112
+    },
+    {
+      "text": "\u0017nknel mekic o\u001b aveli masnik:\n86. n owsano\u0014, oronc \u0018vowm en A-n  B-n, patahakanoren \u001aarq\nen kangnowm: In\u001bpisi? havanakanow\u0018yamb A-i  B-i mij klini\n\u0015i\u001at r owsano\u0014: Cowyc tal, or e\u0018e n owsano\u0014ner \u001arjan kazmen,\napa ayd havanakanow\u0018yown\u0017 klini r-ic ankax  havasar\n2\nn−1:\n87. In\u001bpisi? havanakanow\u0018yamb r gndakner kareli \u0016 te\u0014avo{\nrel n ark\u0014eri mej aynpes, or \u0015i\u001at m ark\u0014 mna datark, e\u0018e\ngndakner\u0017 \u001ben tarbervowm  bolor te\u0014avorowmner\u0017 havasara{\nhnaravor en:\n88. In\u001bpisi? havanakanow\u0018yamb 2n gndakner kareli \u0016 te\u0014avo{\nrel n ark\u0014eri mej aynpes, or o\u001b mi ark\u0014 datark \u001blini, e\u0018e gndak{\nner\u0017 \u001ben tarbervowm  bolor te\u0014avorowmner\u0017 havasarahnaravor\nen:\n89. Xa\u0014a\u0018\u0014\u0018eri kapowkic (52 hat) patahakanoren verc{\nnowm en 6 xa\u0014a\u0018ow\u0014\u0018: Gtnel vercra\u001d xa\u0014a\u0018\u0014\u0018eri mej bolor te{\nsaki xa\u0014a\u0018\u0014\u0018eric linelow havanakanow\u0018yown\u0017:",
+      "chunk_id": 41,
+      "chunk_count": 112
+    },
+    {
+      "text": "21\n90. 1, 2, ..., 20 \u0018ver\u0017 parownako\u0014 20 qarteric patahakanoren\nvercnowm en mek qart: Oro\u001ael ayd qarti vra grva\u001d \u0018vi 3-i kam\n4-i vra ba\u0019anvelow havanakanow\u0018yown\u0017:\n91. 10 \u0013e\u001cagrer dasavorva\u001d en 30 \u0018\u0014\u0018apanakneri mej: Yowra{\nqan\u001byowr \u0013e\u001cagri hamar naxatesva\u001d \u0016 3 \u0018\u0014\u0018apanak: In\u001bpisi?\nhavanakanow\u0018yamb patahakanoren vercra\u001d 6 \u0018\u0014\u0018apanakneri\nmej \u001bi gtnvi ambo\u0014jakan \u0013e\u001cagir:\n92. Tomsark\u0014i mot her\u0018 en kangna\u001d n + m mard, oroncic\nn-\u0017 ownen 50-akan dram, isk myowsner\u0017` 100-akan dram: Tomsi\ngin\u0017 50 dram \u0016: Va\u0015a\u001cqic a\u001caj tomsark\u0014owm dram \u001bkar: In\u001bpisi?\nhavanakanow\u0018yamb gno\u0014neric o\u001b mek\u0017 stipva\u001d \u001bi lini spasel\nmnacord manr dramin:\n93. Ark\u0014ic, or\u0017 parownakowm \u0016 m spitak  n s gndikner (m ≥\nn) patahakanoren hanowm en irar het ic bolor gndikner\u0017: In\u001b?\nhavanakanow\u0018yamb kga aynpisi pah, erb hanva\u001d s gndikneri",
+      "chunk_id": 42,
+      "chunk_count": 112
+    },
+    {
+      "text": "n) patahakanoren hanowm en irar het ic bolor gndikner\u0017: In\u001b?\nhavanakanow\u0018yamb kga aynpisi pah, erb hanva\u001d s gndikneri\nqanak\u0017 khavasarvi hanva\u001d spitak gndikneri qanakin:\n94. n \u001eaytikneric yowraqan\u001byowr\u0017 ba\u0019anvowm \u0016 erkow masi` er{\nkar  kar\u0015: Stacva\u001d 2n ktorner\u0017 miavorowm en n zowygeri, oron{\ncic yowraqan\u001byowr\u0017 kazmowm \u0016 nor <\u001eaytik>: Gtnel het yal pa{\ntahowy\u0018neri havanakanow\u0018yownner\u0017`\na) bolor ktorner\u0017 kmianan skzbnakan kargov,\nb) bolor erkar ktorner\u0017 kmianan kar\u0015 ktorneri het:\n95. Ditarkenq ax2+bx+c = 0 qa\u001cakowsi havasarowm\u0017, orte\u0014\na, b, c -n oro\u001avowm en, hamapatasxanabar, orpes za\u001ci ereq\nhajordakan netowmneri ardyownqner: Gtnel`\na) havasarman armatneri irakan linelow,\nb) havasarman armatneri \u001cacional linelow havanakanow{\n\u0018yownner\u0017:",
+      "chunk_id": 43,
+      "chunk_count": 112
+    },
+    {
+      "text": "hajordakan netowmneri ardyownqner: Gtnel`\na) havasarman armatneri irakan linelow,\nb) havasarman armatneri \u001cacional linelow havanakanow{\n\u0018yownner\u0017:\n96. n+1 mardkancic mek\u0017, orin kanvanenq <naxa\u001dno\u0014>, erkow\nnamak \u0016 growm patahakanoren \u0017ntra\u001d hasceatererin, oronq",
+      "chunk_id": 44,
+      "chunk_count": 112
+    },
+    {
+      "text": "22\nkazmowm en <a\u001cajin serownd\u0017>, nranq irenc her\u0018in anowm en nowy{\nn\u0017` a\u001cajacnelov <erkrord serownd\u0017>: Ev <r-d serownd> kazmo\u0014\nmardkancic yowraqan\u001byowr\u0017 ow\u0014arkowm \u0016 erkow namak pataha{\nkanoren \u0017ntra\u001d hasceatererin: Gtnel <naxa\u001dno\u0014i> 1, 2, ..., r\nhamarnerov <serowndneric> o\u001b mekin \u001bpatkanelow havanakanow{\n\u0018yown\u0017:\n97. n + 1 bnaki\u001b owneco\u0014 qa\u0014aqowm in\u001b-or mek\u0017 norow\u0018yown \u0016\nimanowm: Na ayn ha\u0014ordowm \u0016 a\u001cajin handipa\u001din, da \u0016l mek owri\u001ain\n aydpes \u001aarownak: Yowraqan\u001byowr qaylowm a\u001cajin angam norow\u0018yown\nimaco\u0014\u0017 havasar havanakanow\u0018yamb karo\u0014 \u0016 ha\u0014ordel ayd mard{\nkancic yowraqan\u001byowrin: In\u001bpisi? havanakanow\u0018yamb \u0019amanaki\nr miavorneri \u0017n\u0018acqowm`\na) norow\u0018yown\u0017 krkin \u001bi hasni ayn mardown, orn a\u001cajinn \u0016\nimacel da,\nb) mardkancic o\u001b mek\u0017 \u001bi krkni norow\u0018yown\u0017:",
+      "chunk_id": 45,
+      "chunk_count": 112
+    },
+    {
+      "text": "r miavorneri \u0017n\u0018acqowm`\na) norow\u0018yown\u0017 krkin \u001bi hasni ayn mardown, orn a\u001cajinn \u0016\nimacel da,\nb) mardkancic o\u001b mek\u0017 \u001bi krkni norow\u0018yown\u0017:\n98. 1, 2, ..., N bazmow\u0018yownic patahakan vercnowm en a \u0018iv\u0017:\nGtnel lim\nN→∞pN , orte\u0014 pN -\u0017 (a2 −1) \u0018vi 10-i ba\u0019anvelow hava{\nnakanow\u0018yownn \u0016:\n99. In\u001bi? \u0016 havasar 1, 2, ..., N\nbazmow\u0018yownic patahakan\nvercra\u001d bnakan \u0018vi fiqsa\u001d bnakan k \u0018vi ba\u0019anvelow pN hava{\nnakanow\u0018yown\u0017: Gtnel lim\nN→∞pN :\n100. 1, 2, ..., N \u0018veri bazmow\u0018yownic patahakanoren vercnowm\nen (veradar\u0013ov) x  y \u0018ver\u0017: I?n\u001bn \u0016 me\u001d.\np2 = P(x2 −y2 ba\u0019anvowm \u0016 2 −i),\n\u0018e?\np3 = P(x2 −y2 ba\u0019anvowm \u0016 3 −i) :\n101. 1, 2, ..., n bazmow\u0018yan bolor ir mej katarvo\u0014 artapat{\nkerowmneric patahakanoren vercnowm en mek\u0017: Gtnel het yal\npatahowy\u0018neri havanakanow\u0018yownner\u0017`",
+      "chunk_id": 46,
+      "chunk_count": 112
+    },
+    {
+      "text": "23\na) \u0017ntra\u001d artapatkerowm\u0017 n tarreric yowraqan\u001byowr\u0017 ta{\nnowm \u0016 1-i,\nb) i tarrn owni ow\u0014i\u0014 k naxapatker,\ng) i tarrn artapatkervowm \u0016 j tarri vra,\nd) i1, i2, ...ik tarrer\u0017 (1 ≤i1 < i2 < ... < ik ≤n) hamapatas{\nxanabar artapatkervowm en j1, j2, ..., jk -i vra:\n102. 1, 2, ..., n bazmow\u0018yan \u001eoxmiar\u0019eq artapatkerowm\u0017 ir\nvra anvanowm en n asti\u0015ani te\u0014a\u001eoxow\u0018yown: Bolor n asti\u0015ani\nte\u0014a\u001eoxow\u0018yownneric patahakanoren vercnowm en mek\u0017: Gtnel\nhet yal patahowy\u0018neri havanakanow\u0018yownner\u0017`\na) \u0017ntrva\u001d \u0016 nowynakan te\u0014a\u001eoxow\u0018yown E =\n(1\n2\n· · ·\nn\n1\n2\n· · ·\nn\n)\n,\nb) \u0017ntra\u001d te\u0014a\u001eoxow\u0018yown\u0017` i1, i2, ...ik\n(i1 < i2 < ... < ik)\ntarrer\u0017 te\u0014a\u001eoxowm \u0016 hamapatasxanabar j1, j2, ..., jk tar{\nrerin,\ng) i tarr\u0017 te\u0014a\u001eoxowm \u0016 i-in, aysinqn` i →i:\n103. n masnikner\u0017 ba\u001axvowm en N bjijneri mej: N\u001aanakenq",
+      "chunk_id": 47,
+      "chunk_count": 112
+    },
+    {
+      "text": "rerin,\ng) i tarr\u0017 te\u0014a\u001eoxowm \u0016 i-in, aysinqn` i →i:\n103. n masnikner\u0017 ba\u001axvowm en N bjijneri mej: N\u001aanakenq\nµr = µ(n, N) ayn bjijneri qanak\u0017, oroncic yowraqan\u001byowr\u0017 ba\u001a{\nxelowc heto kparownaki ow\u0014i\u0014 r masnik: Gtnel het yal pata{\nhowy\u0018neri havanakanow\u0018yownner\u0017`\n1) µ0(n, N) > 0, erb n = N\n2) µ0(n, N) = 0, erb n = N + 1\n3) µ(n, N) = 1, erb n = N + 1 :\n104. Ba\u0019anowm en 52 xa\u0014aqarteric ba\u0014kaca\u001d kapowk\u0017: In\u001b{\npisi?n \u0016 havanakanow\u0018yown\u0017, or tasn\u001borserord qart\u0017 klini <me{\nkanoc>: In\u001bpisi? havanakanow\u0018yamb a\u001cajin <mekanoc\u0017> dowrs\nkga tasn\u001borserord qarti vra:",
+      "chunk_id": 48,
+      "chunk_count": 112
+    },
+    {
+      "text": "24\nErkra\u001ba\u001eakan havanakanow\u0018yownner\nDicowq Ω-n n-\u001ba\u001eani \u0006vklidesyan Rn tara\u001dow\u0018yan verjavor\nLebegi \u001ba\u001e owneco\u0014 en\u0018abazmow\u0018yown \u0016: F-\u0017 Ω-i \u0017st Lebegi \u001ba\u001eeli\nen\u0018abazmow\u0018yownneri σ-hanraha\u001aivn \u0016: Ln(·)-\u0017 Lebegi \u001ba\u001en \u0016 Rn−\nowm: Cankaca\u001d A ∈F hamar erkra\u001ba\u001eakan havanakanow\u0018yown\u0017\nsahmanvowm \u0016 het yal bana\u0013 ov`\nP(A) = Ln(A)\nLn(Ω) :\nA\n105. Ow\u0014i\u0014 g\u001di yowraqan\u001byowr 15 metri vra te\u0014avorva\u001d en ha{\nkatankayin akanner, 3 metr laynow\u0018yown owneco\u0014 tankn \u0017n\u0018anowm\n\u0016 ayd g\u001din ow\u0014\u0014ahayac: In\u001bpisi?n \u0016 tanki pay\u0018elow havanaka{\nnow\u0018yown\u0017:\n106. Har\u0018ow\u0018yown\u0017 ba\u0019anva\u001d \u0016 iraric 2a he\u001cavorow\u0018yan vra\ngtnvo\u0014 zowgahe\u001c ow\u0014i\u0014nerov: Har\u0018ow\u0018yan vra patahakanoren\nnetvowm \u0016 r (r < a) \u001aa\u001cav\u0014ov meta\u0014adram\u0017: In\u001bpisi?n \u0016 nra o\u001b\nmi ow\u0014\u0014i het \u001bhatvelow havanakanow\u0018yown\u0017:\n107. \naxmati anverj taxtaki vra, ori qa\u001cakowsineri ko\u0014{",
+      "chunk_id": 49,
+      "chunk_count": 112
+    },
+    {
+      "text": "mi ow\u0014\u0014i het \u001bhatvelow havanakanow\u0018yown\u0017:\n107. \naxmati anverj taxtaki vra, ori qa\u001cakowsineri ko\u0014{\nmeri erkarow\u0018yown\u0017 a \u0016, patahakanoren netvowm \u0016 2r (2r < a)\ntramag\u001dov meta\u0014adram\u0017: Gtnel het yal patahowy\u0018neri hava{\nnakanow\u0018yownner\u0017`\na) dram\u0017 ambo\u0014jovin \u0017nka\u001d klini mek qa\u001cakowsow mej,\nb) dram\u0017 khati qa\u001cakowsow mek ko\u0014mic o\u001b aveli:\n108. Ket\u0017 patahakanoren n\u001avowm \u0016 R \u001aa\u001cav\u0014ov \u001arjani ners\u0017:\nGtnel ayd keti \u001arjanin nerg\u001dva\u001d a) qa\u001cakowsow, b) kanonavor\ne\u001cankyan nersowm gtnvelow havanakanow\u0018yown\u0017:\n109. l erkarow\u0018yown owneco\u0014 OA hatva\u001di vra patahakanoren\nn\u001avowm en erkow B  C keter, \u0017nd orowm, haytni \u0016, or OB < OC:",
+      "chunk_id": 50,
+      "chunk_count": 112
+    },
+    {
+      "text": "25\nGtnel BC hatva\u001d\u0017 OB hatva\u001dic kar\u0015 linelow havanakanow{\n\u0018yown\u0017:\n110. In\u001bpisi? havanakanow\u0018yamb x2 + ax + b = 0 qa\u001cakowsi\nhavasarman armatner\u0017. a) irakan en, b) drakan en, e\u0018e a  b\ngor\u001dakicneri ar\u0019eqner\u0017 havasarahnaravor en 0 ≤a ≤1, 0 ≤\nb ≤1 qa\u001cakowsow nersowm:\n111. Gtnel x2+2ax+b = 0 havasarman armatneri a) irakan,\nb) drakan linelow havanakanow\u0018yown\u0017, e\u0018e a  b gor\u001dakicneri\nar\u0019eqner\u0017 havasarahnaravor en |a| ≤1, |b| ≤1 qa\u001cakowsow\nnersowm:\n112. l erkarow\u0018yown owneco\u0014 hatva\u001di vra patahakanoren\nn\u001aowm en erkow ket: Gtnel nranc mij e\u0014a\u001d he\u001cavorow\u0018yan kl-ic\n(0 < k < 1) \u001eoqr linelow havanakanow\u0018yown\u0017:\n113. Erkow nav petq \u0016 ka\u001canven nowyn navamatowycin: Na{\nveri \u0019amanelow paher\u0017 ankax en  havasarahnaravor \u001frva\n\u0017n\u0018acqowm: In\u001bpisi? havanakanow\u0018yamb naveric mek\u0017 stipva",
+      "chunk_id": 51,
+      "chunk_count": 112
+    },
+    {
+      "text": "veri \u0019amanelow paher\u0017 ankax en  havasarahnaravor \u001frva\n\u0017n\u0018acqowm: In\u001bpisi? havanakanow\u0018yamb naveric mek\u0017 stipva\u001d\nklini spasel navamatowyci azatman\u0017, e\u0018e a\u001cajin navi kang\na\u001cnelow \u0019amanak\u0017 mek \u0019am \u0016, isk erkrordin\u0017` erkow \u0019am:\n114. (0,0), (0,1), (1,0), (1,1) gaga\u0018ner owneco\u0014 qa\u001cakowsow ners\u0017\nn\u001ava\u001d \u0016 M(ξ, η) ket\u0017:\n1. Apacowcel, or 0 ≤x, y ≤1 -i hamar\nP(ξ < x, η < y) = P(ξ < x) · P(η < y) = x · y :\n2. 0 < z < 1-i hamar gtnel\na) P(|ξ −η| < z),\nd) P(max(ξ, η) < z),\nb) P(ξ · η < z),\ne) P(1\n2(ξ + η) < z):\ng) P(min(ξ, η) < z),\n115. Patahakanoren vercva\u001d en erkow drakan x  y \u0018ver,\noroncic yowraqan\u001byowr\u0017 me\u001d \u001b\u0016 2-ic: Gtnel ayd \u0018veri xy artadrya{\nli 1-ic me\u001d \u001blinelow  x\ny qanordi 2-in \u001bgerazancelow havanaka{\nnow\u0018yown\u0017:",
+      "chunk_id": 52,
+      "chunk_count": 112
+    },
+    {
+      "text": "26\n116. Patahakanoren vercnowm en erkow drakan x  y \u0018ver,\noroncic yowraqan\u001byowr\u0017 me\u001d \u001b\u0016 mekic: Gtnel ayd \u0018veri gowmari\nmekin \u001bgerazancelow, isk xy artadryali 0,09-ic \u001eoqr \u001blinelow ha{\nvanakanow\u0018yown\u0017:\nB\n117. Ow\u0014 or\u0017 karo\u0014 \u0016 \u001fgtvel T1  T2 \u0017ndmijowmnerov hajordo\u0014\nerkow er\u0018ow\u0014ineri tramvayneric: Ow\u0014 ori kanga\u001cin motenalow\npah\u0017 oro\u001aowm en T1  T2 mijakayqerowm erkow u  v keter\u0017, oronq\nhamapatasxanabar cowyc en talis ayn \u0019amanak\u0017, ori \u0017n\u0018ac{\nqowm ow\u0014 or\u0017 petq \u0016 spasi min\u001b tvyal er\u0018ow\u0014ow hajord tramvayi\ngal\u0017: En\u0018adrelov, or u  v ar\u0019eqner\u0017 havasarahnaravor en T1  \nT2 mijakayqerowm, gtnel kanga\u001cin moteco\u0014 ow\u0014 ori o\u001b aveli qan\n0 < t ≤min(T1, T2) \u0019amanak spaselow havanakanow\u0018yown\u0017:\n118. Byowfoni xndir\u0017: Har\u0018ow\u0018yown\u0017 ba\u0019anva\u001d \u0016 iraric 2a he{\n\u001cavorow\u0018yan vra gtnvo\u0014 zowgahe\u001c ow\u0014i\u0014nerov: Har\u0018ow\u0018yan vra",
+      "chunk_id": 53,
+      "chunk_count": 112
+    },
+    {
+      "text": "118. Byowfoni xndir\u0017: Har\u0018ow\u0018yown\u0017 ba\u0019anva\u001d \u0016 iraric 2a he{\n\u001cavorow\u0018yan vra gtnvo\u0014 zowgahe\u001c ow\u0014i\u0014nerov: Har\u0018ow\u0018yan vra\npatahakanoren gcowm en 2l (l < a) erkarow\u0018yown owneco\u0014 ase\u0014\u0017:\nGtnel dra or \u0016 ow\u0014\u0014i het hatvelow havanakanow\u0018yown\u0017:\n119. Bertrani taramitow\u0018yown\u0017: \nrjani mej <patahaka{\nnoren> vercnowm en mi lar: In\u001bpisi? havanakanow\u0018yamb dra erka{\nrow\u0018yown\u0017 kgerazanci \u001arjanin nerg\u001dva\u001d kanonavor e\u001cankyan ko\u0014{\nmi erkarow\u0018yan\u0017: Ardyownq\u0017 kaxva\u001d \u0016, \u0018e in\u001bpes ktramabanen\n<patahakanoren> ba\u001c\u0017:\n120. l erkarow\u0018yown owneco\u0014 hatva\u001di vra patahakanoren\nn\u001aowm en erkow ket: In\u001bi? \u0016 havasar` a) staca\u001d ereq hatva\u001dneric\ne\u001cankyown ka\u001cowcelow havanakanow\u0018yown\u0017, b) \u001eoqragowyn masi er{\nkarow\u0018yown\u0017 l\n3-in \u001bgerazancelow havanakanow\u0018yown\u0017:\n121. R \u001aa\u001cavi\u0014 owneco\u0014 \u001arjanag\u001di vra patahakanoren n\u001avowm",
+      "chunk_id": 54,
+      "chunk_count": 112
+    },
+    {
+      "text": "karow\u0018yown\u0017 l\n3-in \u001bgerazancelow havanakanow\u0018yown\u0017:\n121. R \u001aa\u001cavi\u0014 owneco\u0014 \u001arjanag\u001di vra patahakanoren n\u001avowm\nen A, B  C keter\u0017: Gtnel ABC e\u001cankyan a) sowrankyown, b) ha{\nvasarasrown linelow havanakanow\u0018yown\u0017:",
+      "chunk_id": 55,
+      "chunk_count": 112
+    },
+    {
+      "text": "27\n122. Gtnel yowraqan\u001byowr\u0017 a-in \u001bgerazanco\u0014 erkarow\u0018yown owne{\nco\u0014 ereq patahakanoren vercra\u001d hatva\u001dneric e\u001cankyown ka{\n\u001cowcelow havanakanow\u0018yown\u0017:\n123. Hastatown aragow\u0018yamb pttvo\u0014 skava\u001caki a\u001cj g\u0017t{\nn\u0017vowm \u0016 2h erkarow\u0018yown owneco\u0014 hatva\u001d\u0017, or\u0017 dasavorva\u001d \u0016\nskava\u001caki het mi nowyn har\u0018ow\u0018yan vra aynpes, or mijnaket\u0017\nskava\u001caki kentroni het miacno\u0014 ow\u0014i\u0014\u0017 ow\u0014\u0014ahayac \u0016 hatva\u001din:\n\tamanaki patahakan pahin \u001arjanag\u001dic \u001ao\u001aa\u001eo\u0014i ow\u0014\u0014ow\u0018yamb\n\u0018\u001c\u001bowm \u0016 mi masnik: Gtnel masniki hatva\u001di vra \u0017nknelow hava{\nnakanow\u0018yown\u0017, e\u0018e hatva\u001di he\u001cavorow\u0018yown\u0017 skava\u001caki kent{\nronic havasar \u0016 l-i:\n124. r \u001aa\u001cavi\u0014 owneco\u0014 gnda\u0013 masnik\u0017 patahakanoren ow\u0014{\n\u0014a\u0013ig kerpov \u0017nknowm \u0016 qa\u001cakowsi bjijner owneco\u0014 \u0018eq meta\u0014alar\nma\u0014i vra: Horizoni het ma\u0014i kazmva\u001d ankyown\u0017 havasar \u0016 φ-i,",
+      "chunk_id": 56,
+      "chunk_count": 112
+    },
+    {
+      "text": "\u0014a\u0013ig kerpov \u0017nknowm \u0016 qa\u001cakowsi bjijner owneco\u0014 \u0018eq meta\u0014alar\nma\u0014i vra: Horizoni het ma\u0014i kazmva\u001d ankyown\u0017 havasar \u0016 φ-i,\nmeta\u0014alari tramagi\u001d\u0017 havasar \u0016 d-i, meta\u0014alareri a\u001canc{\nqayin g\u001deri mij he\u001cavorow\u0018yown\u0017` l-i: Gtnel masniki ma\u0014i mijov\nazat ancnelow havanakanow\u0018yown\u0017:\n125. Gtnel navi pay\u0018ecman havanakanow\u0018yown\u0017 akana\u001ea{\nkoc\u0017 martancelow depqowm, e\u0018e akanner\u0017 dasavorva\u001d en \u001aarqov\niraric L he\u001cavorow\u0018yan vra, isk navi ow\u0014\u0014ow\u0018yown\u0017 akanneri g\u001di\nhet kazmowm \u0016 α ankyown: Navi ow\u0014\u0014ow\u0018yan hatowm\u0017 akanneri g\u001di\nhet havasarahnaravor \u0016 cankaca\u001d ketowm: Navi laynow\u0018yown\u0017\nhavasar \u0016 b -i, isk akani tramagi\u001d\u0017` d -i:\n126. Sowzanav\u0017 v aragow\u0018yamb \u001aar\u0019vowm \u0016 L laynow\u0018yown owneco\u0014\nne\u0014owci erkarow\u0018yamb: Pahakanav\u0017 katarowm \u0016 m\u001atakan oronowm,\n\u001aar\u0019velov ne\u0014owci laynqov v aragow\u0018yamb: Navi vra te\u0014adrva",
+      "chunk_id": 57,
+      "chunk_count": 112
+    },
+    {
+      "text": "ne\u0014owci erkarow\u0018yamb: Pahakanav\u0017 katarowm \u0016 m\u001atakan oronowm,\n\u001aar\u0019velov ne\u0014owci laynqov v aragow\u0018yamb: Navi vra te\u0014adrva\u001d\nhaytnaberman gor\u001diqi gor\u001do\u0014ow\u0018yan he\u001cavorow\u0018yown\u0017 havasar \u0016\nr -i (r ≤L) : In\u001bpisi? havanakanow\u0018yamb pahakanav\u0017 kbaca{\nhayti sowzanav\u0017, e\u0018e sowzanavi  navi ow\u0014\u0014ow\u0018yownneri hatowm\u0017\nhavasarahnaravor \u0016 ne\u0014owci cankaca\u001d ketowm:",
+      "chunk_id": 58,
+      "chunk_count": 112
+    },
+    {
+      "text": "28\n127. In\u001bpisi? hastow\u0018yown petq \u0016 ownena meta\u0014adram\u0017, orpes{\nzi ko\u0014i vra \u0017nknelow havanakanow\u0018yown\u0017 havasar lini 1\n3:\n128. Avtobowsi kanga\u001cin yowraqan\u001byowr \u001bors ropen mek motenowm\n\u0016 A g\u001di avtobows\u0017  yowraqan\u001byowr vec ropen mek` B g\u001di avtobows\u0017:\nA g\u001di avtobowsi  B g\u001di amenamot avtobowsi kanga\u001cin mo{\ntenalow paheri mij \u0019amanakahatva\u001d\u0017 havasarahnaravor \u0016\n0-ic min\u001b 4 rope: Gtnel het yal patahowy\u0018neri havanakanow\u0018{\nyownner\u0017` a) a\u001cajin moteco\u0014 avtobows\u0017 A g\u001di \u0016, b) erkow ropei\n\u0017n\u0018acqowm kmotena or \u0016 g\u001di avtobows:\n129. Gtnel ax2+bx+c = 0 qa\u001cakowsi havasarman armatneri\nirakan linelow havanakanow\u0018yown\u0017, e\u0018e a, b, c gor\u001dakicneri ar{\n\u0019eqner\u0017 havasarahnaravor en 0 < a ≤1, 0 < b ≤1, 0 < c ≤1\nxoranardowm:\nPaymanakan havanakanow\u0018yown\nPatahowy\u0018neri  \u001eor\u0013eri ankaxow\u0018yown\u0017",
+      "chunk_id": 59,
+      "chunk_count": 112
+    },
+    {
+      "text": "\u0019eqner\u0017 havasarahnaravor en 0 < a ≤1, 0 < b ≤1, 0 < c ≤1\nxoranardowm:\nPaymanakan havanakanow\u0018yown\nPatahowy\u0018neri  \u001eor\u0013eri ankaxow\u0018yown\u0017\nDicowq (Ω, F, P)-n havanakanayin tara\u001dow\u0018yown \u0016, B ∈F\n P(B) > 0: A patahowy\u0018i paymanakan havanakanow\u0018yown B\npatahowy\u0018i irakanacman paymanowm oro\u001avowm \u0016 het yal bana{\n\u0013 ov`\nP(A/B) = P(A ∩B)\nP(B)\n:\nAyd havasarow\u0018yown\u0017 kareli \u0016 grel het yal tesqov`\nP(A ∩B) = P(B) · P(A/B) :\nVerjin bana\u0013 i \u0017ndhanracowmn \u0016\nP(A1 ∩A2 ∩. . . ∩An) =\n= P(A1)·P(A2/A1)·P(A3/A1∩A2) · · · P(An/A1∩A2∩. . .∩An−1)\nbana\u0013 \u0017:\nA  B patahowy\u0018ner\u0017 ankax en, e\u0018e\nP(A ∩B) = P(A) · P(B) :",
+      "chunk_id": 60,
+      "chunk_count": 112
+    },
+    {
+      "text": "29\nA1, A2, . . . , An patahowy\u0018ner\u0017 ankax en \u0017st hamaxmbow\u0018yan, e\u0018e\nP(Ai1 ∩Ai2 ∩. . . ∩Aik) = P(Ai1)P(Ai2) · · · P(Aik) cankaca\u001d k =\n2, 3, ..., n  1 ≤i1 < i2 < . . . < ik ≤n :\nCankaca\u001d A  B patahowy\u0018neri hamar te\u0014i owni het yal\nbana\u0013 \u0017`\nP (A ∪B) = P(A) + P(B) −P(A ∩B) :\n\u0007ndhanowr depqowm` cankaca\u001d A1, A2, . . . , An patahowy\u0018neri ha{\nmar (n ≥2)\nP\n( n∪\ni=1\nAi\n)\n=\nn∑\ni=1\nP(Ai)−∑\ni>j\nP(Ai ∩Aj)+ ∑\ni>j>k\nP(Ai ∩Aj ∩Ak)−\n. . . + (−1)n+1P\n( n∩\ni=1\nAi\n)\n,\nor\u0017 ko\u001bvowm \u0016 kcman  artaqsman bana\u0013 : En\u0018adrenq, or yowra{\nqan\u001byowr elq stacvowm \u0016 a\u001can\u0013in \u001eor\u0013i \u0017n\u0018acqowm: E\u0018e a\u001can\u0013in\n\u001eor\u0013in verabero\u0014 cankaca\u001d patahowy\u0018 ankax \u0016 myows \u001eor\u0013erin\nverabero\u0014 cankaca\u001d patahowy\u0018ic, apa kasenq, or ownenq ankax\n\u001eor\u0013eri hajordakanow\u0018yown:\nDitarkenq erkow kamayakan G1  G2 \u001eor\u0013er  n\u001aanakenq",
+      "chunk_id": 61,
+      "chunk_count": 112
+    },
+    {
+      "text": "verabero\u0014 cankaca\u001d patahowy\u0018ic, apa kasenq, or ownenq ankax\n\u001eor\u0013eri hajordakanow\u0018yown:\nDitarkenq erkow kamayakan G1  G2 \u001eor\u0013er  n\u001aanakenq\n(Ω1, F1, P1)  (Ω2, F2, P2) dranc hamapatasxano\u0014 havanaka{\nnayin tara\u001dow\u0018yownner\u0017: Ditarkenq na (Ω, F, P) havanaka{\nnayin tara\u001dow\u0018yan <bard> \u001eor\u0013, orte\u0014 Ω= Ω1×Ω2-n Ω1 -i  Ω2−\ni dekartyan artadryaln \u0016, isk F-\u0017 minimal σ-hanraha\u001aivn \u0016`\na\u001cajaca\u001d F1×F2 = {B1×B2 : B1 ∈F1, B2 ∈F2} ow\u0014\u0014ankyownneri\nkisahanraha\u001avic:\nAsowm en, or G1  G2 \u001eor\u0013er\u0017 ankax en, e\u0018e cankaca\u001d B1 ∈\nF1, B2 ∈F2 hamar te\u0014i owni\nP(B1 × B2) = P1(B1) · P2(B2) = P(B1 × Ω2) · P(B2 × Ω1) :\nG1, G2, . . . , Gn \u001eor\u0013eri ankaxow\u0018yown\u0017 sahmanvowm \u0016 nman \u0013 ov\nhet yal havasarow\u0018yan mijocov`\nP(B1 × B2 × . . . × Bn) = P1(B1) · P2(B2) · . . . · Pn(Bn),",
+      "chunk_id": 62,
+      "chunk_count": 112
+    },
+    {
+      "text": "30\norte\u0014 Bk ∈Fk, (Ωk, Fk, Pk)-n Gk, k = 1, 2, . . . , n \u001eor\u0013in hama{\npatasxano\u0014 havanakanayin tara\u001dow\u0018yownn \u0016:\nA\n130. Netowm en erkow za\u001c: Gtnel erkowsi vra \u0016l <5> bacvelow\npaymanakan havanakanow\u0018yown\u0017, e\u0018e haytni \u0016, or bacva\u001d mia{\nvorneri gowmar\u0017 ba\u0019anvowm \u0016 5-i:\n131. Netowm en erkow za\u001c: Gtnel a\u001cnvazn mek angam <6> bac{\nvelow havanakanow\u0018yown\u0017, e\u0018e haytni \u0016, or bacva\u001d miavorneri\ngowmar\u0017 havasar \u0016 8-i:\n132. Netowm en ereq za\u001c: In\u001bpisi?n \u0016 drancic a\u001cnvazn meki\nvra <6> bacvelow havanakanow\u0018yown\u0017, e\u0018e za\u001ceri vra bacvel en\ntarber nister:\n133. Apacowcel, or P(B/A) > P(B), e\u0018e P(A/B) > P(A),\nP(A) ̸= 0:\n134. Apacowcel, or P(B/A) ≥1 −P( ¯B)\nP(A), orte\u0014 P(A) ̸= 0:\n135. Apacowcel, or e\u0018e A  B patahowy\u0018ner\u0017 anhamate\u0014eli\nen  P(A ∪B) ̸= 0, apa\nP(A/A ∪B) =\nP(A)\nP(A) + P(B) :",
+      "chunk_id": 63,
+      "chunk_count": 112
+    },
+    {
+      "text": "P(A), orte\u0014 P(A) ̸= 0:\n135. Apacowcel, or e\u0018e A  B patahowy\u0018ner\u0017 anhamate\u0014eli\nen  P(A ∪B) ̸= 0, apa\nP(A/A ∪B) =\nP(A)\nP(A) + P(B) :\n136. Dicowq A  B patahowy\u0018ner\u0017 ankax en  A ⊂B: Apa{\ncowcel, or P(A) = 0 kam P(B) = 1:\n137. Apacowcel, or e\u0018e A patahowy\u0018n ankax \u0016 irenic, apa\nP(A) = 0 kam P(A) = 1:\n138. Dicowq P(B/ ¯A) = P(B/A), P(A) ̸= 0, P(A) ̸= 0: Apacowcel,\nor A-n  B-n ankax en:",
+      "chunk_id": 64,
+      "chunk_count": 112
+    },
+    {
+      "text": "31\n139. A  B patahowy\u0018ner\u0017 anhamate\u0014eli en, P(A) ̸= 0  \nP(B) ̸= 0: Kaxya?l en ardyoq ayd patahowy\u0018ner\u0017:\n140. A  B patahowy\u0018ner\u0017 ankax en: Kaxya?l en ardyoq he{\nt yal patahowy\u0018ner\u0017` a) A  ¯B, b) ¯A  ¯B :\n141. Apacowcel, or e\u0018e A patahowy\u0018\u0017 ankax \u0016 B1  B2 an{\nhamate\u0014eli patahowy\u0018neric, apa A-n  B1 ∪B2 ankax en:\n142. Netowm en erkow za\u001c: Ditarkenq het yal patahowy\u0018ner\u0017`\nA1 = ^a\u001cajin za\u001ci vra kbacven zowyg \u0018vov miavorner_,\nA2 = ^erkrord za\u001ci vra kbacven kent \u0018vov miavorner_,\nA3 = ^bacva\u001d miavorneri gowmar\u0017 kent \u0016_:\nApacowcel, or A1, A2, A3-\u0017 zowyg a\u001c zowyg ankax en, bayc \u0017st\nhamaxmbow\u0018yan ankax \u001ben:\n143. Netowm en erkow za\u001c: Xi-n i -rd za\u001ci vra er aco\u0014 miavor{\nneri \u0018ivn \u0016 (i = 1, 2): Ditarkenq het yal patahowy\u0018ner\u0017`\nA1 = ^X1-\u0017 ba\u0019anvowm \u0016 2-i, X2-\u0017 ba\u0019anvowm \u0016 3-i_,",
+      "chunk_id": 65,
+      "chunk_count": 112
+    },
+    {
+      "text": "neri \u0018ivn \u0016 (i = 1, 2): Ditarkenq het yal patahowy\u0018ner\u0017`\nA1 = ^X1-\u0017 ba\u0019anvowm \u0016 2-i, X2-\u0017 ba\u0019anvowm \u0016 3-i_,\nA2 = ^X1-\u0017 ba\u0019anvowm \u0016 3-i, X2-\u0017 ba\u0019anvowm \u0016 2-i_,\nA3 = ^X1-\u0017 ba\u0019anvowm \u0016 X2-i_:\nA4 = ^X2-\u0017 ba\u0019anvowm \u0016 X1-i_,\nA5 = ^X1 + X2-\u0017 ba\u0019anvowm \u0016 2-i_,\nA6 = ^X1 + X2-\u0017 ba\u0019anvowm \u0016 3-i_:\nGtnel ankax patahowy\u0018neri bolor zowyger\u0017  e\u001cyakner\u0017:\n144. A\u001cajin sa\u001eor\u0017 parownakowm \u0016 5 spitak, 11 s  8 karmir\ngndikner, isk erkrord\u0017` 10 spitak, 8 s  6 karmir: Yowraqan{\n\u001byowr sa\u001eoric hanowm en mekakan gndik: Gtnel hanva\u001d gndikneri\nmi nowyn gowyni linelow havanakanow\u0018yown\u0017:\n145. Sa\u001eor\u0017 parownakowm \u0016 2 spitak, 3 s  5 karmir gndikner:\nPatahakanoren hanowm en 3 gndik: Gtnel drancic gone erkowsi\ntarber gowyni linelow havanakanow\u0018yown\u0017:",
+      "chunk_id": 66,
+      "chunk_count": 112
+    },
+    {
+      "text": "32\n146. Erkow hra\u0013ig, oronc hamar \u0018iraxin dip\u001below havanaka{\nnow\u0018yownner\u0017 hamapatasxanabar havasar en 0,7  0,8, talis\nen mekakan krakoc: Gtnel \u0018iraxin a) a\u001cnvazn mek angam dip{\n\u001below, b) miayn mek angam dip\u001below havanakanow\u0018yown\u0017:\n147. In\u001b-or mek\u0017 mo\u001cacel \u0016 he\u001caxosi hamari verjin \u0018van\u001aan\u0017\n havaqowm \u0016 ayn patahakanoren: a) In\u001bpisi? havanakanow\u0018{\nyamb na stipva\u001d klini zangel o\u001b avel qan ereq angam, b) in\u001bpe?s\nk\u001eoxvi havanakanow\u0018yown\u0017, e\u0018e haytni liner, or verjin \u0018van\u001aan\u0017\nkent \u0016:\n148. \rragri 25 harceric owsano\u0014\u0017 giti miayn 20-\u0017: In\u001bpisi?\nhavanakanow\u0018yamb na kpatasxani iren a\u001cajarka\u001d ereq har{\ncerin:\n149. Vi\u0015akaxa\u0014i mek tomsov \u001aahelow havanakanow\u0018yown\u0017 ha{\nvasar \u0016 0,8: In\u001bpisi?n \u0016 2 toms owneco\u0014i \u001aahelow havanakanow{\n\u0018yown\u0017:\n150. Vi\u0015akaxa\u0014i n tomseric l-\u0017 \u001aaho\u0014 \u0016: Omn \u0013e\u001cq \u0016 berowm k",
+      "chunk_id": 67,
+      "chunk_count": 112
+    },
+    {
+      "text": "vasar \u0016 0,8: In\u001bpisi?n \u0016 2 toms owneco\u0014i \u001aahelow havanakanow{\n\u0018yown\u0017:\n150. Vi\u0015akaxa\u0014i n tomseric l-\u0017 \u001aaho\u0014 \u0016: Omn \u0013e\u001cq \u0016 berowm k\ntoms: In\u001bpisi?n \u0016 nrancic gone meki \u001aaho\u0014 linelow havanakanow{\n\u0018yown\u0017:\n151. Apacowcel, or A  B anhamate\u0014eli patahowy\u0018neri hamar\nhavanakanow\u0018yown\u0017, or ankax \u001eor\u0013erowm A patahowy\u0018\u0017 kiraka{\nnana B-ic a\u001caj, havasar \u0016\nP(A)\nP(A) + P(B) :\n152. Dicowq A1 ∩A2 ⊂A: Apacowcel, or\nP(A) ≥P(A1) + P(A2) −1 :\n153. \nrjanin nerg\u001dva\u001d \u0016 qa\u001cakowsi: In\u001bpisi? havanakanow{\n\u0018yamb \u001arjani mej patahakanoren netva\u001d hing keteric mek\u0017",
+      "chunk_id": 68,
+      "chunk_count": 112
+    },
+    {
+      "text": "33\nkgtnvi qa\u001cakowsow nersowm, isk myowsner\u0017` mekakan yowraqan\u001byowr\nsegmentowm:\n154. \u0006lektrakan \u001a\u0014\u0018ayi xzowm\u0017 karo\u0014 \u0016 te\u0014i ownenal ki, i =\n1, 2, 3 tarreric meki \u001aarqic dowrs galow pat\u0015a\u001cov: Tarrer\u0017 \u001aar{\nqic dowrs en galis iraric ankax: N\u001aanakenq pi-ov, i = 1, 2, 3,\ni-rd tarri \u001aarqic dowrs galow havanakanow\u0018yown\u0017` p1 = 0, 3, p2 =\np3 = 0, 2: Gtnel \u001a\u0014\u0018ayi xzman havanakanow\u0018yown\u0017, e\u0018e tarrer\u0017\nmiacva\u001d en a) hajordabar, b) zowgahe\u001c, g) k1-\u0017 hajordabar,\nisk k2  k3 zowgahe\u001c, d) a\u001cajin erkow tarrer\u0017 zowgahe\u001c errordi\nhet:\n155. Erkow xa\u0014aco\u0014 hajordabar netowm en meta\u0014adram\u0017: \na{\nhowm \u0016 ayn xa\u0014aco\u0014\u0017, owm mot aveli \u001aowt kbacvi gerb\u0017: Gtnel\n\u001aahelow havanakanow\u0018yown\u0017 yowraqan\u001byowr xa\u0014aco\u0014i hamar:\n156. Ereq xa\u0014aco\u0014 hajordabar netowm en meta\u0014adram\u0017: \na{",
+      "chunk_id": 69,
+      "chunk_count": 112
+    },
+    {
+      "text": "\u001aahelow havanakanow\u0018yown\u0017 yowraqan\u001byowr xa\u0014aco\u0014i hamar:\n156. Ereq xa\u0014aco\u0014 hajordabar netowm en meta\u0014adram\u0017: \na{\nhowm \u0016 ayn xa\u0014aco\u0014\u0017, owm mot aveli \u001aowt kbacvi gerb\u0017: Gtnel\n\u001aahelow havanakanow\u0018yown\u0017 yowraqan\u001byowr xa\u0014aco\u0014i hamar:\n157. Sa\u001eor\u0017 parownakowm \u0016 a spitak  b s gndikner: Xa\u0014i\nerkow masnakicner hajordabar hanowm en sa\u001eoric mekakan g\u0017n{\ndik, yowraqan\u001byowr angam veradar\u0013nelov ayn et: \nahowm \u0016 ayn\nxa\u0014aco\u0014\u0017, or\u0017 aveli \u001aowt \u0016 hanowm spitak gndik\u0017: Gtnel \u001aahelow\nhavanakanow\u0018yown\u0017 yowraqan\u001byowr xa\u0014aco\u0014i hamar:\n158. Erkow hra\u0013ig hajordabar krakowm en \u0018iraxin min\u001b a\u001ca{\njin dipowk krakoc\u0017: \biraxin dip\u001below havanakanow\u0018yown\u0017 a\u001ca{\njin hra\u0013igi hamar havasar \u0016 0,2-i, isk erkrordi hamar` 0,3-i:\nIn\u001bpisi? havanakanow\u0018yamb a\u001cajin hra\u0013ig\u0017 kkatari aveli \u001aat\nkrakoc, qan erkrord\u0017:",
+      "chunk_id": 70,
+      "chunk_count": 112
+    },
+    {
+      "text": "jin hra\u0013igi hamar havasar \u0016 0,2-i, isk erkrordi hamar` 0,3-i:\nIn\u001bpisi? havanakanow\u0018yamb a\u001cajin hra\u0013ig\u0017 kkatari aveli \u001aat\nkrakoc, qan erkrord\u0017:\n159. Qnnow\u0018yown\u0017 hajo\u0014 han\u0013nelow havanakanow\u0018yown\u0017 ereq owsa{\nno\u0014neric yowraqan\u001byowri hamar hamapatasxanabar havasar\n\u0016 1/5, 1/4  1/3: Ha\u001avel havanakanow\u0018yown\u0017, or qnnow\u0018yown\u0017 hajo\u0014\nkhan\u0013nen ayd 3 owsano\u0014neric gone erkows\u0017:",
+      "chunk_id": 71,
+      "chunk_count": 112
+    },
+    {
+      "text": "34\n160. Sa\u001eor\u0017 parownakowm \u0016 12 gndik, oroncic 4-\u0017 spitak\nen: Ereq xa\u0014aco\u0014ner hajordabar a\u001canc veradar\u0013i hanowm en\nmekakan gndik: Ha\u0014\u0018owm \u0016 ayn xa\u0014aco\u0014\u0017, ov aveli \u001aowt khani\nspitak gndik\u0017: Gtnel \u001aahelow havanakanow\u0018yown\u0017 yowraqan\u001byowr\nxa\u0014aco\u0014i hamar:\n161. \bagavor\u0017 2 erexaneric ba\u0014kaca\u001d \u0017ntaniqic \u0016: In\u001bpi{\nsi? havanakanow\u0018yamb myows erexan nra qowyrn \u0016:\n162. Oro\u001aaki hamaynqi \u0017ntaniqneri 36 tokos\u0017 \u001aown \u0016 pahowm,\n\u001aown owneco\u0014 \u0017ntaniqneri 22 tokos\u0017 pahowm \u0016 na katow: Baci\nayd, ayd hamaynqi \u0017ntaniqneri 30 tokos\u0017 pahowm \u0016 katow: In\u001bi?\n\u0016 havasar.\na) havanakanow\u0018yown\u0017, or patahakanoren \u0017ntrva\u001d \u0017nta{\nniq\u0017 owni  ' \u001aown,  ' katow,\nb) paymanakan havanakanow\u0018yown\u0017, or patahakanoren \u0017n{\ntrva\u001d \u0017ntaniq\u0017 pahowm \u0016 \u001aown, e\u0018e ayn pahowm \u0016 katow:\n163. Oro\u001aaki qoleji owsano\u0014neri 52 tokos\u0017 igakan se\u001ci ner{",
+      "chunk_id": 72,
+      "chunk_count": 112
+    },
+    {
+      "text": "trva\u001d \u0017ntaniq\u0017 pahowm \u0016 \u001aown, e\u0018e ayn pahowm \u0016 katow:\n163. Oro\u001aaki qoleji owsano\u0014neri 52 tokos\u0017 igakan se\u001ci ner{\nkayacowci\u001bner en: Ays qoleji owsano\u0014neri hing tokos\u0017 masnagi{\ntanowm \u0016 hamakarg\u001bayin gitow\u0018yan mej: Owsano\u0014neri erkow tokos\u0017,\noronq sovorowm en hamakarg\u001bayin gitow\u0018yown, a\u0014jikner en: Gtnel\npaymanakan havanakanow\u0018yown\u0017, or patahakanoren \u0017ntrva\u001d\nowsano\u0014\u0017\na) igakan se\u001ci \u0016, ha\u001avi a\u001cnelov, or na masnagitanowm \u0016\nhamakarg\u001bayin gitow\u0018yan mej,\nb) masnagitanowm \u0016 hamakarg\u001bayin gitow\u0018yan mej, ha\u001avi a\u001c{\nnelov, or na igakan se\u001ci \u0016:\nB\n164. 00, 01, . . . , 98, 99 \u0018verov hamarakalva\u001d 100 qarteric pa{\ntahakanoren \u0017ntrowm en mek\u0017: Dicowq ξ  η hamapatasxanabar\n\u0017ntra\u001d qarti \u0018van\u001aanneri gowmarn \u0016  artadryal\u0017: Gtnel P(ξ =\ni/η = 0):",
+      "chunk_id": 73,
+      "chunk_count": 112
+    },
+    {
+      "text": "35\n165. Grase\u0014anowm namaki gtnvelow havanakanow\u0018yown\u0017 hava{\nsar \u0016 p-i, \u0017nd orowm havasar havanakanow\u0018yamb ayn karo\u0014 \u0016\nlinel se\u0014ani ow\u0018 darakneric cankaca\u001dowm: Stowgva\u001d yo\u0018 darak{\nnerowm namak\u0017 \u001bi haytnabervel: In\u001bpisi? havanakanow\u0018yamb ayn\nkgtnvi 8-rd darakowm:\n166. Apacowcel, or e\u0018e A, B, C patahowy\u0018nern ankax en \u0017st\nhamaxmbow\u0018yan, apa a) A  B ∪C , b) A  B ∖C ankax en:\n167. Berel \u001frinak, or\u0017 cowyc \u0016 talis, or P(A1 ∩A2 ∩A3) =\nP(A1)·P(A2)·P(A3)  P(A3) > 0 paymanic \u001bi bxowm P(A1 ∩A2) =\nP(A1) · P(A2) :\n168. Netvowm \u0016 erkow za\u001c: N\u001aanakenq\nAl = ^a\u001cajin za\u001ci vra er aco\u0014 miavorneri \u0018iv\u0017 ba\u0019anvowm \u0016\nl-i_,\nBl = ^erkrord za\u001ci vra er aco\u0014 miavorneri \u0018iv\u0017 ba\u0019anvowm \u0016\nl-i_,\nCl = ^erkow za\u001ceri vra er aco\u0014 miavorneri gowmar\u0017 ba\u0019anvowm\n\u0016 l -i_:\nAnka?x en ardyoq het yal patahowy\u0018neri zowyger\u0017 a) Al, Bk",
+      "chunk_id": 74,
+      "chunk_count": 112
+    },
+    {
+      "text": "l-i_,\nCl = ^erkow za\u001ceri vra er aco\u0014 miavorneri gowmar\u0017 ba\u0019anvowm\n\u0016 l -i_:\nAnka?x en ardyoq het yal patahowy\u0018neri zowyger\u0017 a) Al, Bk\ncankaca\u001d l- i  k-i depqowm,\nb) A2, C2, g) A4, C4 :\n169. (0,0), (0,1), (1,0), (1,1) gaga\u0018ner owneco\u0014 qa\u001cakowsow mej\npatahakanoren n\u001avowm \u0016 M ket\u0017: Dicowq (ξ1, ξ2)-\u0017 ayd keti koordinatnern\nen: r -i o?r ar\u0019eqneri depqowm Ar = (|ξ1−ξ2| ≥r)  Br = (ξ1+ξ2 ≤\n3r) patahowy\u0018ner\u0017 klinen ankax:\n170. \u0007st naxord xndri paymanneri, dicowq A1 = (ξ1 ≤1\n2),\nA2 = (ξ2 ≤1\n2), A3 = ((ξ1 −1\n2)(ξ1 −1\n2) < 0): Cowyc tal or A1, A2, A3\npatahowy\u0018ner\u0017 zowyg a\u001c zowyg ankax en, bayc \u0017st hamaxmbow\u0018yan\nankax \u001ben:\n171. \u0007ndhanracnelov xndir 170-\u0017 cowyc tal, or cankaca\u001d am{\nbo\u0014j n ≥4 hamar goyow\u0018yown owni patahowy\u0018neri {A1, A2, . . . , An}\nhamaxmbow\u0018yown, orn owni het yal hatkow\u0018yownner\u0017`",
+      "chunk_id": 75,
+      "chunk_count": 112
+    },
+    {
+      "text": "36\na) A1, A2, . . . , An patahowy\u0018ner\u0017 xmbovin ankax \u001ben,\nb) A1, A2, . . . , An hamaxmbow\u0018yownic cankaca\u001d patahowy\u0018 he{\n\u001cacnelowc heto mnaca\u001d patahowy\u0018ner\u0017 \u0017st hamaxmbow\u0018yan k\u0017{\nlinen ankax:\n172. A\u001cajin sa\u001eor\u0017 parownakowm \u0016 2 spitak  3 s gndikner,\nerkrord\u0017` 2 spitak  2 s , errord\u0017` 3 spitak  1 s gndikner:\nA\u001cajin sa\u001eoric erkrord\u0017 te\u0014a\u001eoxvowm \u0016 patahakanoren ver{\nc\u0017ra\u001d mek gndik, erkrordic vercra\u001d gndik\u0017` errord, apa error{\ndic` a\u001cajin sa\u001eor: a) Oro\u001ael a\u001cajin sa\u001eori amenahavanakan\nparownakow\u0018yown\u0017, b) in\u001bpisi? havanakanow\u0018yamb bolor sa\u001eor{\nneri parownakow\u0018yown\u0017 kmna an\u001eo\u001eox:\n173. Masnagitakan grakanow\u0018yown oronelis, owsano\u0014\u0017 oro\u001aec\naycelel ereq gradaran: Yowraqan\u001byowr gradarani hamar hava{\nsarahnaravor \u0016, or ayd grakanow\u0018yown\u0017 gtnvowm \u0016 aynte\u0014, kam",
+      "chunk_id": 76,
+      "chunk_count": 112
+    },
+    {
+      "text": "aycelel ereq gradaran: Yowraqan\u001byowr gradarani hamar hava{\nsarahnaravor \u0016, or ayd grakanow\u0018yown\u0017 gtnvowm \u0016 aynte\u0014, kam\n\u001bi gtnvowm, isk e\u0018e gtnvowm \u0016, apa havasarahnaravor \u0016, or\nzba\u0014ecra\u001d \u0016 ayn ayl \u0017n\u0018erco\u0014i ko\u0014mic, \u0018e o\u001b: O?rn \u0016 aveli havana{\nkan` kgtni owsano\u0014\u0017 ayd grakanow\u0018yown\u0017, \u0018e o\u001b, e\u0018e gradaranner\u0017\nhamalrvowm en mek\u0017 myowsic ankax:\n174. Apacowcel, or e\u0018e A1 ∩A2 ∩. . . ∩An ⊂A, apa\nP(A) ≥P(A1) + P(A2) + . . . + P(An) −(n −1) :\n175. Apacowcel, or cankaca\u001d erkow A  B patahowy\u0018neri\nhamar te\u0014i owni het yal a\u001cn\u001bow\u0018yown\u0017`\n|P(A ∩B) −P(A) · P(B)| ≤1\n4 :\n176. Apacowcel, or cankaca\u001d A  B patahowy\u0018neri hamar\nte\u0014i owni het yal anhavasarow\u0018yown\u0017`\nP(A ∪B) · P(A ∩B) ≤P(A) · P(B) :\n177. Ownenq ereq zowyg a\u001c zowyg ankax patahowy\u0018ner, oronq\nhamate\u0014 handes gal \u001ben karo\u0014: En\u0018adrenq, or nranq bolorn \u0016l",
+      "chunk_id": 77,
+      "chunk_count": 112
+    },
+    {
+      "text": "37\nownen mi nowyn x havanakanow\u0018yown\u0017: Gtnel x-i me\u001dagowyn hnara{\nvor ar\u0019eq\u0017:\n178. R \u001aa\u001cavi\u0014 owneco\u0014 gndi nersowm patahakanoren  iraric\nankax n\u001ava\u001d en N keter:\na) In\u001bi? \u0016 havasar kentroni  nra amenamot keti mij e\u0014a\u001d\nhe\u001cavorow\u0018yan r -ic o\u001b pakas linelow havanakanow\u0018yown\u0017,\nb) In\u001bi? \u0016 havasar a) -owm stacva\u001d havanakanow\u0018yan sah{\nman\u0017, erb R →∞ N\nR3 →4\n3πλ:\n179. Molekowl\u0017, or\u0017 t = 0 pahin baxvel \u0016 myows molekowlin  min\u001b \nt pah\u0017 \u001bi ownecel o\u001b mi owri\u001a baxowm, λ △t+o(△t) havanakanow\u0018{\nyamb (t, t+ △t) \u0019amanakamijocowm kownena nor baxowm: Gtnel\n<azat vazqi> t-ic me\u001d linelow havanakanow\u0018yown\u0017:\n180. Xowmb\u0017 ba\u0014kaca\u001d \u0016 k tiezerakan marminneric, oroncic\nyowraqan\u001byowr\u0017 ankax myowsneric haytnabervowm \u0016 \u001cadiolokacion\nkayanov p havanakanow\u0018yamb: Marminneri xowmb\u0017 ditvowm \u0016 ira{",
+      "chunk_id": 78,
+      "chunk_count": 112
+    },
+    {
+      "text": "yowraqan\u001byowr\u0017 ankax myowsneric haytnabervowm \u0016 \u001cadiolokacion\nkayanov p havanakanow\u0018yamb: Marminneri xowmb\u0017 ditvowm \u0016 ira{\nric ankax gor\u001do\u0014 m \u001cadiolokacion kayannerov: Gtnel xmbi o\u001b\nbolor marminneri haytnaberelow havanakanow\u0018yown\u0017:\n181. Or \u0016 hamakargi howsaliow\u0018yown en anvanowm hastatva\u001d\n\u0019amanakamijocowm dra anxa\u001ean a\u001axatanqi havanakanow\u0018yow{\nn\u0017: \u0006lektrakan \u001a\u0014\u0018an ba\u0014kaca\u001d \u0016 a) zowgahe\u001c, b) hajordabar\nmiacva\u001d z1, z2, . . . , zk\ndimadrow\u0018yownneric: Yowraqan\u001byowr dima{\ndrow\u0018yan howsaliow\u0018yown\u0017 havasar \u0016 p -i: Gtnel \u001a\u0014\u0018ayi howsaliow{\n\u0018yown\u0017:\n182. Sa\u001eor\u0017 parownakowm \u0016 a spitak, b s  c karmir gndikner:\nSa\u001eoric mek\u0017 myowsi het ic hanowm en nra mej gtnvo\u0014 bolor\ngndikner\u0017, n\u001aelov nranc gowyn\u0017: Gtnel spitak gndiki s ic \u001aowt\ner alow havanakanow\u0018yown\u0017:",
+      "chunk_id": 79,
+      "chunk_count": 112
+    },
+    {
+      "text": "Sa\u001eoric mek\u0017 myowsi het ic hanowm en nra mej gtnvo\u0014 bolor\ngndikner\u0017, n\u001aelov nranc gowyn\u0017: Gtnel spitak gndiki s ic \u001aowt\ner alow havanakanow\u0018yown\u0017:\n183. \u0007ntrelov sa\u001eoric gndikneri dowrs hanelow hamapatas{\nxan sxeman, stowgel het yal nowynow\u0018yownner\u0017`",
+      "chunk_id": 80,
+      "chunk_count": 112
+    },
+    {
+      "text": "38\na) 1 + N−m\nN−1 + (N−m)(N−m−1)\n(N−1)(N−2)\n+ · · · +\n(N−m)(N−m−1)·...·2·1\n(N−1)(N−2)·...·(m+1)·m = N\nm\nb)1+ N−m\nN\n· m+1\nm + (N−m)(N−m−1)\nN2\n· m+2\nm +· · ·+ (N−m)(N−m−1)·...·2·1\nNN−m\n·\n·N\nm = N\nm :\n184. Sa\u001eor\u0017 parownakowm \u0016 erkow gndik` spitak  s : Sa{\n\u001eoric hanowm en mekakan gndik min\u001b s gndiki dowrs gal\u0017, \u0017nd\norowm, spitak gndiki hanelow depqowm ayn et \u0016 veradar\u0013vowm  \navelacvowm \u0016  s 2 spitak gndik: In\u001bpisi? havanakanow\u0018yamb\na\u001cajin 50 hanva\u001d gndikner\u0017 klinen spitak:\n185. Sa\u001eor\u0017 parownakowm \u0016 n+m mianman gndik, oroncic n-\u0017\nspitak \u0016, isk m-\u0017` s (m ≥n): Irar het ic a\u001canc veradar\u0013i\nn angam hanowm en erkowakan gndik: Gtnel amen angam tarber\ngowyni gndikner hanelow havanakanow\u0018yown\u0017:\n186. A1, A2, . . . , An patahowy\u0018ner\u0017 ankax en \u0017st hamaxmbow{\n\u0018yan  P(Ak) = pk: In\u001bpisi?n \u0016",
+      "chunk_id": 81,
+      "chunk_count": 112
+    },
+    {
+      "text": "gowyni gndikner hanelow havanakanow\u0018yown\u0017:\n186. A1, A2, . . . , An patahowy\u0018ner\u0017 ankax en \u0017st hamaxmbow{\n\u0018yan  P(Ak) = pk: In\u001bpisi?n \u0016\na) A1, A2, . . . , An patahowy\u0018neric o\u001b meki te\u0014i \u001bownenalow,\nb) A1, A2, . . . , An patahowy\u0018neric gone meki te\u0014i ownenalow,\ng ) A1, A2, . . . , An patahowy\u0018neric miayn meki te\u0014i ownenalow\nhavanakanow\u0018yown\u0017:\n187. Dicowq A1, A2, . . . , An-\u0017 ankax patahowy\u0018ner en  P(Ai) =\npi, i = 1, 2, . . . , n: Apacowcel, or ayd patahowy\u0018neric gone meki\ner alow P havanakanow\u0018yown\u0017 bavararowm \u0016\nn\n∑\ni=1\npi > P > 1 −e\n−\nn\n∑\ni=1\npi\nanhavasarow\u0018yownnerin:\n188. In\u001b-or mek\u0017 n hasceatererin namakner \u0016 grel, oroncic\nyowraqan\u001byowr\u0017 drel \u0016 a\u001can\u0013in \u001drari mej  yowraqan\u001byowr \u001drari",
+      "chunk_id": 82,
+      "chunk_count": 112
+    },
+    {
+      "text": "39\nvra patahakanoren grel n hasceneric mek\u0017: Gtnel gone mek\nnamak\u0017 \u0015i\u001at hasceov ow\u0014arkelow havanakanow\u0018yown\u0017:\n189. 1, 2, . . . , n \u0018ver\u0017 dasavorva\u001d en patahakan kargov: In\u001b{\npisi?n \u0016 \u0018veric gone meki ir te\u0014owm gtnvelow pn havanakanow{\n\u0018yown\u0017: Gtnel lim\nn→∞pn:\n190. Patahakanoren \u0017ntrvowm \u0016 n-rd kargi oro\u001a\u001bi verlow{\n\u001dow\u0018yan andamneric mek\u0017: In\u001bpisi? pn havanakanow\u0018yamb ayn \u001bi\nparownaki glxavor ankyownag\u001di tarrer\u0017: Gtnel lim\nn→∞pn:\n191. Dahli\u0015owm ka n te\u0014: Tomser\u0017 hamarakalva\u001d en  bolor\u0017\nva\u0015a\u001cva\u001d: Handisatesner\u0017 patahakanoren zba\u0014ecnowm en te{\n\u0014er\u0017: Gtnel het yal patahowy\u0018neri havanakanow\u0018yownner\u0017.\na) miayn m (m ≤n) handisates nsta\u001d klinen irenc te\u0014erowm,\nb) o\u001b mi handisates nsta\u001d \u001bi lini ir te\u0014owm,\ng) gtnel b)-owm oro\u001ava\u001d havanakanow\u0018yan sahman\u0017, erb\nn →∞:",
+      "chunk_id": 83,
+      "chunk_count": 112
+    },
+    {
+      "text": "b) o\u001b mi handisates nsta\u001d \u001bi lini ir te\u0014owm,\ng) gtnel b)-owm oro\u001ava\u001d havanakanow\u0018yan sahman\u0017, erb\nn →∞:\n192. n vagonneric ba\u0014kaca\u001d \u0016lektragnacq en bar\u0013ranowm\nk (k ≥n) ow\u0014 or, oroncic yowraqan\u001byowr\u0017 patahakanoren \u0017nt{\nrowm \u0016 vagonneric mek\u0017: Gtnel yowraqan\u001byowr vagon a\u001cnvazn mek\now\u0014 or bar\u0013ranalow havanakanow\u0018yown\u0017:\nLriv havanakanow\u0018yan  Bayesi bana\u0013 er\u0017\nDicowq ownenq (Ω, F, P) havanakanayin tara\u001dow\u0018yown: E\u0018e\nA1, A2, . . . , An patahowy\u0018ner\u0017 kazmowm en lriv xowmb  P(Ai) > 0,\ni = 1, ..., n, apa cankaca\u001d B patahowy\u0018i hamar te\u0014i owni lriv\nhavanakanow\u0018yan bana\u0013 \u0017`\nP(B) =\nn\n∑\ni=1\nP(Ai) · P(B/Ai) :\nLriv havanakanow\u0018yan bana\u0013 \u0017 te\u0014i owni na ha\u001aveli \u0018vov\npatahowy\u0018neri hamar` e\u0018e {Ai}∞\ni=1 patahowy\u0018neri hajordaka{\nnow\u0018yownn aynpisin \u0016, or",
+      "chunk_id": 84,
+      "chunk_count": 112
+    },
+    {
+      "text": "40\n1)Ai ∩Aj = ∅, i ̸= j, P(Ai) > 0,\n2)B ⊂\n∞\n∪\ni=1\nAi,\napa cankaca\u001d B patahowy\u0018i hamar\nP(B) =\n∞\n∑\ni=1\nP(Ai) · P(B/Ai) :\nBayesi bana\u0013 \u0017: E\u0018e bavararva\u001d en lriv havanakanow\u0018yan\nbana\u0013 i bolor paymanner\u0017  P(B) ̸= 0, apa\nP(Ak/B) =\nP(Ak) · P(B/Ak)\nn∑\ni=1\nP(Ai) · P(B/Ai)\n, k = 1, 2, . . . , n :\nBayesi bana\u0013 \u0017 te\u0014i owni na ha\u001aveli \u0018vov {Ai}∞\ni=1 pata{\nhowy\u0018neri hamar:\nA\n193. Dominoyi 28 qareric patahakanoren vercnowm en erkows\u0017:\nIn\u001bpisi? havanakanow\u0018yamb nranq kkazmen \u001a\u0014\u0018a` hama\u0013ayn xa{\n\u0014i kanonneri:\n194. Erkow sa\u001eor parownakowm en hamapatasxanabar m1\n m2 spitak  n1  n2 s gndikner: Yowraqan\u001byowr sa\u001eoric\npatahakanoren vercnowm en mekakan gndik, apa ayd erkow g\u0017n{\ndikneric patahakanoren \u0017ntrowm en mek\u0017: In\u001bpisi?n \u0016 ayd gndi{\nki spitak linelow havanakanow\u0018yown\u0017:",
+      "chunk_id": 85,
+      "chunk_count": 112
+    },
+    {
+      "text": "dikneric patahakanoren \u0017ntrowm en mek\u0017: In\u001bpisi?n \u0016 ayd gndi{\nki spitak linelow havanakanow\u0018yown\u0017:\n195. n gndak parownako\u0014 sa\u001eori mej gcvel \u0016 mek spitak\ngndak: Gtnel sa\u001eoric spitak gndak hanelow havanakanow\u0018yow{\nn\u0017, e\u0018e bolor hnaravor en\u0018adrow\u0018yownner\u0017 spitak gndakneri\nskzbnakan qanaki veraberyal havasarahnaravor en:\n196. Ereq sa\u001eorneric yowraqan\u001byowr\u0017 parownakowm \u0016 6 s  \n4 spitak gndikner: A\u001cajin sa\u001eoric patahakanoren vercra",
+      "chunk_id": 86,
+      "chunk_count": 112
+    },
+    {
+      "text": "41\ngndik\u0017 te\u0014a\u001eoxvowm \u0016 erkrord sa\u001eor, apa aydte\u0014ic pata{\nhakanoren vercra\u001d gndik\u0017 te\u0014a\u001eoxvowm \u0016 errord sa\u001eor: Gtnel\nerrord sa\u001eoric patahakanoren hana\u001d gndiki spitak linelow\nhavanakanow\u0018yown\u0017:\n197. n sa\u001eorneric yowraqan\u001byowr\u0017 parownakowm \u0016 a spitak  \nb s gndikner: A\u001cajin sa\u001eoric patahakanoren vercra\u001d mek\ngndik te\u0014a\u001eoxvowm \u0016 erkrord sa\u001eor, apa erkrordic` errord\u0017  \nayln: Verjapes verjin sa\u001eoric hanowm en mek gndik: Gtnel nra\nspitak linelow havanakanow\u0018yown\u0017:\n198. Owsano\u0014\u0017 giti o\u001b bolor qnnakan tomser\u0017: O?r depqowm \u001bi{\nmaca\u001d toms vercnelow havanakanow\u0018yown\u0017 klini \u001eoqragowyn, erb\nowsano\u0014\u0017 vercnowm \u0016 toms\u0017 skzbowm, \u0018e? verjowm:\n199. A\u001cajin sa\u001eor\u0017 parownakowm \u0016 a spitak  b s (a ≥3, b ≥\n3) gndikner, erkrord\u0017` c spitak  d s gndikner: A\u001cajin sa\u001eoric",
+      "chunk_id": 87,
+      "chunk_count": 112
+    },
+    {
+      "text": "199. A\u001cajin sa\u001eor\u0017 parownakowm \u0016 a spitak  b s (a ≥3, b ≥\n3) gndikner, erkrord\u0017` c spitak  d s gndikner: A\u001cajin sa\u001eoric\npatahakanoren vercra\u001d 3 gndik te\u0014a\u001eoxowm en erkrord sa\u001eor:\nGtnel erkrord sa\u001eoric patahakanoren vercra\u001d gndiki spi{\ntak linelow havanakanow\u0018yown\u0017:\n200. Ark\u0014owm ka \u0018enisi 15 gndak, oroncic 9-\u0017 nor en: A\u001cajin\nxa\u0014i hamar patahakanoren vercnowm en 3 gndak, oronq xa\u0014ic\nheto et en veradar\u0013nowm ark\u0014: Erkrord xa\u0014i hamar nowynpes\npatahakanoren vercnowm en 3 gndak: In\u001bpisi?n \u0016 erkrord xa\u0014i\nhamar vercra\u001d gndakneri \u001b\u001fgtagor\u001dva\u001d linelow havanakanow{\n\u0018yown\u0017:\n201. Aryan \u001eoxnerarkman \u0019amanak petq \u0016 ha\u001avi a\u001cnel do{\nnori  hivandi aryan xmber\u0017: IV xmbi aryown owneco\u0014 hivandin\nkareli \u0016 \u001eoxnerarkel cankaca\u001d xmbi aryown, III xmbi aryown",
+      "chunk_id": 88,
+      "chunk_count": 112
+    },
+    {
+      "text": "nori  hivandi aryan xmber\u0017: IV xmbi aryown owneco\u0014 hivandin\nkareli \u0016 \u001eoxnerarkel cankaca\u001d xmbi aryown, III xmbi aryown\nowneco\u0014 hivandin` I kam III xmbi aryown, II xmbi aryown owneco\u0014in`\nI kam II, isk I xmbi aryown owneco\u0014 hivandin ` miayn I xmbi aryown:\nBnak\u001bow\u0018yan 33, 7%-\u0017 ownen I, 37, 5%-\u0017` II , 20, 9%-\u0017` III, 7, 9%-\u0017`\nIV xmbi aryown:",
+      "chunk_id": 89,
+      "chunk_count": 112
+    },
+    {
+      "text": "42\na) In\u001bpisi? havanakanow\u0018yamb patahakanoren \u0017ntra\u001d hi{\nvandin kareli \u0016 \u001eoxnerarkel patahakanoren \u0017ntra\u001d donori\naryown:\nb) In\u001bpisi? havanakanow\u0018yamb kareli \u0016 iragor\u001del aryan \u001eox{\nnerarkowm\u0017, e\u0018e nerka en donorneric erkows\u0017:\n202. Erkow hastoc artadrowm en mianman maser, oronq ow\u0014ark{\nvowm en \u0017ndhanowr pahest: A\u001cajin hastoci artadro\u0014akanow{\n\u0018yown\u0017 erkow angam me\u001d \u0016 erkrordi artadro\u0014akanow\u0018yownic: A\u001ca{\njin hastoci artadranqi 60%-\u0017 bar\u0013r oraki \u0016, isk erkrordini`\n84%-\u0017: Pahestic patahakanoren vercra\u001d mas\u0017 bar\u0013r oraki \u0016:\nIn\u001bpisi? havanakanow\u0018yamb ayn artadrva\u001d \u0016 a\u001cajin hastoci\nvra:\n203. He\u0014yows artadro\u0014 gor\u001darani A, B, C hastocner\u0017 artad{\nrowm en ambo\u0014j artadranqi hamapatasxanabar 25%, 30%  \n40%-\u0017: Nranc artadranqi xotan\u0017 kazmowm \u0016 5%, 4%  2%: Patahakan",
+      "chunk_id": 90,
+      "chunk_count": 112
+    },
+    {
+      "text": "rowm en ambo\u0014j artadranqi hamapatasxanabar 25%, 30%  \n40%-\u0017: Nranc artadranqi xotan\u0017 kazmowm \u0016 5%, 4%  2%: Patahakan\nvercra\u001d he\u0014yows\u0017 xotanva\u001d \u0016: In\u001bpisi? havanakanow\u0018yamb ayn\nartadrva\u001d \u0016 A hastoci, B hastoci, C hastoci vra:\n204. Ereq xmbaqanakneric yowraqan\u001byowr\u0017 parownakowm \u0016 10\nmas: Lavorak maseri qanak\u0017 a\u001cajin, erkrord  errord xmbaqa{\nnaknerowm havasar \u0016 hamapatasxanabar 10, 7  4: Pataha{\nkan xmbaqanakic patahakan vercra\u001d mas\u0017 lavorak \u0016: Ayn et\nen veradar\u0013nowm  nowyn xmbaqanakic erkrord angam vercnowm\nen mek mas, or\u0017 nowynpes lavorak \u0016: Gtnel ayd masi errord xmba{\nqanakin patkanelow havanakanow\u0018yown\u0017:\n205. Hing detalneric ba\u0014kaca\u001d xmbic patahakanoren verc{\nnowm en mek\u0017, parzvowm \u0016 or ayn xotanva\u001d \u0016: Xotanva\u001d detalne{\nri qanak\u0017 havasar havanakanow\u0018yamb karo\u0014 \u0016 linel cankaca\u001d:",
+      "chunk_id": 91,
+      "chunk_count": 112
+    },
+    {
+      "text": "nowm en mek\u0017, parzvowm \u0016 or ayn xotanva\u001d \u0016: Xotanva\u001d detalne{\nri qanak\u0017 havasar havanakanow\u0018yamb karo\u0014 \u0016 linel cankaca\u001d:\nGtnel xotanva\u001d detalneri qanaki veraberyal en\u0018adrow\u0018yown{\nneric amenahavanakan\u0017:\n206. Haytni \u0016, or bolor t\u0014amardkanc 5%-\u0017  bolor kananc\n0, 25%-\u0017 gownakowyr en: Patahakanoren \u0017ntrva\u001d mard\u0017 ta\u001ca{",
+      "chunk_id": 92,
+      "chunk_count": 112
+    },
+    {
+      "text": "43\npowm \u0016 gownakowrow\u0018yamb: In\u001bpisi?n \u0016 havanakanow\u0018yown\u0017, or da\nt\u0014amard \u0016 (t\u0014amardkanc  kananc \u0018iv\u0017 hamarel havasar):\n207. \fentgenyan stowgowmov \u0018oqaxtavori mot \u0018oqaxt hayt{\nnaberelow havanakanow\u0018yown\u0017 havasar \u0016 1 −β-i: A\u001co\u0014j mar{\ndown hivandi te\u0014 \u0017ndownelow havanakanow\u0018yown\u0017 havasar \u0016 α-i:\nDicowq \u0018oqaxtavorner\u0017 kazmowm en ambo\u0014j bnak\u001bow\u0018yan γ mas\u0017:\na) Gtnel mardow a\u001co\u0014j linelow paymanakan havanakanow\u0018yown\u0017,\ne\u0018e stowgman \u0019amanak nran hamarel en hivand: b) Ha\u001avel ha{\nvanakanow\u0018yan ar\u0019eq\u0017 masnavor depqowm, erb 1 −β = 0, 9; α =\n0, 01; γ = 0, 001:\n208. Masnagitacva\u001d hivandanocowm mijin ha\u001avov 50%-\u0017 ta{\n\u001capowm \u0016 K hivandow\u0018yamb, 30%-\u0017` L hivandow\u0018yamb, 20%-\u0017` M\nhivandow\u0018yamb: K, L, M hivandow\u0018yownneric lriv bow\u0019velow hava{\nnakanow\u0018yownner\u0017 hamapatasxanabar havasar en 0,7-i, 0,8-i,",
+      "chunk_id": 93,
+      "chunk_count": 112
+    },
+    {
+      "text": "hivandow\u0018yamb: K, L, M hivandow\u0018yownneric lriv bow\u0019velow hava{\nnakanow\u0018yownner\u0017 hamapatasxanabar havasar en 0,7-i, 0,8-i,\n0,9-i: Bow\u0019vo\u0014neric mek\u0017 a\u001co\u0014jaca\u001d dowrs \u0016 grvowm hivandanocic:\nIn\u001bpisi?n \u0016 havanakanow\u0018yown\u0017, or na ta\u001capowm \u0016r K hivandow{\n\u0018yamb:\n209. Sa\u001eoric, or\u0017 parownakowm \u0016 m ≥3 spitak  n s gndik{\nner, korel \u0016 anhayt gowyni mek gndik: Orpeszi oro\u001aen sa\u001eori\nparownakow\u0018yown\u0017, patahakanoren hanowm en erkow gndik: Gtnel\nkora\u001d gndiki spitak linelow havanakanow\u0018yown\u0017, e\u0018e haytni \u0016,\nor hanva\u001d gndikner\u0017 spitak \u0016in:\n210. Mek krakocov \u0018iraxin dip\u001below havanakanow\u0018yownner\u0017\nereq hra\u0013igneri hamar hamapatasxanabar havasar en 4\n5,\n3\n4,\n2\n3 : Hamazark talow depqowm ereq hra\u0013igneric erkows\u0017 dip\u001bowm en\n\u0018iraxin: Gtnel errord hra\u0013gi vripelow havanakanow\u0018yown\u0017:",
+      "chunk_id": 94,
+      "chunk_count": 112
+    },
+    {
+      "text": "5,\n3\n4,\n2\n3 : Hamazark talow depqowm ereq hra\u0013igneric erkows\u0017 dip\u001bowm en\n\u0018iraxin: Gtnel errord hra\u0013gi vripelow havanakanow\u0018yown\u0017:\n211. Ereq hra\u0013ig krakowm en, \u0017nd orowm erkows\u0017 dip\u001bowm en\n\u0018iraxin: Gtnel errord hra\u0013gi \u0018iraxin dip\u001below havanaka{\nnow\u0018yown\u0017, e\u0018e dip\u001below havanakanow\u0018yownner\u0017 a\u001cajin, erkrord\n errord hra\u0013igneri hamar hamapatasxanabar havasar en\n0,6-i, 0,5 -i  0,4-i:",
+      "chunk_id": 95,
+      "chunk_count": 112
+    },
+    {
+      "text": "44\n212. Avtomeqena artadro\u0014 gor\u001daran\u0017 owrba\u0018 \u001frerin ar{\ntadrowm \u0016 \u001aaba\u0018akan artadrvo\u0014 avtomeqenaneri 12%-\u0017, isk\nerkow\u001aab\u0018iic hing\u001aab\u0018i` mnaca\u001d artadrow\u0018yown\u0017 havasar qa{\nnakow\u0018yamb: Artadranqi xotan\u0017 owrba\u0018 \u001fr\u0017 kazmowm \u0016 4%, er{\nkow\u001aab\u0018i  hing\u001aab\u0018i \u001frerin` 2%, isk ereq\u001aab\u0018i  \u001boreq\u001aab\u0018i\n\u001frerin` 1%: Stowgman hamar vercva\u001d avtomeqenan owni gor\u001da{\nranayin \u0018erow\u0018yown: In\u001bpisi? havanakanow\u0018yamb ayd avtomeqe{\nnan artadrvel \u0016 hing\u001aab\u0018i \u001fr\u0017:\n213. Dowq xndrowm eq har anin, orpeszi na jri \u0013er \u001da\u0014ikner\u0017,\nerb dowq gnaq hangstanalow: A\u001canc jrelow \u001da\u0014ikner\u0017 k\u001boranan\n0,8 havanakanow\u0018yamb, isk jrelov \u001boranalow havanakanow\u0018yown\u0017\nhavasar \u0016 0,15-i: 90 tokos havanakanow\u0018yamb dowq vstah eq, or\n\u0013er har an\u0017 \u001bi mo\u001cana jrel \u001da\u0014ikner\u0017: Dicowq \u001da\u0014ikner\u0017 \u001boracel",
+      "chunk_id": 96,
+      "chunk_count": 112
+    },
+    {
+      "text": "havasar \u0016 0,15-i: 90 tokos havanakanow\u0018yamb dowq vstah eq, or\n\u0013er har an\u0017 \u001bi mo\u001cana jrel \u001da\u0014ikner\u0017: Dicowq \u001da\u0014ikner\u0017 \u001boracel\nen: In\u001bpisin \u0016? havanakanow\u0018yown\u0017, or har an\u0017 mo\u001cacel \u0016r jrel\ndranq:\n214. Ark\u0014owm ka ereq meta\u0014adram: Drancic meki erkow ko\u0014m\u0017\n<gerb> \u0016, myows meta\u0014adram\u0017 kanonavor \u0016, isk errordi \u001danrow\u0018{\nyan kentron\u0017 \u001ae\u0014va\u001d \u0016  75 tokosov bacvowm \u0016 <gerb>-\u0017: Ark\u0014ic\npatahakanoren \u0017ntrowm en mek meta\u0014adram  netowm, ori vra\nbacvowm \u0016 <gerb>-\u0017: In\u001bpisi havanakanow\u0018yamb da erkow <gerb>\nparownako\u0014 meta\u0014adramn \u0016r:\nB\n215. 1, 2, 3, . . . , n \u0018veric hajordabar patahakanoren \u0017ntrowm\nen erkow \u0018iv: Gtnel a\u001cajin  erkrord \u0018veri mij e\u0014a\u001d tarbe{\nrow\u0018yan m-ic (m > 0) \u001eoqr \u001blinelow havanakanow\u0018yown\u0017:\n216. t \u0019amanakamijocowm he\u001caxosakayanowm k kan\u001b stanalow",
+      "chunk_id": 97,
+      "chunk_count": 112
+    },
+    {
+      "text": "row\u0018yan m-ic (m > 0) \u001eoqr \u001blinelow havanakanow\u0018yown\u0017:\n216. t \u0019amanakamijocowm he\u001caxosakayanowm k kan\u001b stanalow\nhavanakanow\u0018yown\u0017 havasar \u0016 Pt(k) -i: Hamarelov, or cankaca\u001d\nerkow har an \u0019amanakamijocnerowm kan\u001beri \u0018ver\u0017 iraric an{\nkax en, gtnel 2t \u0019amanakamijocowm s kan\u001b stanalow P2t(s) ha{\nvanakanow\u0018yown\u0017: In\u001bi? \u0016 havasar P2t(s) -\u0017, e\u0018e Pt(k) = (λt)k\nk! e−λt:",
+      "chunk_id": 98,
+      "chunk_count": 112
+    },
+    {
+      "text": "45\n217. Dicowq ownenq artaqin tesqov mianman n sa\u001eor, \u0017nd\norowm r-rd sa\u001eor\u0017 parownakowm \u0016 r −1 karmir  n −r spitak\ngndikner: Patahakan \u0017ntrva\u001d sa\u001eoric patahakanoren ha{\njordabar a\u001canc veradar\u0013i hanowm en 2 gndik: Gtnel 2-rd han{\nva\u001d gndiki spitak linelow havanakanow\u0018yown\u0017:\n218. S = {1, 2, 3, . . . , N} bazmow\u0018yan bolor en\u0018abazmow\u0018yownneri\nhamaxmbow\u0018yownic veradar\u0013owmov \u0017ntrow\u0018yan sxemayov \u0017ntrowm\nen A1  A2 bazmow\u0018yownner\u0017: In\u001bpisi? havanakanow\u0018yamb A1 ∩\nA2 = ∅:\n219. Kora\u001d inqna\u0018i\u001ci oronman hamar a\u001can\u0013nacrel en 10 ow\u0014{\n\u0014a\u0018i\u001c, oroncic yowraqan\u001byowr\u0017 karo\u0014 \u0016 \u001fgtagor\u001dvel oronman ha{\nmar erkow hnaravor \u001arjanneric mekowm, orte\u0014 inqna\u0018i\u001c\u0017 ka{\nro\u0014 \u0016 gtnvel 0,8  0,2 havanakanow\u0018yownnerov: In\u001bpe?s petq \u0016\nba\u001axel ow\u0014\u0014a\u0018i\u001cner\u0017 \u0017st oronman \u001arjanneri, orpeszi inqna\u0018i\u001ci",
+      "chunk_id": 99,
+      "chunk_count": 112
+    },
+    {
+      "text": "ro\u0014 \u0016 gtnvel 0,8  0,2 havanakanow\u0018yownnerov: In\u001bpe?s petq \u0016\nba\u001axel ow\u0014\u0014a\u0018i\u001cner\u0017 \u0017st oronman \u001arjanneri, orpeszi inqna\u0018i\u001ci\nhaytnaberelow havanakanow\u0018yown\u0017 lini me\u001dagowyn, e\u0018e yowraqan{\n\u001byowr ow\u0014\u0014a\u0018i\u001c haytnaberowm \u0016 oronman \u001arjanowm gtnvo\u0014 inqna\u0018i{\n\u001c\u0017 0,2 havanakanow\u0018yamb, isk oronowm\u0017 katarvowm \u0016 yowraqan\u001byowr\now\u0014\u0014a\u0018i\u001cov ankax myowsneric: Gtnel inqna\u0018i\u001c\u0017 haytnaberelow\nhavanakanow\u0018yown\u0017 oronman lavagowyn tarberaki depqowm:\n220. Owsano\u0014neri xowmb\u0017 ba\u0014kaca\u001d \u0016 a gerazancikneric, b\nlav  \nc \u0018owyl sovoro\u0014 owsano\u0014neric: Qnnow\u0018yan \u0019amanak gera{\nzancik\u0017 stanowm \u0016 miayn gerazanc gnahatakanner, lav sovoro\u0014\nowsano\u0014\u0017` havasar havanakanow\u0018yamb gerazanc  lav gnaha{\ntakanner, \u0018owyl sovoro\u0014 owsano\u0014\u0017` havasar havanakanow\u0018yamb\nlav, bavarar  anbavarar gnahatakanner: Qnnow\u0018yown en han\u0013{",
+      "chunk_id": 100,
+      "chunk_count": 112
+    },
+    {
+      "text": "takanner, \u0018owyl sovoro\u0014 owsano\u0014\u0017` havasar havanakanow\u0018yamb\nlav, bavarar  anbavarar gnahatakanner: Qnnow\u0018yown en han\u0013{\nnowm ayd xmbic patahakanoren \u0017ntra\u001d ereq owsano\u0014: In\u001bpisi?\nhavanakanow\u0018yamb nranq kstanan gerazanc, lav, bavarar\ngnahatakanner (cankaca\u001d kargov):\n221. Oro\u001a vayrowm tvyal \u001frva e\u0014anak\u0017 naxord \u001frva pes linelow\nhavanakanow\u0018yown\u0017 havasar \u0016 p-i, e\u0018e naxord \u001fr\u0017 an\u0013r ayin \u0016r",
+      "chunk_id": 101,
+      "chunk_count": 112
+    },
+    {
+      "text": "46\n q-i, e\u0018e ayd \u001fr\u0017 an\u0013r ayin \u001b\u0016r (p < 1\nkam\nq < 1): Gtnel n-rd\n\u001fr\u0017 an\u0013r ayin linelow pn havanakanow\u0018yown\u0017: Ha\u001avel lim\nn→∞pn:\n222. A  B xa\u0014aco\u0014neric yowraqan\u001byowr\u0017 her\u0018axa\u0014\u0017 \u001aahelow\ndepqowm stanowm \u0016 mek miavor: A-n her\u0018axa\u0014\u0017 \u001aahowm \u0016 α hava{\nnakanow\u0018yamb, B-n` β havanakanow\u0018yamb, \u0017nd orowm, α > β, α +\nβ = 1: Ambo\u0014j xa\u0014\u0017 ha\u0014\u0018owm \u0016 ayn xa\u0014aco\u0014\u0017, or\u0017 haka\u001cakordic\na\u001caj \u0016 ancnowm 2 miavorov: a) Gtnel yowraqan\u001byowr xa\u0014aco\u0014i\nambo\u0014j xa\u0014\u0017 tanelow havanakanow\u0018yown\u0017, b) o?rn \u0016 aveli \u001aahavet\nA xa\u0014aco\u0014i hamar, xa\u0014al mek her\u0018axa\u0014, \u0018e ambo\u0014j xa\u0014\u0017:\n223. A  B xa\u0014aco\u0014ner, oronq ownen hamapatasxan a  b\ndramaglowxner, xa\u0014owm en molexa\u0014, or\u0017 ba\u0014kaca\u001d \u0016 a\u001can\u0013in\nher\u0018axa\u0014eric: Nrancic yowraqan\u001byowr\u0017 her\u0018axa\u0014\u0017 \u001aahowm \u0016\n1\n2\nhavanakanow\u0018yamb: Yowraqan\u001byowr her\u0018axa\u0014ic heto partvo\u0014\u0017",
+      "chunk_id": 102,
+      "chunk_count": 112
+    },
+    {
+      "text": "her\u0018axa\u0014eric: Nrancic yowraqan\u001byowr\u0017 her\u0018axa\u0014\u0017 \u001aahowm \u0016\n1\n2\nhavanakanow\u0018yamb: Yowraqan\u001byowr her\u0018axa\u0014ic heto partvo\u0014\u0017\nv\u0015arowm \u0016 ha\u0014\u0018o\u0014in 1 dram: Xa\u0014\u0017 \u001aarownakvowm \u0016 min\u001b nrancic\nmeki snnkacowm\u0017: Gtnel B xa\u0014aco\u0014i snnkanalow havanakanow{\n\u0018yown\u0017:\n224. En\u0018adrenq naxord xndrowm A xa\u0014aco\u0014\u0017 \u001aahowm \u0016 p > 1\n2\nhavanakanow\u0018yamb  partvowm \u0016 q = 1 −p havanakanow\u0018yamb:\nGtnel erkrord xa\u0014aco\u0014i snnkanalow havanakanow\u0018yown\u0017:\n225. (N +1) sa\u001eorneric yowraqan\u001byowr\u0017 parownakowm \u0016 N spi{\ntak  s gndikner: Gndikneri ba\u001axowm\u0017 \u0017st gowyni tarber \u0016\nbolor sa\u001eornerowm, isk patahakan \u0017ntra\u001d sa\u001eorowm anhayt\n\u0016: Patahakan sa\u001eoric patahakanoren vercnowm en mek gndik\n te\u0014a\u001eoxowm en mek owri\u001a sa\u001eor: Ayd sa\u001eoric vercra\u001d gndik\u0017\nte\u0014a\u001eoxvowm \u0016 mek ayl sa\u001eor  aydpes \u001aarownak: Te\u0014a\u001eoxow{",
+      "chunk_id": 103,
+      "chunk_count": 112
+    },
+    {
+      "text": "te\u0014a\u001eoxowm en mek owri\u001a sa\u001eor: Ayd sa\u001eoric vercra\u001d gndik\u0017\nte\u0014a\u001eoxvowm \u0016 mek ayl sa\u001eor  aydpes \u001aarownak: Te\u0014a\u001eoxow{\n\u0018yownner\u0017 katarowm en (N + 1) angam aynpes, or yowraqan\u001byowr\nsa\u001eor masnakcowm \u0016 miayn mek angam, \u0017nd orowm (N +1)-rd te\u0014a{\n\u001eoxow\u0018yown\u0017 katarvowm \u0016 a\u001cajin \u0017ntra\u001d sa\u001eor\u0017: Gtnel yowra{\nqan\u001byowr sa\u001eorowm skzbnakan parownakow\u0018yan pahpanvelow ha{\nvanakanow\u0018yown\u0017:",
+      "chunk_id": 104,
+      "chunk_count": 112
+    },
+    {
+      "text": "47\n226. N hra\u0013ignerin kareli \u0016 ba\u0019anel \u001bors xmbi` a1 gerazan{\ncik hra\u0013ig, a2 lav, a3 mijak, a4 vat: Mek krakocov \u0018iraxin\ndip\u001below havanakanow\u0018yown\u0017 i -rd xmbi hra\u0013igi hamar havasar\n\u0016 pi-i, i = 1, 2, 3, 4: Erkow patahakan \u0017ntra\u001d hra\u0013igner\u0017 kra{\nkowm en mi nowyn \u0018iraxin: Gtnel gone mek dipowk krakoci havana{\nkanow\u0018yown\u0017:\n227. \u000bors a, b, c, d mardkancic a-n stacel \u0016 te\u0014ekow\u0018yown, or\u0017\n<ayo> kam <o\u001b> azdan\u001aanov ha\u0014ordowm \u0016 b-in, b-n` c-in, c-n` d-in,\nisk d-n ha\u0014ordowm \u0016 stacva\u001d te\u0014ekow\u0018yown\u0017 nowyn \u0013 ov, in\u001bpes\nmyowsner\u0017: Haytni \u0016, or nrancic yowraqan\u001byowr\u0017 asowm \u0016 \u0015\u001amartow{\n\u0018yown\u0017 ereq depqeric mekowm: Oro\u001ael a\u001cajin mardow \u0015\u001amartow\u0018yown\naselow havanakanow\u0018yown\u0017, e\u0018e haytni \u0016, or \u001borrord\u0017 \u0015\u001amartow{\n\u0018yown \u0016 asel:\n228. Anhayt gowyni n gndikner parownako\u0014 sa\u001eoric hanowm en",
+      "chunk_id": 105,
+      "chunk_count": 112
+    },
+    {
+      "text": "aselow havanakanow\u0018yown\u0017, e\u0018e haytni \u0016, or \u001borrord\u0017 \u0015\u001amartow{\n\u0018yown \u0016 asel:\n228. Anhayt gowyni n gndikner parownako\u0014 sa\u001eoric hanowm en\nmek gndik, or\u0017 spitak \u0016: Gtnel erkrord hanva\u001d gndiki spitak\nlinelow havanakanow\u0018yown\u0017: Sa\u001eori skzbnakan parownakow\u0018yan\nmasin bolor en\u0018adrow\u0018yownner\u0017 hamarel havasarahnaravor:\n229. Anhayt gowyni n gndikner parownako\u0014 sa\u001eoric hanowm en\nmek gndik, or\u0017 spitak \u0016: Ayn et veradar\u0013nelowc heto hanowm en\nmek gndik  s: Gtnel ayd gndiki spitak linelow havanakanow\u0018yow{\nn\u0017, e\u0018e skzbnakan parownakow\u0018yan masin bolor en\u0018adrow\u0018yownne{\nr\u0017 havasarahnaravor en:\n230. Iraric ankax a\u001axato\u0014 \u001bors tarreric ba\u0014kaca\u001d sarqi\ntarreric erkows\u0017 xa\u001eanvel en: Gtnel a\u001cajin  erkrord tarreri\nxa\u001eanvelow havanakanow\u0018yown\u0017, e\u0018e ayn a\u001cajin, erkrord, errord",
+      "chunk_id": 106,
+      "chunk_count": 112
+    },
+    {
+      "text": "tarreric erkows\u0017 xa\u001eanvel en: Gtnel a\u001cajin  erkrord tarreri\nxa\u001eanvelow havanakanow\u0018yown\u0017, e\u0018e ayn a\u001cajin, erkrord, errord\n \u001borrord tarreri hamar hamapatasxanabar havasar \u0016 `\np1=0,1, p2=0,2, p3=0,3, p4=0,4:\n231. Owsowmnaranowm sovorowm en n owsano\u0014, oroncic nk-n (k =\n1, 2, 3) sovorowm en k-rd tarin: Erkow patahakan \u0017ntra\u001d owsa{\nno\u0014neric mek\u0017 myowsic \u001aowt \u0016 \u0017ndownvel: Gtnel ayd owsano\u0014i errord\ntarin sovorelow havanakanow\u0018yown\u0017:",
+      "chunk_id": 107,
+      "chunk_count": 112
+    },
+    {
+      "text": "48\n232. Kapi g\u001dov ha\u0014ordvowm en AAAA, BBBB, CCCC hajor{\ndakanow\u0018yownner\u0017 hamapatasxanabar p1, p2, p3 (\n3∑\ni=1\npi = 1) ha{\nvanakanow\u0018yownnerov: Yowraqan\u001byowr ha\u0014ordvo\u0014 A, B kam C ta\u001c\n\u0015i\u001at \u0016 \u0017ndownvowm α havanakanow\u0018yamb, isk 1\n2(1 −α)  1\n2(1 −α)\nhavanakanow\u0018yownnerov \u0017ndownvowm \u0016 myows erkow ta\u001ceri \u001eoxaren:\nEn\u0018adrvowm \u0016, or ta\u001cer\u0017 a\u0014ava\u0014vowm en iraric ankax: In\u001bpisi?\nhavanakanow\u0018yamb ha\u0014ordva\u001d \u0016 e\u0014el AAAA-n, e\u0018e \u0017ndownva\u001d \u0016\nABCA-n:\nBe\u001cnowlii bana\u0013 \u0017\nE\u0018e n ankax \u001eor\u0013eric yowraqan\u001byowrowm A patahowy\u0018i er alow\nhavanakanow\u0018yown\u0017 havasar \u0016 P(A) = p (Be\u001cnowlii sxeman), isk\nµn-\u0017 A patahowy\u0018i i hayt galow \u0018ivn \u0016 n \u001eor\u0013erowm, apa\nP(µn = m) = Pn(m) = Cm\nn pm(1 −p)n−m, m = 0, 1, . . . , n :\nBe\u001cnowlii bana\u0013 i \u0017ndhanracowm\u0017: Dicowq katarowm en n ankax",
+      "chunk_id": 108,
+      "chunk_count": 112
+    },
+    {
+      "text": "P(µn = m) = Pn(m) = Cm\nn pm(1 −p)n−m, m = 0, 1, . . . , n :\nBe\u001cnowlii bana\u0013 i \u0017ndhanracowm\u0017: Dicowq katarowm en n ankax\n\u001eor\u0013er, oroncic yowraqan\u001byowrowm karo\u0014 \u0016 irakananal A1, A2, ...,\nAs anhamate\u0014eli patahowy\u0018neric or \u0016 mek\u0017: N\u001aanakenq P(Ai) =\npi, i = 1, ..., s,\ns∑\ni=1\npi = 1: Havanakanow\u0018yown\u0017, or n ankax \u001eor\u0013erowm\nA1 patahowy\u0018\u0017 kirakanana \u0015i\u001at m1 angam, A2 patahowy\u0018\u0017`\n\u0015i\u001at m2 angam  ayln, As patahowy\u0018\u0017` \u0015i\u001at ms angam, ha\u001avowm\nen het yal bana\u0013 ov`\nPn(m1, m2, . . . , ms) =\nn!\nm1!m2! · · · ms! pm1\n1 pm2\n2\n· · · pms\ns ,\nerb m1 + m2 + . . . + ms = n  Pn(m1, m2, . . . , ms) = 0, erb m1 +\nm2 + . . . + ms ̸= n:\nAyn m-\u0017, orin hamapatasxanowm \u0016 Pn(m)-i me\u001dagowyn ar\u0019eq\u0017,\nko\u001bvowm \u0016 A patahowy\u0018i i hayt galow amenahavanakan \u0018iv  \nn\u001aanakvowm \u0016 mo-ov:\nnp −(1 −p) ≤mo ≤np + p :",
+      "chunk_id": 109,
+      "chunk_count": 112
+    },
+    {
+      "text": "49\nE\u0018e p = pn = λn\nn , orte\u0014 λn →λ (0 < λ < ∞) erb n →∞, apa\n\u0015i\u001at \u0016 het yal a\u001cn\u001bow\u0018yown\u0017 (Powasoni \u0018eorem)`\nlim\nn→∞P(µn = m) = λm\nm! e−λ,\nm = 0, 1, 2, . . . :\nMowavr-Laplasi lokal sahmanayin \u0018eorem\u0017: E\u0018e p = const, 0 <\np < 1, q = 1−p, apa havasara\u001ba\u001e \u0017st ayn m-eri, oronc hamar\nm−np\n√npq me\u001dow\u0018yown\u0017 sahmana\u001eak \u0016, te\u0014i owni\nlim\nn→∞\n(\nP(µn = m) =\n1\n√npq · φ\n(m −np\n√npq\n))\n= 1,\norte\u0014 φ(x) =\n1\n√\n2πe−x2\n2\nfownkciayi ar\u0019eqner\u0017 berva\u001d en xndra{\ngrqi a\u0014yowsak 1-owm:\nMowavr-Laplasi integralayin sahmanayin \u0018eorem\u0017: E\u0018e\np = const, 0 < p < 1, q = 1 −p, apa havasara\u001ba\u001e x1-i  \nx2-i nkatmamb (∀x1, x2 ∈R1)\nP\n(\nx1 < µn −np\n√npq\n< x2\n) −−−−→\nn →∞Φ(x2) −Φ(x1),\norte\u0014 Φ(x) =\n1\n√\n2π\nx∫\n0\ne−u2\n2 du fownkciayi ar\u0019eqner\u0017 berva\u001d en xndra{\ngrqi a\u0014yowsak 2-owm:\nA",
+      "chunk_id": 110,
+      "chunk_count": 112
+    },
+    {
+      "text": "P\n(\nx1 < µn −np\n√npq\n< x2\n) −−−−→\nn →∞Φ(x2) −Φ(x1),\norte\u0014 Φ(x) =\n1\n√\n2π\nx∫\n0\ne−u2\n2 du fownkciayi ar\u0019eqner\u0017 berva\u001d en xndra{\ngrqi a\u0014yowsak 2-owm:\nA\n233. Za\u001c\u0017 netvowm \u0016 5 angam: In\u001bpisi?n \u0016 ereqin bazmapatik\n\u0018vi erkow angam bacvelow havanakanow\u0018yown\u0017:\n234. Katarowm en hing ankax \u001eor\u0013er, oroncic yowraqan\u001byow{\nrowm mia\u0019amanak netowm en ereq za\u001c: In\u001bi? \u0016 havasar \u001eor\u0013eric\nerkowsowm ereqakan miavor stanalow havanakanow\u0018yown\u0017:\n235. In\u001bpisi? havanakanow\u0018yamb 52 xa\u0014a\u0018\u0014\u0018eric ba\u0014kaca\u001d\nkapowk\u0017 \u001bors xa\u0014aco\u0014neri mij ba\u0019anelow \u0019amanak nrancic me{\nki mot ereq angam an\u0017ndmej <mekanoc> \u001bi \u0017nkni:",
+      "chunk_id": 111,
+      "chunk_count": 112
+    }
+  ],
+  "total_length": 66439
+}

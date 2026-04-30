@@ -1,0 +1,1091 @@
+{
+  "source": "data/uploaded/Basic_Business_Statistics_Concepts_and_Applns_12th_ed_intro_txt.pdf",
+  "chunks": [
+    {
+      "text": "TYPE OF DATA\nType of Analysis\nNumerical\nCategorical\nDescribing a group\nor several groups\nOrdered array, stem-and-leaf display, frequency\ndistribution, relative frequency distribution,\npercentage distribution, cumulative percentage\ndistribution, histogram, polygon, cumulative\npercentage polygon (Sections 2.3, 2.5)\nMean, median, mode, quartiles, geometric mean,\nrange, interquartile range, standard deviation,\nvariance, coefficient of variation, boxplot\n(Sections 3.1, 3.2, 3.3)\nIndex numbers (Online Topic 16.8)\nSummary table, bar chart, pie\nchart, Pareto chart (Sections 2.2, 2.4)\nInference about one group\nConfidence interval estimate of the mean\n(Sections 8.1 and 8.2)\nt test for the mean (Section 9.2)\nChi-square test for a variance (Section 12.5)\nConfidence interval estimate of the",
+      "chunk_id": 0,
+      "chunk_count": 217
+    },
+    {
+      "text": "(Sections 8.1 and 8.2)\nt test for the mean (Section 9.2)\nChi-square test for a variance (Section 12.5)\nConfidence interval estimate of the\nproportion (Section 8.3)\nZ test for the proportion\n(Section 9.4)\nComparing two groups\nTests for the difference in the means of two\nindependent populations (Section 10.1)\nPaired t test (Section 10.2)\nF test for the difference between two variances\n(Section 10.4)\nWilcoxon rank sum test (Section 12.6)\nWilcoxon signed ranks test (Online Topic 12.8)\nZ test for the difference between\ntwo proportions (Section 10.3)\nChi-square test for the difference\nbetween two proportions\n(Section 12.1)\nMcNemar test for the difference\nbetween two proportions in related\nsamples (Section 12.4)\nComparing more\nthan two groups\nOne-way analysis of variance (Section 11.1)",
+      "chunk_id": 1,
+      "chunk_count": 217
+    },
+    {
+      "text": "between two proportions in related\nsamples (Section 12.4)\nComparing more\nthan two groups\nOne-way analysis of variance (Section 11.1)\nRandomized block design (Section 11.2)\nTwo-way analysis of variance (Section 11.3)\nKruskal-Wallis test (Section 12.7)\nFriedman rank test (Online Topic 12.9)\nChi-square test for differences\namong more than two proportions\n(Section 12.2)\nAnalyzing the\nrelationship between\ntwo variables\nScatter plot, time series plot (Section 2.6)\nCovariance, coefficient of correlation (Section 3.5)\nSimple linear regression (Chapter 13)\nt test of correlation (Section 13.7)\nTime series forecasting (Chapter 16)\nContingency table, side-by-side\nbar chart, (Sections 2.2, 2.4)\nChi-square test of independence\n(Section 12.3)\nAnalyzing the\nrelationship between\ntwo or more variables",
+      "chunk_id": 2,
+      "chunk_count": 217
+    },
+    {
+      "text": "bar chart, (Sections 2.2, 2.4)\nChi-square test of independence\n(Section 12.3)\nAnalyzing the\nrelationship between\ntwo or more variables\nMultiple regression (Chapters 14 and 15)\nMultidimensional contingency\ntables (Section 2.7)\nLogistic regression (Section 14.7)\nA ROADMAP FOR SELECTING\nA STATISTICAL METHOD",
+      "chunk_id": 3,
+      "chunk_count": 217
+    },
+    {
+      "text": "This page intentionally left blank \n\nBasic Business \nStatistics: Concepts and\nApplications\nTWELFTH EDITION\n\nThis page intentionally left blank",
+      "chunk_id": 4,
+      "chunk_count": 217
+    },
+    {
+      "text": "Basic Business \nStatistics: Concepts and\nApplications\nTWELFTH EDITION\n\nThis page intentionally left blank \n\nMark L. Berenson\nDepartment of Management and Information Systems\nSchool of Business, Montclair State University\nDavid M. Levine\nDepartment of Statistics and Computer Information Systems\nZicklin School of Business, Baruch College, City University of New York\nTimothy C. Krehbiel\nDepartment of Management\nRichard T. Farmer School of Business, Miami University\nBasic Business \nStatistics: Concepts and\nApplications\nTWELFTH EDITION\nPrentice Hall\nBoston\nColumbus\nIndianapolis\nNew York\nSan Francisco\nUpper Saddle River \nAmsterdam\nCape Town\nDubai\nLondon\nMadrid\nMilan\nMunich\nParis\nMontreal\nToronto\nDelhi\nMexico City\nSao Paulo\nSydney\nHong Kong\nSeoul\nSingapore\nTaipei\nTokyo",
+      "chunk_id": 5,
+      "chunk_count": 217
+    },
+    {
+      "text": "Editorial Director: Sally Yagan\nEditor in Chief: Eric Svendsen\nSenior Acquisitions Editor: Chuck Synovec\nEditorial Project Manager: Mary Kate Murray\nEditorial Assistant: Jason Calcano\nDirector of Marketing: Patrice Lumumba Jones\nSenior Marketing Manager: Anne Fahlgren\nMarketing Assistant: Melinda Jensen\nSenior Managing Editor: Judy Leale\nProject Manager: Kerri Tomasso\nSenior Operations Supervisor: Arnold Vila\nSenior Art Director: Kenny Beck\nText Designers: Dina Curro/Suzanne Behnke\nCover Designer and Art: LCI Design\nMedia Editor: Allison Longley\nMedia Project Manager: John Cassar\nFull-Service Project Manager: Jen Carley\nComposition: PreMediaGlobal\nPrinter/Binder: Courier/Kendallville\nCover Printer: Lehigh-Phoenix Color/Hagerstown\nText Font: TimesNewRomanPS\nTechnical Editor: David Stephan",
+      "chunk_id": 6,
+      "chunk_count": 217
+    },
+    {
+      "text": "Printer/Binder: Courier/Kendallville\nCover Printer: Lehigh-Phoenix Color/Hagerstown\nText Font: TimesNewRomanPS\nTechnical Editor: David Stephan\nPhoto Credits: front, page viii, courtesy of Rudy Krehbiel; pp. 2–3: Photos.com; pp. 3, 7: Maga, Shutterstock;\npp. 14–15: Don Farrall, PhotoDisc/Getty Images; pp. 15, 59:Steve Coleccs, iStockphoto; pp. 84–85: Don Farrall,\nPhotoDisc/Getty Images; pp. 85, 121: Steve Coleccs, iStockphoto; pp. 132–133: Ljupco Smokovski, Shutterstock;\npp. 133, 154: © Alan Levenson/Corbis, all rights reserved; pp. 160–161: Sebastian Kaulitzki, Shutterstock;\npp. 161, 183: Monkey Business Images, Shutterstock; pp. 192–193: Alexander Kalina, Shutterstock; pp. 193, 215:",
+      "chunk_id": 7,
+      "chunk_count": 217
+    },
+    {
+      "text": "pp. 161, 183: Monkey Business Images, Shutterstock; pp. 192–193: Alexander Kalina, Shutterstock; pp. 193, 215:\nLee Morris, Shutterstock; pp. 222–223: R. Mackay Photography, Shutterstock; pp. 223, 243: © Corbis, all rights\nreserved; pp. 250–251: Kristy Pargeter, Shutterstock; pp. 251, 283: Marcin Balcerzak, Shutterstock; pp. 296–297:\nPeter Close, Shutterstock; pp. 297, 326: Maja Schon, Shutterstock; pp. 334–335: Travis Manley, Shutterstock; \npp. 335, 366: Michael Bradley, Getty Images; p. 381: Joggie Botma, Shutterstock; pp. 381, 408: Alexey U,\nShutterstock; p. 423: KzlKurt, Shutterstock; pp. 423, 458: Zastolískiyí victor Leonidovich, Shutterstock; p. 471:\ncrystalfoto, Shutterstock; pp. 471, 511: Dmitriy Shironosov, Shutterstock; p. 527: Courtesy of Sharon Rosenberg;",
+      "chunk_id": 8,
+      "chunk_count": 217
+    },
+    {
+      "text": "crystalfoto, Shutterstock; pp. 471, 511: Dmitriy Shironosov, Shutterstock; p. 527: Courtesy of Sharon Rosenberg;\npp. 527, 558: George Bailey, Shutterstock; pp. 570–571: Giedrius Dagys, iStockphoto.com; pp. 571, 596:\nRob Crandall, Stock Boston; p. 604: Rudyanto Wijaya, iStockphoto.com; pp. 604, 643: Cathy Melloan/PhotoEdit Inc.;\npp. 654–655: Ian Logan/Taxi/Getty Images; pp. 655, 684: Kim Steele/Image Bank/Getty; pp. 701, 706: Stepan Popov,\niStockphoto.com; Ch. 19 Photos: Thinkstock.\nCredits and acknowledgments borrowed from other sources and reproduced, with permission, in this textbook\nappear on appropriate page within text.\nMicrosoft® and Windows® are registered trademarks of the Microsoft Corporation in the U.S.A. and other",
+      "chunk_id": 9,
+      "chunk_count": 217
+    },
+    {
+      "text": "appear on appropriate page within text.\nMicrosoft® and Windows® are registered trademarks of the Microsoft Corporation in the U.S.A. and other\ncountries. Screen shots and icons reprinted with permission from the Microsoft Corporation. This book is not\nsponsored or endorsed by or affiliated with the Microsoft Corporation.\nCopyright © 2012, 2009, 2006, 2004, 2002 by Pearson Education, Inc., publishing as Prentice Hall, One\nLake Street, Upper Saddle River, New Jersey 07458. All rights reserved. Manufactured in the United States of\nAmerica. This publication is protected by copyright, and permission should be obtained from the publisher prior\nto any prohibited reproduction, storage in a retrieval system, or transmission in any form or by any means, elec-",
+      "chunk_id": 10,
+      "chunk_count": 217
+    },
+    {
+      "text": "to any prohibited reproduction, storage in a retrieval system, or transmission in any form or by any means, elec-\ntronic, mechanical, photocopying, recording, or likewise. To obtain permission(s) to use material from this work,\nplease submit a written request to Pearson Education, Inc., Permissions Department, One Lake Street, Upper\nSaddle River, New Jersey 07458.\nMany of the designations by manufacturers and sellers to distinguish their products are claimed as trademarks.\nWhere those designations appear in this book, and the publisher was aware of a trademark claim, the designations\nhave been printed in initial caps or all caps.\nCIP data for this title is available on file at the Library of Congress\n10 9 8 7 6 5 4 3 2 1\nISBN 10: 0-13-216838-3\nISBN 13: 978-0-13-216838-0",
+      "chunk_id": 11,
+      "chunk_count": 217
+    },
+    {
+      "text": "To our wives,\nRhoda B., Marilyn L., and, Patti K.,\nand to our children,\nKathy, Lori, Sharyn, Ed, Rudy, and Rhonda",
+      "chunk_id": 12,
+      "chunk_count": 217
+    },
+    {
+      "text": "About the Authors\nviii\nThe textbook authors meet to discuss statistics at a Mets\nbaseball game. Shown left to right: David Levine, Mark\nBerenson, and Tim Krehbiel.\nMark L. Berenson is Professor of Management and Information Systems at\nMontclair State University (Montclair, New Jersey) and also Professor Emeritus of\nStatistics and Computer Information Systems at Bernard M. Baruch College (City\nUniversity of New York). He currently teaches graduate and undergraduate courses in sta-\ntistics and in operations management in the School of Business and an undergraduate\ncourse in international justice and human rights that he co-developed in the College of\nHumanities and Social Sciences.\nBerenson received a B.A. in economic statistics and an M.B.A. in business statistics from",
+      "chunk_id": 13,
+      "chunk_count": 217
+    },
+    {
+      "text": "Humanities and Social Sciences.\nBerenson received a B.A. in economic statistics and an M.B.A. in business statistics from\nCity College of New York and a Ph.D. in business from the City University of New York.\nBerenson’s research has been published in Decision Sciences Journal of Innovative\nEducation, Review of Business Research, The American Statistician, Communications in\nStatistics, Psychometrika, Educational and Psychological Measurement, Journal of\nManagement Sciences and Applied Cybernetics, Research Quarterly, Stats Magazine, The\nNew York Statistician, Journal of Health Administration Education, Journal of Behavioral\nMedicine, and Journal of Surgical Oncology. His invited articles have appeared in The",
+      "chunk_id": 14,
+      "chunk_count": 217
+    },
+    {
+      "text": "Medicine, and Journal of Surgical Oncology. His invited articles have appeared in The\nEncyclopedia of Measurement & Statistics and Encyclopedia of Statistical Sciences. He is\nco-author of 11 statistics texts published by Prentice Hall, including Statistics for\nManagers Using Microsoft Excel, Basic Business Statistics: Concepts and Applications,\nand Business Statistics: A First Course.\nOver the years, Berenson has received several awards for teaching and for innovative con-\ntributions to statistics education. In 2005, he was the first recipient of The Catherine A.\nBecker Service for Educational Excellence Award at Montclair State University.\nDavid M. Levine is Professor Emeritus of Statistics and Computer Infor-",
+      "chunk_id": 15,
+      "chunk_count": 217
+    },
+    {
+      "text": "David M. Levine is Professor Emeritus of Statistics and Computer Infor-\nmation Systems at Baruch College (City University of New York). He received B.B.A. and\nM.B.A. degrees in Statistics from City College of New York and a Ph.D. from New York",
+      "chunk_id": 16,
+      "chunk_count": 217
+    },
+    {
+      "text": "ABOUT THE AUTHORS\nix\nUniversity in Industrial Engineering and Operations Research. He is nationally recognized\nas a leading innovator in statistics education and is the co-author of 14 books, including\nsuch best-selling statistics textbooks as Statistics for Managers Using Microsoft Excel,\nBasic Business Statistics: Concepts and Applications, Business Statistics: A First Course,\nand Applied Statistics for Engineers and Scientists Using Microsoft Excel and Minitab.\nHe also is the co-author of EvenYou Can Learn Statistics: A Guide for Everyone Who Has\nEver Been Afraid of Statistics, currently in its 2nd edition, Six Sigma for Green Belts and\nChampions and Design for Six Sigma for Green Belts and Champions, and the author of",
+      "chunk_id": 17,
+      "chunk_count": 217
+    },
+    {
+      "text": "Champions and Design for Six Sigma for Green Belts and Champions, and the author of\nStatistics for Six Sigma Green Belts, all published by FT Press, a Pearson imprint, and\nQuality Management, 3rd edition, McGraw-Hill/Irwin. He is also the author of Video\nReview of Statistics and Video Review of Probability, both published by Video Aided\nInstruction, and the statistics module of the MBA primer published by Cengage Learning.\nHe has published articles in various journals, including Psychometrika, The American\nStatistician, Communications in Statistics, Decision Sciences Journal of Innovative\nEducation, Multivariate Behavioral Research, Journal of Systems Management, Quality\nProgress, and The American Anthropologist, and given numerous talks at the Decision",
+      "chunk_id": 18,
+      "chunk_count": 217
+    },
+    {
+      "text": "Progress, and The American Anthropologist, and given numerous talks at the Decision\nSciences Institute (DSI), American Statistical Association (ASA), and Making Statistics\nMore Effective in Schools and Business (MSMESB) conferences. Levine has also received\nseveral awards for outstanding teaching and curriculum development from Baruch College.\nTimothy C. Krehbiel is Professor of Management and Senior Associate\nDean of the Farmer School of Business at Miami University in Oxford, Ohio. He teaches\nundergraduate and graduate courses in business statistics. In 1996, he received the presti-\ngious Instructional Innovation Award from the Decision Sciences Institute. He has also\nreceived the Farmer School of Business Effective Educator Award and has twice been\nnamed MBA professor of the year.",
+      "chunk_id": 19,
+      "chunk_count": 217
+    },
+    {
+      "text": "received the Farmer School of Business Effective Educator Award and has twice been\nnamed MBA professor of the year.\nKrehbiel’s research interests span many areas of business and applied statistics. His work\nhas appeared in numerous journals, including Quality Management Journal, Ecological\nEconomics, International Journal of Production Research, Journal of Purchasing and\nSupply Management, Journal of Applied Business Research, Journal of Marketing\nManagement, Communications in Statistics, Decision Sciences Journal of Innovative\nEducation, Journal of Education for Business, Marketing Education Review, Journal of\nAccounting Education, and Teaching Statistics. He is a co-author of three statistics text-\nbooks published by Prentice Hall: Business Statistics: A First Course, Basic Business",
+      "chunk_id": 20,
+      "chunk_count": 217
+    },
+    {
+      "text": "books published by Prentice Hall: Business Statistics: A First Course, Basic Business\nStatistics, and Statistics for Managers Using Microsoft Excel. Krehbiel is also a co-author\nof the book Sustainability Perspectives in Business and Resources.\nKrehbiel graduated summa cum laude with a B.A. in history from McPherson College and\nearned an M.S. and a Ph.D. in statistics from the University of Wyoming.",
+      "chunk_id": 21,
+      "chunk_count": 217
+    },
+    {
+      "text": "This page intentionally left blank",
+      "chunk_id": 22,
+      "chunk_count": 217
+    },
+    {
+      "text": "Brief Contents\nPreface\nxxiii\n1\nIntroduction 2\n2\nOrganizing and Visualizing Data 26\n3\nNumerical Descriptive Measures 94\n4\nBasic Probability 144\n5\nDiscrete Probability Distributions 180\n6\nThe Normal Distribution and Other Continuous Distributions 216\n7\nSampling and Sampling Distributions 248\n8\nConfidence Interval Estimation 278\n9\nFundamentals of Hypothesis Testing: One-Sample Tests 324\n10\nTwo-Sample Tests 364\n11\nAnalysis of Variance 414\n12\nChi-Square Tests and Nonparametric Tests 466\n13\nSimple Linear Regression 520\n14\nIntroduction to Multiple Regression 576\n15\nMultiple Regression Model Building 628\n16\nTime-Series Forecasting 664\n17\nStatistical Applications in Quality Management 716\n18\nA Road Map for Analyzing Data 762\nOnline Chapter: 19 Decision Making\nAppendices A–G 773",
+      "chunk_id": 23,
+      "chunk_count": 217
+    },
+    {
+      "text": "17\nStatistical Applications in Quality Management 716\n18\nA Road Map for Analyzing Data 762\nOnline Chapter: 19 Decision Making\nAppendices A–G 773\nSelf-Test Solutions and Answers to Selected Even-Numbered Problems 820\nIndex 850\nxi",
+      "chunk_id": 24,
+      "chunk_count": 217
+    },
+    {
+      "text": "This page intentionally left blank",
+      "chunk_id": 25,
+      "chunk_count": 217
+    },
+    {
+      "text": "Contents\nxiii\nPreface xxiii\n1 Introduction\n2\nUSING STATISTICS @ Good Tunes & More 3\n1.1\nWhy Learn Statistics 4\n1.2\nStatistics in Business 4\n1.3\nBasic Vocabulary of Statistics 5\n1.4\nIdentifying Type of Variables 7\nMeasurement Scales 7\n1.5\nStatistical Applications for Desktop \nComputing 10\n1.6\nHow to Use This Book 11\nChecklist for Getting Started 11\nUSING STATISTICS @ Good Tunes & More Revisited 13\nSUMMARY 13\nKEY TERMS 13\nCHAPTER REVIEW PROBLEMS 13\nEND-OF-CHAPTER CASES 15\nLEARNING WITH THE DIGITAL CASES 15\nREFERENCES 16\nCHAPTER 1 EXCEL GUIDE 17\nEG1.1 Getting Started with Excel 17\nEG1.2 Entering Data and Variable Type 18\nEG1.3 Opening and Saving Workbooks 18\nEG1.4 Creating and Copying Worksheets 19\nEG1.5 Printing Worksheets 19\nEG1.6 Worksheet Entries and References 20",
+      "chunk_id": 26,
+      "chunk_count": 217
+    },
+    {
+      "text": "EG1.3 Opening and Saving Workbooks 18\nEG1.4 Creating and Copying Worksheets 19\nEG1.5 Printing Worksheets 19\nEG1.6 Worksheet Entries and References 20\nEG1.7 Absolute and Relative Cell References 21\nEG1.8 Entering Formulas into Worksheets 21\nEG1.9 Using Appendices D and F 21\nCHAPTER 1 MINITAB GUIDE 22\nMG1.1 Getting Started With Minitab 22\nMG1.2 Entering Data and Variable Type 22\nMG1.3 Opening and Saving Worksheets and \nProjects 23\nMG1.4 Creating and Copying Worksheets 24\nMG1.5 Printing Parts of a Project 24\nMG1.6 Worksheet Entries and References 24\nMG1.7 Using Appendices D and F 25\n2 Organizing and Visualizing\nData\n26\nUSING STATISTICS @ Choice Is Yours, Part I 27\n2.1\nData Collection 28\nORGANIZING DATA 29\n2.2\nOrganizing Categorical Data 30\nThe Summary Table 30\nThe Contingency Table 30\n2.3",
+      "chunk_id": 27,
+      "chunk_count": 217
+    },
+    {
+      "text": "2.1\nData Collection 28\nORGANIZING DATA 29\n2.2\nOrganizing Categorical Data 30\nThe Summary Table 30\nThe Contingency Table 30\n2.3\nOrganizing Numerical Data 33\nStacked and Unstacked Data 33\nThe Ordered Array 34\nThe Frequency Distribution 35\nThe Relative Frequency Distribution and the Percentage\nDistribution 37\nThe Cumulative Distribution 38\nVISUALIZING DATA 41\n2.4\nVisualizing Categorical Data 41\nThe Bar Chart 42\nThe Pie Chart 43\nThe Pareto Chart 44\nThe Side-by-Side Bar Chart 46\n2.5\nVisualizing Numerical Data 49\nThe Stem-and-Leaf Display 49\nThe Histogram 50\nThe Percentage Polygon 51\nThe Cumulative Percentage Polygon (Ogive) 53\n2.6\nVisualizing Two Numerical Variables 56\nThe Scatter Plot 56\nThe Time-Series Plot 58\n2.7\nOrganizing Multidimensional Data 60\nMultidimensional Contingency Tables 60",
+      "chunk_id": 28,
+      "chunk_count": 217
+    },
+    {
+      "text": "The Scatter Plot 56\nThe Time-Series Plot 58\n2.7\nOrganizing Multidimensional Data 60\nMultidimensional Contingency Tables 60\nAdding Numerical Variables 61\n2.8\nMisuses and Common Errors in Visualizing Data 63\nUSING STATISTICS @ Choice Is Yours, Part I Revisited 66\nSUMMARY 67\nKEY EQUATIONS 67\nKEY TERMS 68\nCHAPTER REVIEW PROBLEMS 68\nMANAGING ASHLAND MULTICOMM SERVICES 74\nDIGITAL CASE 75\nREFERENCES 75\nCHAPTER 2 EXCEL GUIDE 76\nEG2.2 Organizing Categorical Data 76\nEG2.3 Organizing Numerical Data 78\nEG2.4 Visualizing Categorical Data 80\nEG2.5 Visualizing Numerical Data 82\nEG2.6 Visualizing Two Numerical Variables 84\nEG2.7 Organizing Multidimensional Data 85\nCHAPTER 2 MINITAB GUIDE 87\nMG2.2 Organizing Categorical Data 87\nMG2.3 Organizing Numerical Data 87\nMG2.4 Visualizing Categorical Data 88",
+      "chunk_id": 29,
+      "chunk_count": 217
+    },
+    {
+      "text": "CHAPTER 2 MINITAB GUIDE 87\nMG2.2 Organizing Categorical Data 87\nMG2.3 Organizing Numerical Data 87\nMG2.4 Visualizing Categorical Data 88\nMG2.5 Visualizing Numerical Data 89\nMG2.6 Visualizing Two Numerical Variables 92\nMG2.7 Organizing Multidimensional Data 93",
+      "chunk_id": 30,
+      "chunk_count": 217
+    },
+    {
+      "text": "3 Numerical Descriptive\nMeasures\n94\nUSING STATISTICS @ Choice Is Yours, Part II 95\n3.1\nCentral Tendency 96\nThe Mean 96\nThe Median 98\nThe Mode 99\nThe Geometric Mean 100\n3.2\nVariation and Shape 101\nThe Range 102\nThe Variance and the Standard Deviation 102\nThe Coefficient of Variation 106\nZ Scores 107\nShape 108\nVISUAL EXPLORATIONS: Exploring Descriptive\nStatistics 110\n3.3\nExploring Numerical Data 113\nQuartiles 113\nThe Interquartile Range 115\nThe Five-Number Summary 115\nThe Boxplot 117\n3.4\nNumerical Descriptive Measures for a Population 120\nThe Population Mean 121\nThe Population Variance and Standard Deviation 121\nThe Empirical Rule 122\nThe Chebyshev Rule 123\n3.5\nThe Covariance and the Coefficient of \nCorrelation 125\nThe Covariance 125\nThe Coefficient of Correlation 127\n3.6",
+      "chunk_id": 31,
+      "chunk_count": 217
+    },
+    {
+      "text": "The Chebyshev Rule 123\n3.5\nThe Covariance and the Coefficient of \nCorrelation 125\nThe Covariance 125\nThe Coefficient of Correlation 127\n3.6\nDescriptive Statistics: Pitfalls and Ethical Issues 131\nUSING STATISTICS @ Choice Is Yours, Part II Revisited 131\nSUMMARY 132\nKEY EQUATIONS 132\nKEY TERMS 133\nCHAPTER REVIEW PROBLEMS 133\nMANAGING ASHLAND MULTICOMM SERVICES 138\nDIGITAL CASE 138\nREFERENCES 138\nCHAPTER 3 EXCEL GUIDE 139\nEG3.1 Central Tendency 139\nEG3.2 Variation and Shape 139\nEG3.3 Exploring Numerical Data 140\nEG3.4 Numerical Descriptive Measures for a\nPopulation 140\nEG3.5 The Covariance and the Coefficient of\nCorrelation 141\nCHAPTER 3 MINITAB GUIDE 141\nMG3.1 Central Tendency 141\nMG3.2 Variation and Shape 142\nMG3.3 Exploring Numerical Data 142\nMG3.4 Numerical Descriptive Measures for a",
+      "chunk_id": 32,
+      "chunk_count": 217
+    },
+    {
+      "text": "MG3.1 Central Tendency 141\nMG3.2 Variation and Shape 142\nMG3.3 Exploring Numerical Data 142\nMG3.4 Numerical Descriptive Measures for a\nPopulation 143\nMG3.5 The Covariance and the Coefficient of\nCorrelation 143\n4 Basic Probability\n144\nUSING STATISTICS @ M&R Electronics World 145\n4.1\nBasic Probability Concepts 146\nEvents and Sample Spaces 147\nContingency Tables and Venn Diagrams 148\nSimple Probability 149\nJoint Probability 150\nMarginal Probability 150\nGeneral Addition Rule 151\n4.2\nConditional Probability 155\nComputing Conditional Probabilities 155\nDecision Trees 156\nIndependence 158\nMultiplication Rules 159\nMarginal Probability Using the General Multiplication\nRule 160\n4.3\nBayes’Theorem 163\nTHINK ABOUT THIS: Divine Providence and Spam 166\n4.4\nCounting Rules 167\nCounting Rule 1 167",
+      "chunk_id": 33,
+      "chunk_count": 217
+    },
+    {
+      "text": "Rule 160\n4.3\nBayes’Theorem 163\nTHINK ABOUT THIS: Divine Providence and Spam 166\n4.4\nCounting Rules 167\nCounting Rule 1 167\nCounting Rule 2 168\nCounting Rule 3 168\nCounting Rule 4 169\nCounting Rule 5 169\n4.5\nEthical Issues and Probability 171\nUSING STATISTICS @ M&R Electronics World Revisited 172\nSUMMARY 172\nKEY EQUATIONS 172\nKEY TERMS 173\nCHAPTER REVIEW PROBLEMS 173\nDIGITAL CASE 175\nREFERENCES 176\nCHAPTER 4 EXCEL GUIDE 177\nEG4.1 Basic Probability Concepts 177\nEG4.2 Conditional Probability 177\nEG4.3 Bayes’Theorem 177\nEG4.4 Counting Rules 178\nCHAPTER 4 MINITAB GUIDE 178\nMG4.1 Basic Probability Concepts 178\nMG4.2 Conditional Probability 178\nMG4.3 Bayes’Theorem 178\nMG4.4 Counting Rules 178\n5 Discrete Probability\nDistributions\n180\nUSING STATISTICS @ Saxon Home Improvement 181\n5.1",
+      "chunk_id": 34,
+      "chunk_count": 217
+    },
+    {
+      "text": "MG4.3 Bayes’Theorem 178\nMG4.4 Counting Rules 178\n5 Discrete Probability\nDistributions\n180\nUSING STATISTICS @ Saxon Home Improvement 181\n5.1\nThe Probability Distribution for a Discrete Random\nVariable 182\nExpected Value of a Discrete Random Variable 182\nVariance and Standard Deviation of a Discrete Random\nVariable 183\nxiv\nCONTENTS",
+      "chunk_id": 35,
+      "chunk_count": 217
+    },
+    {
+      "text": "5.2\nCovariance and Its Application in Finance 185\nCovariance 185\nExpected Value, Variance, and Standard Deviation of the\nSum of Two Random Variables 187\nPortfolio Expected Return and Portfolio Risk 187\n5.3\nBinomial Distribution 190\n5.4\nPoisson Distribution 197\n5.5\nHypergeometric Distribution 201\n5.6\nOnline Topic Using the Poisson Distribution \nto Approximate the Binomial Distribution 204\nUSING STATISTICS @ Saxon Home Improvement\nRevisited 205\nSUMMARY 205\nKEY EQUATIONS 205\nKEY TERMS 206\nCHAPTER REVIEW PROBLEMS 206\nMANAGING ASHLAND MULTICOMM SERVICES 209\nDIGITAL CASE 210\nREFERENCES 210\nCHAPTER 5 EXCEL GUIDE 211\nEG5.1 The Probability Distribution for a Discrete Random\nVariable 211\nEG5.2 Covariance and Its Application in Finance 211\nEG5.3 Binomial Distribution 212",
+      "chunk_id": 36,
+      "chunk_count": 217
+    },
+    {
+      "text": "Variable 211\nEG5.2 Covariance and Its Application in Finance 211\nEG5.3 Binomial Distribution 212\nEG5.4 Poisson Distribution 212\nEG5.5 Hypergeometric Distribution 213\nCHAPTER 5 MINITAB GUIDE 214\nMG5.1 The Probability Distribution for a Discrete Random\nVariable 214\nMG5.2 Covariance and Its Application in Finance 214\nMG5.3 Binomial Distribution 214\nMG5.4 Poisson Distribution 214\nMG5.5 Hypergeometric Distribution 215\n6 The Normal Distribution\nand Other Continuous\nDistributions\n216\nUSING STATISTICS @ OurCampus! 217\n6.1\nContinuous Probability Distributions 218\n6.2\nThe Normal Distribution 218\nComputing Normal Probabilities 220\nTHINK ABOUT THIS: What Is Normal? 228\nVISUAL EXPLORATIONS: Exploring the Normal\nDistribution 229\n6.3\nEvaluating Normality 230\nComparing Data Characteristics to Theoretical",
+      "chunk_id": 37,
+      "chunk_count": 217
+    },
+    {
+      "text": "VISUAL EXPLORATIONS: Exploring the Normal\nDistribution 229\n6.3\nEvaluating Normality 230\nComparing Data Characteristics to Theoretical\nProperties 231\nConstructing the Normal Probability Plot 232\n6.4\nThe Uniform Distribution 235\n6.5\nThe Exponential Distribution 237\n6.6\nOnline Topic: The Normal Approximation to the\nBinomial Distribution 240\nUSING STATISTICS @ OurCampus! Revisited 240\nSUMMARY 240\nKEY EQUATIONS 241\nKEY TERMS 241\nCHAPTER REVIEW PROBLEMS 241\nMANAGING ASHLAND MULTICOMM SERVICES 244\nDIGITAL CASE 244\nREFERENCES 244\nCHAPTER 6 EXCEL GUIDE 245\nEG6.1 Continuous Probability Distributions 245\nEG6.2 The Normal Distribution 245\nEG6.3 Evaluating Normality 245\nEG6.4 The Uniform Distribution 246\nEG6.5 The Exponential Distribution 246\nCHAPTER 6 MINITAB GUIDE 246",
+      "chunk_id": 38,
+      "chunk_count": 217
+    },
+    {
+      "text": "EG6.3 Evaluating Normality 245\nEG6.4 The Uniform Distribution 246\nEG6.5 The Exponential Distribution 246\nCHAPTER 6 MINITAB GUIDE 246\nMG6.1 Continuous Probability Distributions 246\nMG6.2 The Normal Distribution 246\nMG6.3 Evaluating Normality 247\nMG6.4 The Uniform Distribution 247\nMG6.5 The Exponential Distribution 247\n7 Sampling and Sampling\nDistributions\n248\nUSING STATISTICS @ Oxford Cereals 249\n7.1\nTypes of Sampling Methods 250\nSimple Random Samples 251\nSystematic Samples 253\nStratified Samples 253\nCluster Samples 254\n7.2\nEvaluating Survey Worthiness 255\nSurvey Error 255\nEthical Issues 256\nTHINK ABOUT THIS: New Media Surveys/Old Sampling\nProblem 256\n7.3\nSampling Distributions 258\n7.4\nSampling Distribution of the Mean 258\nThe Unbiased Property of the Sample Mean 258",
+      "chunk_id": 39,
+      "chunk_count": 217
+    },
+    {
+      "text": "Problem 256\n7.3\nSampling Distributions 258\n7.4\nSampling Distribution of the Mean 258\nThe Unbiased Property of the Sample Mean 258\nStandard Error of the Mean 260\nSampling from Normally Distributed Populations 261\nSampling from Non-Normally Distributed Populations—\nThe Central Limit Theorem 264\nVISUAL EXPLORATIONS: Exploring Sampling Distributions 265\n7.5\nSampling Distribution of the Proportion 266\n7.6\nOnline Topic: Sampling from Finite\nPopulations 269\nUSING STATISTICS @ Oxford Cereals Revisited 270\nSUMMARY 270\nKEY EQUATIONS 270\nKEY TERMS 271\nCHAPTER REVIEW PROBLEMS 271\nMANAGING ASHLAND MULTICOMM SERVICES 273\nDIGITAL CASE 273\nREFERENCES 274\nCONTENTS\nxv",
+      "chunk_id": 40,
+      "chunk_count": 217
+    },
+    {
+      "text": "CHAPTER 8 MINITAB GUIDE 322\nMG8.1 Confidence Interval Estimate for the\nMean (\nKnown) 322\nMG8.2 Confidence Interval Estimate for the \nMean (\nUnknown) 323\nMG8.3 Confidence Interval Estimate for the Proportion 323\nMG8.4 Determining Sample Size 323\nMG8.5 Applications of Confidence Interval Estimation\nin Auditing 323\n9 Fundamentals of Hypothesis\nTesting: One-Sample Tests 324\nUSING STATISTICS @ Oxford Cereals, Part II 325\n9.1\nFundamentals of Hypothesis-Testing Methodology 326\nThe Null and Alternative Hypotheses 326\nThe Critical Value of the Test Statistic 327\nRegions of Rejection and Nonrejection 328\nRisks in Decision Making Using Hypothesis Testing 328\nHypothesis Testing Using the Critical Value Approach 331\nHypothesis Testing Using the p-Value Approach 333",
+      "chunk_id": 41,
+      "chunk_count": 217
+    },
+    {
+      "text": "Hypothesis Testing Using the Critical Value Approach 331\nHypothesis Testing Using the p-Value Approach 333\nA Connection Between Confidence Interval Estimation and\nHypothesis Testing 336\nCanYou Ever Know the Population Standard Deviation? 336\n9.2\nt Test of Hypothesis for the Mean (\nUnknown) 338\nThe Critical Value Approach 338\nThe p-Value Approach 340\nChecking the Normality Assumption 340\n9.3\nOne-Tail Tests 344\nThe Critical Value Approach 345\nThe p-Value Approach 346\n9.4\nZ Test of Hypothesis for the Proportion 349\nThe Critical Value Approach 350\nThe p-Value Approach 351\n9.5\nPotential Hypothesis-Testing Pitfalls and Ethical Issues 353\nStatistical Significance Versus Practical Significance 353\nReporting of Findings 353\nEthical Issues 354\n9.6\nOnline Topic: The Power of a Test 354",
+      "chunk_id": 42,
+      "chunk_count": 217
+    },
+    {
+      "text": "Statistical Significance Versus Practical Significance 353\nReporting of Findings 353\nEthical Issues 354\n9.6\nOnline Topic: The Power of a Test 354\nUSING STATISTICS @ Oxford Cereals, Part II Revisited 354\nSUMMARY 355\nKEY EQUATIONS 355\nKEY TERMS 355\nCHAPTER REVIEW PROBLEMS 355\nMANAGING ASHLAND MULTICOMM SERVICES 358\nDIGITAL CASE 358\nREFERENCES 358\nCHAPTER 9 EXCEL GUIDE 359\nEG9.1 Fundamentals of Hypothesis-Testing Methodology 359\nEG9.2 t Test of Hypothesis for the Mean (\nUnknown) 359\nEG9.3 One-Tail Tests 360\nEG9.4 Z Test of Hypothesis for the Proportion 361\nCHAPTER 9 MINITAB GUIDE 362\nMG9.1 Fundamentals of Hypothesis-Testing Methodology 362\nMG9.2 t Test of Hypothesis for the Mean (\nUnknown) 362\nMG9.3 One-Tail Tests 362\nMG9.4 Z Test of Hypothesis for the Proportion 363\ns\ns\ns\ns\ns\nxvi\nCONTENTS",
+      "chunk_id": 43,
+      "chunk_count": 217
+    },
+    {
+      "text": "Unknown) 362\nMG9.3 One-Tail Tests 362\nMG9.4 Z Test of Hypothesis for the Proportion 363\ns\ns\ns\ns\ns\nxvi\nCONTENTS\nCHAPTER 7 EXCEL GUIDE 275\nEG7.1 Types of Sampling Methods 275\nEG7.2 Evaluating Survey Worthiness 275\nEG7.3 Sampling Distributions 275\nEG7.4 Sampling Distribution of the Mean 275\nEG7.5 Sampling Distribution of the Proportion 276\nCHAPTER 7 MINITAB GUIDE 276\nMG7.1 Types of Sampling Methods 276\nMG7.2 Evaluating Survey Worthiness 277\nMG7.3 Sampling Distributions 277\nMG7.4 Sampling Distribution of the Mean 277\n8 Confidence Interval\nEstimation\n278\nUSING STATISTICS @ Saxon Home Improvement 279\n8.1\nConfidence Interval Estimate for the Mean\n(\nKnown) 280\nCan You Ever Know the Population Standard\nDeviation? 285\n8.2\nConfidence Interval Estimate for the \nMean (\nUnknown) 286",
+      "chunk_id": 44,
+      "chunk_count": 217
+    },
+    {
+      "text": "(\nKnown) 280\nCan You Ever Know the Population Standard\nDeviation? 285\n8.2\nConfidence Interval Estimate for the \nMean (\nUnknown) 286\nStudent’s t Distribution 286\nProperties of the t Distribution 287\nThe Concept of Degrees of Freedom 288\nThe Confidence Interval Statement 288\n8.3\nConfidence Interval Estimate for the Proportion 294\n8.4\nDetermining Sample Size 297\nSample Size Determination for the Mean 297\nSample Size Determination for the Proportion 299\n8.5\nApplications of Confidence Interval Estimation in\nAuditing 303\nEstimating the Population Total Amount 304\nDifference Estimation 305\nOne-Sided Confidence Interval Estimation of the Rate of\nNoncompliance with Internal Controls 308\n8.6\nConfidence Interval Estimation and Ethical Issues 310\n8.7\nOnline Topic: Estimation and Sample Size",
+      "chunk_id": 45,
+      "chunk_count": 217
+    },
+    {
+      "text": "Noncompliance with Internal Controls 308\n8.6\nConfidence Interval Estimation and Ethical Issues 310\n8.7\nOnline Topic: Estimation and Sample Size\nDetermination for Finite Populations 311\nUSING STATISTICS @ Saxon Home Improvement\nRevisited 311\nSUMMARY 311\nKEY EQUATIONS 312\nKEY TERMS 313\nCHAPTER REVIEW PROBLEMS 313\nMANAGING ASHLAND MULTICOMM SERVICES 317\nDIGITAL CASE 318\nREFERENCES 318\nCHAPTER 8 EXCEL GUIDE 319\nEG8.1 Confidence Interval Estimate for the\nMean (\nKnown) 319\nEG8.2 Confidence Interval Estimate for the \nMean (\nUnknown) 319\nEG8.3 Confidence Interval Estimate for the Proportion 320\nEG8.4 Determining Sample Size 320\nEG8.5 Applications of Confidence Interval Estimation in\nAuditing 321\ns\ns\ns\ns",
+      "chunk_id": 46,
+      "chunk_count": 217
+    },
+    {
+      "text": "CONTENTS\nxvii\n11.2 The Randomized Block Design 430\nTesting for Factor and Block Effects 430\nMultiple Comparisons: The Tukey Procedure 436\n11.3 The Factorial Design: Two-Way Analysis of Variance 438\nTesting for Factor and Interaction Effects 439\nMultiple Comparisons: The Tukey Procedure 444\nVisualizing Interaction Effects: The Cell Means Plot 445\nInterpreting Interaction Effects 446\nUSING STATISTICS @ Perfect Parachutes Revisited 451\nSUMMARY 451\nKEY EQUATIONS 451\nKEY TERMS 453\nCHAPTER REVIEW PROBLEMS 453\nMANAGING ASHLAND MULTICOMM SERVICES 457\nDIGITAL CASE 458\nREFERENCES 458\nCHAPTER 11 EXCEL GUIDE 459\nEG11.1 The Completely Randomized Design: One-Way\nAnalysis of Variance 459\nEG11.2 The Randomized Block Design 461\nEG11.3 The Factorial Design: Two-Way Analysis of\nVariance 462",
+      "chunk_id": 47,
+      "chunk_count": 217
+    },
+    {
+      "text": "Analysis of Variance 459\nEG11.2 The Randomized Block Design 461\nEG11.3 The Factorial Design: Two-Way Analysis of\nVariance 462\nCHAPTER 11 MINITAB GUIDE 464\nMG11.1 The Completely Randomized Design: One-Way\nAnalysis of Variance 464\nMG11.2 The Randomized Block Design 465\nMG11.3 The Factorial Design: Two-Way Analysis of\nVariance 465\n12 Chi-Square Tests and\nNonparametric Tests\n466\nUSING STATISTICS @ T.C. Resort Properties 467\n12.1 Chi-Square Test for the Difference Between Two\nProportions 468\n12.2 Chi-Square Test for Differences Among More Than Two\nProportions 475\nThe Marascuilo Procedure 478\nOnline Topic: The Analysis of Proportions (ANOP) 480\n12.3 Chi-Square Test of Independence 481\n12.4 McNemar Test for the Difference Between Two Proportions\n(Related Samples) 487",
+      "chunk_id": 48,
+      "chunk_count": 217
+    },
+    {
+      "text": "12.3 Chi-Square Test of Independence 481\n12.4 McNemar Test for the Difference Between Two Proportions\n(Related Samples) 487\n12.5 Chi-Square Test for the Variance or Standard\nDeviation 490\n12.6 Wilcoxon Rank Sum Test: Nonparametric Analysis\nfor Two Independent Populations 494\n12.7 Kruskal-Wallis Rank Test: Nonparametric Analysis\nfor the One-Way ANOVA 500\n12.8\nOnline Topic: Wilcoxon Signed Ranks test:\nNonparametric Analysis for Two Related Populations 505\n12.9\nOnline Topic: Friedman Rank Test: Nonparametric\nAnalysis for the Randomized Block Design 506\n10 Two-Sample Tests\n364\nUSING STATISTICS @ BLK Beverages 365\n10.1 Comparing the Means of Two Independent\nPopulations 366\nPooled-Variance t Test for the Difference Between Two\nMeans 366\nConfidence Interval Estimate for the Difference Between",
+      "chunk_id": 49,
+      "chunk_count": 217
+    },
+    {
+      "text": "Populations 366\nPooled-Variance t Test for the Difference Between Two\nMeans 366\nConfidence Interval Estimate for the Difference Between\nTwo Means 371\nt Test for the Difference Between Two Means Assuming\nUnequal Variances 372\nTHINK ABOUT THIS: “This Call May Be Monitored ... ” 374\n10.2 Comparing the Means of Two Related Populations 377\nPaired t Test 378\nConfidence Interval Estimate for the Mean \nDifference 383\n10.3 Comparing the Proportions of Two Independent\nPopulations 385\nZ Test for the Difference Between Two Proportions 386\nConfidence Interval Estimate for the Difference Between\nTwo Proportions 390\n10.4 F Test for the Ratio of Two Variances 392\nUSING STATISTICS @ BLK Beverages Revisited 397\nSUMMARY 398\nKEY EQUATIONS 399\nKEY TERMS 400\nCHAPTER REVIEW PROBLEMS 400",
+      "chunk_id": 50,
+      "chunk_count": 217
+    },
+    {
+      "text": "USING STATISTICS @ BLK Beverages Revisited 397\nSUMMARY 398\nKEY EQUATIONS 399\nKEY TERMS 400\nCHAPTER REVIEW PROBLEMS 400\nMANAGING ASHLAND MULTICOMM SERVICES 404\nDIGITAL CASE 405\nREFERENCES 405\nCHAPTER 10 EXCEL GUIDE 406\nEG10.1 Comparing the Means of Two Independent\nPopulations 406\nEG10.2 Comparing the Means of Two Related\nPopulations 408\nEG10.3 Comparing the Proportions of Two Independent\nPopulations 409\nEG10.4 F Test for the Ratio of Two Variances 410\nCHAPTER 10 MINITAB GUIDE 411\nMG10.1 Comparing the Means of Two Independent\nPopulations 411\nMG10.2 Comparing the Means of Two Related\nPopulations 411\nMG10.3 Comparing the Proportions of Two Independent\nPopulations 412\nMG10.4 F Test for the Ratio of Two Variances 412\n11 Analysis of Variance\n414\nUSING STATISTICS @ Perfect Parachutes 415",
+      "chunk_id": 51,
+      "chunk_count": 217
+    },
+    {
+      "text": "Populations 412\nMG10.4 F Test for the Ratio of Two Variances 412\n11 Analysis of Variance\n414\nUSING STATISTICS @ Perfect Parachutes 415\n11.1 The Completely Randomized Design: One-Way Analysis\nof Variance 416\nOne-Way ANOVA F Test for Differences Among More Than\nTwo Means 416\nMultiple Comparisons: The Tukey-Kramer Procedure 422\nOnline Topic: The Analysis of Means (ANOM) 424\nANOVA Assumptions 424\nLevene Test for Homogeneity of Variance 425\nUSING STATISTICS @ T.C. Resort Properties Revisited 506\nSUMMARY 506\nKEY EQUATIONS 507\nKEY TERMS 508",
+      "chunk_id": 52,
+      "chunk_count": 217
+    },
+    {
+      "text": "xviii\nCONTENTS\nConfidence Interval Estimate for the Slope 550\nt Test for the Correlation Coefficient 551\n13.8 Estimation of Mean Values and Prediction of Individual\nValues 554\nThe Confidence Interval Estimate 554\nThe Prediction Interval 556\n13.9 Pitfalls in Regression 558\nTHINK ABOUT THIS: By Any Other Name 561\nUSING STATISTICS @ Sunflowers Apparel \nRevisited 561\nSUMMARY 562\nKEY EQUATIONS 563\nKEY TERMS 564\nCHAPTER REVIEW PROBLEMS 564\nMANAGING ASHLAND MULTICOMM SERVICES 569\nDIGITAL CASE 569\nREFERENCES 570\nCHAPTER 13 EXCEL GUIDE 571\nEG13.1 Types of Regression Models 571\nEG13.2 Determining the Simple Linear Regression\nEquation 571\nEG13.3 Measures of Variation 572\nEG13.4 Assumptions 572\nEG13.5 Residual Analysis 572\nEG13.6 Measuring Autocorrelation: The Durbin-Watson\nStatistic 572",
+      "chunk_id": 53,
+      "chunk_count": 217
+    },
+    {
+      "text": "EG13.4 Assumptions 572\nEG13.5 Residual Analysis 572\nEG13.6 Measuring Autocorrelation: The Durbin-Watson\nStatistic 572\nEG13.7 Inferences About the Slope and Correlation\nCoefficient 573\nEG13.8 Estimation of Mean Values and Prediction\nof Individual Values 573\nCHAPTER 13 MINITAB GUIDE 574\nMG13.1 Types of Regression Models 574\nMG13.2 Determining the Simple Linear Regression\nEquation 574\nMG13.3 Measures of Variation 574\nMG13.4 Assumptions 574\nMG13.5 Residual Analysis 574\nMG13.6 Measuring Autocorrelation: The Durbin-Watson\nStatistic 575\nMG13.7 Inferences About the Slope and Correlation\nCoefficient 575\nMG13.8 Estimation of Mean Values and Prediction \nof Individual Values 575\n14 Introduction to Multiple\nRegression\n576\nUSING STATISTICS @ OmniFoods 577\n14.1 Developing a Multiple Regression Model 578",
+      "chunk_id": 54,
+      "chunk_count": 217
+    },
+    {
+      "text": "of Individual Values 575\n14 Introduction to Multiple\nRegression\n576\nUSING STATISTICS @ OmniFoods 577\n14.1 Developing a Multiple Regression Model 578\nVisualizing Multiple Regression Data 578\nInterpreting the Regression Coefficients 578\nPredicting the Dependent Variable Y 581\n14.2\nr2, Adjusted r2, and the Overall F Test 584\nCoefficient of Multiple Determination 584\nAdjusted r2 585\nTest for the Significance of the Overall Multiple \nRegression Model 585\n14.3 Residual Analysis for the Multiple Regression\nModel 588\nCHAPTER REVIEW PROBLEMS 508\nMANAGING ASHLAND MULTICOMM SERVICES 511\nDIGITAL CASE 512\nREFERENCES 513\nCHAPTER 12 EXCEL GUIDE 514\nEG12.1 Chi-Square Test for the Difference Between\nTwo Proportions 514\nEG12.2 Chi-Square Test for Differences Among More Than\nTwo Proportions 514",
+      "chunk_id": 55,
+      "chunk_count": 217
+    },
+    {
+      "text": "EG12.1 Chi-Square Test for the Difference Between\nTwo Proportions 514\nEG12.2 Chi-Square Test for Differences Among More Than\nTwo Proportions 514\nEG12.3 Chi-Square Test of Independence 515\nEG12.4 McNemar Test for the Difference Between Two\nProportions (Related Samples) 515\nEG12.5 Chi-Square Test for the Variance or Standard\nDeviation 516\nEG12.6 Wilcoxon Rank Sum Test: Nonparametric Analysis\nfor Two Independent Populations 516\nEG12.7 Kruskal-Wallis Rank Test: Nonparametric Analysis\nfor the One-Way ANOVA 517\nCHAPTER 12 MINITAB GUIDE 518\nMG12.1 Chi-Square Test for the Difference Between Two\nProportions 518\nMG12.2 Chi-Square Test for Differences Among More\nThan Two Proportions 518\nMG12.3 Chi-Square Test of Independence 518\nMG12.4 McNemar Test for the Difference Between Two",
+      "chunk_id": 56,
+      "chunk_count": 217
+    },
+    {
+      "text": "Than Two Proportions 518\nMG12.3 Chi-Square Test of Independence 518\nMG12.4 McNemar Test for the Difference Between Two\nProportions (Related Samples) 518\nMG12.5 Chi-Square Test for the Variance or Standard\nDeviation 518\nMG12.6 Wilcoxon Rank Sum Test: Nonparametric\nAnalysis for Two Independent Populations 519\nEG12.7 Kruskal-Wallis Rank Test: Nonparametric Analysis\nfor the One-Way ANOVA 519\n13 Simple Linear\nRegression\n520\nUSING STATISTICS @ Sunflowers Apparel 521\n13.1 Types of Regression Models 522\n13.2 Determining the Simple Linear Regression Equation 524\nThe Least-Squares Method 525\nPredictions in Regression Analysis: Interpolation Versus\nExtrapolation 527\nComputing the Y Intercept,\nand the Slope, \n528\nVISUAL EXPLORATIONS: Exploring Simple Linear Regression\nCoefficients 530",
+      "chunk_id": 57,
+      "chunk_count": 217
+    },
+    {
+      "text": "Extrapolation 527\nComputing the Y Intercept,\nand the Slope, \n528\nVISUAL EXPLORATIONS: Exploring Simple Linear Regression\nCoefficients 530\n13.3 Measures of Variation 533\nComputing the Sum of Squares 533\nThe Coefficient of Determination 534\nStandard Error of the Estimate 536\n13.4 Assumptions 538\n13.5 Residual Analysis 539\nEvaluating the Assumptions 539\n13.6 Measuring Autocorrelation: The Durbin-Watson\nStatistic 543\nResidual Plots to Detect Autocorrelation 543\nThe Durbin-Watson Statistic 544\n13.7 InferencesAbout the Slope and Correlation Coefficient 547\nt Test for the Slope 548\nF Test for the Slope 549\nb1\nb0",
+      "chunk_id": 58,
+      "chunk_count": 217
+    },
+    {
+      "text": "CONTENTS\nxix\n15.3 Collinearity 642\n15.4 Model Building 644\nThe Stepwise Regression Approach to Model Building 646\nThe Best-Subsets Approach to Model Building 647\nModel Validation 652\n15.5 Pitfalls in Multiple Regression and Ethical Issues 653\nPitfalls in Multiple Regression 653\nEthical Issues 654\n15.6 (\nOnline Topic) Influence Analysis 654\n15.7 (\nOnline Topic) Analytics and Data Mining 654\nUSING STATISTICS @ WHIT-DT Revisited 654\nSUMMARY 655\nKEY EQUATIONS 656\nKEY TERMS 656\nCHAPTER REVIEW PROBLEMS 656\nTHE MOUNTAIN STATES POTATO COMPANY 658\nDIGITAL CASE 659\nREFERENCES 659\nCHAPTER 15 EXCEL GUIDE 660\nEG15.1 The Quadratic Regression Model 660\nEG15.2 Using Transformations in Regression Models 660\nEG15.3 Collinearity 660\nEG15.4 Model Building 660\nCHAPTER 15 MINITAB GUIDE 661",
+      "chunk_id": 59,
+      "chunk_count": 217
+    },
+    {
+      "text": "EG15.2 Using Transformations in Regression Models 660\nEG15.3 Collinearity 660\nEG15.4 Model Building 660\nCHAPTER 15 MINITAB GUIDE 661\nMG15.1 The Quadratic Regression Model 661\nMG15.2 Using Transformations in Regression Models 662\nMG15.3 Collinearity 662\nMG15.4 Model Building 662\n16 Time-Series Forecasting 664\nUSING STATISTICS @ The Principled 665\n16.1 The Importance of Business Forecasting 666\n16.2 Component Factors of Time-Series Models 666\n16.3 Smoothing an Annual Time Series 667\nMoving Averages 668\nExponential Smoothing 670\n16.4 Least-Squares Trend Fitting and Forecasting 673\nThe Linear Trend Model 673\nThe Quadratic Trend Model 675\nThe Exponential Trend Model 676\nModel Selection Using First, Second, and Percentage\nDifferences 678\n16.5 Autoregressive Modeling for Trend Fitting and",
+      "chunk_id": 60,
+      "chunk_count": 217
+    },
+    {
+      "text": "Model Selection Using First, Second, and Percentage\nDifferences 678\n16.5 Autoregressive Modeling for Trend Fitting and\nForecasting 684\n16.6 Choosing an Appropriate Forecasting Model 692\nPerforming a Residual Analysis 693\nMeasuring the Magnitude of the Residuals Through Squared\nor Absolute Differences 693\nUsing the Principle of Parsimony 694\nA Comparison of Four Forecasting Methods 694\n16.7 Time-Series Forecasting of Seasonal Data 696\nLeast-Squares Forecasting with Monthly or Quarterly Data 697\n16.8\nOnline Topic: Index Numbers 703\nTHINK ABOUT THIS: Let the Model User Beware 703\n14.4 Inferences Concerning the Population Regression\nCoefficients 590\nTests of Hypothesis 590\nConfidence Interval Estimation 591\n14.5 Testing Portions of the Multiple Regression\nModel 593",
+      "chunk_id": 61,
+      "chunk_count": 217
+    },
+    {
+      "text": "Coefficients 590\nTests of Hypothesis 590\nConfidence Interval Estimation 591\n14.5 Testing Portions of the Multiple Regression\nModel 593\nCoefficients of Partial Determination 597\n14.6 Using Dummy Variables and Interaction Terms in\nRegression Models 599\nDummy variables 599\nInteractions 602\n14.7 Logistic Regression 609\nUSING STATISTICS @ OmniFoods Revisited 614\nSUMMARY 614\nKEY EQUATIONS 616\nKEY TERMS 617\nCHAPTER REVIEW PROBLEMS 617\nMANAGING ASHLAND MULTICOMM SERVICES 620\nDIGITAL CASE 620\nREFERENCES 621\nCHAPTER 14 EXCEL GUIDE 622\nEG14.1 Developing a Multiple Regression Model 622\nEG14.2 r2, Adjusted r2, and the Overall F Test 623\nEG14.3 ResidualAnalysis for the Multiple Regression\nModel 623\nEG14.4 Inferences Concerning the Population Regression\nCoefficients 624",
+      "chunk_id": 62,
+      "chunk_count": 217
+    },
+    {
+      "text": "EG14.3 ResidualAnalysis for the Multiple Regression\nModel 623\nEG14.4 Inferences Concerning the Population Regression\nCoefficients 624\nEG14.5 Testing Portions of the Multiple Regression\nModel 624\nEG14.6 Using Dummy Variables and Interaction Terms\nin Regression Models 624\nEG14.7 Logistic Regression 624\nCHAPTER 14 MINITAB GUIDE 625\nMG14.1 Developing a Multiple Regression Model 625\nMG14.2 r2, Adjusted r2, and the Overall F Test 626\nMG14.3 Residual Analysis for the Multiple Regression\nModel 626\nMG14.4 Inferences Concerning the Population Regression\nCoefficients 626\nMG14.5 Testing Portions of the Multiple Regression\nModel 626\nMG14.6 Using Dummy Variables and Interaction Terms\nin Regression Models 626\nMG14.7 Logistic Regression 627\n15 Multiple Regression Model\nBuilding\n628",
+      "chunk_id": 63,
+      "chunk_count": 217
+    },
+    {
+      "text": "MG14.6 Using Dummy Variables and Interaction Terms\nin Regression Models 626\nMG14.7 Logistic Regression 627\n15 Multiple Regression Model\nBuilding\n628\nUSING STATISTICS @ WHIT-DT 629\n15.1 The Quadratic Regression Model 630\nFinding the Regression Coefficients and Predicting Y 630\nTesting for the Significance of the Quadratic Model 633\nTesting the Quadratic Effect 633\nThe Coefficient of Multiple Determination 635\n15.2 Using Transformations in Regression Models 638\nThe Square-Root Transformation 638\nThe Log Transformation 639",
+      "chunk_id": 64,
+      "chunk_count": 217
+    },
+    {
+      "text": "xx\nCONTENTS\nMANAGING ASHLAND MULTICOMM SERVICES 753\nREFERENCES 754\nCHAPTER 17 EXCEL GUIDE 755\nEG17.1 The Theory of Control Charts 755\nEG17.2 Control Chart for the Proportion: The p Chart 755\nEG17.3 The Red Bead Experiment: Understanding Process\nVariability 756\nEG17.4 Control Chart for an Area of Opportunity: The c\nChart 756\nEG17.5 Control Charts for the Range and the Mean 757\nEG17.6 Process Capability 758\nEG17.7 Total Quality Management 759\nEG17.8 Six Sigma 759\nCHAPTER 17 MINITAB GUIDE 759\nMG17.1 The Theory of Control Charts 759\nMG17.2 Control Chart for the Proportion:\nThe p Chart 759\nMG17.3 The Red Bead Experiment: Understanding\nProcess Variability 759\nMG17.4 Control Chart for an Area of Opportunity: The c\nChart 756\nMG17.5 Control Charts for the Range and the Mean 760",
+      "chunk_id": 65,
+      "chunk_count": 217
+    },
+    {
+      "text": "Process Variability 759\nMG17.4 Control Chart for an Area of Opportunity: The c\nChart 756\nMG17.5 Control Charts for the Range and the Mean 760\nMG17.6 Process Capability 761\nMG17.7 Total Quality Management 761\nMG17.8 Six Sigma 761\n18 A Roadmap for Analyzing\nData\n762\nUSING STATISTICS @ YourBusiness 763\n18.1 Analyzing Numerical Variables 765\nHow to Describe the Characteristics of a Numerical\nVariable 766\nHow to Draw Conclusions About the Population Mean \nor Standard Deviation 766\nHow to Determine Whether the Mean or Standard Deviation\nDiffers Depending on the Group 766\nHow to Determine Which Factors Affect the Value of \na Variable 767\nHow to Predict the Value of a Variable Based on the Value\nof Other Variables 767\nHow to Determine Whether the Values of a Variable Are\nStable over Time 767",
+      "chunk_id": 66,
+      "chunk_count": 217
+    },
+    {
+      "text": "of Other Variables 767\nHow to Determine Whether the Values of a Variable Are\nStable over Time 767\n18.2 Analyzing Categorical Variables 767\nHow to Describe the Proportion of Items of Interest in Each\nCategory 768\nHow to Reach Conclusions About the Proportion of Items \nof Interest 768\nHow to Determine Whether the Proportion of Items \nof Interest Differs Depending on the Group 768\nHow to Predict the Proportion of Items of Interest Based \non the Value of Other Variables 768\nHow to Determine Whether the Proportion of Items \nof Interest Is Stable over Time 769\nUSING STATISTICS @ YourBusiness Revisited 769\nDIGITAL CASE 769\nCHAPTER REVIEW PROBLEMS 769\nUSING STATISTICS @ The Principled Revisited 703\nSUMMARY 704\nKEY EQUATIONS 704\nKEY TERMS 705\nCHAPTER REVIEW PROBLEMS 706",
+      "chunk_id": 67,
+      "chunk_count": 217
+    },
+    {
+      "text": "CHAPTER REVIEW PROBLEMS 769\nUSING STATISTICS @ The Principled Revisited 703\nSUMMARY 704\nKEY EQUATIONS 704\nKEY TERMS 705\nCHAPTER REVIEW PROBLEMS 706\nMANAGING ASHLAND MULTICOMM SERVICES 707\nDIGITAL CASE 708\nREFERENCES 708\nCHAPTER 16 EXCEL GUIDE 709\nEG16.1 The Importance of Business Forecasting 709\nEG16.2 Component Factors of Time-Series Models 709\nEG16.3 Smoothing an Annual Time Series 709\nEG16.4 Least-Squares Trend Fitting and Forecasting 710\nEG16.5 Autoregressive Modeling for Trend Fitting and\nForecasting 711\nEG16.6 Choosing an Appropriate Forecasting Model 711\nEG16.7 Time-Series Forecasting of Seasonal Data 712\nCHAPTER 16 MINITAB GUIDE 713\nMG16.1 The Importance of Business Forecasting 713\nMG16.2 Component Factors of Time-Series Models 713\nMG16.3 Smoothing an Annual Time Series 713",
+      "chunk_id": 68,
+      "chunk_count": 217
+    },
+    {
+      "text": "MG16.1 The Importance of Business Forecasting 713\nMG16.2 Component Factors of Time-Series Models 713\nMG16.3 Smoothing an Annual Time Series 713\nMG16.4 Least-Squares Trend Fitting and Forecasting 713\nMG16.5 Autoregressive Modeling for Trend Fitting and\nForecasting 714\nMG16.6 Choosing an Appropriate Forecasting Model 714\nMG16.7 Time-Series Forecasting of Seasonal Data 714\n17 Statistical Applications in\nQuality Management\n716\nUSING STATISTICS @ Beachcomber Hotel 717\n17.1 The Theory of Control Charts 718\n17.2 Control Chart for the Proportion: The p Chart 720\n17.3 The Red Bead Experiment: Understanding Process\nVariability 726\n17.4 Control Chart for an Area of Opportunity: The c\nChart 728\n17.5 Control Charts for the Range and the Mean 732\nThe R Chart 732\nThe\nChart 734",
+      "chunk_id": 69,
+      "chunk_count": 217
+    },
+    {
+      "text": "17.4 Control Chart for an Area of Opportunity: The c\nChart 728\n17.5 Control Charts for the Range and the Mean 732\nThe R Chart 732\nThe\nChart 734\n17.6 Process Capability 737\nCustomer Satisfaction and Specification Limits 737\nCapability Indices 739\nCPL, CPU, and Cpk 740\n17.7 Total Quality Management 742\n17.8 Six Sigma 744\nThe DMAIC Model 744\nRoles in a Six Sigma Organization 745\nUSING STATISTICS @ Beachcomber Hotel Revisited 746\nSUMMARY 747\nKEY EQUATIONS 747\nKEY TERMS 748\nCHAPTER REVIEW PROBLEMS 748\nTHE HARNSWELL SEWING MACHINE COMPANY CASE 751\nX",
+      "chunk_id": 70,
+      "chunk_count": 217
+    },
+    {
+      "text": "CONTENTS\nxxi\nD.3\nConfiguring Excel for PHStat2 Usage 793\nD.4\nUsing the Visual Explorations Add-in\nWorkbook 795\nD.5\nChecking for the Presence of the Analysis\nToolPak 795\nE. Tables 796\nE.1\nTable of Random Numbers 796\nE.2\nThe Cumulative Standardized Normal\nDistribution 798\nE.3\nCritical Values of t 800\nE.4\nCritical Values of\n802\nE.5\nCritical values of F 803\nE.6\nLower and Upper Critical Values, T1, of Wilcoxon\nRank Sum Test 807\nE.7\nCritical Values of the Studentized Range, Q 808\nE.8\nCritical Values dL and du of the Durbin-Watson\nStatistic, D 810\nE.9\nControl Chart Factors 811\nE.10 The Standardized Normal Distribution 812\nF. Additional Excel Procedures 813\nF.1\nEnhancing Workbook Presentation 813\nF.2\nUseful Keyboard Shortcuts 814\nF.3\nVerifying Formulas and Worksheets 815\nF.4\nChart Formatting 815",
+      "chunk_id": 71,
+      "chunk_count": 217
+    },
+    {
+      "text": "F.1\nEnhancing Workbook Presentation 813\nF.2\nUseful Keyboard Shortcuts 814\nF.3\nVerifying Formulas and Worksheets 815\nF.4\nChart Formatting 815\nF.5\nCreating Histograms for Discrete Probability\nDistributions 816\nF.6\nPasting with Paste Special 816\nG. PHStat2, Excel, and Minitab FAQs 818\nG.1\nPHStat2 FAQs 818\nG.2\nExcel FAQs 818\nG.3\nFAQs for Minitab 819\nSelf-Test Solutions and Answers to Selected\nEven-Numbered Problems 820\nIndex 850\nx2\nOnline Chapter: \n19 Decision Making\nUSING STATISTICS @ Reliable Fund\n19.1 Payoff Tables and Decision Trees\n19.2 Criteria for Decision Making\nMaximax Payoff\nMaximin Payoff\nExpected Monetary Value\nExpected Opportunity Loss\nReturn-to-Risk Ratio\n19.3 Decision Making with Sample Information\n19.4 Utility\nTHINK ABOUT THIS: Risky Business",
+      "chunk_id": 72,
+      "chunk_count": 217
+    },
+    {
+      "text": "Expected Opportunity Loss\nReturn-to-Risk Ratio\n19.3 Decision Making with Sample Information\n19.4 Utility\nTHINK ABOUT THIS: Risky Business\nUSING STATISTICS @ Reliable Fund Revisited\nCHAPTER 19 EXCEL GUIDE\nEG19.1 Payoff Tables and Decision Trees\nEG19.2 Criteria for Decision Making\nAppendices 773\nA. Basic Math Concepts and Symbols 774\nA.1\nRules for Arithmetic Operations 774\nA.2\nRules for Algebra: Exponents and Square Roots 774\nA.3\nRules for Logarithms 775\nA.4\nSummation Notation 776\nA.5\nStatistical Symbols 779\nA.6\nGreek Alphabet 779\nB. Basic Computing Skills 780\nB.1\nObjects in a Window 780\nB.2\nBasic Mouse Operations 781\nB.3\nDialog Box Interactions 781\nB.4\nUnique Features 783\nC. Companion Website Resources 784\nC.1\nVisiting the Companion Website for This Book 784\nC.2",
+      "chunk_id": 73,
+      "chunk_count": 217
+    },
+    {
+      "text": "B.3\nDialog Box Interactions 781\nB.4\nUnique Features 783\nC. Companion Website Resources 784\nC.1\nVisiting the Companion Website for This Book 784\nC.2\nDownloading the Files for This Book 784\nC.3\nAccessing the Online Topics Files 784\nC.4\nDetails of Downloadable Files 784\nD. Software Configuration Details 792\nD.1\nChecking for and Applying Excel Updates 792\nD.2\nConcise Instructions for Installing PHStat2 792",
+      "chunk_id": 74,
+      "chunk_count": 217
+    },
+    {
+      "text": "This page intentionally left blank",
+      "chunk_id": 75,
+      "chunk_count": 217
+    },
+    {
+      "text": "Preface\nEducational Philosophy\nSeeking ways to continuously improve the teaching of business statistics is the core value that\nguides our works. We actively participate in Decision Sciences Institute (DSI), American Statistical\nAssociation (ASA), and Making Statistics More Effective in Schools and Business (MSMESB)\nconferences. We use the Guidelines for Assessment and Instruction (GAISE) reports as well as our\nreflections on teaching business statistics to a diverse student body at several large universities.\nThese experiences have helped us identify the following key principles:\n1.\nShow students the relevance of statistics\nStudents need a frame of reference when learning\nstatistics, especially when statistics is not their major. That frame of reference for business",
+      "chunk_id": 76,
+      "chunk_count": 217
+    },
+    {
+      "text": "Students need a frame of reference when learning\nstatistics, especially when statistics is not their major. That frame of reference for business\nstudents should be the functional areas of business, such as accounting, finance, information\nsystems, management, and marketing. Each statistics topic needs to be presented in an\napplied context related to at least one of these functional areas. The focus in teaching each\ntopic should be on its application in business, the interpretation of results, the evaluation of\nthe assumptions, and the discussion of what should be done if the assumptions are violated.\n2.\nFamiliarize students with the statistical applications used in the business world\nIntegrating these programs into all aspects of an introductory statistics course allows the",
+      "chunk_id": 77,
+      "chunk_count": 217
+    },
+    {
+      "text": "Integrating these programs into all aspects of an introductory statistics course allows the\ncourse to focus on interpretation of results instead of computations. Introductory business\nstatistics courses should recognize that programs with statistical functions are commonly\nfound on a business decision maker’s desktop computer, therefore making the interpretation\nof results more important than the tedious hand calculations required to produce them.\n3.\nProvide clear instructions to students for using statistical applications\nBooks should\nexplain clearly how to use programs such as Excel and Minitab with the study of statistics,\nwithout having those instructions dominate the book or distract from the learning of statisti-\ncal concepts.\n4.",
+      "chunk_id": 78,
+      "chunk_count": 217
+    },
+    {
+      "text": "without having those instructions dominate the book or distract from the learning of statisti-\ncal concepts.\n4.\nGive students ample practice in understanding how to apply statistics to business\nBoth\nclassroom examples and homework exercises should involve actual or realistic data as much as\npossible. Students should work with data sets, both small and large, and be encouraged to look\nbeyond the statistical analysis of data to the interpretation of results in a managerial context.\nNew to This Edition: MyStatLab\nCustom MyStatLab course materials designed for specific use with this book are available.\nMyStatLab is Pearson Education’s online learning, homework, and assessment tool that provides a",
+      "chunk_id": 79,
+      "chunk_count": 217
+    },
+    {
+      "text": "MyStatLab is Pearson Education’s online learning, homework, and assessment tool that provides a\nrich and flexible set of course materials, including free-response exercises that are algorithmically\ngenerated for unlimited practice and mastery. MyStatLab provides students with a personalized,\ninteractive learning environment that helps them to independently improve their understanding and\nperformance in a course. MyStatLab allows instructors to deliver portions of a course online, to per-\nform course management functions, and to create a supportive online community. In addition,\ninstructors can use the MyStatLab homework and test manager to select and assign their own online\nexercises as well as import TestGen tests.",
+      "chunk_id": 80,
+      "chunk_count": 217
+    },
+    {
+      "text": "instructors can use the MyStatLab homework and test manager to select and assign their own online\nexercises as well as import TestGen tests. \nThe MyStatLab for Basic Business Statistics features several improvements over earlier versions\nincluding a more intuitive user design that presents a simpler interface with fewer pop-up windows.\nThis MyStatLab also provides mobile device access through free apps that can be downloaded for\niPhones, iPads, and Andriod phones. (iPad users can even download a free app to access all of their\nPearson eTexts, seeing their instructors annotations and gaining links to Do Homework, Take a Test,\nand Study Plan functions.)\nxxiii",
+      "chunk_id": 81,
+      "chunk_count": 217
+    },
+    {
+      "text": "xxiv\nPREFACE\nNew to This Edition: Enhanced Statistical Coverage\nThis 12th edition of Basic Business Statistics builds on previous editions with these new and\nenhanced features:\n• New chapter-ending “Using Statistics ... Revisited” sections that reinforce the statistical\nmethods and applications discussed in each chapter.\n• The use of the DCOVA (Define, Collect, Organize, Visualize, and Analyze) framework as an\nintegrated approach for applying statistics to help solve business problems.\n• Many new applied examples and exercises, with data from The Wall Street Journal, USA\nToday, and other sources.\n• “Managing Ashland MultiComm Services,” a new integrated case that appears at the ends of\nchapters throughout the book (replacing the Springville Herald case).",
+      "chunk_id": 82,
+      "chunk_count": 217
+    },
+    {
+      "text": "chapters throughout the book (replacing the Springville Herald case).\n• “Digital Cases,” interactive PDF files that create a new series of cases that appear at the\nends of chapters throughout the book (replacing the Web Cases).\n• An expanded discussion of using Excel and Minitab to summarize and explore multidimen-\nsional data.\n• Revised and updated “Think About This” essays (formerly entitled “From the Author’s\nDesktop”) that provide greater insight into what has just been learned and raise important\nissues about the application of statistical knowledge.\n• Additional in-chapter Excel and Minitab results.\n• A new online section that discusses analytics and data mining.\nNew to This Edition: Expanded Excel and Minitab Guides",
+      "chunk_id": 83,
+      "chunk_count": 217
+    },
+    {
+      "text": "• A new online section that discusses analytics and data mining.\nNew to This Edition: Expanded Excel and Minitab Guides\nIn this 12th edition of Basic Business Statistics, the instructions for using Excel and Minitab have\nbeen revised, reorganized, and enhanced in new end-of-chapter guides and back-of-the book appen-\ndices. These sections support students by:\n• Providing a readiness checklist and orientation that guide students through the process of get-\nting ready to use Excel or Minitab (see Chapter 1 and the Chapter 1 Excel and Minitab Guides).\n• Incorporating Excel Guide workbooks that serve as models and templates for using Excel for\nstatistical problem solving. These free and reusable workbooks, annotated examples of which",
+      "chunk_id": 84,
+      "chunk_count": 217
+    },
+    {
+      "text": "statistical problem solving. These free and reusable workbooks, annotated examples of which\nappear throughout the chapters of this book, can be used by students in their other courses or\nin their jobs.\n• Allowing students to use Excel with or without PHStat2 and with or without the Analysis\nToolPak (an Excel component that is not available in Mac Excel 2008).\n• Expanding the scope of Minitab Guide instructions.\n• Reviewing common operations, such as opening, saving, and printing results (see Chapter 1\nExcel and Minitab Guides).\n• Explaining the different types of files available online that support this book and how to\ndownload those free files from this book’s companion website (Appendix C).\n• Providing a separate appendix that discusses software configuration issues, including how to",
+      "chunk_id": 85,
+      "chunk_count": 217
+    },
+    {
+      "text": "• Providing a separate appendix that discusses software configuration issues, including how to\ncheck for Excel and Minitab updates and how to configure Excel for use with PHStat2 or the\nAnalysis ToolPak (Appendix D).\n• An appendix that discusses formatting and other intermediate-level Excel operations\n(Appendix F).\n• Answering frequently asked questions about Excel, PHStat2, the Pearson statistical add-in\nfor Microsoft Windows–based Excel versions, and Minitab (the new Appendix G).\n• In Appendix Section C.4, offering a complete list of all downloadable files and programs for\nthis book. (See “Student Resources” on page xxvi for more details about the files and programs\nthat can be downloaded.)\nChapter-by-Chapter Changes in the 12th Edition",
+      "chunk_id": 86,
+      "chunk_count": 217
+    },
+    {
+      "text": "that can be downloaded.)\nChapter-by-Chapter Changes in the 12th Edition\nChapters begin with a redesigned opening page that displays the chapter sections and subsections\nand conclude with the new Excel and Minitab Guides that discuss how to apply Excel and Minitab\nto the statistical methods discussed in a chapter. Minitab Guides have been expanded to better match\nthe scope of the Excel Guides. End-of-chapter Digital Cases that use interactive documents, in lieu",
+      "chunk_id": 87,
+      "chunk_count": 217
+    },
+    {
+      "text": "PREFACE\nxxv\nof simulated web pages, update the former Web Cases. There is a new integrated case, “Managing\nAshland MultiComm Services,” that replaces the “Managing the Springville Herald” case (see\nChapters 2, 3, 5 through 7, 9 through 14, 16, and 17). Appendices B through D and F and G have\nbeen revised, reorganized, and updated.\nHighlights of changes to individual chapters follow.\nChapter 1 The 11th edition’s Section 1.4 has been moved to Chapter 2. Section 1.6 has been\nrewritten and retitled “How to Use This Book” and now includes the “Checklist for Getting\nStarted” (with Excel or Minitab). There are new undergraduate and graduate surveys.\nChapter 2 This chapter has been completely reorganized. Sections 1.4 of the previous edition,",
+      "chunk_id": 88,
+      "chunk_count": 217
+    },
+    {
+      "text": "Chapter 2 This chapter has been completely reorganized. Sections 1.4 of the previous edition,\nconcerning data collection, has been moved to this chapter. The Define, Collect, Organize,\nVisualize, and Analyze approach to solving business problems has been incorporated. The\nmaterial on tables and charts has been reorganized so that the sections on organizing data into\ntables is presented first, in Sections 2.2 and 2.3, followed by sections on visualizing data in\ngraphs in Sections 2.4–2.7. There is a new section on organizing multidimensional data\n(Section 2.7). There are new Excel and Minitab Guide sections that discuss multidimensional\ndata. The Minitab Guide that replaces the Minitab Appendix has been greatly expanded. In",
+      "chunk_id": 89,
+      "chunk_count": 217
+    },
+    {
+      "text": "data. The Minitab Guide that replaces the Minitab Appendix has been greatly expanded. In\naddition, there are new examples throughout the chapter, and a new data set on bond funds has\nbeen created.\nChapter 3 A new data set on bond funds has been created. The section “Numerical Measures\nfor a Population” has been moved after the section on quartiles and boxplots. “Numerical\nDescriptive Measures from a Population” has been deleted.\nChapter 4 The chapter example has been updated. There are new problems throughout the\nchapter. The “Think About This” essay about Bayes’ theorem has been condensed and\nupdated. In combinations and permutations, x is used instead of X to be consistent with bino-\nmial notation in Chapter 5.",
+      "chunk_id": 90,
+      "chunk_count": 217
+    },
+    {
+      "text": "updated. In combinations and permutations, x is used instead of X to be consistent with bino-\nmial notation in Chapter 5.\nChapter 5 This chapter has revised notation for the binomial, Poisson, and hypergeometric\ndistributions. It uses lower-case x and includes the parameter after an | sign in the equa-\ntion. To reduce the size of the book, the tables of the binomial and Poisson distributions\n(Tables E.6 and E.7) have been placed online. There are new problems throughout the\nchapter.\nChapter 6 This chapter has an updated Using Statistics scenario. The “Think About This”\nessay on the importance of the normal distribution has been revised. The discussion of the\nexponential distribution has been revised.",
+      "chunk_id": 91,
+      "chunk_count": 217
+    },
+    {
+      "text": "essay on the importance of the normal distribution has been revised. The discussion of the\nexponential distribution has been revised.\nChapter 7 A new “Think About This” essay replaces and expands on the pros and cons of web-\nbased surveys, using a famous historical example. “Sampling from Finite Populations” is\nnow an online topic.\nChapter 8 This chapter includes problems on sigma known in Section 8.1.\nChapter 9 This chapter includes problems on sigma known in Section 9.1. “Power of a Test” is\nnow an online topic.\nChapter 10 This chapter has a new example on the paired t-test on textbook prices.\nChapter 11 This chapter has an “Online Topic” subsection titled “The Analysis of Means\n(ANOM).”\nChapter 12 This chapter has an “Online Topic” subsection titled “The Analysis of Proportions",
+      "chunk_id": 92,
+      "chunk_count": 217
+    },
+    {
+      "text": "(ANOM).”\nChapter 12 This chapter has an “Online Topic” subsection titled “The Analysis of Proportions\n(ANOP).” The Wilcoxon signed ranks test and the Friedman test are now online topicss.\nChapter 13 The “Think About This” essay has been revised. There are new problems through-\nout the chapter.\nChapter 14 This chapter has various new problems.\nChapter 15 This chapter has a new “Online Topic” section titled “Analytics and Data Mining.”\nThere are new problems throughout the chapter.\nChapter 16 This chapter has updated examples throughout the chapter. “Index Numbers” is\nnow an online topic.\nChapter 17 This chapter has been edited for conciseness without any loss of concepts or clarity.\nChapter 18 This chapter now includes an interactive roadmap for analyzing data as part of a",
+      "chunk_id": 93,
+      "chunk_count": 217
+    },
+    {
+      "text": "Chapter 18 This chapter now includes an interactive roadmap for analyzing data as part of a\nnew Digital Case. There are many new problems in the chapter.\nChapter 19 This chapter (formerly Chapter 17) has become an online chapter and is available\nfor download through this book’s companion website.",
+      "chunk_id": 94,
+      "chunk_count": 217
+    },
+    {
+      "text": "xxvi\nPREFACE\nHallmark Features\nWe have continued many of the traditions of past editions and have highlighted some of these\nfeatures below.\nUsing Statistics Business Scenarios—Each chapter begins with a Using Statistics example that\nshows how statistics is used in the functional areas of business—accounting, finance, infor-\nmation systems, management, and marketing. Each scenario is used throughout the chapter\nto provide an applied context for the concepts.\nEmphasis on Data Analysis and Interpretation of Software Results—We believe that\nthe use of computer software is an integral part of learning statistics. Our focus empha-\nsizes analyzing data by interpreting results while reducing emphasis on doing compu-",
+      "chunk_id": 95,
+      "chunk_count": 217
+    },
+    {
+      "text": "sizes analyzing data by interpreting results while reducing emphasis on doing compu-\ntations. For example, in the coverage of tables and charts in Chapter 2, the focus is on\nthe interpretation of various charts and on when to use each chart. In our coverage of\nhypothesis testing in Chapters 9 through 12, and regression and time series forecasting in\nChapters 13–16, extensive computer results have been included so that the p-value\napproach can be emphasized.\nPedagogical Aids—An active writing style is used, with boxed numbered equations, set-off\nexamples to provide reinforcement for learning concepts, problems divided into “Learning\nthe Basics” and “Applying the Concepts,” key equations, and key terms.\nAnswers—Many answers to the even-numbered exercises are included at the end of the book.",
+      "chunk_id": 96,
+      "chunk_count": 217
+    },
+    {
+      "text": "Answers—Many answers to the even-numbered exercises are included at the end of the book.\nFlexibility Using Excel—For almost every statistical method discussed, this book presents\nmore than one way of using Excel. Students can use In-Depth Excel instructions to directly\nwork with the worksheet cell-level details or they can use the PHStat2 instructions or use the\nAnalysis ToolPak instructions to automate the creation of those same details.\nDigital Cases—An end-of-chapter Digital Case is included for each of the first 16 chapters.\nMost Digital Cases extend a Using Statistics business scenario by posing additional ques-\ntions and raising issues about the scenario. Students examine interactive documents to sift",
+      "chunk_id": 97,
+      "chunk_count": 217
+    },
+    {
+      "text": "tions and raising issues about the scenario. Students examine interactive documents to sift\nthrough claims and assorted information in order to discover the data most relevant to a sce-\nnario. Students then determine whether the conclusions and claims are supported by the data.\nIn doing so, students discover and learn how to identify common misuses of statistical infor-\nmation. (Instructional tips for using the Digital Cases and solutions to the Digital Cases are\nincluded in the Instructor’s Solutions Manual.)\nCase Studies and Team Projects—Detailed case studies are included in numerous chapters. A\n“Managing Ashland MultiComm Services” continuing case, a team project related to bond\nfunds, and undergraduate and graduate student surveys are included at the end of most chap-",
+      "chunk_id": 98,
+      "chunk_count": 217
+    },
+    {
+      "text": "funds, and undergraduate and graduate student surveys are included at the end of most chap-\nters, and these serve to integrate learning across the chapters.\nVisual Explorations—The Excel add-in workbook allows students to interactively explore\nimportant statistical concepts in descriptive statistics, the normal distribution, sampling dis-\ntributions, and regression analysis. For example, in descriptive statistics, students observe the\neffect of changes in the data on the mean, median, quartiles, and standard deviation. With the\nnormal distribution, students see the effect of changes in the mean and standard deviation on\nthe areas under the normal curve. In sampling distributions, students use simulation to",
+      "chunk_id": 99,
+      "chunk_count": 217
+    },
+    {
+      "text": "the areas under the normal curve. In sampling distributions, students use simulation to\nexplore the effect of sample size on a sampling distribution. In regression analysis, students\nhave the opportunity to fit a line and observe how changes in the slope and intercept affect\nthe goodness of fit.\nStudent Resources\nStudent Solutions Manual—Created by Professor Pin Tian Ng of Northern Arizona University,\nthis manual provides detailed solutions to virtually all the even-numbered exercises and\nworked-out solutions to the self-test problems.\nCompanion website—This book comes with a companion website from which the following\nresources can be downloaded for free (see Appendix C that starts on page 784 for more\ndetails about these resources, including how to visit the companion website):",
+      "chunk_id": 100,
+      "chunk_count": 217
+    },
+    {
+      "text": "PREFACE\nxxvii\n• Data files Excel and Minitab data files used by in-chapter examples and problems (in .xls\nand .mtw formats).\n• Online Chapter The electronic-only Chapter 19: Decision Making in PDF format.\n• Online Topics Online topics are PDF files that discuss additional topics for Chapters 5, 6, 7,\n8, 9, 11, 12, 15, and 16. \n• Excel Guide workbooks Self-documenting Excel Guide workbooks illustrate solutions for\nmore than 60 statistical topics that serve as freely reusable templates for future problem solv-\ning.\n• Case files Supporting files are provided for the Digital Cases and the Managing Ashland\nMultiComm Services Case.\n• Visual Explorations The files needed to use the Visual Explorations Excel add-in work-\nbook.",
+      "chunk_id": 101,
+      "chunk_count": 217
+    },
+    {
+      "text": "MultiComm Services Case.\n• Visual Explorations The files needed to use the Visual Explorations Excel add-in work-\nbook.\n• Using Excel 2003 Guide This guide presents, where necessary, alternate Excel Guide\ninstructions for users of this older version of Excel.\n• PHStat2 The latest version of PHStat2, the Pearson statistical add-in for Windows-based\nExcel, version 2003 and later. This version eliminates the use of the Excel Analysis ToolPak\nadd-ins, thereby simplifying installation and setup.\nMyStatLab—MyStatLab provides students with direct access to the companion website\nresources as well as the following exclusive online features and tools:\n• Interactive tutorial exercises A comprehensive set of exercises have been written espe-",
+      "chunk_id": 102,
+      "chunk_count": 217
+    },
+    {
+      "text": "• Interactive tutorial exercises A comprehensive set of exercises have been written espe-\ncially for use with this book that are algorithmically generated for unlimited practice and\nmastery. Most exercises are free-response exercises and provide guided solutions, sample\nproblems, and learning aids for extra help at point of use.\n• Personalized study plan A plan indicates which topics have been mastered and creates\ndirect links to tutorial exercises for topics that have not been mastered. MyStatLab manages\nthe study plan, updating its content based on the results of future online assessments.\n• Pearson Tutor Center (www.pearsontutorservices.com) The MyStatlab student access\ncode grants access to this online resource, staffed by qualified instructors who provide book-",
+      "chunk_id": 103,
+      "chunk_count": 217
+    },
+    {
+      "text": "code grants access to this online resource, staffed by qualified instructors who provide book-\nspecific tutoring via phone, fax, e-mail, and interactive web sessions.\n• Integration with Pearson eTexts iPad users can download a free app at www.apple.com/\nipad/apps-for-ipad/ and then sign in using their MyStatLab account to access a bookshelf of\nall their Pearson eTexts. The iPad app also allows access to the Do Homework, Take a Test,\nand Study Plan pages of their MyStatLab course.\n• Mobile Dashboard Allows students to use their mobile devices to log in and review informa-\ntion from the dashboard of their courses: announcements, assignments, results, and progress\nbars for completed work. This app is available for iPhones, iPads, and Android phones, and is",
+      "chunk_id": 104,
+      "chunk_count": 217
+    },
+    {
+      "text": "bars for completed work. This app is available for iPhones, iPads, and Android phones, and is\ndesigned to promote effective study habits rather than to allow students to complete assign-\nments on their mobile devices.\n@RISK trial Palisade Corporation, the maker of the market-leading risk and decision analysis\nExcel add-ins, @RISK and the DecisionTools® Suite, provides special academic versions of its\nsoftware to students (and faculty). Its flagship product, @RISK, debuted in 1987 and performs risk\nanalysis using Monte Carlo simulation.\n@RISK and the DecisionTools Suite are used widely in undergraduate and graduate business\nprograms worldwide. Thanks to the company’s generous academic sales program, more than 40,000",
+      "chunk_id": 105,
+      "chunk_count": 217
+    },
+    {
+      "text": "programs worldwide. Thanks to the company’s generous academic sales program, more than 40,000\nstudents learn to make better decisions using @RISK and the DecisionTools Suite each year.\nTo download a trial version of @RISK software, visit www.palisadecom/academic/.\nInstructor Resources\nInstructor’s Resource Center—Reached through a link at www.pearsonhighered.com/levine,\nthe Instructor’s Resource Center contains the electronic files for the complete Instructor’s Solutions\nManual, the Test Item File, and PowerPoint lecture presentations.\n• Register, redeem, log in At www.pearsonhighered.com/irc, instructors can access a vari-\nety of print, media, and presentation resources that are available with this book in downloadable",
+      "chunk_id": 106,
+      "chunk_count": 217
+    },
+    {
+      "text": "xxviii\nPREFACE\ndigital format. Resources are also available for course management platforms such as\nBlackboard, WebCT, and CourseCompass.\n• Need help? Pearson Education’s dedicated technical support team is ready to assist instruc-\ntors with questions about the media supplements that accompany this text. Visit http://\n247.prenhall.com for answers to frequently asked questions and toll-free user support\nphone numbers. The supplements are available to adopting instructors. Detailed descriptions\nare provided at the Instructor’s Resource Center.\nInstructor’s Solutions Manual—Created by Professor Pin Tian Ng of Northern Arizona University,\nthis manual includes solutions for end-of-section and end-of-chapter problems, answers to case",
+      "chunk_id": 107,
+      "chunk_count": 217
+    },
+    {
+      "text": "this manual includes solutions for end-of-section and end-of-chapter problems, answers to case\nquestions, where applicable, and teaching tips for each chapter. Electronic solutions are provided in\nPDF and Word formats.\nLecture PowerPoint Presentations—A PowerPoint presentation, created by Professor Patrick\nSchur of Miami University, is available for each chapter. The PowerPoint slides provide an instruc-\ntor with individual lecture outlines to accompany the text. The slides include many of the figures\nand tables from the text. Instructors can use these lecture notes as is or can easily modify the notes\nto reflect specific presentation needs.\nTest Item File—Created by Professor Pin Tian Ng of Northern Arizona University, the Test Item",
+      "chunk_id": 108,
+      "chunk_count": 217
+    },
+    {
+      "text": "to reflect specific presentation needs.\nTest Item File—Created by Professor Pin Tian Ng of Northern Arizona University, the Test Item\nFile contains true/false, multiple-choice, fill-in, and problem-solving questions based on the defini-\ntions, concepts, and ideas developed in each chapter of the text.\nTestGen—The computerized TestGen package allows instructors to customize, save, and generate\nclassroom tests. The test program permits instructors to edit, add, and delete questions from the test\nbank; edit existing graphics and create new graphics; analyze test results; and organize a database of\ntest and student results. This software provides ease of use and extensive flexibility, and it provides",
+      "chunk_id": 109,
+      "chunk_count": 217
+    },
+    {
+      "text": "test and student results. This software provides ease of use and extensive flexibility, and it provides\nmany options for organizing and displaying tests, along with search and sort features. The software\nand the test banks can be downloaded from the Instructor’s Resource Center.\nMathXL for Statistics—MathXL for Statistics is a powerful online homework, tutorial, and assess-\nment system that accompanies Pearson Education statistics textbooks. With MathXL for Statistics,\ninstructors can create, edit, and assign online homework and tests using algorithmically generated\nexercises correlated at the objective level to the textbook. They can also create and assign their own\nonline exercises and import TestGen tests for added flexibility. All student work is tracked in",
+      "chunk_id": 110,
+      "chunk_count": 217
+    },
+    {
+      "text": "online exercises and import TestGen tests for added flexibility. All student work is tracked in\nMathXL’s online grade book. Students can take chapter tests in MathXL and receive personalized\nstudy plans based on their test results. Each study plan diagnoses weaknesses and links the student\ndirectly to tutorial exercises for the objectives he or she needs to study and retest. Students can also\naccess supplemental animations and video clips directly from selected exercises. MathXL for\nStatistics is available to qualified adopters. For more information, visit www.mathxl.com or con-\ntact your sales representative.\nMyStatLab—Part of the MyMathLab and MathXL product family, MyStatLab is a text-specific,",
+      "chunk_id": 111,
+      "chunk_count": 217
+    },
+    {
+      "text": "tact your sales representative.\nMyStatLab—Part of the MyMathLab and MathXL product family, MyStatLab is a text-specific,\neasily customizable online course that integrates interactive multimedia instruction with textbook\ncontent. MyStatLab gives you the tools you need to deliver all or a portion of your course online,\nwhether your students are in a lab setting or working from home. The latest version of MyStatLab\noffers a new, intuitive design that features more direct access to MathXL for Statistics pages\n(Gradebook, Homework & Test Manager, Home Page Manager, etc.) and provides enhanced func-\ntionality for communicating with students and customizing courses. Other key features include:\n• Assessment manager An easy-to-use assessment manager lets instructors create online",
+      "chunk_id": 112,
+      "chunk_count": 217
+    },
+    {
+      "text": "• Assessment manager An easy-to-use assessment manager lets instructors create online\nhomework, quizzes, and tests that are automatically graded and correlated directly to your\ntextbook. Assignments can be created using a mix of questions from the MyStatLab exercise\nbank, instructor-created custom exercises, and/or TestGen test items.\n• Grade book Designed specifically for mathematics and statistics, the MyStatLab grade\nbook automatically tracks students’ results and gives you control over how to calculate final\ngrades. You can also add offline (paper-and-pencil) grades to the grade book.\n• MathXL Exercise Builder You can use the MathXL Exercise Builder to create static and\nalgorithmic exercises for your online assignments. A library of sample exercises provides an",
+      "chunk_id": 113,
+      "chunk_count": 217
+    },
+    {
+      "text": "algorithmic exercises for your online assignments. A library of sample exercises provides an\neasy starting point for creating questions, and you can also create questions from scratch.\n• eText-MathXL for Statistics Full Integration Students using appropriate mobile devices\ncan use your eText annotations and highlights for each course, and iPAd users can download",
+      "chunk_id": 114,
+      "chunk_count": 217
+    },
+    {
+      "text": "PREFACE\nxxix\na free app that allows them access to the Do Homework, Take a Test, and Study Plan pages of\ntheir course.\n• “Ask the Publisher” Link in “Ask My Instructor” Email You can easily notify the con-\ntent team of any irregularities with specific questions by using the “Ask the Publisher” func-\ntionality in the “Ask My Instructor” emails you receive from students.\n• Tracking Time Spent on Media Because the latest version of MyStatLab requires students\nto explicitly click a “Submit” button after viewing the media for their assignments, you will\nbe able to track how long students are spending on each media file.\nPalisade Corporation software—Palisade Corporation, the maker of the market-leading risk and",
+      "chunk_id": 115,
+      "chunk_count": 217
+    },
+    {
+      "text": "Palisade Corporation software—Palisade Corporation, the maker of the market-leading risk and\ndecision analysis Excel add-ins, @RISK and the DecisionTools® Suite, provides special academic\nversions of its software. Its flagship product, @RISK, debuted in 1987 and performs risk analysis\nusing Monte Carlo simulation. With an estimated 150,000 users, Palisade software can be found in\nmore than 100 countries and has been translated into five languages.\n@RISK and the DecisionTools Suite are used widely in undergraduate and graduate business\nprograms worldwide and can be bundled with this textbook. To download a trial version of @RISK\nsoftware, visit www.palisade.com/academic/.\nAcknowledgments\nWe are extremely grateful to the Biometrika Trustees, American Cyanamid Company, the RAND",
+      "chunk_id": 116,
+      "chunk_count": 217
+    },
+    {
+      "text": "software, visit www.palisade.com/academic/.\nAcknowledgments\nWe are extremely grateful to the Biometrika Trustees, American Cyanamid Company, the RAND\nCorporation, and the American Society for Testing and Materials for their kind permission to pub-\nlish various tables in Appendix E, and the American Statistical Association for its permission to\npublish diagrams from the American Statistician. Also, we are grateful to Professors George A.\nJohnson and Joanne Tokle of Idaho State University and Ed Conn, Mountain States Potato\nCompany, for their kind permission to incorporate parts of their work as our Mountain States Potato\nCompany case in Chapter 15.\nA Note of Thanks\nWe would like to thank Kevin Caskey, SUNY–New Paltz; Zhi Min Huang, Adelphi University;",
+      "chunk_id": 117,
+      "chunk_count": 217
+    },
+    {
+      "text": "Company case in Chapter 15.\nA Note of Thanks\nWe would like to thank Kevin Caskey, SUNY–New Paltz; Zhi Min Huang, Adelphi University;\nDavid Huff, Wayne State University; Eugene Jones, Ohio State University; Glen Miller, Piedmont\nCollege; Angela Mitchell, Wilmington College; Daniel Montgomery, Delta State University;\nPatricia Mullins, University of Wisconsin–Madison; Robert Pred, Temple University; Gary Smith,\nFlorida State University; and Robert Wharton, Fordham University for their comments, which have\nmade this a better book.\nWe would especially like to thank Chuck Synovec, Mary Kate Murray, Jason Calcano, Judy\nLeale, Anne Fahlgren, Melinda Jensen, and Kerri Tomasso of the editorial, marketing, and produc-",
+      "chunk_id": 118,
+      "chunk_count": 217
+    },
+    {
+      "text": "Leale, Anne Fahlgren, Melinda Jensen, and Kerri Tomasso of the editorial, marketing, and produc-\ntion teams at Prentice Hall. We would like to thank our statistical reader and accuracy checker Annie\nPuciloski for her diligence in checking our work; Susan Pariseau, Merrimack College, for assisting\nin the reading of the page proofs; Kitty Wilson for her copyediting; Lori Cavanaugh for her proof-\nreading; and Jen Carley of PreMediaGlobal for her work in the production of this text.\nFinally, we would like to thank our families for their patience, understanding, love, and assis-\ntance in making this book a reality. It is to them that we dedicate this book.\nConcluding Remarks\nWe have gone to great lengths to make this text both pedagogically sound and error free. If you have",
+      "chunk_id": 119,
+      "chunk_count": 217
+    },
+    {
+      "text": "Concluding Remarks\nWe have gone to great lengths to make this text both pedagogically sound and error free. If you have\nany suggestions or require clarification about any of the material, or if you find any errors, please\ncontact us at davidlevine@davidlevinestatistics.com. Include the phrase “BBS edition 12” in the\nsubject line of your e-mail. For technical support for PHStat2 beyond what is presented in the\nappendices and in the PHStat2 readme file that accompanies PHStat2, visit the PHStat2 website,\nwww.pearsonhighered.com/phstat and click on the Contact Pearson Technical Support link.\nMark L. Berenson\nDavid M. Levine\nTimothy C. Krehbiel",
+      "chunk_id": 120,
+      "chunk_count": 217
+    },
+    {
+      "text": "This page intentionally left blank \n\nBasic Business \nStatistics: Concepts and\nApplications\nTWELFTH EDITION",
+      "chunk_id": 121,
+      "chunk_count": 217
+    },
+    {
+      "text": "USING STATISTICS @ Good Tunes &\nMore\n1.1\nWhy Learn Statistics\n1.2\nStatistics in Business\n1.3\nBasic Vocabulary\nof Statistics\n1.4\nIdentifying Types\nof Variables\nMeasurement\nScales\n1.5\nStatistical Applications\nfor Desktop\nComputing\n1.6\nHow to Use This Book\nChecklist for Getting \nStarted\nUSING STATISTICS @ Good Tunes &\nMore Revisited\nCHAPTER 1 EXCEL GUIDE\nEG1.1 Getting Started with\nExcel\nEG1.2 Entering Data and\nVariable Type\nEG1.3 Opening and Saving\nWorkbooks\nEG1.4 Creating and Copying\nWorksheets\nEG1.5 Printing Worksheets\nEG1.6 Worksheet Entries and\nReferences\nEG1.7 Absolute and Relative\nCell References\nEG1.8 Entering Formulas into\nWorksheets\nEG1.9 Using Appendices D\nand F\nLearning Objectives\nIn this chapter, you learn:\n• How businesses use statistics\n• The basic vocabulary of statistics",
+      "chunk_id": 122,
+      "chunk_count": 217
+    },
+    {
+      "text": "EG1.9 Using Appendices D\nand F\nLearning Objectives\nIn this chapter, you learn:\n• How businesses use statistics\n• The basic vocabulary of statistics\n• The types of data used in business\n• How to use Microsoft Excel and/or Minitab \nwith this book\nIntroduction\n1\nCHAPTER 1 MINITAB GUIDE\nMG1.1 Getting Started with\nMinitab\nMG1.2 Entering Data and\nVariable Type\nMG1.3 Opening and Saving\nWorksheets and\nProjects\nMG1.4 Creating and Copying\nWorksheets\nMG1.5 Printing Parts of a\nProject\nMG1.6 Worksheet Entries\nand References\nMG1.7 Using Appendices D\nand F",
+      "chunk_id": 123,
+      "chunk_count": 217
+    },
+    {
+      "text": "M\nanagers at Good Tunes & More, a consumer electronics retailer, are looking\nto expand their chain to take advantage of recent store closings by their\ncompetitors. These managers have decided to approach local banks for the\nfunding needed to underwrite the expansion. The managers know that they\nwill have to present information about Good Tunes & More that will\nconvince the bankers that the retailer is a good candidate for expansion.\nThe managers ask you to help prepare the supporting documents to be submitted to the bankers.\nTo this end, they give you access to the retailer’s sales transactions for the past five years. What should you\ndo with the data? To help find a starting point for the task, you decide to learn more about statistics.\nU S I N G S TAT I S T I C S\n@ Good Tunes & More\n3",
+      "chunk_id": 124,
+      "chunk_count": 217
+    },
+    {
+      "text": "4\nCHAPTER 1\nIntroduction\n1.1 Why Learn Statistics\nStatistics is the branch of mathematics that transforms numbers into useful information for\ndecision makers. Statistics lets you know about the risks associated with making a business\ndecision and allows you to understand and reduce the variation in the decision-making process.\nStatistics provides you with methods for making better sense of the numbers used every\nday to describe or analyze the world we live in. For example, consider these news stories:\n• “More Clicks to Escape an Email List” (The NewYork Times, March 29, 2010, p. B2)\nA study of 100 large online retailers reported that 39% required three or more clicks to\nopt out of an email list in 2009, compared to 7% in 2008.",
+      "chunk_id": 125,
+      "chunk_count": 217
+    },
+    {
+      "text": "A study of 100 large online retailers reported that 39% required three or more clicks to\nopt out of an email list in 2009, compared to 7% in 2008.\n• “Green Power Purchases Targeted to Wind, Solar” (P. Davidson, USA Today,April 1,\n2009, p. 3B) Approximately 55% of green power sales was for wind energy.\n• “Follow the Tweets” (H. Rui, A. Whinston, and E. Winkler, The Wall Street Journal,\nNovember 30, 2009, p. R4) In this study, the authors used the number of tweets that\nmention specific products to make accurate predictions of sales trends.\nDo these numbers represent useful information? How can you decide? Statistical methods\nhelp you understand the information contained in “the numbers” and determine whether dif-\nferences in “the numbers” are meaningful or are just due to chance.",
+      "chunk_id": 126,
+      "chunk_count": 217
+    },
+    {
+      "text": "ferences in “the numbers” are meaningful or are just due to chance.\nWhy learn statistics? First and foremost, statistics helps you make better sense of the\nworld. Second, statistics helps you make better business decisions.\n1.2 Statistics in Business\nIn the business world, statistics has these important specific uses:\n• To summarize business data\n• To draw conclusions from those data\n• To make reliable forecasts about business activities\n• To improve business processes\nThe statistical methods you use for these tasks come from one of the two branches of sta-\ntistics: descriptive statistics and inferential statistics.\nDESCRIPTIVE STATISTICS\nDescriptive statistics are the methods that help collect, summarize, present, and analyze\na set of data.\nINFERENTIAL STATISTICS",
+      "chunk_id": 127,
+      "chunk_count": 217
+    },
+    {
+      "text": "Descriptive statistics are the methods that help collect, summarize, present, and analyze\na set of data.\nINFERENTIAL STATISTICS\nInferential statistics are the methods that use the data collected from a small group to\ndraw conclusions about a larger group.\nMany of the tables and charts found in a typical presentation are the products of descrip-\ntive methods, as are statistics such as the mean or median of a group, which you may have en-\ncountered previously. (The mean and median are among the concepts discussed in Chapter 3.)\nWhen you use statistical methods to help choose which investment from a set of investments\nmight lead to a higher return or which marketing strategy might lead to increased sales, you\nare using inferential methods.",
+      "chunk_id": 128,
+      "chunk_count": 217
+    },
+    {
+      "text": "might lead to a higher return or which marketing strategy might lead to increased sales, you\nare using inferential methods.\nThere are four important uses of statistics in business:\n• To visualize and summarize your data (an example of using descriptive methods)\n• To reach conclusions about a large group based on data collected from a small group (an\nexample of using inferential methods)",
+      "chunk_id": 129,
+      "chunk_count": 217
+    },
+    {
+      "text": "1.3 Basic Vocabulary of Statistics\n5\n• To make reliable forecasts that are based on statistical models for prediction (inferential\nmethods)\n• To improve business processes using managerial approaches such as Six Sigma that\nfocus on quality improvement\nTo use descriptive and inferential methods correctly, you must also learn the conditions\nand assumptions required for using those methods. And since many of the statistical methods\nused in business must be computerized in order to be of practical benefit, you also need to\nknow how computers can help you apply statistics in the business world.\nTo help you develop and integrate these skills, which will give you a basis for making bet-\nter decisions, every chapter of Basic Business Statistics begins with a Using Statistics scenario.",
+      "chunk_id": 130,
+      "chunk_count": 217
+    },
+    {
+      "text": "ter decisions, every chapter of Basic Business Statistics begins with a Using Statistics scenario.\nEach scenario describes a realistic business situation in which you are asked to make decisions\nthat can be enhanced by applying statistical methods. For example, in one chapter you must\ndecide the location in a supermarket that best enhances sales of a cola drink, while in another\nchapter you need to forecast sales for a clothing store.\nIn the scenario on page 3, you need to answer the following questions: What data should\nyou include to convince bankers to extend the credit that Good Tunes & More needs? How\nshould you present those data?\nBecause Good Tunes & More is a retailer, collecting data about the company’s sales would",
+      "chunk_id": 131,
+      "chunk_count": 217
+    },
+    {
+      "text": "should you present those data?\nBecause Good Tunes & More is a retailer, collecting data about the company’s sales would\nbe a reasonable starting point. You could present the details of every sales transaction for the\npast few years as a way of demonstrating that the business is thriving. However, presenting the\nbankers with the thousands of transactions would overwhelm them and not be very useful. You\nneed to summarize the details of each transaction in some useful way that will give the bankers\nthe information to (perhaps) uncover a favorable pattern about the sales over time.\nOne piece of information that the bankers would presumably want to see is the yearly dol-\nlar sales totals. Tallying and totaling sales is a common summary task. When you tally sales—",
+      "chunk_id": 132,
+      "chunk_count": 217
+    },
+    {
+      "text": "lar sales totals. Tallying and totaling sales is a common summary task. When you tally sales—\nor any other relevant data about Good Tunes & More that you choose to use—you follow\nstandard business practice and tally by a business period, such as by month, quarter, or year.\nWhen you do so, you end up with multiple values: sales for this year, sales for last year, sales\nfor the year before that, and so on.\nKnowing more about statistics will definitely help you prepare a better presentation for\nthe bankers! And the best way to begin knowing more about statistics is to learn the basic vo-\ncabulary of statistics.\n1.3 Basic Vocabulary of Statistics\nSeven terms—variable, data, operational definition, population, sample, parameter, and sta-",
+      "chunk_id": 133,
+      "chunk_count": 217
+    },
+    {
+      "text": "1.3 Basic Vocabulary of Statistics\nSeven terms—variable, data, operational definition, population, sample, parameter, and sta-\ntistic (singular)—identify the fundamental concepts of the subject of statistics. Learning about\nand making sense of the statistical methods discussed in later chapters is nearly impossible if\nyou do not first understand the meaning of these words.\nVariables are characteristics of items or individuals. They are what you analyze when you\nuse a statistical method. For the Good Tunes & More scenario, sales, expenses by year, and net\nprofit by year are variables that the bankers would want to analyze. When used in everyday\nspeech, variable suggests that something changes or varies, and you would expect sales, ex-",
+      "chunk_id": 134,
+      "chunk_count": 217
+    },
+    {
+      "text": "speech, variable suggests that something changes or varies, and you would expect sales, ex-\npenses, and net profit to have different values from year to year. These different values are the\ndata associated with a variable or, more simply, the “data to be analyzed.”\nVARIABLE\nA variable is a characteristic of an item or individual.\nDATA\nData are the different values associated with a variable.",
+      "chunk_id": 135,
+      "chunk_count": 217
+    },
+    {
+      "text": "6\nCHAPTER 1\nIntroduction\nVariables can differ for reasons other than time. For example, if you conducted an analysis\nof the composition of a large lecture class, you would probably want to include the variables\nclass standing, gender, and major field of study. These variables would also vary because each\nstudent in the class is different. One student might be a sophomore, a male, and an accounting\nmajor, while another might be a junior, a female, and a finance major.\nVariable values are meaningless unless their corresponding variables have operational\ndefinitions. These definitions are universally accepted meanings that are clear to all asso-\nciated with an analysis. Even though the operational definition for sales per year might",
+      "chunk_id": 136,
+      "chunk_count": 217
+    },
+    {
+      "text": "ciated with an analysis. Even though the operational definition for sales per year might\nseem clear, miscommunication could occur if one person were to refer to sales per year for\nthe entire chain of stores and another to sales per year per store. Even individual values for\nvariables sometimes need to be defined. For the class standing variable, for example, what\nexactly is meant by the words sophomore and junior? (Perhaps the most famous examples\nof vague definitions have been election disputes, such as the one that occurred in Florida\nduring the 2000 U.S. presidential election that involved the definitions for “valid” and “in-\nvalid” ballots.)\nThe subject of statistics creates useful information from either populations or samples.\nPOPULATION",
+      "chunk_id": 137,
+      "chunk_count": 217
+    },
+    {
+      "text": "valid” ballots.)\nThe subject of statistics creates useful information from either populations or samples.\nPOPULATION\nA population consists of all the items or individuals about which you want to reach\nconclusions.\nSAMPLE\nA sample is the portion of a population selected for analysis.\nA population consists of all the items or individuals about which you want to reach con-\nclusions. All the Good Tunes & More sales transactions for a specific year, all the customers\nwho shopped at Good Tunes & More this weekend, all the full-time students enrolled in a col-\nlege, and all the registered voters in Ohio are examples of populations.\nA sample is the portion of a population selected for analysis. From the four examples of",
+      "chunk_id": 138,
+      "chunk_count": 217
+    },
+    {
+      "text": "A sample is the portion of a population selected for analysis. From the four examples of\npopulations just given, you could select a sample of 200 Good Tunes & More sales transac-\ntions randomly selected by an auditor for study, a sample of 30 Good Tunes & More customers\nasked to complete a customer satisfaction survey, a sample of 50 full-time students selected\nfor a marketing study, and a sample of 500 registered voters in Ohio contacted by telephone\nfor a political poll. In each of these examples, the transactions or people in the sample repre-\nsent a portion of the items or individuals that make up the population.\nParameter and statistic complete the basic vocabulary of statistics.\nPARAMETER\nA parameter is a measure that describes a characteristic of a population.\nSTATISTIC",
+      "chunk_id": 139,
+      "chunk_count": 217
+    },
+    {
+      "text": "PARAMETER\nA parameter is a measure that describes a characteristic of a population.\nSTATISTIC\nA statistic is a measure that describes a characteristic of a sample.\nThe average amount spent by all customers who shopped at Good Tunes & More this\nweekend is an example of a parameter because this amount refers to the amount spent in the\nentire population. In contrast, the average amount spent by the 30 customers completing the\ncustomer satisfaction survey is an example of a statistic because it refers only to the amount\nspent by the sample of 30 customers.",
+      "chunk_id": 140,
+      "chunk_count": 217
+    },
+    {
+      "text": "1.4 Identifying Types of Variables\n7\n1.4 Identifying Types of Variables\nIdentifying the characteristic of an item or individual to study and assigning an operational\ndefinition to that characteristic is only part of the variable definition process. For each vari-\nable, you must also establish the type of values it will have.\nCategorical variables (also known as qualitative variables) have values that can only be\nplaced into categories such as yes and no. “Do you currently own bonds?” (yes or no) and the\nlevel of risk of a bond fund (below average, average, or above average) are examples of cate-\ngorical variables.\nNumerical variables (also known as quantitative variables) have values that represent",
+      "chunk_id": 141,
+      "chunk_count": 217
+    },
+    {
+      "text": "gorical variables.\nNumerical variables (also known as quantitative variables) have values that represent\nquantities. Numerical variables are further identified as being either discrete or continuous\nvariables.\nDiscrete variables have numerical values that arise from a counting process. “The num-\nber of premium cable channels subscribed to” is an example of a discrete numerical variable\nbecause the response is one of a finite number of integers. You subscribe to zero, one, two, or\nmore channels. “The number of items purchased” is also a discrete numerical variable because\nyou are counting the number of items purchased.\nContinuous variables produce numerical responses that arise from a measuring process.",
+      "chunk_id": 142,
+      "chunk_count": 217
+    },
+    {
+      "text": "you are counting the number of items purchased.\nContinuous variables produce numerical responses that arise from a measuring process.\nThe time you wait for teller service at a bank is an example of a continuous numerical variable\nbecause the response takes on any value within a continuum, or an interval, depending on the\nprecision of the measuring instrument. For example, your waiting time could be 1 minute,\n1.1 minutes, 1.11 minutes, or 1.113 minutes, depending on the precision of the measuring de-\nvice used. (Theoretically, no two continuous values would ever be identical. However, because\nno measuring device is perfectly precise, identical continuous values for two or more items or\nindividuals can occur.)",
+      "chunk_id": 143,
+      "chunk_count": 217
+    },
+    {
+      "text": "no measuring device is perfectly precise, identical continuous values for two or more items or\nindividuals can occur.)\nAt first glance, identifying the variable type may seem easy, but some variables that you\nmight want to study could be either categorical or numerical, depending on how you define\nthem. For example, “age” would seem to be an obvious numerical variable, but what if you are\ninterested in comparing the buying habits of children, young adults, middle-aged persons, and\nretirement-age people? In that case, defining “age” as a categorical variable would make better\nsense. Again, this illustrates the earlier point that without operational definitions, variables are\nmeaningless.\nAsking questions about the variables you have identified for study can often be a great",
+      "chunk_id": 144,
+      "chunk_count": 217
+    },
+    {
+      "text": "meaningless.\nAsking questions about the variables you have identified for study can often be a great\nhelp in determining the variable type you want. Table 1.1 illustrates the process. Note that the\n“answers” to the questions are labeled responses. The word responses is sometimes used in\nstatistics to refer to the values of a variable.\nT A B L E\n1 . 1\nTypes of Variables\nQuestion\nResponses\nData Type\nDo you currently have a profile\non Facebook?\n❑Yes ❑No\nCategorical\nHow many text messages have\nyou sent in the past week?\n____\nNumerical\n(discrete)\nHow long did it take to download\na video game?\n____ seconds\nNumerical\n(continuous)\nMeasurement Scales\nThe values for variables can themselves be classified by the level of measurement, or meas-",
+      "chunk_id": 145,
+      "chunk_count": 217
+    },
+    {
+      "text": "____ seconds\nNumerical\n(continuous)\nMeasurement Scales\nThe values for variables can themselves be classified by the level of measurement, or meas-\nurement scale. Statisticians use the terms nominal scale and ordinal scale to describe the val-\nues for a categorical variable and use the terms interval scale and ratio scale to describe\nnumerical values.",
+      "chunk_id": 146,
+      "chunk_count": 217
+    },
+    {
+      "text": "8\nCHAPTER 1\nIntroduction\nT A B L E\n1 . 2\nExamples of Nominal\nScales\nCategorical Variable\nCategories\nDo you currently have a Facebook\nprofile?\n❑Yes ❑No\nTypes of investments\n❑Stocks ❑Bonds ❑Other ❑None\nInternet email provider\n❑Gmail ❑Windows Live ❑Yahoo ❑Other\nT A B L E\n1 . 3\nExamples of Ordinal\nScales\nCategorical Variable\nOrdered Categories\nStudent class designation\nFreshman Sophomore Junior Senior\nProduct satisfaction\nVery unsatisfied Fairly unsatisfied\nNeutral Fairly satisfied Very satisfied\nFaculty rank\nProfessor Associate Professor\nAssistant Professor Instructor\nStandard & Poor’s bond ratings\nAAA AA A BBB BB B CCC CC C\nDDD DD D\nStudent grades\nA B C D F\nNominal and Ordinal Scales Values for a categorical variable are measured on a nominal",
+      "chunk_id": 147,
+      "chunk_count": 217
+    },
+    {
+      "text": "AAA AA A BBB BB B CCC CC C\nDDD DD D\nStudent grades\nA B C D F\nNominal and Ordinal Scales Values for a categorical variable are measured on a nominal\nscale or on an ordinal scale. A nominal scale (see Table 1.2) classifies data into distinct cate-\ngories in which no ranking is implied. Examples of a nominal scaled variable are your favorite\nsoft drink, your political party affiliation, and your gender. Nominal scaling is the weakest\nform of measurement because you cannot specify any ranking across the various categories.\nAn ordinal scale classifies values into distinct categories in which ranking is implied. For\nexample, suppose that Good Tunes & More conducted a survey of customers who made a pur-\nchase and asked the question “How do you rate the overall service provided by Good Tunes &",
+      "chunk_id": 148,
+      "chunk_count": 217
+    },
+    {
+      "text": "chase and asked the question “How do you rate the overall service provided by Good Tunes &\nMore during your most recent purchase?” to which the responses were “excellent,” “very\ngood,” “fair,” and “poor.” The answers to this question would constitute an ordinal scaled vari-\nable because the responses “excellent,” “very good,” “fair,” and “poor” are ranked in order of\nsatisfaction. Table 1.3 lists other examples of ordinal scaled variables.\nOrdinal scaling is a stronger form of measurement than nominal scaling because an\nobserved value classified into one category possesses more of a property than does an\nobserved value classified into another category. However, ordinal scaling is still a relatively\nweak form of measurement because the scale does not account for the amount of the differ-",
+      "chunk_id": 149,
+      "chunk_count": 217
+    },
+    {
+      "text": "weak form of measurement because the scale does not account for the amount of the differ-\nences between the categories. The ordering implies only which category is “greater,” “better,”\nor “more preferred”—not by how much.\nInterval and Ratio Scales Values for a numerical variable are measured on an interval scale\nor a ratio scale. An interval scale (see Table 1.4) is an ordered scale in which the difference\nbetween measurements is a meaningful quantity but does not involve a true zero point. For\nexample, a noontime temperature reading of 67 degrees Fahrenheit is 2 degrees warmer than a\nnoontime reading of 65 degrees. In addition, the 2 degrees Fahrenheit difference in the noontime\ntemperature readings is the same as if the two noontime temperature readings were 74 and",
+      "chunk_id": 150,
+      "chunk_count": 217
+    },
+    {
+      "text": "temperature readings is the same as if the two noontime temperature readings were 74 and\n76 degrees Fahrenheit because the difference has the same meaning anywhere on the scale.",
+      "chunk_id": 151,
+      "chunk_count": 217
+    },
+    {
+      "text": "Problems for Section 1.4\n9\nProblems for Section 1.4\nLEARNING THE BASICS\n1.1 Four different beverages are sold at a fast-food restau-\nrant: soft drinks, tea, coffee, and bottled water.\na. Explain why the type of beverage sold is an example of a\ncategorical variable.\nb. Explain why the type of beverage sold is an example of a\nnominal scaled variable.\n1.2 Coffee is sold in three sizes at a fast-food restaurant:\nsmall, medium, and large. Explain why the beverage size of\ncoffee is an example of an ordinal scaled variable.\n1.3 Suppose that you measure the time it takes to download\na video from the Internet.\na. Explain why the download time is a continuous numeri-\ncal variable.\nb. Explain why the download time is a ratio scaled variable.\nAPPLYING THE CONCEPTS",
+      "chunk_id": 152,
+      "chunk_count": 217
+    },
+    {
+      "text": "cal variable.\nb. Explain why the download time is a ratio scaled variable.\nAPPLYING THE CONCEPTS\n1.4 For each of the following variables, deter-\nmine whether the variable is categorical or numer-\nical. If the variable is numerical, determine whether the\nSELF\nTest\nvariable is discrete or continuous. In addition, determine the\nmeasurement scale.\na. Number of telephones per household\nb. Length (in minutes) of the longest telephone call made in\na month\nc. Whether someone in the household owns a Wi-Fi-capable\ncell phone\nd. Whether there is a high-speed Internet connection in the\nhousehold\n1.5 The following information is collected from students\nupon exiting the campus bookstore during the first week of\nclasses.\na. Amount of time spent shopping in the bookstore\nb. Number of textbooks purchased",
+      "chunk_id": 153,
+      "chunk_count": 217
+    },
+    {
+      "text": "classes.\na. Amount of time spent shopping in the bookstore\nb. Number of textbooks purchased\nc. Academic major\nd. Gender\nClassify each of these variables as categorical or numerical.\nIf the variable is numerical, determine whether the variable is\ndiscrete or continuous. In addition, determine the measure-\nment scale for each of these variables.\nT A B L E\n1 . 4\nExamples of Interval and\nRatio Scales\nNumerical Variable\nLevel of Measurement\nTemperature (in degrees Celsius \nor Fahrenheit)\nInterval\nStandardized exam score \n(e.g., ACT or SAT)\nInterval\nTime to download a file\n(in seconds)\nRatio\nAge (in years\nor days)\nRatio\nCost of a personal computer \nsystem (in U.S. dollars)\nRatio\nA ratio scale is an ordered scale in which the difference between the measurements involves",
+      "chunk_id": 154,
+      "chunk_count": 217
+    },
+    {
+      "text": "system (in U.S. dollars)\nRatio\nA ratio scale is an ordered scale in which the difference between the measurements involves\na true zero point, as in height, weight, age, or salary measurements. If Good Tunes & More con-\nducted a survey and asked the amount of money that you expected to spend on audio equipment\nin the next year, the responses to such a question would be an example of a ratio scaled variable.\nAs another example, a person who weighs 240 pounds is twice as heavy as someone who weighs\n120 pounds. Temperature is a trickier case: Fahrenheit and Celsius (centigrade) scales are inter-\nval but not ratio scales; the “zero” value is arbitrary, not real.You cannot say that a noontime tem-\nperature reading of 4 degrees Fahrenheit is twice as hot as 2 degrees Fahrenheit. But a Kelvin",
+      "chunk_id": 155,
+      "chunk_count": 217
+    },
+    {
+      "text": "perature reading of 4 degrees Fahrenheit is twice as hot as 2 degrees Fahrenheit. But a Kelvin\ntemperature reading, in which 0 degrees means no molecular motion, is ratio scaled. In contrast,\nthe Fahrenheit and Celsius scales use arbitrarily selected 0-degree beginning points.\nData measured on an interval scale or on a ratio scale constitute the highest levels of meas-\nurement. They are stronger forms of measurement than an ordinal scale because you can deter-\nmine not only which observed value is the largest but also by how much.",
+      "chunk_id": 156,
+      "chunk_count": 217
+    },
+    {
+      "text": "10\nCHAPTER 1\nIntroduction\n1.6 For each of the following variables, determine whether\nthe variable is categorical or numerical. If the variable is\nnumerical, determine whether the variable is discrete or\ncontinuous. In addition, determine the measurement scale\nfor each variable.\na. Name of Internet service provider\nb. Time in hours spent surfing the Internet per week\nc. Number of emails received in a week\nd. Number of online purchases made in a month\n1.7 For each of the following variables, determine whether\nthe variable is categorical or numerical. If the variable is\nnumerical, determine whether the variable is discrete or\ncontinuous. In addition, determine the measurement scale\nfor each variable.\na. Amount of money spent on clothing in the past month\nb. Favorite department store",
+      "chunk_id": 157,
+      "chunk_count": 217
+    },
+    {
+      "text": "for each variable.\na. Amount of money spent on clothing in the past month\nb. Favorite department store\nc. Most likely time period during which shopping for cloth-\ning takes place (weekday, weeknight, or weekend)\nd. Number of pairs of shoes owned\n1.8 Suppose the following information is collected from\nRobert Keeler on his application for a home mortgage loan\nat the Metro County Savings and Loan Association.\na. Monthly payments: $1,927\nb. Number of jobs in past 10 years: 1\nc. Annual family income: $76,000\nd. Marital status: Married\nClassify each of the responses by type of data and meas-\nurement scale.\n1.9 One of the variables most often included in surveys is\nincome. Sometimes the question is phrased “What is your\nincome (in thousands of dollars)?” In other surveys, the re-",
+      "chunk_id": 158,
+      "chunk_count": 217
+    },
+    {
+      "text": "income. Sometimes the question is phrased “What is your\nincome (in thousands of dollars)?” In other surveys, the re-\nspondent is asked to “Select the circle corresponding to\nyour income level” and is given a number of income ranges\nto choose from.\na. In the first format, explain why income might be consid-\nered either discrete or continuous.\nb. Which of these two formats would you prefer to use if\nyou were conducting a survey? Why?\n1.10 If two students score a 90 on the same examination,\nwhat arguments could be used to show that the underlying\nvariable—test score—is continuous?\n1.11 The director of market research at a large department\nstore chain wanted to conduct a survey throughout a metro-\npolitan area to determine the amount of time working",
+      "chunk_id": 159,
+      "chunk_count": 217
+    },
+    {
+      "text": "store chain wanted to conduct a survey throughout a metro-\npolitan area to determine the amount of time working\nwomen spend shopping for clothing in a typical month.\na. Describe both the population and the sample of interest.\nIndicate the type of data the director might want to\ncollect.\nb. Develop a first draft of the questionnaire needed in (a) by\nwriting three categorical questions and three numerical\nquestions that you feel would be appropriate for this survey.\n1.5 Statistical Applications for Desktop Computing\nAdvances in computing during the past 40 years have brought statistical applications to the\nbusiness desktop. Statistical functionality is so commonplace today that many simple statisti-\ncal tasks once done exclusively with pencil and paper or hand calculators are now done",
+      "chunk_id": 160,
+      "chunk_count": 217
+    },
+    {
+      "text": "cal tasks once done exclusively with pencil and paper or hand calculators are now done\nelectronically, with the assistance of statistical applications.\nExcel and Minitab are examples of desktop applications that people use for statistics.\nExcel is the Microsoft Office data analysis application that evolved from earlier electronic\nspreadsheets used in accounting and financial applications. Minitab, a dedicated statistical\napplication, or statistical package, was developed from the ground up to perform statistical\nanalysis as accurately as possible. Versions of Minitab run on larger computer systems and can\nperform heavy-duty corporate analyses involving very large data sets. Excel and Minitab are\ntwo very different programs, and their differences have led to an ongoing debate as to which",
+      "chunk_id": 161,
+      "chunk_count": 217
+    },
+    {
+      "text": "two very different programs, and their differences have led to an ongoing debate as to which\nprogram is more appropriate for use in an introductory business statistics course. Proponents\nof each program point to their program’s strengths: Minitab as a complete statistical solution;\nExcel as a common desktop tool found in many business functional areas (and in many differ-\nent business school courses).\nAlthough you are probably more familiar with Excel than with Minitab, both programs\nshare many similarities, starting with their shared use of worksheets (or spreadsheets) to store\ndata for analysis. Worksheets are tabular arrangements of data, in which the intersections of\nrows and columns form cells, boxes into which you make entries. In Minitab, the data for each",
+      "chunk_id": 162,
+      "chunk_count": 217
+    },
+    {
+      "text": "rows and columns form cells, boxes into which you make entries. In Minitab, the data for each\nvariable are placed in separate columns, and this is also the standard practice when using\nExcel. Generally, to perform a statistical analysis in either program, you select one or more\ncolumns of data and then apply the appropriate command.\nBoth Excel and Minitab allow you to save worksheets, programming information, and\nresults as one file, called a workbook in Excel and a project in Minitab. In Excel, workbooks",
+      "chunk_id": 163,
+      "chunk_count": 217
+    },
+    {
+      "text": "1.6 How to Use This Book\n11\nare collections of worksheets and chart sheets. You save a workbook when you save “an Excel\nfile” (as either an .xls or .xlsx file). In Minitab, a project includes data worksheets, all the\nresults shown in a session window, and all graphs created for the data. Unlike in Excel, in\nMinitab you can save individual worksheets (as .mtw worksheet files) as well as save the en-\ntire project (as an .mpj project file).\nYou can use either Excel or Minitab to learn and practice the statistical methods learned in\nthis book. The end of each chapter, except for the last chapter, presents guides that contain\ndetailed instructions for applying Microsoft Excel and Minitab to the statistical methods taught",
+      "chunk_id": 164,
+      "chunk_count": 217
+    },
+    {
+      "text": "detailed instructions for applying Microsoft Excel and Minitab to the statistical methods taught\nin the chapter. These Excel and Minitab Guides use some of the downloadable files discussed\nin Appendix C to illustrate the step-by-step process by which you apply a method. The Excel\nGuides additionally offer a choice of techniques—all leading to the same results—that allow\nyou to use Excel either in a semi-automated way to get quick results or as a “sandbox” in\nwhich you construct results from scratch or from model templates. This is further explained in\nSection EG1.1 of the Chapter 1 Excel Guide.\n1.6 How to Use This Book\nThis book organizes its material around the four important uses of statistics in business (see",
+      "chunk_id": 165,
+      "chunk_count": 217
+    },
+    {
+      "text": "1.6 How to Use This Book\nThis book organizes its material around the four important uses of statistics in business (see\nSection 1.2). Chapters 2 and 3 present methods that summarize business data to address the\nfirst use listed. Chapters 4 through 12 discuss methods that use sample data to draw conclu-\nsions about populations (the second use). Chapters 13 though 16 review methods to make\nreliable forecasts (the third use). Chapter 17 introduces methods that you can use to improve\nbusiness processes (the fourth use). In addition, Chapter 2 introduces a problem-solving\napproach that will help you learn individual methods and help you apply your knowledge\nbeyond the statistics course. Chapter 18 further illustrates this approach and also summarizes\nthe methods discussed in earlier chapters.",
+      "chunk_id": 166,
+      "chunk_count": 217
+    },
+    {
+      "text": "beyond the statistics course. Chapter 18 further illustrates this approach and also summarizes\nthe methods discussed in earlier chapters.\nAs explained in Section 1.2, each chapter begins with a scenario that establishes a busi-\nness situation to which you can apply the methods of the chapter. At the end of each chapter,\nyou revisit the scenario to learn how the methods of the chapter could be applied in the sce-\nnario. Following the revisited scenario, you will find such sections as Summary, Key Terms,\nKey Equations, and Chapter Review Problems that help you review what you have learned.\nFollowing this review material in most chapters, you will find a continuing case study that\nallows you to apply statistics to problems faced by the management of Ashland MultiComm",
+      "chunk_id": 167,
+      "chunk_count": 217
+    },
+    {
+      "text": "allows you to apply statistics to problems faced by the management of Ashland MultiComm\nServices, a residential telecommunications provider. Most chapters continue with a Digital\nCase, in which you examine information in a variety of media forms and apply your statistical\nknowledge to resolve problems or address issues and concerns of the case. Many of these cases\nwill help you think about what constitutes the proper or ethical use of statistics. (“Learning\nwith the Digital Cases” on page 15 introduces you to this unique set of business cases.) Finally,\nat the very end of each chapter, except for the last chapter, are the Excel Guides and Minitab\nGuides discussed in Section 1.5.\nDon’t worry if your instructor does not cover every section of every chapter. Introductory",
+      "chunk_id": 168,
+      "chunk_count": 217
+    },
+    {
+      "text": "Guides discussed in Section 1.5.\nDon’t worry if your instructor does not cover every section of every chapter. Introductory\nbusiness statistics courses vary in their scope, length, and number of college credits. Your cho-\nsen functional area of specialization (accounting, management, finance, marketing, etc.) may\nalso affect what you learn in class or what you are assigned or choose to read in this book.\nChecklist for Getting Started\nTo make the best use of this book, you need to work with Excel or Minitab and download and\nuse files and other electronic resources that are available from the companion website (dis-\ncussed fully in Appendix C). To minimize problems you may face later when using these re-",
+      "chunk_id": 169,
+      "chunk_count": 217
+    },
+    {
+      "text": "cussed fully in Appendix C). To minimize problems you may face later when using these re-\nsources, review and complete the Table 1.5 checklist. When you have checked off all the tasks\nnecessary for your own work, you will be ready to begin reading the Chapter 1 Excel or Minitab\nGuide and using the supplemental material in Appendices B, C, D, F and G, as necessary.\nWhen you have completed the checklist, you are ready to begin using the Excel Guides\nand Minitab Guides that appear at the end of chapters. These guides discuss how to apply",
+      "chunk_id": 170,
+      "chunk_count": 217
+    },
+    {
+      "text": "12\nCHAPTER 1\nIntroduction\nT A B L E\n1 . 5\nChecklist for Getting\nStarted with Basic\nBusiness Statistics\n❑Select which program, Excel or Minitab, you will use with this book. \n(Your instructor may have made this decision for you.)\n❑Read Appendix A if you need to learn or review basic math concepts and notation.\n❑Read Appendix B if you need to learn or review basic computing concepts and skills.\n❑Download the files and other electronic resources needed to work with this book. Read\nAppendix C to learn more about the things you can download from the companion\nwebsite for this book. (This process requires Internet access.)\n❑Successfully install the chosen program and apply all available updates to the program.\nRead Appendix Section D.1 to learn how to find and apply updates. (This process",
+      "chunk_id": 171,
+      "chunk_count": 217
+    },
+    {
+      "text": "Read Appendix Section D.1 to learn how to find and apply updates. (This process\nrequires Internet access.)\n❑If you plan to use PHStat2 with Excel, complete the special checklist in Appendix\nSection D.2. If you plan to use the Analysis ToolPak with Excel, read and follow the\ninstructions in Appendix Section D.5.\n❑Skim Appendices F and G to be aware of how these appendices can help you as you use\nthis book with Excel or Minitab.\nExcel and Minitab to the statistical methods discussed in the chapter. The Excel Guides and\nMinitab Guides for this chapter (which begin on pages 17 and 22, respectively) review the ba-\nsic operations of these programs and explain how Excel and Minitab handle the concept of\ntype of variable discussed in Section 1.4.",
+      "chunk_id": 172,
+      "chunk_count": 217
+    },
+    {
+      "text": "sic operations of these programs and explain how Excel and Minitab handle the concept of\ntype of variable discussed in Section 1.4.\nInstructions in the Excel Guides and Minitab Guides and related appendices use the\nconventions for computer operations presented in Table 1.6. Read and review Appendix B if\nsome of the vocabulary used in the table is new to you.\nT A B L E\n1 . 6\nConventions for\nComputing Operations\nOperation\nExamples\nInterpretation\nKeyboard\nkeys\nEnter\nCtrl\nShift\nNames of keys are always the object of the verb\npress, as in “press Enter.”\nKeystroke\ncombination\nCrtl+C\nCrtl+Shift+Enter\nSome keyboarding actions require you to press\nmore than one key at the same time. Crtl+C means\npress the C key while holding down the Ctrl key.\nCrtl+Shift+Enter means press the Enter key while",
+      "chunk_id": 173,
+      "chunk_count": 217
+    },
+    {
+      "text": "more than one key at the same time. Crtl+C means\npress the C key while holding down the Ctrl key.\nCrtl+Shift+Enter means press the Enter key while\nholding down the Ctrl and Shift keys.\nClick object\nClick OK.\nClick All in the\nPage Range\nsection.\nA click object is a target of a mouse click. When click\nobjects are part of a window that contains more than\none part, the part name is also given, e.g., “in the\nPage Range section.” Review Appendix Section B.2\nto learn the verbs this book uses with click objects.\nMenu or\nribbon\nselection\nFile ➔New\nLayout ➔\nTrendline ➔\nLinear Trendline\nA sequence of menu or ribbon selections is\nrepresented by a list of choices separated by the ➔\nsymbol. File ➔New means first select File and then,\nfrom the list of choices that appears, select New.\nPlaceholder\nobject",
+      "chunk_id": 174,
+      "chunk_count": 217
+    },
+    {
+      "text": "symbol. File ➔New means first select File and then,\nfrom the list of choices that appears, select New.\nPlaceholder\nobject\nSelect\nvariablename\nAn italicized object means that the actual object\nvaries, depending on the context of the instruction.\n“Select variablename” might, for one problem,\nmean “select the Yearly Sales variable” and might\nmean “select the Monthly Sales variable” for another.",
+      "chunk_id": 175,
+      "chunk_count": 217
+    },
+    {
+      "text": "Chapter Review Problems\n13\nS U M M A R Y\nLearning about statistics begins with learning the seven\nterms that are the basic vocabulary of statistics. With\nthis vocabulary, you can begin to understand how statistics\nhelps you make better sense of the world. Businesses use\nstatistics to summarize and reach conclusions from data, to\nmake reliable forecasts, and to improve business processes.\nYou learned some of the basic vocabulary used in statistics\nand the various types of data used in business. In the next\ntwo chapters, you will study data collection and a variety of\ntables and charts and descriptive measures that are used to\npresent and analyze data.\nK E Y T E R M S\ncategorical variable\n7\ncontinuous variable\n7\ndata\n5\ndescriptive statistics\n4\ndiscrete variable\n7\ninferential statistics\n4",
+      "chunk_id": 176,
+      "chunk_count": 217
+    },
+    {
+      "text": "K E Y T E R M S\ncategorical variable\n7\ncontinuous variable\n7\ndata\n5\ndescriptive statistics\n4\ndiscrete variable\n7\ninferential statistics\n4\ninterval scale\n8\nnominal scale\n8\nnumerical variable\n7\noperational definition\n6\nordinal scale\n8\nparameter\n6\npopulation\n6\nqualitative variable\n7\nquantitative variable\n7\nratio scale\n9\nsample\n6\nstatistic\n6\nstatistical package\n10\nstatistics\n4\nvariable\n5\nI\nn the Using Statistics scenario at the beginning of this chapter, you\nwere asked to help prepare documents to support the Good Tunes &\nMore expansion. The managers had decided to approach local banks\nfor funding the expansion of their company, and you needed to\ndetermine what type of data to present and how to present those data. As a\nfirst step, you decided to summarize the details of thousands of transac-",
+      "chunk_id": 177,
+      "chunk_count": 217
+    },
+    {
+      "text": "determine what type of data to present and how to present those data. As a\nfirst step, you decided to summarize the details of thousands of transac-\ntions into useful information in the form of yearly dollar sales totals.\nU S I N G S TAT I S T I C S\n@ Good Tunes & More Revisited\nC H A P T E R R E V I E W P R O B L E M S\nCHECKING YOUR UNDERSTANDING\n1.12 What is the difference between a sample and a\npopulation?\n1.13 What is the difference between a statistic and a\nparameter?\n1.14 What is the difference between descriptive statistics\nand inferential statistics?\n1.15 What is the difference between a categorical variable\nand a numerical variable?\n1.16 What is the difference between a discrete numerical\nvariable and a continuous numerical variable?",
+      "chunk_id": 178,
+      "chunk_count": 217
+    },
+    {
+      "text": "and a numerical variable?\n1.16 What is the difference between a discrete numerical\nvariable and a continuous numerical variable?\n1.17 What is an operational definition, and why are opera-\ntional definitions so important?\n1.18 What are the four measurement scales?\nAPPLYING THE CONCEPTS\n1.19 Visit the official website for either Excel or Minitab,\nwww.office.microsoft.com/excel or www.minitab.com/\nproducts/minitab. Read about the program you chose and\nthen think about the ways the program could be useful in\nstatistical analysis.\n1.20 In 2008, a university in the midwestern United States\nsurveyed its full-time first-year students after they completed\ntheir first semester. Surveys were electronically distributed to\nall 3,727 students, and responses were obtained from 2,821",
+      "chunk_id": 179,
+      "chunk_count": 217
+    },
+    {
+      "text": "their first semester. Surveys were electronically distributed to\nall 3,727 students, and responses were obtained from 2,821\nstudents. Of the students surveyed, 90.1% indicated that they\nhad studied with other students, and 57.1% indicated that they\nhad tutored another student. The report also noted that 61.3%\nof the students surveyed came to class late at least once, and\n45.8% admitted to being bored in class at least once.\na. Describe the population of interest.\nb. Describe the sample that was collected.",
+      "chunk_id": 180,
+      "chunk_count": 217
+    },
+    {
+      "text": "14\nCHAPTER 1\nIntroduction\nc. Describe a parameter of interest.\nd. Describe the statistic used to estimate the parameter in (c).\n1.21 The Gallup organization releases the results of recent\npolls at its website, www.gallup.com. Visit this site and\nread an article of interest.\na. Describe the population of interest.\nb. Describe the sample that was collected.\nc. Describe a parameter of interest.\nd. Describe the statistic used to describe the parameter in (c).\n1.22 A Gallup poll indicated that 20% ofAmericans had con-\nfidence in U.S. banks. Interestingly, 58% also said that they had\nconfidence in their main or primary bank. (data extracted from\nD. Jacobs, “Americans’ Confidence in Banks Is at Historical\nLow,” www.gallup.com, April 7, 2010). The results are based",
+      "chunk_id": 181,
+      "chunk_count": 217
+    },
+    {
+      "text": "D. Jacobs, “Americans’ Confidence in Banks Is at Historical\nLow,” www.gallup.com, April 7, 2010). The results are based\non telephone interviews conducted March 24, 2010, with 1,006\nadults living in the United States, aged 18 and older.\na. Describe the population of interest.\nb. Describe the sample that was collected.\nc. Is 20% a parameter or a statistic? Explain.\nd. Is 58% a parameter or a statistic?\n1.23 According to its home page, “Swivel is a website\nwhere people share reports of charts and numbers. Busi-\nnesses use swivel to dashboard their metrics. Students use\nSwivel to find and share research data.” Visit www.swivel.\ncom and explore a data set of interest to you.\na. Describe a variable in the data set you selected.\nb. Is the variable categorical or numerical?",
+      "chunk_id": 182,
+      "chunk_count": 217
+    },
+    {
+      "text": "com and explore a data set of interest to you.\na. Describe a variable in the data set you selected.\nb. Is the variable categorical or numerical?\nc. If the variable is numerical, is it discrete or continuous?\n1.24 Download and examine the U.S. Census Bureau’s\n“2007 Survey of Business Owners and Self-Employed Per-\nsons,” directly available at bhs.econ.census.gov/BHS/SBO/\nsbo1_07.pdf or through the Get Help with Your Form link\nat www.census.gov/econ/sbo.\na. Give an example of a categorical variable included in the\nsurvey.\nb. Give an example of a numerical variable included in the\nsurvey.\n1.25 Three professors at Northern Kentucky University\ncompared two different approaches to teaching courses in the\nschool of business (M. W. Ford, D. W. Kent, and S. Devoto,",
+      "chunk_id": 183,
+      "chunk_count": 217
+    },
+    {
+      "text": "compared two different approaches to teaching courses in the\nschool of business (M. W. Ford, D. W. Kent, and S. Devoto,\n“Learning from the Pros: Influence of Web-Based Expert\nCommentary on Vicarious Learning About Financial Mar-\nkets,” Decision Sciences Journal of Innovative Education,\nJanuary 2007, 5(1), 43–63). At the time of the study, there\nwere 2,100 students in the business school, and 96 students\nwere involved in the study. Demographic data collected on\nthese 96 students included class (freshman, sophomore, jun-\nior, senior), age, gender, and major.\na. Describe the population of interest.\nb. Describe the sample that was collected.\nc. Indicate whether each of the four demographic variables\nmentioned is categorical or numerical.",
+      "chunk_id": 184,
+      "chunk_count": 217
+    },
+    {
+      "text": "b. Describe the sample that was collected.\nc. Indicate whether each of the four demographic variables\nmentioned is categorical or numerical.\nd. For each of the four demographic variables mentioned,\nindicate the measurement scale.\n1.26 A manufacturer of cat food was planning to survey\nhouseholds in the United States to determine purchasing\nhabits of cat owners. Among the variables to be collected\nare the following:\ni. The primary place of purchase for cat food\nii. Whether dry or moist cat food is purchased\niii.The number of cats living in the household\niv. Whether any cat living in the household is pedigreed\na. For each of the four items listed, indicate whether the\nvariable is categorical or numerical. If it is numerical, is\nit discrete or continuous?",
+      "chunk_id": 185,
+      "chunk_count": 217
+    },
+    {
+      "text": "a. For each of the four items listed, indicate whether the\nvariable is categorical or numerical. If it is numerical, is\nit discrete or continuous?\nb. Develop five categorical questions for the survey.\nc. Develop five numerical questions for the survey.\n1.27 A sample of 62 undergraduate students answered the\nfollowing survey:\n1. What is your gender? Female ______ Male ______\n2. What is your age (as of last birthday)? ______\n3. What is your current registered class designation?\nFreshman ______ Sophomore ______ Junior ______\nSenior ______\n4. What is your major area of study?\nAccounting ______\nComputer Information Systems ______ Economics/\nFinance ______\nInternational Business ______ Management ______\nRetailing/Marketing ______\nOther ______ Undecided ______",
+      "chunk_id": 186,
+      "chunk_count": 217
+    },
+    {
+      "text": "Finance ______\nInternational Business ______ Management ______\nRetailing/Marketing ______\nOther ______ Undecided ______\n5. At the present time, do you plan to attend graduate\nschool?\nYes ______ No ______ Not sure ______\n6. What is your current cumulative grade point average?\n______\n7. What is your current employment status?\nFull time ______ Part time ______ Unemployed ______\n8. What would you expect your starting annual salary (in\n$000) to be if you were to seek full-time employment im-\nmediately after obtaining your bachelor’s degree? ______\n9. For how many social networking sites are you\nregistered? ______\n10. How satisfied are you with the food and dining services\non campus? ______\n1\n2\n3\n4\n5\n6\n7\nExtremely\nNeutral\nExtremely\nunsatisfied\nsatisfied",
+      "chunk_id": 187,
+      "chunk_count": 217
+    },
+    {
+      "text": "10. How satisfied are you with the food and dining services\non campus? ______\n1\n2\n3\n4\n5\n6\n7\nExtremely\nNeutral\nExtremely\nunsatisfied\nsatisfied\n11. About how much money did you spend this semester\nfor textbooks and supplies? ______\n12. What type of computer do you prefer to use for your\nstudies?\nDesktop ______ Laptop ______\nTablet/notebook/netbook ______\n13. How many text messages do you send in a typical\nweek? ______\n14. How much wealth (income, savings, investment, real\nestate, and other assets) would you have to accumulate",
+      "chunk_id": 188,
+      "chunk_count": 217
+    },
+    {
+      "text": "Learning with the Digital Cases\n15\n(in millions of dollars) before you would say you are\nrich? ______\na. Which variables in the survey are categorical?\nb. Which variables in the survey are numerical?\nc. Which variables are discrete numerical variables?\nThe results of the survey are stored in \n1.28 A sample of 44 graduate students answered the\nfollowing survey:\n1. What is your gender? Female ______ Male ______\n2. What is your age (as of last birthday)? ______\n3. What is your current major area of study?\nAccounting ______\nEconomics/Finance ______\nManagement ______\nRetailing/Marketing ______\nOther ______ Undecided ______\n4. What is your current graduate cumulative grade point\naverage? ______\n5. What was your undergraduate major?\nBiological Sciences ______ Business ______\nComputers ______",
+      "chunk_id": 189,
+      "chunk_count": 217
+    },
+    {
+      "text": "average? ______\n5. What was your undergraduate major?\nBiological Sciences ______ Business ______\nComputers ______\nEngineering ______\nOther ______\n6. What was your undergraduate cumulative grade point\naverage? ______\n7. What is your current employment status?\nFull time ______ Part time ______ Unemployed ______\nUndergradSurvey\nE N D - O F - C H A P T E R C A S E S\nAt the end of most chapters, you will find a continuing case\nstudy that allows you to apply statistics to problems faced\nby the management of the Ashland MultiComm Services, a\nresidential telecommunications provider. You will also find\na series of Digital Cases that extend many of the Using Sta-\ntistics scenarios that begin each chapter.\n8. How many different full-time jobs have you held in the\npast 10 years? ______",
+      "chunk_id": 190,
+      "chunk_count": 217
+    },
+    {
+      "text": "tistics scenarios that begin each chapter.\n8. How many different full-time jobs have you held in the\npast 10 years? ______\n9. What do you expect your annual salary (in $000) to be\nimmediately after completion of your graduate studies\nif you are employed full time? ______\n10. About how much money did you spend this semester\nfor textbooks and supplies? ______\n11. How satisfied are you with the MBA program advisory\nservices on campus?\n1\n2\n3\n4\n5\n6\n7\nExtremely\nNeutral\nExtremely\nunsatisfied\nsatisfied\n12. What type of computer do you prefer to use for your\nstudies?\nDesktop ______ Laptop ______ Tablet/notebook/\nnetbook ______\n13. How many text messages do you send in a typical\nweek? ______\n14. How much wealth (income, savings, investment, real",
+      "chunk_id": 191,
+      "chunk_count": 217
+    },
+    {
+      "text": "netbook ______\n13. How many text messages do you send in a typical\nweek? ______\n14. How much wealth (income, savings, investment, real\nestate, and other assets) would you have to accumulate\n(in millions of dollars) before you would say you are\nrich? ______\na. Which variables in the survey are categorical?\nb. Which variables in the survey are numerical?\nc. Which variables are discrete numerical variables?\nThe results of the survey are stored in GradSurvey\nL E A R N I N G W I T H T H E D I G I TA L C A S E S\nPeople use statistical techniques to help communicate and\npresent important information to others both inside and out-\nside their businesses. Every day, as in these examples, peo-\nple misuse these techniques. Identifying and preventing",
+      "chunk_id": 192,
+      "chunk_count": 217
+    },
+    {
+      "text": "side their businesses. Every day, as in these examples, peo-\nple misuse these techniques. Identifying and preventing\nmisuses of statistics, whether intentional or not, is an impor-\ntant responsibility for all managers. The Digital Cases help\nyou develop the skills necessary for this important task.\nA Digital Case asks you to review electronic docu-\nments related to a company or statistical issue discussed in\nthe chapter’s Using Statistics scenario. You review the\ncontents of these documents, which may contain internal\nconfidential as well as publicly stated facts and claims,\nseeking to identify and correct misuses of statistics. Unlike\na traditional case study, but like many business situations,\nnot all of the information you encounter will be relevant to",
+      "chunk_id": 193,
+      "chunk_count": 217
+    },
+    {
+      "text": "a traditional case study, but like many business situations,\nnot all of the information you encounter will be relevant to\nyour task, and you may occasionally discover conflicting\ninformation that you have to resolve in order to complete\nthe case.\nTo assist your learning, each Digital Case begins with a\nlearning objective and a summary of the problem or issue at\nhand. Each case directs you to the information necessary to\nreach your own conclusions and to answer the case ques-\ntions. You can work with the documents for the Digital\nCases offline, after downloading them from the companion\nwebsite (see Appendix C). Or you can work with the Digital\nCases online, chapter-by-chapter, at the companion website.\nDIGITAL CASE EXAMPLE\nThis section illustrates learning with a Digital Case. To be-",
+      "chunk_id": 194,
+      "chunk_count": 217
+    },
+    {
+      "text": "Cases online, chapter-by-chapter, at the companion website.\nDIGITAL CASE EXAMPLE\nThis section illustrates learning with a Digital Case. To be-\ngin, open the Digital Case file GTM.pdf, which contains\ncontents from the Good Tunes & More website. Recall that\nthe privately held Good Tunes & More, the subject of the",
+      "chunk_id": 195,
+      "chunk_count": 217
+    },
+    {
+      "text": "16\nCHAPTER 1\nIntroduction\nR E F E R E N C E S\n1. McCullough, B. D., and D. Heiser, “On the Accuracy of\nStatistical\nProcedures\nin\nMicrosoft\nExcel\n2007,”\nComputational Statistics and Data Analysis, 52 (2008),\n4568–4606.\n2. McCullough, B. D., and B. Wilson, “On the Accuracy of\nStatistical Procedures in Microsoft Excel 97,” Com-\nputational Statistics and Data Analysis, 31 (1999),\n27–37.\n3. McCullough, B. D., and B. Wilson, “On the Accuracy of\nStatistical\nProcedures\nin\nMicrosoft\nExcel\n2003,”\nComputational Statistics and Data Analysis, 49 (2005),\n1244–1252.\n4. Microsoft Excel 2010 (Redmond, WA: Microsoft Corpo-\nration, 2010).\n5. Minitab Release 16 (State College, PA: Minitab, Inc.,\n2010).\n6. Nash, J. C., “Spreadsheets in Statistical Practice—",
+      "chunk_id": 196,
+      "chunk_count": 217
+    },
+    {
+      "text": "ration, 2010).\n5. Minitab Release 16 (State College, PA: Minitab, Inc.,\n2010).\n6. Nash, J. C., “Spreadsheets in Statistical Practice—\nAnother Look,” The American Statistician, 60 (2006),\n287–289.\nor something else. The use of the symbols creates the im-\npression that unit sales data are being presented. If the data\nare unit sales, does such data best support the claim being\nmade, or would something else, such as dollar volumes, be\na better indicator of sales at the retailer?\nThen there are those curious chart labels. “Latest twelve\nmonths” is ambiguous; it could include months from the cur-\nrent year as well as months from one year ago and therefore\nmay not be an equivalent time period to “two years ago.” But\nthe business was established in 1997, and the claim being",
+      "chunk_id": 197,
+      "chunk_count": 217
+    },
+    {
+      "text": "may not be an equivalent time period to “two years ago.” But\nthe business was established in 1997, and the claim being\nmade is “best sales year ever,” so why hasn’t management in-\ncluded sales figures for every year?\nAre Good Tunes & More managers hiding something, or\nare they just unaware of the proper use of statistics? Either\nway, they have failed to properly communicate a vital aspect\nof their story.\nIn subsequent Digital Cases, you will be asked to provide\nthis type of analysis, using the open-ended questions in the\ncase as your guide. Not all the cases are as straightforward as\nthis example, and some cases include perfectly appropriate\napplications of statistics.\nUsing Statistics scenario in this chapter, is seeking financ-\ning to expand its business by opening retail locations. Be-",
+      "chunk_id": 198,
+      "chunk_count": 217
+    },
+    {
+      "text": "applications of statistics.\nUsing Statistics scenario in this chapter, is seeking financ-\ning to expand its business by opening retail locations. Be-\ncause the managers are eager to show that Good Tunes &\nMore is a thriving business, it is not surprising to discover\nthe “our best sales year ever” claim in the “Good Times at\nGood Tunes & More” section on the first page.\nClick the our best sales year ever link to display the\npage that supports this claim. How would you support such\na claim? With a table of numbers? A chart? Remarks attrib-\nuted to a knowledgeable source? Good Tunes & More has\nused a chart to present “two years ago” and “latest twelve\nmonths” sales data by category. Are there any problems with\nthe choices made on this web page? Absolutely!",
+      "chunk_id": 199,
+      "chunk_count": 217
+    },
+    {
+      "text": "months” sales data by category. Are there any problems with\nthe choices made on this web page? Absolutely!\nFirst, note that there are no scales for the symbols used,\nso it is impossible to know what the actual sales volumes\nare. In fact, as you will learn in Section 2.8, charts that\nincorporate symbols in this way are considered examples of\nchartjunk and would never be used by people seeking to\nproperly use graphs.\nThis important point aside, another question that arises\nis whether the sales data represent the number of units sold",
+      "chunk_id": 200,
+      "chunk_count": 217
+    },
+    {
+      "text": "17\nC H A P T E R 1 E X C E L G U I D E\nEG1.1 GETTING STARTED with EXCEL\nYou are almost ready to use Excel if you have completed the Table 1.5 checklist and reviewed the\nTable 1.6 conventions for computing on page 12. Before going further, decide how you plan to\nuse Excel with this book. The Excel Guides include In-Depth Excel instructions that require no\nadditional software and PHStat2 instructions that use PHStat2, an add-in that simplifies using\nExcel while creating results identical to those you would get using the Excel instructions. Table\nEG1.1 lists the advantages and disadvantages of each type of instruction. Because of the equiva-\nlency of these two types, you can switch between them at any time while using this book.\nT A B L E\nE G 1 . 1\nTypes of Excel Guide\nInstructions",
+      "chunk_id": 201,
+      "chunk_count": 217
+    },
+    {
+      "text": "lency of these two types, you can switch between them at any time while using this book.\nT A B L E\nE G 1 . 1\nTypes of Excel Guide\nInstructions\nIn-Depth Excel Instructions\nProvides step-by-step instructions for applying Excel to the statistical methods of the\nchapter.\nAdvantages Applicable to all Excel versions. Creates “live” worksheets and chart sheets\nthat automatically update when the underlying data change.\nDisadvantages Can be time-consuming, frustrating, and error prone, especially for\nnovices. May force you to focus on low-level Excel details, thereby distracting you from\nlearning statistics.\nPHStat2 Instructions\nProvides step-by-step instructions for using the PHStat2 add-in with Excel. (To learn more\nabout PHStat2, see Appendix G.)",
+      "chunk_id": 202,
+      "chunk_count": 217
+    },
+    {
+      "text": "PHStat2 Instructions\nProvides step-by-step instructions for using the PHStat2 add-in with Excel. (To learn more\nabout PHStat2, see Appendix G.)\nAdvantages Creates live worksheets and chart sheets that are the same as or similar to the\nones created in the In-Depth Excel instructions. Frees you from having to focus on low-\nlevel Excel details. Can be used to quickly double-check results created by the In-Depth\nExcel instructions.\nDisadvantages Must be installed separately and therefore requires an awareness about\ninstalling software on your system. (See Appendix D for the technical details.) Not\ncompatible with OpenOffice.org Calc 3.\nIf you want to develop a mastery of Excel and gain practice building solutions from the",
+      "chunk_id": 203,
+      "chunk_count": 217
+    },
+    {
+      "text": "compatible with OpenOffice.org Calc 3.\nIf you want to develop a mastery of Excel and gain practice building solutions from the\nbottom up, you will want to use the In-Depth Excel instructions. If you are more of a top-down\nperson, who first wants quick results and then, later, looks at the details of a solution, you will\nwant to maximize your use of the PHStat2 instructions. At any time, you can switch between\nthese methods without any loss of comprehension. Both methods lead to identical, or nearly\nidentical, results. These results are mostly in the form of reusable workbooks. These work-\nbooks, as well as the workbooks you can download (see Appendix C) are yours to keep and\nreuse for other problems, in other courses, or in your workplace.",
+      "chunk_id": 204,
+      "chunk_count": 217
+    },
+    {
+      "text": "reuse for other problems, in other courses, or in your workplace.\nWhen relevant, the Excel Guides also include instructions for the Analysis ToolPak, an op-\ntional component of Excel that Microsoft distributes with many versions of Excel, although\nnot with the current version of Mac Excel. \nThe Excel Guide instructions feature Windows Excel versions 2010 and 2007 and note\ntheir differences, when those differences are significant. The instructions have been written for\nmaximum compatibility with current versions of Mac Excel and OpenOffice.org Calc, an\nExcel work-alike. If you use either Mac Excel or OpenOffice.org Calc, you will be able to use\nalmost all the workbooks discussed in the In-Depth Excel instructions. If you use the older",
+      "chunk_id": 205,
+      "chunk_count": 217
+    },
+    {
+      "text": "almost all the workbooks discussed in the In-Depth Excel instructions. If you use the older\nWindows-based Excel 2003, you can use the PHStat2 instructions as is and can download from\nthis book's companion website the Using Excel 2003 with Basic Business Statistics document\nthat adapts the In-Depth Excel instructions for use with Excel 2003.\nThe rest of this Excel Guide\nreviews the basic concepts\nand common operations\nencountered when using\nExcel with this book.",
+      "chunk_id": 206,
+      "chunk_count": 217
+    },
+    {
+      "text": "18\nCHAPTER 1\nIntroduction\nEG1.2 ENTERING DATA and VARIABLE TYPE\nAs first discussed in Section 1.5, you enter the data for each variable in a separate column.\nBy convention, you start with column A and enter the name of each variable into the cells of the\nfirst row, and then you enter the data for the variable in the subsequent rows, as shown in\nFigure EG1.1.\nExcel infers the variable type from the data you enter into a column. If Excel discovers a col-\numn containing numbers, for example, it treats the column as a numerical variable. If Excel dis-\ncovers a column containing words or alphanumeric entries, it treats the column as a\nnon-numerical (categorical) variable. This imperfect method works most of the time in Excel, es-",
+      "chunk_id": 207,
+      "chunk_count": 217
+    },
+    {
+      "text": "non-numerical (categorical) variable. This imperfect method works most of the time in Excel, es-\npecially if you make sure that the categories for your categorical variables are words or phrases\nsuch as “yes” and “no” and are not coded values that could be mistaken for numerical values,\nsuch as “1,” “2,” and “3.” However, because you cannot explicitly define the variable type, Excel\noccasionally makes “mistakes” by either offering or allowing you to do nonsensical things such\nas using a statistical method that is designed for numerical variables on categorical variables.\nWhen you enter data, never skip any rows in a column, and as a general rule, also avoid\nskipping any columns. Pay attention to any special instructions that occur throughout the book",
+      "chunk_id": 208,
+      "chunk_count": 217
+    },
+    {
+      "text": "skipping any columns. Pay attention to any special instructions that occur throughout the book\nfor the order of the entry of your data. For some statistical methods, entering your data in an\norder that Excel does not expect will lead to incorrect results.\nMost of the Excel workbooks that you can download from this book’s companion website\n(Appendix C) and use with the Excel Guides contain a DATA worksheet that follows the rules\nof this section. Any of those worksheets can be used as additional models for the method you\nuse to enter variable data in Excel.\nEG1.3 OPENING and SAVING WORKBOOKS\nYou open and save workbooks by first selecting the folder that stores the workbook and then\nspecifying the file name of the workbook. In Excel 2010, you select File ➔Open to open a",
+      "chunk_id": 209,
+      "chunk_count": 217
+    },
+    {
+      "text": "specifying the file name of the workbook. In Excel 2010, you select File ➔Open to open a\nworkbook file or File ➔Save As to save a workbook. In Excel 2007, you select Office\nButton ➔Open to open a workbook file or Office Button ➔Save As to save a workbook.\nOpen and Save As display nearly identical dialog boxes that vary only slightly among the dif-\nferent Excel versions. Figure EG1.2 shows the Excel 2010 Open and Save As dialog boxes.\nF I G U R E\nE G 1 . 1\nAn example of a data\nworksheet\nF I G U R E\nE G 1 . 2\nExcel 2010 Open and\nSave As dialog boxes\nYou select the storage folder by using the drop-down list at the top of either of these dialog\nboxes.You enter, or select from the list box, a file name for the workbook in the File name box.",
+      "chunk_id": 210,
+      "chunk_count": 217
+    },
+    {
+      "text": "boxes.You enter, or select from the list box, a file name for the workbook in the File name box.\nYou click Open or Save to complete the task. Sometimes when saving files, you may want to",
+      "chunk_id": 211,
+      "chunk_count": 217
+    },
+    {
+      "text": "Chapter 1 Excel Guide\n19\nchange the file type before you click Save. If you want to save your workbook in the format\nused by Excel 2003 and earlier versions, select Excel 97-2003 Workbook (*.xls) from the Save\nas type drop-down list (shown in Figure EG1.2) before you click Save. If you want to save data\nin a form that can be opened by programs that cannot open Excel workbooks, you might select\neither Text (Tab delimited) (*.txt) or CSV (Comma delimited) (*.csv) as the save type.\nWhen you want to open a file and cannot find its name in the list box, double-check that\nthe current Look in folder is the folder you intend. If it is, change the file type to All Files\n(*.*) to see all files in the current folder. This technique can help you discover inadvertent mis-",
+      "chunk_id": 212,
+      "chunk_count": 217
+    },
+    {
+      "text": "(*.*) to see all files in the current folder. This technique can help you discover inadvertent mis-\nspellings or missing file extensions that otherwise prevent the file from being displayed.\nAlthough all versions of Microsoft Excel include a Save command, you should avoid this\nchoice until you gain experience. Using Save makes it too easy to inadvertently overwrite your\nwork. Also, you cannot use the Save command for any open workbook that Excel has marked\nas read-only. (Use Save As to save such workbooks.)\nEG1.4 CREATING and COPYING WORKSHEETS\nYou create new worksheets by either creating a new workbook or by inserting a new worksheet\nin an open workbook. To create a new workbook, select File ➔New (Excel 2010) or Office",
+      "chunk_id": 213,
+      "chunk_count": 217
+    },
+    {
+      "text": "in an open workbook. To create a new workbook, select File ➔New (Excel 2010) or Office\nButton ➔New (Excel 2007) and in the pane that appears, double-click the Blank workbook icon.\nNew workbooks are created with a fixed number of worksheets. To delete extra worksheets\nor insert more sheets, right-click a sheet tab and click either Delete or Insert (see Figure EG1.3).\nBy default, Excel names a worksheet serially in the form Sheet1, Sheet2, and so on. You should\nchange these names to better reflect the content of your worksheets. To rename a worksheet,\ndouble-click the sheet tab of the worksheet, type the new name, and press Enter.\nYou can also make a copy of a worksheet or move a worksheet to another position in the",
+      "chunk_id": 214,
+      "chunk_count": 217
+    },
+    {
+      "text": "You can also make a copy of a worksheet or move a worksheet to another position in the\nsame workbook or to a second workbook. Right-click the sheet tab and select Move or Copy\nfrom the shortcut menu that appears. In the To book drop-down list of the Move or Copy dia-\nlog box (see Figure EG1.3), first select (new book) (or the name of the pre-existing target\nworkbook), check Create a copy, and then click OK.\nEG1.5 PRINTING WORKSHEETS\nTo print a worksheet (or a chart sheet), first open to the worksheet by clicking its sheet tab.\nThen, in Excel 2010, select File ➔Print. If the print preview displayed (see Figure EG1.4)\ncontains errors or displays the worksheet in an undesirable manner, click File, make the neces-",
+      "chunk_id": 215,
+      "chunk_count": 217
+    },
+    {
+      "text": "contains errors or displays the worksheet in an undesirable manner, click File, make the neces-\nsary corrections or adjustments, and repeat File ➔Print. When you are satisfied with the pre-\nview, click the large Print button.\nF I G U R E\nE G 1 . 3\nSheet tab shortcut menu\nand the Move or Copy\ndialog box",
+      "chunk_id": 216,
+      "chunk_count": 217
+    }
+  ],
+  "total_length": 130770
+}
