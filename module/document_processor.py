@@ -1,7 +1,7 @@
 # module/document_processor.py
 import os
 import json
-import fitz  # PyMuPDF - better than PyPDF2
+import fitz  
 from pathlib import Path
 from typing import List, Dict
 from langchain_text_splitters import RecursiveCharacterTextSplitter
