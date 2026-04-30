@@ -6,6 +6,7 @@ from typing import List, Dict, Optional
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import faiss
+from module.utils import truncate_context
 from groq import Groq
 from dotenv import load_dotenv
 
@@ -99,6 +100,7 @@ Always respond in the student's preferred language (Armenian, English or French)
         for msg in conversation_history[-4:]:
             messages.append(msg)
 
+        context = truncate_context(context, max_tokens=2000)
         user_message = f"""Context from course materials:
 {context}
 
