@@ -41,7 +41,7 @@ You have two roles:
    - Use ONLY the provided context from course materials.
    - If the student is stuck after 2 hints, give a small nudge, not the answer.
 
-Always respond in the student's preferred language (Armenian, English or French)."""
+CRITICAL LANGUAGE RULE: Always respond in the exact same language as the student's last message. Switch languages silently if they switch. Never mention or reference the language you are responding in. Never repeat or quote the student's message back to them."""
 
     def load_or_create_index(self):
         index_path = self.vector_store_path / "faiss.index"
@@ -101,10 +101,11 @@ Always respond in the student's preferred language (Armenian, English or French)
             messages.append(msg)
 
         context = truncate_context(context, max_tokens=2000)
+        
         user_message = f"""Context from course materials:
-{context}
+            {context}
 
-Student question: {query}"""
+            Student question: {query}"""
 
         messages.append({"role": "user", "content": user_message})
 
