@@ -530,7 +530,7 @@ print('All modules loaded:', len(r.documents), 'chunks in vector store')
 | OCR | Scanned Armenian PDFs fail extraction — PyMuPDF handles text-layer PDFs only |
 | Database | SQL scripts exist but are not yet connected to the backend API |
 
-### Planned for next semester (S4)
+### Planned for next semester (S5)
 
 - Full database integration — connect FastAPI endpoints to SQL Server via `pyodbc`
 - Session-persistent chat history stored in the database per student
