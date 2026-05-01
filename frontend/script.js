@@ -32,7 +32,7 @@ const VALID_USER = {
     phone: "+374 91 123456",
     gradeMean: 18.4,
     year: "3rd year",
-    avatar: "img/profile_pic.png"
+    avatar: "IMG/profile_pic.png"
 };
 
 const VALID_PROFESSOR = {
@@ -41,7 +41,7 @@ const VALID_PROFESSOR = {
     fullName: "Dr. Pascal Sainrat",
     email: "pascal.sainrat@university.am",
     department: "Computer Science",
-    avatar: "img/professor_pic.jpg"
+    avatar: "IMG/professor_pic.jpg"
 };
 
 let professorMaterials = [
