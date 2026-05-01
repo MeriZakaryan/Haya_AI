@@ -552,7 +552,7 @@ print('All modules loaded:', len(r.documents), 'chunks in vector store')
 
 **Institution:** French University in Armenia (UFAR)  
 **Faculty:** Computer Science and Applied Mathematics  
-**Academic year:** 2025–2026, Semester 3
+**Academic year:** 2025–2026, Semester 4
 
 ---
 
