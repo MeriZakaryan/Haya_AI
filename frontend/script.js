@@ -343,21 +343,56 @@ const promptForm = document.getElementById("promptForm");
 const promptInput = document.getElementById("promptInput");
 const chatWindow = document.getElementById("chatWindow");
 
+// AI assistant connection to backend
+const SESSION_ID = "session_" + Math.random().toString(36).substr(2, 9);
+const BACKEND_URL = "http://localhost:8000";
+
 if (promptForm) {
-    promptForm.addEventListener("submit", (e) => {
+    promptForm.addEventListener("submit", async (e) => {
         e.preventDefault();
 
         const prompt = promptInput.value.trim();
         if (!prompt) return;
 
-        // User message
         addMessage(prompt, "user");
         promptInput.value = "";
 
-        // Fake AI response
-        setTimeout(() => {
-            addMessage(generateFakeResponse(prompt), "ai");
-        }, 700);
+        // Typing indicator
+        const typing = document.createElement("div");
+        typing.className = "message ai typing-indicator";
+        typing.textContent = "Haya is thinking...";
+        typing.id = "typingIndicator";
+        chatWindow.appendChild(typing);
+        chatWindow.scrollTop = chatWindow.scrollHeight;
+
+        try {
+            const response = await fetch(`${BACKEND_URL}/chat`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    message: prompt,
+                    session_id: SESSION_ID
+                })
+            });
+
+            const data = await response.json();
+            document.getElementById("typingIndicator")?.remove();
+
+            addMessage(data.response, "ai");
+
+            // Show sources if available
+            if (data.sources && data.sources.length > 0) {
+                const srcMsg = document.createElement("div");
+                srcMsg.className = "message ai sources-msg";
+                srcMsg.textContent = "📚 Sources: " + data.sources.join(", ");
+                chatWindow.appendChild(srcMsg);
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            }
+
+        } catch (error) {
+            document.getElementById("typingIndicator")?.remove();
+            addMessage("Sorry, I can't reach the backend. Make sure it's running on port 8000.", "ai");
+        }
     });
 }
 
@@ -365,19 +400,9 @@ function addMessage(text, type) {
     const msg = document.createElement("div");
     msg.className = `message ${type}`;
     msg.textContent = text;
-
     chatWindow.appendChild(msg);
     chatWindow.scrollTop = chatWindow.scrollHeight;
 }
-
-function generateFakeResponse(prompt) {
-    return `That's an interesting question about "${prompt}". 
-Try breaking the problem into smaller steps and think about the core concept behind it.`;
-}
-
-
-
-
 
 
 function hideAllSections() {
@@ -564,9 +589,6 @@ if (isLoggedIn === "true") {
         }
     }
 });
-
-
-
 
 
 
@@ -1214,32 +1236,59 @@ chatCloseBtn.addEventListener("click", () => {
     setTimeout(renderAllPages, 350);
 });
 
-        chatForm.addEventListener("submit", (e) => {
-            e.preventDefault();
 
-            const text = chatInput.value.trim();
-            if (!text) return;
+const PDF_SESSION = "pdf_" + Math.random().toString(36).substr(2, 9);
 
-            const userMsg = document.createElement("div");
-            userMsg.className = "chatMessage user";
-            userMsg.textContent = text;
-            chatMessages.appendChild(userMsg);
+chatForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
 
-            chatInput.value = "";
-            chatMessages.scrollTop = chatMessages.scrollHeight;
+    const text = chatInput.value.trim();
+    if (!text) return;
 
-            setTimeout(() => {
-                const aiMsg = document.createElement("div");
-                aiMsg.className = "chatMessage ai";
-                aiMsg.textContent = "I can help explain this PDF step by step. For now, this is a demo response.";
-                chatMessages.appendChild(aiMsg);
-                chatMessages.scrollTop = chatMessages.scrollHeight;
-            }, 500);
+    const userMsg = document.createElement("div");
+    userMsg.className = "chatMessage user";
+    userMsg.textContent = text;
+    chatMessages.appendChild(userMsg);
+    chatInput.value = "";
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+
+    // Typing indicator
+    const typing = document.createElement("div");
+    typing.className = "chatMessage ai";
+    typing.id = "pdfTyping";
+    typing.textContent = "Haya is thinking...";
+    chatMessages.appendChild(typing);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+
+    try {
+        const res = await fetch("http://localhost:8000/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                message: text,
+                session_id: PDF_SESSION
+            })
         });
 
+        const data = await res.json();
+        document.getElementById("pdfTyping")?.remove();
+
+        const aiMsg = document.createElement("div");
+        aiMsg.className = "chatMessage ai";
+        aiMsg.textContent = data.response;
+        chatMessages.appendChild(aiMsg);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+
+    } catch (err) {
+        document.getElementById("pdfTyping")?.remove();
+        const errMsg = document.createElement("div");
+        errMsg.className = "chatMessage ai";
+        errMsg.textContent = "Backend not reachable. Start the server with: uvicorn backend.main:app --reload --port 8000";
+        chatMessages.appendChild(errMsg);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+});
         
-
-
 
     </script>
 </body>
