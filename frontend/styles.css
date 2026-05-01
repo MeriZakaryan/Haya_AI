@@ -1,13 +1,10 @@
-/* 
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*header*/
 .header {
-    /*  header section*/
     background-color: rgba(255, 255, 255, 0.52);
     width: 100%;
     height: 65px;
@@ -34,7 +31,6 @@
 }
 
 .loginContactsContainer {
-
     width: auto;
     display: flex;
     align-items: center;
@@ -225,18 +221,11 @@
 }
 
 
-
-
 .loginIcon {
     height: 15px;
     margin-right: 10px;
 }
 
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
 /*subheader*/
 
 .subheader {
@@ -246,13 +235,7 @@
 }
 
 
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
 /*main page container*/
-
 
 .mainPageContainer {
     /* Ensure it takes at least the full viewport height minus header and subheader */
@@ -314,17 +297,7 @@
 }
 
 
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
 /*footer*/
-
-
-
-
-
 
 .footer {
     padding-top: 10px;
@@ -364,22 +337,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .mainBody {
     font-family: 'Inter', sans-serif;    margin: 0;
     padding: 0;
@@ -391,36 +348,6 @@
     text-decoration: none;
 }
 
-
-
-
-
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
 
 /*Login page*/
 
@@ -561,12 +488,14 @@
 
 
 .loginBody{
-    font-family: 'Inter', sans-serif;    margin: 0;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
     padding: 0;
     background: linear-gradient(45deg, #966ecf, #00a6ff, #ace69d);
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .loginPageDiv{
@@ -600,37 +529,6 @@
     align-items: center;
 }
 
-
-
-
-
-
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
 
 /*Dashboard*/
 
@@ -676,15 +574,12 @@ nav{
     
 }
 
-
 .dashLogo{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 50px;
     margin-right: 10px;
     height: 55px;
-
-
 }
 
 nav div{
@@ -734,8 +629,6 @@ nav div{
     background-color: #ddd;
 }
 
-
-
 .profName{
     white-space: nowrap;
     margin-right: 40px;
@@ -752,19 +645,11 @@ nav div{
 }
 
 
-
-
-
-
-
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
 /*home section*/
 
 .homeSectionContainer{
     width: auto;
-    height: 72%;
+    min-height: calc(100vh - 90px);
     margin-left: 50px;
     margin-right: 50px;
     background-color: rgba(255, 255, 255, 0.615);
@@ -799,7 +684,7 @@ nav div{
     display: flex;
     flex-direction: row;
     margin-left: 87px;
-    margin-top: 120px;
+    margin-top: 40px;
 }
 
 .profPic{
@@ -842,9 +727,6 @@ nav div{
     text-align: left;
     text-decoration: none;
     color: black;
-    
-    
-    
 }
 
 .courseSub ul li a{
@@ -892,11 +774,6 @@ nav div{
 }
 
 
-
-
-/*############################################################*/
-/*############################################################*/
-/*############################################################*/
 /*showing sections*/
 
 section{
@@ -909,7 +786,7 @@ section{
 
 .coursesSectionContainer{
     width: auto;
-    min-height: 72%;
+    min-height: calc(100vh - 90px);
     margin-left: 50px;
     margin-right: 50px;
     background-color: rgba(255, 255, 255, 0.615);
@@ -1024,8 +901,6 @@ section{
 }
 
 
-
-
 .chatbotSectionContainer{
     width: auto;
     min-height: 72%;
@@ -1046,7 +921,6 @@ section{
 .chatbotSectionContainer h1{
     margin-bottom: 40px;
 }
-
 
 
 .prompt-wrapper {
@@ -1076,9 +950,8 @@ section{
     font-size: 16px;
     line-height: 1.5;
 
-    /* KEY PART */
-    max-height: 200px;          /* <-- set your limit here */
-    overflow-y: auto;           /* scrollbar appears after max height */
+    max-height: 200px;         
+    overflow-y: auto;           
     overflow-x: hidden;
 }
 
@@ -1089,159 +962,131 @@ section{
 }
 
 
+/* =================== FLOATING BUTTON =================== */
+#chat-toggle {
+    position: fixed;
+    bottom: 120px;
+    right: 40px;
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(45deg, #966ecf, #00a6ff, #ace69d);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+}
 
+/* =================== CHAT CONTAINER =================== */
+#chat-container {
+    position: fixed;
+    bottom: 90px;
+    right: 100px;
+    width: 320px;
+    height: 420px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 999;
+}
 
+/* =================== HEADER =================== */
+.chat-header {
+    background: linear-gradient(45deg, #966ecf, #00a6ff, #ace69d);
+    color: #fff;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.chat-header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
 
+/* =================== CHAT BODY =================== */
+.chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background: #f9fafb;
+}
 
+.message {
+    max-width: 80%;
+    padding: 8px 10px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
 
+.message.user {
+    background: #00d8f4c4;
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    text-align: left;
+}
 
+.message.ai {
+    background: #e5e7eb;
+    color: #111;
+    text-align: left;
+}
 
+.timestamp {
+    font-size: 10px;
+    opacity: 0.6;
+    margin-top: 2px;
+    text-align: right;
+}
 
+/* =================== TYPING INDICATOR =================== */
+.typing {
+    font-size: 13px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 8px;
+}
 
+/* =================== INPUT =================== */
+.chat-input {
+    border-top: 1px solid #ddd;
+    padding: 8px;
+    display: flex;
+    gap: 6px;
+}
 
+.chat-input textarea {
+    flex: 1;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 6px;
+    max-height: 120px;
+    overflow-y: auto;
+}
 
-            /* =================== FLOATING BUTTON =================== */
-            #chat-toggle {
-                position: fixed;
-                bottom: 120px;
-                right: 40px;
-                width: 56px;
-                height: 56px;
-                background: linear-gradient(45deg, #966ecf, #00a6ff, #ace69d);
-                color: #fff;
-                border-radius: 50%;
-                font-size: 24px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                cursor: pointer;
-                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-                z-index: 1000;
-            }
-
-            /* =================== CHAT CONTAINER =================== */
-            #chat-container {
-                position: fixed;
-                bottom: 90px;
-                right: 100px;
-                width: 320px;
-                height: 420px;
-                background: #fff;
-                border-radius: 14px;
-                box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
-                display: none;
-                flex-direction: column;
-                overflow: hidden;
-                z-index: 999;
-            }
-
-            /* =================== HEADER =================== */
-            .chat-header {
-                background: linear-gradient(45deg, #966ecf, #00a6ff, #ace69d);
-                color: #fff;
-                padding: 12px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
-
-            .chat-header button {
-                background: none;
-                border: none;
-                color: white;
-                font-size: 18px;
-                cursor: pointer;
-            }
-
-            /* =================== CHAT BODY =================== */
-            .chat-body {
-                flex: 1;
-                padding: 10px;
-                overflow-y: auto;
-                background: #f9fafb;
-            }
-
-            .message {
-                max-width: 80%;
-                padding: 8px 10px;
-                margin-bottom: 6px;
-                border-radius: 10px;
-                font-size: 14px;
-                word-wrap: break-word;
-            }
-
-            .message.user {
-                background: #00d8f4c4;
-                color: rgb(0, 0, 0);
-                margin-left: auto;
-                text-align: left;
-            }
-
-            .message.ai {
-                background: #e5e7eb;
-                color: #111;
-                text-align: left;
-            }
-
-            .timestamp {
-                font-size: 10px;
-                opacity: 0.6;
-                margin-top: 2px;
-                text-align: right;
-            }
-
-            /* =================== TYPING INDICATOR =================== */
-            .typing {
-                font-size: 13px;
-                color: #555;
-                font-style: italic;
-                margin-bottom: 8px;
-            }
-
-            /* =================== INPUT =================== */
-            .chat-input {
-                border-top: 1px solid #ddd;
-                padding: 8px;
-                display: flex;
-                gap: 6px;
-            }
-
-            .chat-input textarea {
-                flex: 1;
-                resize: none;
-                border: none;
-                outline: none;
-                font-size: 14px;
-                padding: 6px;
-                max-height: 120px;
-                overflow-y: auto;
-            }
-
-            .chat-input button {
-                background: #6961f8;
-                border: none;
-                color: white;
-                padding: 0 14px;
-                border-radius: 8px;
-                cursor: pointer;
-            }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.chat-input button {
+    background: #6961f8;
+    border: none;
+    color: white;
+    padding: 0 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
 
 
